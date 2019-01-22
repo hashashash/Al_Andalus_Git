@@ -1,0 +1,29 @@
+
+#Leaders
+
+#Armies
+army = {
+	name="Army of Emir Pishinoglu"
+	location=1102
+	regiment = {
+		name="1st Infantry"
+		type=infantry
+		home=1102
+	}
+	regiment = {
+		name="1st Artillery"
+		type=artillery
+		home=1103
+	}
+	regiment = {
+		name="1st vInfantry"
+		type=infantry
+		home=1104
+	}
+	regiment = {
+		name="1st fCavalry"
+		type=cavalry
+		home=1052
+	}
+
+}

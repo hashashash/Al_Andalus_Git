@@ -1,0 +1,8 @@
+owner = AE2
+controller = AE2
+trade_goods = cotton
+life_rating = 35
+add_core = AE2
+1861.1.1 = {
+	naval_base = 1
+}

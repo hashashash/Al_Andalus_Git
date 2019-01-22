@@ -1,0 +1,7 @@
+
+add_core = NZL
+trade_goods = cattle
+life_rating = 30
+owner = MOR
+controller = MOR
+colonial = 2

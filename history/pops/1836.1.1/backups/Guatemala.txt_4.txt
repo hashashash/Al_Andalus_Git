@@ -1,0 +1,310 @@
+#Guatemala Region (476000)
+#Ruled by Central America 1836
+#Guatemala City (276000/69000 POPS)
+2186 = {
+    aristocrats = {
+        culture = central_american
+        religion = sunni
+        size = 780
+    }
+
+    bureaucrats = {
+        culture = central_american
+        religion = sunni
+        size = 227
+    }
+
+    officers = {
+        culture = central_american
+        religion = sunni
+        size = 195
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 357
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 1755
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 1430
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 30355
+    }
+
+    clergymen = {
+        culture = mayan
+        religion = catholic
+        size = 45
+    }
+
+    artisans = {
+        culture = mayan
+        religion = catholic
+        size = 420
+    }
+
+    soldiers = {
+        culture = mayan
+        religion = catholic
+        size = 85
+    }
+
+    farmers = {
+        culture = mayan
+        religion = catholic
+        size = 7850
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 333
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 3108
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 629
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 58090
+    }
+}
+#Quetzaltenango (112000/28000 POPS)
+2187 = {
+    aristocrats = {
+        culture = central_american
+        religion = sunni
+        size = 227
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 97
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 455
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 1430
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 7020
+    }
+
+    clergymen = {
+        culture = mayan
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = mayan
+        religion = catholic
+        size = 1050
+    }
+
+    soldiers = {
+        culture = mayan
+        religion = catholic
+        size = 225
+    }
+
+    farmers = {
+        culture = mayan
+        religion = catholic
+        size = 19625
+    }
+}
+#Puerto Barrios (72000/18000 POPS)
+2188 = {
+    aristocrats = {
+        culture = central_american
+        religion = sunni
+        size = 195
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 65
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 390
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 97
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 7052
+    }
+
+    clergymen = {
+        culture = mayan
+        religion = catholic
+        size = 10
+    }
+
+    artisans = {
+        culture = mayan
+        religion = catholic
+        size = 120
+    }
+
+    soldiers = {
+        culture = mayan
+        religion = catholic
+        size = 25
+    }
+
+    farmers = {
+        culture = mayan
+        religion = catholic
+        size = 2245
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 74
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 888
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 185
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 16613
+    }
+}
+#Sayaxche (16000/4000 POPS)
+2189 = {
+    aristocrats = {
+        culture = central_american
+        religion = sunni
+        size = 152
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 256
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 520
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 104
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 9360
+    }
+
+    clergymen = {
+        culture = mayan
+        religion = catholic
+        size = 40
+    }
+
+    artisans = {
+        culture = mayan
+        religion = catholic
+        size = 240
+    }
+
+    soldiers = {
+        culture = mayan
+        religion = catholic
+        size = 40
+    }
+
+    farmers = {
+        culture = mayan
+        religion = catholic
+        size = 4480
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 296
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 1776
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 296
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 33152
+    }
+}

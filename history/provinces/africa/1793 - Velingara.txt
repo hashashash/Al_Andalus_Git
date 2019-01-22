@@ -1,0 +1,8 @@
+owner = MLI
+controller = MLI
+add_core = GBU
+trade_goods = fish
+life_rating = 15
+
+add_core = WOL
+add_core = MLI

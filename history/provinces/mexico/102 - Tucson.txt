@@ -1,0 +1,6 @@
+owner = AD7
+controller = AD7
+
+trade_goods = cattle
+life_rating = 351861.1.1 = {	controller = USA	owner = USA	add_core = USA}
+add_core = AD7

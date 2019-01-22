@@ -1,0 +1,7 @@
+owner = AF7
+controller = AF7
+add_core = CHI
+trade_goods = fruit
+life_rating = 32
+
+add_core = AF7

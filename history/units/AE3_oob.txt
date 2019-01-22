@@ -1,0 +1,23 @@
+
+
+army = {
+	name = "Timbuktu Defense Force"
+	location = 1803	
+    regiment = {
+		name= "Berber Cavalry"	
+     	type = cavalry
+		home = 1802	
+	}
+    regiment = {
+		name= "Songhai Warriors"
+		type = irregular
+	    home = 1804	
+	}
+	    regiment = {
+		name= "Timbuktu Warriors"
+		type = irregular
+	    home = 1803	
+	}
+}
+
+

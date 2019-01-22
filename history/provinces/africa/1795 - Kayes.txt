@@ -1,0 +1,8 @@
+owner = MLI
+controller = MLI
+add_core = SEG
+add_core = MAS
+trade_goods = wool
+life_rating = 30
+
+add_core = MLI

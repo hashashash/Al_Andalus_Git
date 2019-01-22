@@ -1,0 +1,5 @@
+trade_goods = grain
+life_rating = 35
+owner = AD6
+controller = AD6
+add_core = AD6

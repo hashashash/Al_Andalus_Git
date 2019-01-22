@@ -1,0 +1,119 @@
+#########################################################
+#														#
+#      			South American Events					#
+#														#
+#########################################################
+
+
+country_event = {
+	id = 97050
+	title = "EVTNAME97050" #The ANDEAN WAR WAR WAR
+	desc = "EVTDESC97050"
+	picture = "deliberation"
+	major = yes
+
+	trigger = {
+		tag = PEU
+		war = no
+		neighbour = BOL
+		NOT = {
+			truce_with = BOL
+			has_country_flag = unite_the_andes
+			has_country_flag = peace_in_the_andes
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "We must unite the Andes!"
+		set_country_flag = unite_the_andes
+		prestige = 5
+		any_pop = {
+			dominant_issue = {
+				factor = 0.05
+				value = jingoism
+			}
+		}
+		casus_belli = {
+			target = BOL
+			type = acquire_all_cores
+			months = 12
+		}
+		war = {
+			target = BOL
+			attacker_goal = {
+				casus_belli = acquire_all_cores
+			}
+			defender_goal = {
+				casus_belli = acquire_all_cores
+			}
+		}				
+		ai_chance = {
+			factor = 95
+		}
+	}
+
+	option = {
+		name = "Reconciling with our neighbour is our only hope."
+		set_country_flag = peace_in_the_andes
+		prestige = -5
+		relation = {
+			who = BOL
+			value = 100
+		}
+		any_pop = {
+			dominant_issue = {
+				factor = 0.05
+				value = jingoism
+			}
+			scaled_militancy = {
+				issue = jingoism
+				factor = 4
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+province_event = {
+	id = 97086
+	title = "EVTNAME97086" #Pacification of Patagonia
+	desc = "EVTDESC97086"
+	
+	trigger = {
+		OR = {
+			region = CHL_2332
+			region = ARG_2398
+			region = ARG_2391
+		}
+		is_core = PTG
+		NOT = { life_rating = 16 }
+	}
+	
+	mean_time_to_happen = {
+		months = 40
+		modifier = {
+			factor = 0.5
+			is_core = THIS
+		}
+		modifier = {
+			factor = 0.5
+			owner = { machine_guns = 1 }
+		}
+	}
+	
+	option = {
+		name = "Excellent!"
+		life_rating = 10
+		any_pop = {
+			limit = { has_pop_culture = patagonian }
+			militancy = 8
+			consciousness = 3
+		}
+	}
+}

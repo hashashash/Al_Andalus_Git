@@ -1,0 +1,6 @@
+owner = AD9
+controller = AD9
+trade_goods = iron
+life_rating = 35
+colonial = 2
+add_core = AD9

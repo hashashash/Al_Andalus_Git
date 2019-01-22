@@ -1,0 +1,47 @@
+army = {
+	name = "Army of Delhi"
+	location = 1236
+	regiment = {
+		name= "1.Irregular Horse"
+		type = cavalry
+		home = 1236
+	}
+
+	regiment = {
+		name= "2.Irregular Horse"
+		type = cavalry
+		home = 1236
+	}
+
+	regiment = {
+		name= "3.Irregular Horse"
+		type = cavalry
+		home = 1240
+	}
+
+	regiment = {
+		name= "1.Bijapur Contingent"
+		type = infantry
+		home = 1240
+	}
+
+	regiment = {
+		name= "2.Bijapur  Contingent"
+		type = infantry
+		home = 1239
+	}
+
+	regiment = {
+		name= "3.Bijapur  Contingent"
+		type = infantry
+		home = 1334
+	}
+
+	regiment = {
+		name= "4.Bijapur  Contingent"
+		type = artillery
+		home = 1237
+	}
+
+}
+

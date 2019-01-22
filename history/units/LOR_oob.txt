@@ -1,0 +1,58 @@
+
+leader = {
+	name = "Henri Dufour"
+	date = 1831.1.1
+	type = land
+	personality = intelligent
+	background = cartographer
+	prestige = 0.1
+}
+
+army = {
+	name = "Army of the Duke"
+	location = 432
+	regiment = {
+		name= "1. Brigade"
+		type = infantry
+		home = 432
+	}
+	regiment = {
+		name= "2. Brigade"
+		type = infantry
+		home = 414
+	}
+	regiment = {
+		name= "3. Brigade"
+		type = infantry
+		home = 407
+	}
+	regiment = {
+		name= "4. Brigade"
+		type = infantry
+		home = 608
+	}
+}
+army = {
+	name = "Second Army"
+	location = 432
+	regiment = {
+		name= "5. Brigade"
+		type = infantry
+		home = 428
+	}
+	regiment = {
+		name= "6. Brigade"
+		type = infantry
+		home = 429
+	}
+	regiment = {
+		name= "7. Brigade"
+		type = infantry
+		home = 431
+	}
+	regiment = {
+		name= "8. Brigade"
+		type = infantry
+		home = 607
+	}
+}

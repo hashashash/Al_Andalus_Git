@@ -1,0 +1,11 @@
+owner = RUS
+controller = RUS
+
+add_core = UKR
+
+add_core = RUT
+
+trade_goods = grain
+life_rating = 35
+
+add_core = RUS

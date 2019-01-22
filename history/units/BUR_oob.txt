@@ -1,0 +1,44 @@
+
+
+
+army = {
+	name = "Army of the Bengalese Empire"
+	location = 1339
+	regiment = {
+		name= "10. Brigade"
+		type = irregular
+		home = 1334
+	}
+
+	regiment = {
+		name= "11. Brigade"
+		type = irregular
+		home = 1334
+	}
+
+	regiment = {
+		name= "12. Brigade"
+		type = irregular
+		home = 1339
+	}
+
+	regiment = {
+		name= "13. Brigade"
+		type = irregular
+		home = 1339
+	}
+
+	regiment = {
+		name= "15. Brigade"
+		type = irregular
+		home = 1342
+	}
+
+	regiment = {
+		name= "16. Brigade"
+		type = irregular
+		home = 1340
+	}
+
+}
+

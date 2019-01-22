@@ -1,0 +1,54 @@
+
+
+
+leader = {
+	name = "Emir Masud banu Afs"
+	type = land
+	date="1836.1.1"
+	personality = impulsive
+	background = aristocrat
+}
+
+
+army = {
+	name = "Qarbiyan Defense Corps"
+	location = 2231
+	regiment = {
+		name= "1.Division "
+		type = infantry
+		home = 2231
+	}
+
+	regiment = {
+		name= "2.Division "
+		type = infantry
+		home = 2229
+	}
+
+	regiment = {
+		name= "3.Division "
+		type = infantry
+		home = 2228
+	}
+}
+
+navy = {
+	name = "Qarbiyan Navy"
+	location = 2231
+	ship = {
+		name= "Mansoor"
+		type = manowar
+	}
+	ship = {
+		name= "1st Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2nd Transport"
+		type = clipper_transport
+	}
+
+}
+
+
+

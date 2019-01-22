@@ -1,0 +1,73 @@
+
+
+army = {
+	name = "Tabrizi Army"
+	location = 2209
+	regiment = {
+		name= "1.Division "
+		type = infantry
+		home = 2162
+	}
+
+	regiment = {
+		name= "2.Division "
+		type = infantry
+		home = 2210
+	}
+
+	regiment = {
+		name= "3.Division "
+		type = infantry
+		home = 2211
+	}
+	
+		regiment = {
+		name= "1.inf"
+		type = infantry
+		home = 2212
+	}
+}
+
+navy = {
+	name = "Tabrizi Navy"
+	location = 2209
+	
+	ship = {
+		name= "Almoravid"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jama'a"
+		type = manowar
+	}
+
+	ship = {
+		name= "Al-Akhira"
+		type = manowar
+	}
+	ship = {
+		name= "1st Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2nd Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3rd Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4th Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name= "5th Transport"
+		type = clipper_transport
+	}
+
+}
+
+
+

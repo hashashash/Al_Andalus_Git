@@ -1,0 +1,35 @@
+
+AH5 = {
+	value = -200		#relation
+}
+
+#Leaders
+
+#Armies
+army = {
+	name="Army of Syria"
+	location=897
+	regiment = {
+		name="1st Infantry"
+		type=infantry
+		home=901
+	}
+regiment = {
+		name="2nd Infantry"
+		type=infantry
+		home=904
+	}
+regiment = {
+		name="3rd Infantry"
+		type=infantry
+		home=897
+	}
+regiment = {
+		name="1st Cavalry"
+		type=cavalry
+		home=913
+	}
+
+}
+
+

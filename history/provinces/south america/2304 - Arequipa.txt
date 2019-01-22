@@ -1,0 +1,8 @@
+owner = BOL
+controller = BOL
+
+trade_goods = sulphur
+life_rating = 35
+
+add_core = BOL
+add_core = PEU

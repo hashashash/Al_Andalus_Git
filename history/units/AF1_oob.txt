@@ -1,0 +1,46 @@
+army = {
+	name = "Army of Hsenwi Empire"
+	location = 1337
+	regiment = {
+		name= "1. Brigade"
+		type = irregular
+		home = 1337
+	}
+
+	regiment = {
+		name= "2. Brigade"
+		type = irregular
+		home = 1336
+	}
+
+	regiment = {
+		name= "4. Brigade"
+		type = irregular
+		home = 1335
+	}
+
+	regiment = {
+		name= "5. Brigade"
+		type = irregular
+		home = 1336
+	}
+
+	regiment = {
+		name= "6. Brigade"
+		type = irregular
+		home = 1338
+	}
+
+	regiment = {
+		name= "7. Brigade"
+		type = irregular
+		home = 1338
+	}
+
+	regiment = {
+		name= "9. Brigade"
+		type = irregular
+		home = 1335
+	}
+
+}

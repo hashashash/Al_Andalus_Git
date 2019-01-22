@@ -1,0 +1,7 @@
+owner = BIK
+controller = BIK
+add_core = BIK
+add_core = JAI
+add_core = HND
+trade_goods = timber
+life_rating = 32

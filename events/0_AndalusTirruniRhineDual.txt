@@ -1,0 +1,521 @@
+####THE TIRRUNI AND THE RHINE CRISES###
+
+
+country_event = { #Tirruni Restoration 
+	
+	id = 987401
+	title = "TIR1.T"
+	desc = "TIR1.D" 
+	major = yes 
+	
+	trigger = { 
+		tag = CAT
+		war = no
+		in_sphere = MOR
+        year = 1850
+		NOT = { year = 1855 }
+		NOT = { has_country_flag = tirruni_restoration }
+	}
+
+	mean_time_to_happen = { 
+		months = 24
+	}
+	
+	option = { 
+	    name = "We ask the Andalusi for help!" 
+	    set_country_flag = tirruni_restoration
+       	ADU = { country_event = 987402 }
+		ai_chance = { 
+		    factor =  95
+		}
+	}
+	
+	option = { 
+	    name = "We can't trust the Andalusi, we must do this alone."
+     	set_country_flag = tirruni_restoration
+     	ADU = { 
+	    	diplomatic_influence = { who = CAT value = -100 }
+	    	relation = { who = CAT value = -50 }
+		}
+        ai_chance = { 
+	            factor =  5
+		}
+	}
+	
+}
+
+country_event = { #Our answer 
+	
+	id = 987402
+	title = "TIR2.T"
+	desc = "TIR2.D" 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "Of course we will help!"
+	prestige = 5
+	treasury = -5000
+	CAT = { country_event = 987403 }
+		diplomatic_influence = { who = CAT value = 100 }
+		relation = { who = CAT value = 75 }
+	ai_chance = { 
+		factor = 75
+		modifier = {
+				factor = 0
+				war = yes
+			}
+     	}
+	}
+	
+	option = { 
+	name = "We aren't ready to face the Berbers."
+	prestige = -5
+	diplomatic_influence = { who = CAT value = -100 }
+	relation = { who = CAT value = -100 }
+	relation = { who = MOR value = 75 }
+	CAT = { country_event = 987405 }
+	ai_chance = { 
+		factor = 25
+		}
+	}
+}
+
+country_event = {
+
+	id = 987403 
+	title = "TIR3.T"
+	desc = "TIR3.D"
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { 
+	name = "Let them come!"
+	create_alliance = ADU
+	treasury = -5000
+	MOR = {
+		leave_alliance = CAT
+		country_event = 987404
+		diplomatic_influence = { who = CAT value = -200 }
+		}
+	}
+}
+
+country_event = { #Moroccan reaction
+
+	id = 987404 
+	title = "TIR4.T"
+	desc = "TIR4.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "We will recognise Tirruni's rule..."
+	prestige_factor = -0.20
+	relation = { who = CAT value = 50 }
+	relation = { who = ADU value = 50 }
+	ai_chance = { 
+	factor = 10 
+		}
+	}
+	
+	option = { 
+	name = "Declare war!"
+	badboy = 5 
+	casus_belli = {
+				target = CAT
+				type = add_to_sphere
+				months = 60
+			}
+	war = {
+			target = CAT
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+		call_ally = yes
+		}
+	ai_chance = { 
+		factor = 90
+		}
+	set_country_flag = war_with_tirruni_hah
+	}
+}
+
+country_event = { #Tirruni reevaluates after ADU refusal
+
+	id = 987405
+	title = "TIR5.T"
+	desc = "TIR5.D"
+	
+	is_triggered_only = yes	
+	
+	option = { 
+	name = "Reach out to the French."
+	FRA = { country_event = 987406 }
+	ai_chance = { 
+		factor =  65
+		}
+	} 
+	
+	option = { 
+	name = "Well, it may be time to give up this folly ...."
+	prestige = -5
+	ai_chance = { 
+		factor =  35
+		}
+	}
+}
+
+country_event = { #French answer
+
+	id = 987406
+	title = "TIR6.T"
+	desc = "TIR6.D"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "Of course!" 
+	CAT = { country_event = 987407 }
+	prestige = 5 
+	FRA = { 
+		diplomatic_influence = { who = CAT value = 100 }
+		relation = { who = CAT value = 75 }
+		}
+	ai_chance = { 
+		factor = 80
+		}
+	}
+	
+	option = { 
+	name = "This is beyond our control" 
+	relation = { who = MOR value = 50 }
+	relation = { who = CAT value = -75 }
+	ai_chance = { 
+		factor = 20
+		}
+	}
+}
+
+country_event = { ###French support us 
+
+	id = 987407
+	title = "TIR7.T"
+	desc = "TIR7.D"
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { 
+	name = "Let them come !"
+	create_alliance = FRA
+	MOR = { 
+		leave_alliance = CAT
+		country_event = 987408
+		diplomatic_influence = { who = CAT value = -200 }
+		}
+	}
+}
+
+country_event = { #Morocco's reaction part 2
+
+	id = 987408 
+	title = "TIR8.T"
+	desc = "TIR8.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "We will make peace with Tirruni...."
+	prestige_factor = -0.20
+	relation = { who = CAT value = 50 }
+	relation = { who = FRA value = 50 }
+	ai_chance = { 
+	factor = 50 
+		}
+	}
+	
+	option = { 
+	name = "Declare war!"
+	badboy = 5 
+	casus_belli = {
+				target = CAT
+				type = add_to_sphere
+				months = 60
+			}
+	war = {
+			target = CAT
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+		call_ally = yes
+		}
+	ai_chance = { 
+		factor = 50
+		}
+	}
+}
+
+country_event = { #Moroccan reaction
+
+	id = 550026 
+	title = "TIR9.T"
+	desc = "TIR9.D"
+	major = yes
+	fire_only_once = yes
+	trigger = {
+	    tag = MOR
+		has_country_flag = war_with_tirruni_hah
+		war = no
+	}
+	mean_time_to_happen = { days = 1 }
+	
+	option = { 
+	name = "A good day!"
+	prestige = 5
+	ADU = { set_country_flag = tirruni_grandson_flees }
+	}
+}
+
+### Fleeing Qattalun
+country_event = {
+
+	id = 8000084
+
+	fire_only_once = yes
+	trigger = {
+		tag = ADU
+		has_country_flag = tirruni_grandson_flees
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 3
+	}
+
+	title = "EVTNAME8000085"
+	desc = "EVTDESC8000085"
+	picture = "Execution"
+
+	option = {
+		name = "No, we don't want to anger the Moroccans." 
+		prestige = -5
+	}
+	option = {
+		name = "Of course, Tirruni's heir will have safe refuge with us." 
+		prestige = 5
+		relation = { who = CAT value = -200 }
+		relation = { who = MOR value = -75 }
+		set_country_flag = we_accept_tirrunis_heir
+	}
+}
+
+####### The RHINE Crisis #######
+
+country_event = { 
+	
+	id = 987410
+	title = "RHN1.T"
+	desc = "RHN1.D" 
+	
+	major = yes 
+	
+	
+	trigger = { 
+		tag = AG7
+		war = no
+	        year = 1865
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+			}
+		OR = {
+	    	in_sphere = FRA
+			in_sphere = AH8
+		}
+		OR = {
+	     	FRA = { 
+		    	OR = { 
+		    	government = absolute_monarchy
+		    	government = prussian_constitutionalism
+		    	government = hms_government
+	 	     	}
+	    	}
+			AH8 = { 
+		    	OR = { 
+		    	government = absolute_monarchy
+		    	government = prussian_constitutionalism
+		    	government = hms_government
+	 	     	}
+	    	}
+		}
+		NOT = { has_global_flag = france_rhine_confed  }
+	}
+
+	mean_time_to_happen = { 
+		months = 32
+	}
+	
+	option = { 
+	name = "What happens now?" 
+	set_global_flag = france_rhine_confed
+	FRA = { 
+	country_event = 987411
+	}
+	AH8 = { 
+	country_event = 987411
+	}
+	}
+
+}
+
+country_event = { #FRA notification 
+
+	id = 987411
+	title = "RHN2.T"
+	desc = "RHN2.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "The Rhine is ours!"
+	prestige = 10
+	diplomatic_influence = { who = AG7 value = -200 }
+	relation = { who = AG7 value = -125 }
+	casus_belli = {
+		target = AG7
+		type = make_puppet
+		months = 60
+	}
+	
+	SGF = { country_event = 987412 }
+	ai_chance = { 
+		factor =  95
+		}
+	}
+	
+	option = { 
+	name = "We should not aggravate the Germans."
+	prestige = -10
+	diplomatic_influence = { who = AG7 value = -75 }
+	relation = { who = AG7 value = -75 }
+	ai_chance = { 
+		factor =  5
+		}
+	}
+}
+
+country_event = { #Germany's reaction
+
+	id = 987412
+	title = "RHN3.T"
+	desc = "RHN3.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "There is nothing we can do..."
+	prestige = -10 
+	relation = { who = FRA value = 50 }
+	relation = { who = AH8 value = 50 }
+	ai_chance = { 
+		factor =  10
+		}
+	}
+	
+	option = { 
+	name = "Absolutely not! The Rhine is German, and always will be!"
+	set_country_flag = contest_RHN
+	prestige = 10
+	relation = { who = FRA value = -100 }
+	relation = { who = AH8 value = -100 }
+	create_alliance = AG7
+	diplomatic_influence = { who = AG7 value = 150 }
+	relation = { who = AG7 value = 125 }
+	ai_chance = { 
+		factor =  90
+		}
+	AH8 = {
+	    war = {
+		target = AG7
+		attacker_goal = {
+		casus_belli = make_puppet
+		}
+		defender_goal =  { 
+		casus_belli = status_quo
+		}
+		call_ally = yes
+	    }
+	}
+	}
+}
+
+
+
+# Pluto
+country_event = {
+	id = 810022
+	title = "Pluto Discovered!"
+	desc = "We have discovered the Ninth Planet! Surely it will be recognized as such for eternity"
+	fire_only_once = yes
+	
+	trigger = {
+		anti__rationalism = 1
+		not = { has_global_flag = pluto }
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+		modifier = {
+			factor = 2
+			is_greater_power = no
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 3
+			is_greater_power = no
+			is_secondary_power = no
+		}
+	}
+	
+	option = {
+		name = "A bit small, isn't it?"
+		prestige = 20
+		set_global_flag = pluto
+	}
+}
+
+country_event = {
+	id = 810025
+	title = "Neptune Discovered!"
+	desc = "We have discovered the eigth Planet! "
+	fire_only_once = yes
+	
+	trigger = {
+		idealism = 1
+		not = { has_global_flag = neptune }
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+		modifier = {
+			factor = 2
+			is_greater_power = no
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 3
+			is_greater_power = no
+			is_secondary_power = no
+		}
+	}
+	
+	option = {
+		name = "I said there was something massive exterior to Uranus."
+		prestige = 10
+		set_global_flag = neptune
+	}
+}

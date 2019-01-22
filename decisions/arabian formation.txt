@@ -1,0 +1,219 @@
+
+political_decisions = {
+
+	become_saudi_arabia = {
+		potential = {
+			OR = {
+				tag = NEJ
+				tag = HDJ
+				tag = YEM
+				tag = OMA
+			}
+			NOT = { exists = ARA }
+		}
+	
+		allow = {
+			war = no
+			AND = {
+			    owns = 1157
+				owns = 1151
+			}
+			OR = {
+				is_sphere_leader_of = YEM
+				YEM = { all_core = { owned_by = THIS } }
+			}
+			OR = {
+				is_sphere_leader_of = NEJ
+				NEJ = { all_core = { owned_by = THIS } }
+			}
+			OR = {
+				is_sphere_leader_of = HDJ
+				HDJ = { all_core = { owned_by = THIS } }
+			}
+			OR = {
+				is_sphere_leader_of = OMA
+				OMA = { all_core = { owned_by = THIS } }
+			}
+		}
+	
+		effect = {
+			prestige = 25
+			add_accepted_culture = bedouin
+			add_accepted_culture = mashriqi
+			NEJ_1157 = { add_core = ARA } #Riyadh
+			NEJ_1156 = { add_core = ARA } #Kaf
+			HDJ_1151 = { add_core = ARA } #Hedjaz
+			ABU_1162 = { add_core = ARA }
+			OMA_1166 = { add_core = ARA }
+			YEM_1412 = { add_core = ARA }
+			YEM_1178 = { add_core = ARA }
+			random_country = {
+				limit = {
+					tag = NEJ
+					exists = yes
+					ai = yes
+				}
+				THIS = { inherit = NEJ }
+			}
+			random_country = {
+				limit = {
+					tag = NEJ
+					exists = yes
+					ai = no
+				}
+				country_event = 11101
+			}
+			random_country = {
+				limit = {
+					tag = YEM
+					exists = yes
+					ai = yes
+				}
+				THIS = { inherit = YEM }
+			}
+			random_country = {
+				limit = {
+					tag = YEM
+					exists = yes
+					ai = no
+				}
+				country_event = 11101
+			}
+			random_country = {
+				limit = {
+					tag = HDJ
+					exists = yes
+					ai = yes
+				}
+				THIS = { inherit = HDJ }
+			}
+			random_country = {
+				limit = {
+					tag = HDJ
+					exists = yes
+					ai = no
+				}
+				country_event = 11101
+			}
+			random_country = {
+				limit = {
+					tag = OMA
+					exists = yes
+					ai = yes
+				}
+				THIS = { inherit = ASR }
+			}
+			random_country = {
+				limit = {
+					tag = OMA
+					exists = yes
+					ai = no
+				}
+				country_event = 11101
+			}
+			any_owned = {
+				remove_core = NEJ
+				remove_core = HDJ
+				remove_core = YEM
+				remove_core = OMA
+			}
+			change_tag = ARA
+			capital = 1152
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_saudi_arabia = {
+		picture = become_saudi_arabia
+		potential = {
+			NOT = {
+				tag = NEJ
+				tag = HDJ
+				tag = HAL
+				tag = ASR
+				tag = TUR
+				tag = ARU
+			}
+			NOT = { exists = ARA }
+			OR = {
+				is_sphere_leader_of = NEJ
+				is_sphere_leader_of = HDJ
+				is_sphere_leader_of = HAL
+				is_sphere_leader_of = ASR
+				any_owned_province = {
+					OR = {
+						region = NEJ_1157
+						region = NEJ_1156
+						region = HDJ_1151
+					}
+				}
+			}
+		}
+	
+		allow = {
+			war = no
+			OR = {
+				has_global_flag = house_of_rashid_exiled
+				is_sphere_leader_of = HAL
+				HAL = { all_core = { owned_by = THIS } }
+			}
+			OR = {
+				has_global_flag = house_of_saud_exiled
+				is_sphere_leader_of = NEJ
+				NEJ = { all_core = { owned_by = THIS } }
+			}
+			OR = {
+				is_sphere_leader_of = HDJ
+				HDJ = { all_core = { owned_by = THIS } }
+			}
+		}
+	
+		effect = {
+			prestige = 10
+			NEJ_1157 = { add_core = ARA } #Riyadh
+			NEJ_1156 = { add_core = ARA } #Kaf
+			HDJ_1151 = { add_core = ARA } #Hedjaz
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = OMA
+						is_core = ABU
+						is_core = NYE
+						is_core = YEM
+						is_core = BHR
+					}
+					NOT = { is_core = ZAN }
+				}
+				add_core = ARA
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = NEJ
+						tag = HDJ
+						tag = ASR
+						tag = HAL
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				remove_core = NEJ
+				remove_core = HDJ
+				remove_core = ASR
+				remove_core = HAL
+			}
+			release_vassal = ARA
+			relation = { who = ARA value = 50 }
+			diplomatic_influence = { who = ARA value = 200 }
+			ARA = { civilized = yes }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+}

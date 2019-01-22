@@ -1,0 +1,57 @@
+
+#Leaders
+
+#Armies
+army = {
+	name="Army of Emir Vali"
+	location=926
+	regiment = {
+		name="1st Baghdad Infantry"
+		type=infantry
+		home=926
+	}
+	regiment = {
+		name="1st Rutbah Artillery"
+		type=artillery
+		home=931
+	}
+	regiment = {
+		name="1st Rutbah Infantry"
+		type=infantry
+		home=931
+	}
+	regiment = {
+		name="1sts Rutbah Infantry"
+		type=infantry
+		home=923
+	}
+	regiment = {
+		name="1stv Rutbah Infantry"
+		type=infantry
+		home=928
+	}
+	regiment = {
+		name="1st Karbala Cavalry"
+		type=cavalry
+		home=929
+	}
+	regiment = {
+		name="1st Hail Artillery"
+		type=artillery
+		home=1160
+	}
+}
+
+navy = {
+	name="Navy of Emir vali"
+	location=932
+	ship = {
+		name="1st Abadan Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Basra Frigate"
+		type=frigate
+	}
+}
+

@@ -1,0 +1,10 @@
+owner = GAZ
+controller = GAZ
+add_core = GAZ
+trade_goods = coffee
+life_rating = 15
+1861.1.1 = {
+	owner = MAT
+	controller = MAT
+	life_rating = 35
+}

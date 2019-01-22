@@ -1,0 +1,32 @@
+
+PEU = {
+	value = -200		#relation
+}
+
+leader = {
+	name = "Emperor's First Servant"
+	type = land
+	date = 1836.1.1
+	background = generals_aide
+	personality = bold
+}
+
+army = {
+	name = "Army of the Glorious Emperor"
+	location = 2313 #Chuquisaca (Sucre)
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 2313
+	}
+
+	regiment = {
+		name= "2. Infantry"
+		type = infantry
+		home = 2310
+	}
+
+}
+
+
+	

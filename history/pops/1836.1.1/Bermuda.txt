@@ -1,0 +1,124 @@
+#Bermuda Region - 9000
+#Ruled by Britain 1836
+#Bermuda (9000/2250 POPS)
+203 = {
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 8
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 2
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 89
+    }
+
+    aristocrats = {
+        culture = english
+        religion = protestant
+        size = 2
+    }
+
+    bureaucrats = {
+        culture = english
+        religion = protestant
+        size = 0
+    }
+
+    clergymen = {
+        culture = english
+        religion = protestant
+        size = 2
+    }
+
+    artisans = {
+        culture = english
+        religion = protestant
+        size = 12
+    }
+
+    soldiers = {
+        culture = english
+        religion = protestant
+        size = 2
+    }
+
+    farmers = {
+        culture = english
+        religion = protestant
+        size = 62
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 15
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 101
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 25
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 1123
+    }
+
+    aristocrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 25
+    }
+
+    bureaucrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 5
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 25
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 151
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 25
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 789
+    }
+}

@@ -1,0 +1,7 @@
+owner = HDJ
+controller = HDJ
+
+trade_goods = wool
+life_rating = 10
+add_core = HAL
+add_core = HDJ

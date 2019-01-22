@@ -1,0 +1,6 @@
+owner = AD5 
+controller = AD5 
+add_core = AD5 
+add_core = GRE
+trade_goods = grain
+life_rating = 35

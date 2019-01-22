@@ -1,0 +1,7 @@
+owner = AD6
+controller = AD6
+add_core = PER
+trade_goods = opium
+life_rating = 35
+
+add_core = AD6

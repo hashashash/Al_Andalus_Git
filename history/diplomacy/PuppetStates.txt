@@ -1,0 +1,23 @@
+# Egypt-Sudan
+vassal = {
+	first = AD2
+	second = SUD
+	start_date = 1836.1.1
+	end_date = 1870.1.24
+}
+
+# Morocco-Sulu
+vassal = {
+	first = MOR
+	second = SUL
+	start_date = 1836.1.1
+	end_date = 1870.1.24
+}
+
+#Cedi Clique in Southern China
+vassal = {
+	first = ORI
+	second = AG2
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}

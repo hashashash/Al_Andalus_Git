@@ -1,0 +1,9 @@
+owner = SVY
+controller = SVY
+
+trade_goods = sulphur
+life_rating = 31
+1861.1.1 = { railroad = 2 }
+
+
+add_core = SVY

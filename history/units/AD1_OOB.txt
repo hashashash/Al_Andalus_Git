@@ -1,0 +1,49 @@
+
+#Leaders
+
+#Armies
+army = {
+	name="1st Army"
+	location=762
+	regiment = {
+		name="1st Siculo-Arab Infantry"
+		type=infantry
+		home=759
+	}
+	regiment = {
+		name="1st Siculo-Arab Cavalry"
+		type=cavalry
+		home=760
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=762
+	ship = {
+		name="1st Palermo Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Palermo Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Palermo Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Palermo Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=762
+	ship = {
+		name="1st Palermo Frigate"
+		type=frigate
+	}
+}
+

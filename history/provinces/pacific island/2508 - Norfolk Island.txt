@@ -1,0 +1,6 @@
+owner = MOR
+controller = MOR
+colonial = 2
+add_core = AST
+trade_goods = fish
+life_rating = 30

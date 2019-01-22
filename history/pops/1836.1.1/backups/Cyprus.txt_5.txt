@@ -1,0 +1,422 @@
+#Cyprus Region (152000)
+#under the rule of Ottoman Empire in 1836
+#Nicosia (64000/16000 POPS)
+855 = {
+    aristocrats = {
+        culture = sahidic
+        religion = catholic
+        size = 179
+    }
+
+    bureaucrats = {
+        culture = sahidic
+        religion = catholic
+        size = 32
+    }
+
+    officers = {
+        culture = sahidic
+        religion = catholic
+        size = 32
+    }
+
+    clergymen = {
+        culture = sahidic
+        religion = catholic
+        size = 49
+    }
+
+    artisans = {
+        culture = sahidic
+        religion = catholic
+        size = 325
+    }
+
+    soldiers = {
+        culture = sahidic
+        religion = catholic
+        size = 114
+    }
+
+    farmers = {
+        culture = sahidic
+        religion = catholic
+        size = 1869
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 750
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 11150
+    }
+
+    aristocrats = {
+        culture = misri
+        religion = sunni
+        size = 8
+    }
+
+    bureaucrats = {
+        culture = misri
+        religion = sunni
+        size = 1
+    }
+
+    officers = {
+        culture = misri
+        religion = sunni
+        size = 1
+    }
+
+    clergymen = {
+        culture = misri
+        religion = sunni
+        size = 2
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 14
+    }
+
+    soldiers = {
+        culture = misri
+        religion = sunni
+        size = 5
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 80
+    }
+
+    aristocrats = {
+        culture = misri
+        religion = orthodox
+        size = 88
+    }
+
+    bureaucrats = {
+        culture = misri
+        religion = orthodox
+        size = 17
+    }
+
+    officers = {
+        culture = misri
+        religion = orthodox
+        size = 17
+    }
+
+    clergymen = {
+        culture = misri
+        religion = orthodox
+        size = 24
+    }
+
+    artisans = {
+        culture = misri
+        religion = orthodox
+        size = 161
+    }
+
+    soldiers = {
+        culture = misri
+        religion = orthodox
+        size = 56
+    }
+
+    farmers = {
+        culture = misri
+        religion = orthodox
+        size = 926
+    }
+}
+#Limassol (44000/11000 POPS)
+856 = {
+    aristocrats = {
+        culture = sahidic
+        religion = catholic
+        size = 130
+    }
+
+    clergymen = {
+        culture = sahidic
+        religion = catholic
+        size = 32
+    }
+
+    artisans = {
+        culture = sahidic
+        religion = catholic
+        size = 195
+    }
+
+    soldiers = {
+        culture = sahidic
+        religion = catholic
+        size = 65
+    }
+
+    farmers = {
+        culture = sahidic
+        religion = catholic
+        size = 877
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 400
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 8525
+    }
+
+    aristocrats = {
+        culture = misri
+        religion = sunni
+        size = 6
+    }
+
+    clergymen = {
+        culture = misri
+        religion = sunni
+        size = 1
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 8
+    }
+
+    soldiers = {
+        culture = misri
+        religion = sunni
+        size = 3
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 38
+    }
+
+    aristocrats = {
+        culture = misri
+        religion = orthodox
+        size = 64
+    }
+
+    clergymen = {
+        culture = misri
+        religion = orthodox
+        size = 17
+    }
+
+    artisans = {
+        culture = misri
+        religion = orthodox
+        size = 97
+    }
+
+    soldiers = {
+        culture = misri
+        religion = orthodox
+        size = 32
+    }
+
+    farmers = {
+        culture = misri
+        religion = orthodox
+        size = 435
+    }
+}
+#Famagusta (44000/11000 POPS)
+857 = {
+    aristocrats = {
+        culture = sahidic
+        religion = catholic
+        size = 130
+    }
+
+    clergymen = {
+        culture = sahidic
+        religion = catholic
+        size = 32
+    }
+
+    artisans = {
+        culture = sahidic
+        religion = catholic
+        size = 97
+    }
+
+    soldiers = {
+        culture = sahidic
+        religion = catholic
+        size = 65
+    }
+
+    farmers = {
+        culture = sahidic
+        religion = catholic
+        size = 1625
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 11
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 60
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 1129
+    }
+
+    clergymen = {
+        culture = sahidic
+        religion = catholic
+        size = 42
+    }
+
+    artisans = {
+        culture = sahidic
+        religion = catholic
+        size = 221
+    }
+
+    farmers = {
+        culture = sahidic
+        religion = catholic
+        size = 4157
+    }
+
+    aristocrats = {
+        culture = misri
+        religion = sunni
+        size = 6
+    }
+
+    clergymen = {
+        culture = misri
+        religion = sunni
+        size = 1
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 4
+    }
+
+    soldiers = {
+        culture = misri
+        religion = sunni
+        size = 3
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 70
+    }
+
+    clergymen = {
+        culture = misri
+        religion = sunni
+        size = 2
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 10
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 179
+    }
+
+    aristocrats = {
+        culture = misri
+        religion = orthodox
+        size = 64
+    }
+
+    clergymen = {
+        culture = misri
+        religion = orthodox
+        size = 17
+    }
+
+    artisans = {
+        culture = misri
+        religion = orthodox
+        size = 49
+    }
+
+    soldiers = {
+        culture = misri
+        religion = orthodox
+        size = 32
+    }
+
+    farmers = {
+        culture = misri
+        religion = orthodox
+        size = 805
+    }
+
+    clergymen = {
+        culture = misri
+        religion = orthodox
+        size = 20
+    }
+
+    artisans = {
+        culture = misri
+        religion = orthodox
+        size = 109
+    }
+
+    farmers = {
+        culture = misri
+        religion = orthodox
+        size = 2060
+    }
+}

@@ -1,0 +1,46 @@
+#Danish West Indies Region  #see Leeward Islands.txt for BVI
+#Ruled by Denmark 1836
+#Saint Thomas (44000/11000 POPS)
+2223 = {
+    aristocrats = {
+        culture = andalusi
+        religion = sunni
+        size = 200
+    }
+
+    bureaucrats = {
+        culture = andalusi
+        religion = sunni
+        size = 25
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 375
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 400
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = sunni
+        size = 150
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = sunni
+        size = 3350
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = sunni
+        size = 6500
+    }
+}

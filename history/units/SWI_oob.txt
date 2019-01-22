@@ -1,0 +1,11 @@
+#Relations
+
+leader = {
+	name = "de Kalbermatten"
+	date = 1815.1.1
+	type = land
+	personality = tactful
+	background = exranker
+	prestige = 0.2
+}
+

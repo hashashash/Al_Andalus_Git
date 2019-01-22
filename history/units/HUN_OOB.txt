@@ -1,0 +1,102 @@
+
+BAV = {
+	value = 50		#relation
+	truce_until = 1840.1.1
+}
+
+ADU = {
+	truce_until = 1840.1.1
+}
+
+RUS = {
+	value = 90		#relation
+	truce_until = 1840.1.1
+}
+
+MOR = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+SER = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+FRA = {
+	value = -100		#relation
+	truce_until = 1840.1.1
+}
+
+HAN = {
+	value = -100		#relation
+	truce_until = 1840.1.1
+}
+
+AD5 = {
+	value = -100		#relation
+	truce_until = 1840.1.1
+}
+
+#Leaders
+
+leader = {
+	name = "Rudolph Darras"
+	date = 1820.1.1
+	type = land
+	personality = careful
+	background = elderly
+	prestige = 0.3
+}
+
+leader = {
+	name = "Prince Adelbert"
+	date = 1825.1.1
+	type = land
+	personality = gallant
+	background = powerful_friends
+	prestige = 0.1
+}
+
+#Armies
+
+army = {
+	name = "Hungarian Army"
+	location = 640
+	regiment = {
+		name= "1. Infanteriebrigade"
+		type = infantry
+		home = 652
+	}
+
+	regiment = {
+		name= "2. Infanteriebrigade"
+		type = infantry
+		home = 647
+	}
+
+	regiment = {
+		name= "3. Infanteriebrigade"
+		type = infantry
+		home = 649
+	}
+
+	regiment = {
+		name= "4. Infanteriebrigade"
+		type = artillery
+		home = 641
+	}
+
+	regiment = {
+		name= "5. Infanteriebrigade"
+		type = infantry
+		home = 639
+	}
+
+	regiment = {
+		name= "6. Infanteriebrigade"
+		type = infantry
+		home = 950
+	}
+
+}

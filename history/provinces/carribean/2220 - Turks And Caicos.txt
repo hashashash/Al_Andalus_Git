@@ -1,0 +1,5 @@
+owner = MOR
+controller = MOR
+add_core = CUB
+trade_goods = cotton
+life_rating = 35

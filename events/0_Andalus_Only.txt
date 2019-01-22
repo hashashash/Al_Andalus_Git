@@ -1,0 +1,2293 @@
+
+# Coronation of Zulfiqar
+country_event = {
+	id = 36898
+	title = "EVTNAME36898"
+	desc = "EVTDESC36898"
+	news = yes
+	news_desc_long = "EVTDESC8000017_NEWS_LONG"
+	news_desc_medium = "EVTDESC8000017_NEWS_MEDIUM"
+	news_desc_short = "EVTDES8000017_NEWS_SHORT"
+	picture = "Monarchy"
+
+	
+	trigger = {
+		tag = ADU
+		year = 1836
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "Long live the Sultan! Long live the Sultanate!"
+		prestige = 5
+		add_country_modifier = {
+			name = sultan_raed
+			duration = -1
+		}
+	}
+}
+
+#Death of Zulfiqar
+country_event = {
+	id = 97620
+	title = "EVTNAME97620" #The Death of Sultan Zulfiqar
+	desc = "EVTDESC97620"
+	picture = "Monarchy"
+
+	trigger = {
+		tag = ADU
+		year = 1840
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		NOT = { has_country_flag = death_of_zulfiqar }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "Ubayd is an accomplished, disciplined man. He will surely serve us well."
+		set_country_flag = death_of_zulfiqar
+		remove_country_modifier = sultan_raed
+		random_list = {
+				25 = {
+				    country_event = 97621
+				}
+				50 = {
+				    country_event = 97622
+				}
+				25 = {
+				    country_event = 97623
+				}
+			}
+	}
+
+}
+
+### OUR NEW SULTAN IS A LIBERAL
+country_event = {
+	id = 97621
+	title = "EVTNAME97621"
+	desc = "EVTDESC97621"
+	picture = "Monarchy"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall see."
+		prestige = 5
+		add_country_modifier = {
+			name = sultan_utbah
+			duration = -1
+		}
+	}
+}
+
+### OUR NEW SULTAN IS A CONSERVATIVE
+country_event = {
+	id = 97622
+	title = "EVTNAME97622"
+	desc = "EVTDESC97622"
+	picture = "Monarchy"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall see."
+		prestige = 5
+		add_country_modifier = {
+			name = sultan_utbah
+			duration = -1
+		}
+	}
+}
+
+### OUR NEW SULTAN IS A REACTIONARY
+country_event = {
+	id = 97623
+	title = "EVTNAME97623"
+	desc = "EVTDESC97623"
+	picture = "Monarchy"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall see."
+		prestige = 5
+		add_country_modifier = {
+			name = sultan_utbah
+			duration = -1
+		}
+	}
+}
+
+# Coronation of Zulfiqar 2
+country_event = {
+	id = 8000080
+	title = "EVTNAME8000080"
+	desc = "EVTDESC8000080"
+	picture = "Monarchy"
+	
+	trigger = {
+		tag = ADU
+		year = 1840
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		has_country_flag = death_of_zulfiqar
+		NOT = { has_country_flag = coronation_of_utbah }
+		has_country_modifier = sultan_utbah
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "Long live the Sultan! Long live the Sultanate!"
+		prestige = 5
+		money = -2000
+		set_country_flag = coronation_of_utbah
+	}
+}
+
+#Death of Zulfiqar 2
+country_event = {
+	id = 8000079
+	title = "EVTNAME8000079" #The Death of Sultan Utbah
+	desc = "EVTDESC8000079"
+	picture = "Monarchy"
+	major = yes
+
+	trigger = {
+		tag = ADU
+		year = 1870
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		has_country_flag = coronation_of_utbah
+		NOT = { has_country_flag = death_of_utbah_zulfiqar }
+	}
+	
+	mean_time_to_happen = {
+		months = 228
+	}
+	fire_only_once = yes
+	
+	option = {
+		name = "Thus ends an era."
+		set_country_flag = death_of_utbah_zulfiqar
+		remove_country_modifier = sultan_utbah
+		random_list = {
+				35 = {
+				    country_event = 8000078
+				}
+				35 = {
+				    country_event = 8000077
+				}
+				20 = {
+				    country_event = 8000076
+				}
+				10 = {
+				    country_event = 8000075
+				}
+			}
+	}
+}
+
+
+### OUR NEW SULTAN IS A LIBERAL
+country_event = {
+	id = 8000078
+	title = "EVTNAME8000078"
+	desc = "EVTDESC8000078"
+	picture = "Monarchy"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall see."
+		prestige = 5
+		add_country_modifier = {
+			name = sultan_khuzaymah
+			duration = -1
+		}
+	}
+}
+
+### OUR NEW SULTAN IS A CONSERVATIVE
+country_event = {
+	id = 8000077
+	title = "EVTNAME8000077"
+	desc = "EVTDESC8000077"
+	picture = "Monarchy"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall see."
+		prestige = 5
+		add_country_modifier = {
+			name = sultan_khuzaymah
+			duration = -1
+		}
+	}
+}
+
+### OUR NEW SULTAN IS A REACTIONARY
+country_event = {
+	id = 8000076
+	title = "EVTNAME8000076"
+	desc = "EVTDESC8000076"
+	picture = "Monarchy"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall see."
+		prestige = 5
+		add_country_modifier = {
+			name = sultan_khuzaymah
+			duration = -1
+		}
+	}
+}
+
+### OUR NEW SULTAN IS A SOCIAL-DEMOCRAT
+country_event = {
+	id = 8000075
+	title = "EVTNAME8000075"
+	desc = "EVTDESC8000075"
+	picture = "Monarchy"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall see."
+		prestige = 5
+		add_country_modifier = {
+			name = sultan_khuzaymah
+			duration = -1
+		}
+	}
+}
+
+# Coronation of Zulfiqar 3
+country_event = {
+	id = 8000074
+	title = "EVTNAME8000074"
+	desc = "EVTDESC8000074"
+	picture = "Monarchy"
+	
+	trigger = {
+		tag = ADU
+		year = 1870
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		has_country_flag = death_of_utbah_zulfiqar
+		NOT = { has_country_flag = coronation_of_khuzaymah }
+		has_country_modifier = sultan_khuzaymah
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "Long live the Sultan! Long live the Sultanate!"
+		prestige = 20
+		money = -80000
+		set_country_flag = coronation_of_khuzaymah
+	}
+}
+
+### Academy of Al Andalus
+country_event = {
+
+	id = 8000081
+
+	trigger = {
+		tag = ADU
+		year = 1838
+		NOT = {
+			year = 1845
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1843
+		}
+		
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1844
+		}
+	}
+
+	title = "EVTNAME8000081"
+	desc = "EVTDESC8000081"
+	picture = "School"
+
+	option = {
+		name = "Capital!" 
+		prestige = 3
+		years_of_research = 0.1
+	}
+}
+
+### Restoration of Tulaytullah
+country_event = {
+
+	id = 8000082
+
+	trigger = {
+		tag = ADU
+		year = 1850
+		NOT = {
+			year = 1860
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1855
+		}
+		
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1858
+		}
+	}
+
+	title = "EVTNAME8000082"
+	desc = "EVTDESC8000082"
+	picture = "windsor"
+
+	option = {
+		name = "Of course!" 
+		money = -1000
+		489 = {
+				add_province_modifier = {
+					name = tulaytullah_restoration
+					duration = -1
+				}
+		}
+	}
+	option = {
+		name = "Better not..." 
+		prestige = -5
+	}
+}
+
+### Qadis-Tulaytullah Railway
+country_event = {
+
+	id = 8000083
+
+	trigger = {
+		tag = ADU
+		year = 1845
+		NOT = {
+			year = 1855
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+	}
+
+	title = "EVTNAME8000083"
+	desc = "EVTDESC8000083"
+	picture = "bagdadrailway"
+
+	option = {
+		name = "Capital!"
+		add_country_modifier = {
+			name = qadis_tulaytullah_railroad
+			duration = 1825
+		}
+	}
+}
+
+### Crisis in Palermo
+country_event = {
+
+	id = 8000085
+
+	trigger = {
+		tag = ADU
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		AD1 = {
+		    NOT = { government = absolute_monarchy }
+			NOT = { government = prussian_constitutionalism }
+			NOT = { government = hms_government }
+		}
+		AD1 = {  
+		    NOT = { in_sphere = ADU }
+		}
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 52
+	}
+
+	title = "EVTNAME8000084"
+	desc = "EVTDESC8000084"
+	picture = "Dreyfus"
+
+	option = {
+		name = "We must take advantage of this chaos!"
+		casus_belli = {
+				target = AD1
+				type = add_to_sphere
+				months = 60
+			}
+     	war = {
+			target = AD1
+			attacker_goal = {
+				casus_belli = add_to_sphere
+			}
+		}
+		set_country_flag = force_them_into_our_sphere
+	}
+	option = {
+		name = "Do nothing, the time is not right..."
+		prestige = -5
+	}
+}
+
+### Restore monarchy in Palermo
+country_event = {
+
+	id = 8000086
+
+	trigger = {
+		tag = ADU
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		AD1 = {
+		    NOT = { government = absolute_monarchy }
+			NOT = { government = prussian_constitutionalism }
+			NOT = { government = hms_government }
+		}
+		AD1 = {  
+		    in_sphere = ADU
+		}
+		has_country_flag = force_them_into_our_sphere
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 52
+	}
+
+	title = "EVTNAME8000086"
+	desc = "EVTDESC8000086"
+	picture = "anticorn"
+
+	option = {
+		name = "Let us restore a Jizrunid, but keep him firmly under our control."
+		prestige = 5
+		relation = { who = AD1 value = 100 }
+		AD1 = { government = prussian_constitutionalism }
+	}
+	
+	option = {
+		name = "Give the throne to a nobleman, we can deal with the revolts."
+		prestige = 5
+		AD1 = { government = prussian_constitutionalism }
+	}
+}
+
+
+### Restore the Tirrunis in Qattalun
+country_event = {
+
+	id = 8000087
+
+	trigger = {
+		tag = ADU
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		has_country_flag = we_accept_tirrunis_heir
+		controls = 498
+		controls = 495
+		controls = 503
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 52
+	}
+
+	title = "EVTNAME8000087"
+	desc = "EVTDESC8000087"
+	picture = "anticorn"
+
+	option = {
+		name = "Of course, Idris will help us reintegrate the region into our realm."
+		prestige = 5
+		any_pop = {
+				limit = {
+					has_pop_culture = catalan
+				}
+				militancy = -1
+		}
+	}
+	
+	option = {
+		name = "No, the Tirrunis were overthrown, their reign is at an end."
+		prestige = 5
+	}
+}
+
+### Socialism in Al Andalus
+country_event = {
+
+	id = 8000088
+
+	trigger = {
+		tag = ADU
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		is_ideology_enabled = socialism
+		ruling_party_ideology = reactionary
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 18
+	}
+
+	title = "EVTNAME8000088"
+	desc = "EVTDESC8000088"
+	picture = "Socialism"
+
+	option = {
+		name = "Let's not aggravate these socialists."
+		prestige = -5
+	}
+	
+	option = {
+		name = "Socialism is an affront to the Majlis! It has no place in Al Andalus."
+		prestige = 3
+		poor_strata = {
+			consciousness = 1
+			militancy = 1
+		}
+	}
+}
+
+### Increasing powers for the sultan
+country_event = {
+
+	id = 8000089
+
+	trigger = {
+		tag = ADU
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		ruling_party_ideology = reactionary
+		has_country_flag = military_grand_vizier_flag
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 18
+	}
+
+	title = "EVTNAME8000089"
+	desc = "EVTDESC8000089"
+	picture = "andalus_sultan_present"
+
+	option = {
+		name = "Excellent news!"
+		prestige = 5
+		add_country_modifier = {
+			name = greater_powers_sultan
+			duration = 1825
+		}
+		set_country_flag = increased_powers_sultan_flag
+	}
+	
+	option = {
+		name = "Very unfortunate, the Sultan should remain a figurehead."
+		prestige = -5
+	}
+}
+
+# Treaty of Rome
+country_event = {
+	id = 8000090
+	title = "EVTNAME8000090"
+	desc = "EVTDESC8000090"
+	
+	trigger = {
+		tag = ADU
+		is_greater_power = yes
+		NOT = { has_country_flag = andalus_treaty_of_rome }
+		OR = {
+		    alliance_with = BAV
+			alliance_with = SGF
+		}
+		AD1 = {  
+		    in_sphere = ADU
+		}
+		OR = {
+	     	ITA = {  
+		    in_sphere = BAV
+		    }
+			ITA = {  
+		    in_sphere = SGF
+		    }
+		}
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 52
+	}
+	
+	option = {
+		name = "The South Germans will be a valuable ally."
+		set_country_flag = andalus_treaty_of_rome
+		relation = { who = SGF value = 75 }
+		relation = { who = MOR value = -50 }
+		relation = { who = AH8 value = -50 }
+		relation = { who = HAN value = -50 }
+		SGF = { 
+	    	diplomatic_influence = { who = AD1 value = -100 }
+		}
+		ADU = { 
+	    	diplomatic_influence = { who = ITA value = -100 }
+		}
+		ADU = { 
+	    	diplomatic_influence = { who = PAP value = -200 }
+		}
+		SGF = { 
+	    	diplomatic_influence = { who = PAP value = -200 }
+		}
+		AH8 = { 
+	    	diplomatic_influence = { who = PAP value = -200 }
+		}
+	}
+	option = {
+		name = "Cancel the talks, we will only provoke the other great powers."
+		prestige = -5
+		set_country_flag = andalus_treaty_of_rome
+	}
+}
+
+# Secret police
+country_event = {
+	id = 8000091
+	title = "EVTNAME8000091"
+	desc = "EVTDESC8000091"
+	picture = "arrested"
+	
+	trigger = {
+		tag = ADU
+		is_greater_power = yes
+		NOT = { has_country_flag = andalus_treaty_of_rome }
+		ruling_party_ideology = reactionary
+		has_country_flag = increased_powers_sultan_flag
+		NOT = { has_country_flag = andalus_secret_police }
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "The state's authority is paramount!"
+		set_country_flag = andalus_secret_police
+		prestige = 3
+		add_country_modifier = {
+			name = sultanic_guard_andalusia
+			duration = 3650
+		}
+	}
+}
+
+# Sack of Qadis
+country_event = {
+	id = 8000092
+	title = "EVTNAME8000092"
+	desc = "EVTDESC8000092"
+	
+	picture = "chicagofire"
+	
+	fire_only_once = yes
+	trigger = {
+		tag = ADU
+		NOT = { has_country_flag = sack_of_qadis }
+		512 = {
+		    NOT = { controlled_by = ADU }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 8
+	}
+	
+	option = {
+		name = "This is a dark day."
+		set_country_flag = sack_of_qadis
+		prestige = -20
+		war_exhaustion = 10
+		512 = {
+				add_province_modifier = {
+					name = adu_sack_of_qadis
+					duration = 1850
+				}
+		}
+	}
+}
+
+# Rebuilding Qadis
+country_event = {
+	id = 8000093
+	title = "EVTNAME8000093"
+	desc = "EVTDESC8000093"
+	
+	picture = "Budapest"
+	fire_only_once = yes
+	
+	fire_only_once = yes
+	trigger = {
+		tag = ADU
+		has_country_flag = sack_of_qadis
+		512 = {
+		    controlled_by = ADU
+		}
+		NOT = { has_country_flag = reconstruction_of_qadis }
+	}
+	
+	mean_time_to_happen = {
+		months = 32
+	}
+	
+	option = {
+		name = "Qadis is truly the gem of the world."
+		set_country_flag = reconstruction_of_qadis
+		money = -80000
+		prestige = 10
+		512 = {
+				add_province_modifier = {
+					name = adu_reconstruction_of_qadis
+					duration = 3700
+				}
+		}
+	}
+	
+	option = {
+		name = "We cannot afford it."
+		set_country_flag = reconstruction_of_qadis
+		prestige = -20
+	}
+}
+
+# Presentation of the heir
+country_event = {
+	id = 8000094
+	title = "EVTNAME8000094"
+	desc = "EVTDESC8000094"
+	
+	picture = "Ottoman"
+	fire_only_once = yes
+	
+	fire_only_once = yes
+	trigger = {
+	    year = 1870
+		tag = ADU
+		has_country_flag = coronation_of_utbah
+		NOT = { has_country_flag = presentation_of_khuzaymah }
+		NOT = { has_country_flag = coronation_of_khuzaymah }
+	}
+	
+	mean_time_to_happen = {
+		months = 58
+	}
+	
+	option = {
+		name = "He will surely lead our country to glory."
+		set_country_flag = presentation_of_khuzaymah
+		prestige = 10
+	}
+}
+
+# Expand the SGA
+country_event = {
+	id = 8000095
+	title = "EVTNAME8000095"
+	desc = "EVTDESC8000095"
+	
+	picture = "Police"
+	fire_only_once = yes
+	
+	fire_only_once = yes
+	trigger = {
+		tag = ADU
+		has_country_flag = andalus_secret_police
+		NOT = { has_country_flag = adu_expanded_sga }
+	}
+	
+	mean_time_to_happen = {
+		months = 62
+	}
+	
+	option = {
+		name = "Of course, this is in our interest."
+		set_country_flag = adu_expanded_sga
+	}
+	
+	option = {
+		name = "No, we cannot risk it."
+		set_country_flag = adu_expanded_sga
+	}
+}
+
+# Khedivate of Kongo
+country_event = {
+	id = 8000096
+	title = "EVTNAME8000096"
+	desc = "EVTDESC8000096"
+	picture = "muhammad_ali"
+	
+	trigger = {
+		tag = ADU
+		is_greater_power = yes
+		NOT = { has_country_flag = khedivate_of_kongo }
+		owns = 1976
+		owns = 1977
+		owns = 1982
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 64
+	}
+	
+	option = {
+		name = "Outrageous, of course not!"
+		set_country_flag = khedivate_of_kongo
+		prestige = 5
+	}
+	option = {
+		name = "Perhaps we should entertain his request, for now."
+		set_country_flag = khedivate_of_kongo
+		prestige = -15
+	}
+}
+
+# Death of the Khedive
+country_event = {
+	id = 8000097
+	title = "EVTNAME8000097"
+	desc = "EVTDESC8000097"
+	picture = "bazaar"
+	
+	trigger = {
+		tag = ADU
+		has_country_flag = khedivate_of_kongo
+		NOT = { has_country_flag = death_of_the_khedive }
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 250
+	}
+	
+	option = {
+		name = "Let us recognise him as Khedive, it's the best course to take."
+		set_country_flag = death_of_the_khedive
+		prestige = -25
+		FRA_1978 = { add_core = AJ1 }
+		BEL_1977 = { add_core = AJ1 }
+		POR_1999 = { add_core = AJ1 }
+		POR_2003 = { add_core = AJ1 }
+		POR_2006 = { add_core = AJ1 }
+		BEL_1987 = { add_core = AJ1 }
+		BEL_1984 = { add_core = AJ1 }
+		BEL_1990 = { add_core = AJ1 }
+		BEL_1996 = { add_core = AJ1 }
+		BEL_1992 = { add_core = AJ1 }
+		FRA_1972 = { add_core = AJ1 }
+		SPA_1955 = { add_core = AJ1 }
+		ENG_1956 = { add_core = AJ1 }
+		FRA_1965 = { add_core = AJ1 }
+		FRA_1970 = { add_core = AJ1 }
+		EGY_1838 = { add_core = AJ1 }
+		EGY_1842 = { add_core = AJ1 }
+	}
+	option = {
+		name = "No, ready the army and demand his immediate return to Qadis."
+		set_country_flag = death_of_the_khedive
+		prestige = -15
+	}
+}
+
+# SGA Coups
+country_event = {
+	id = 8000098
+	title = "EVTNAME8000098"
+	desc = "EVTDESC8000098"
+	
+	picture = "Police"
+	fire_only_once = yes
+	
+	fire_only_once = yes
+	trigger = {
+		tag = ADU
+		has_country_flag = adu_expanded_sga
+		NOT = { has_country_flag = adu_sga_coup_begins }
+		OR = {
+				ruling_party_ideology = socialist
+				ruling_party_ideology = communist
+				ruling_party_ideology = anarcho_liberal
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 62
+	}
+	
+	option = {
+		name = "No, this is far too dangerous."
+	}
+	
+	option = {
+		name = "We should make preparations, just in case..."
+		set_country_flag = adu_sga_coup_begins
+	}
+}
+
+#The Khedive declares independence!
+country_event = {
+	id = 8000099
+	title = "EVTNAME8000099"
+	desc = "EVTDESC8000099"
+	picture = "rebellion"
+	
+	trigger = {
+		tag = ADU
+		war = yes
+		has_country_flag = death_of_the_khedive
+		NOT = { has_country_flag = the_khedive_declares_independence }
+		year = 1900
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 250
+	}
+	immediate = {
+	    FRA_1978 = {
+			secede_province = AJ1
+		}
+		BEL_1977 = {
+			secede_province = AJ1
+		}
+		POR_1999  = {
+			secede_province = AJ1
+		}
+		POR_2003  = {
+			secede_province = AJ1
+		}
+		POR_2006  = {
+			secede_province = AJ1
+		}
+		BEL_1987  = {
+			secede_province = AJ1
+		}
+		BEL_1984  = {
+			secede_province = AJ1
+		}
+		BEL_1990  = {
+			secede_province = AJ1
+		}
+		BEL_1996  = {
+			secede_province = AJ1
+		}
+		BEL_1992  = {
+			secede_province = AJ1
+		}
+		FRA_1972  = {
+			secede_province = AJ1
+		}
+		SPA_1955  = {
+			secede_province = AJ1
+		}
+		ENG_1956  = {
+			secede_province = AJ1
+		}
+		FRA_1965  = {
+			secede_province = AJ1
+		}
+		FRA_1970  = {
+			secede_province = AJ1
+		}
+		EGY_1838  = {
+			secede_province = AJ1
+		}
+		EGY_1842  = {
+			secede_province = AJ1
+		}
+	}
+	
+	option = {
+		name = "This is war!"
+		set_country_flag = the_khedive_declares_independence
+		prestige = -50
+
+		war = {
+			target = AJ1
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+	}
+}
+
+# SGA Coups 2
+country_event = {
+	id = 8000100
+	title = "EVTNAME8000100"
+	desc = "EVTDESC8000100"
+	
+	picture = "Fascist"
+	fire_only_once = yes
+	
+	fire_only_once = yes
+	trigger = {
+		tag = ADU
+		has_country_flag = adu_sga_coup_begins
+		NOT = { has_country_flag = adu_sga_coup_ends }
+		OR = {
+				ruling_party_ideology = socialist
+				ruling_party_ideology = communist
+				ruling_party_ideology = anarcho_liberal
+		}
+		num_of_revolts = 3
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "This is not good..."
+		prestige = -25
+		government = fascist_dictatorship
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { ruling_party_ideology = fascist }
+				}
+			}
+			owner = { ruling_party_ideology = reactionary }
+		}
+		any_pop = {
+			limit = { pop_majority_ideology = fascist }
+			ideology = { factor = 0.1 value = fascist }
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -4
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -2
+			}
+			scaled_militancy = {
+				ideology = fascist
+				factor = -8
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = 2
+			}
+			scaled_militancy = {
+				ideology = socialist
+				factor = 2
+			}
+			scaled_militancy = {
+				ideology = communist
+				factor = 4
+			}
+		}
+		any_owned = {
+			remove_province_modifier = black_shirts
+			remove_province_modifier = fascist_welfare
+			remove_province_modifier = free_corps
+			remove_province_modifier = beer_hall_putsch
+			remove_province_modifier = labor_union
+			remove_province_modifier = militant_trade_union
+			remove_province_modifier = worker_union
+			remove_province_modifier = strike_solution
+			remove_province_modifier = province_strike
+			remove_province_modifier = may_day
+		}
+		random_country = {
+			limit = { is_our_vassal = THIS }
+			release_vassal = THIS
+			leave_alliance = THIS
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+			relation = {
+				who = THIS
+				value = -50
+			}
+			set_country_flag = former_overlord
+			country_event = 800055
+		}
+		any_country = {
+			limit = {
+				neighbour = THIS
+				civilized = yes
+				NOT = { government = fascist_dictatorship }
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = fascist
+					factor = 5
+				}
+			}
+		}
+		any_country = {
+			limit = { 
+				OR = {
+					government = democracy
+					government = hms_government
+					government = proletarian_dictatorship
+				}
+				NOT = {
+					has_country_flag = former_sphere_leader
+					has_country_flag = former_overlord
+				}
+				is_greater_power = yes
+			}
+			leave_alliance = THIS
+			diplomatic_influence = {
+				who = THIS
+				value = -100
+			}
+			relation = {
+				who = THIS
+				value = -200
+			}
+		}
+		any_country = {
+			limit = {
+				alliance_with = THIS
+				NOT = {
+					ruling_party_ideology = fascist
+					vassal_of = THIS
+					substate_of = THIS
+					in_sphere = THIS
+				}
+			}
+			relation = { who = THIS value = -100 }
+			leave_alliance = THIS
+		}
+		set_country_flag = adu_sga_coup_ends
+	}
+}
+
+#########################################
+#########################################
+#########################################
+# Events adapted from other countries!
+#########################################
+#########################################
+#########################################
+
+country_event = {
+
+	id = 36601
+
+	trigger = {
+		tag = ADU
+		year = 1838
+		NOT = {
+			year = 1845
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1843
+		}
+		
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1844
+		}
+	}
+
+	title = "EVTNAME36601"
+	desc = "EVTDESC36601"
+	picture = "School"
+
+	option = {
+		name = "EVTOPTA36601" 
+		prestige = 1
+		years_of_research = 0.1
+	}
+}
+
+country_event = {
+
+	
+	id = 36901  
+	news = yes
+	news_desc_long = "EVTDESC36901_NEWS_LONG"
+	news_desc_medium = "EVTDESC36901_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36901_NEWS_SHORT"	
+
+	trigger = {
+		tag = ADU
+		year = 1837
+		realism = 1 #has this tech
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME36901"
+	desc = "EVTDESC36901"
+	picture = "Monarchy"
+
+	option = {
+		name = "EVTOPTA36901" 
+		prestige = 1
+	}
+}
+
+
+country_event = {
+
+	id = 36908  
+
+	trigger = {
+		tag = ADU
+		year = 1849
+		early_railroad = 1	
+		NOT = {
+			year = 1854
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1850
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1852
+		}
+	}
+
+	title = "EVTNAME36908"
+	desc = "EVTDESC36908"
+	picture = "Expansion"
+
+	option = {
+		name = "EVTOPTA36908" 
+		prestige = 5
+	}
+}
+
+
+country_event = { 
+	id = 36909
+
+	trigger = {
+		tag = ADU
+		has_global_flag = PlanWorldFair
+		year = 1849
+		NOT = {
+			year = 1852
+			has_country_flag = CrystalPalace
+		}
+		war = no 
+	}
+
+
+	mean_time_to_happen =  {
+		months = 4
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1850
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1851
+		}
+	}
+
+	title = "EVTNAME36909" # World Fair
+	desc = "EVTDESC36909"  
+	picture = "Worldsfair"
+		
+	option = {
+       	name = "EVTOPTA36909"
+		prestige = 50
+		clr_global_flag = PlanWorldFair
+		set_country_flag = CrystalPalace
+	}
+}
+
+
+country_event = {
+
+	id = 36911  
+	news = yes
+	news_desc_long = "EVTDESC36911_NEWS_LONG"
+	news_desc_medium = "EVTDESC36911_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36911_NEWS_SHORT"
+
+	trigger = {
+		tag = ADU
+		year = 1892
+		press_rights = free_press
+		realism = 1 
+		nationalism_n_imperialism = 1
+		NOT = {
+			exists = IRE
+			year = 1896
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1893
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1894
+		}
+	}
+
+	title = "EVTNAME36911"
+	desc = "EVTDESC36911"
+	picture = "Yeats"
+
+	option = {
+		name = "EVTOPTA36911" 
+		prestige = 5
+	}
+}
+
+
+country_event = {
+
+	id = 36914 
+
+	trigger = {
+		tag = ADU
+		year = 1850
+		invention = steamer_transports
+		NOT = {
+			year = 1865
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1852
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1855
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1860
+		}
+	}
+
+	title = "EVTNAME36914"
+	desc = "EVTDESC36914"
+	picture = "ssgreatbritan"
+
+	option = {
+		name = "EVTOPTA36914" 
+		prestige = 5
+	}
+}
+
+country_event = {
+
+	id = 36921
+
+	trigger = {
+		tag = ADU
+		year = 1901
+		ruling_party_ideology = conservative
+		NOT = {
+			year = 1906
+		}
+	}
+ 
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1902
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1903
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1905
+		}
+	}
+
+	title = "EVTNAME36921"
+	desc = "EVTDESC36921"
+	picture = "Strike"
+
+	option = {
+		name = "EVTOPTA36921" 
+		labourers = {
+			ideology = {
+				value = socialist
+				factor = 0.1
+			}
+			consciousness = 1
+		}
+		craftsmen = {
+			ideology = {
+				value = socialist
+				factor = 0.1
+			}
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 36923
+	news = yes
+	news_desc_long = "EVTDESC36923_NEWS_LONG"
+	news_desc_medium = "EVTDESC36923_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36923_NEWS_SHORT"
+
+	trigger = {
+		tag = ADU
+		functionalism = 1
+		year = 1858
+		NOT = {
+			year = 1862
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1859
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1860
+		}
+	}
+
+	title = "EVTNAME36923"
+	desc = "EVTDESC36923"
+	picture = "darwin"
+
+	option = {
+		name = "EVTOPTA36923" 
+		prestige = 12
+		clergymen = {
+			dominant_issue = {
+				value = secularized
+				factor = 0.25
+			}
+			dominant_issue = {
+				value = pro_atheism
+				factor = 0.1
+			}
+			consciousness = 2
+		}
+		set_country_flag = Darwin
+	}
+}
+
+
+country_event = {
+
+	id = 36925  
+	news = yes
+	news_desc_long = "EVTDESC36925_NEWS_LONG"
+	news_desc_medium = "EVTDESC36925_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36925_NEWS_SHORT"
+
+	trigger = {
+		tag = ADU
+		year = 1887
+		experimental_psychology = 1
+		NOT = {
+			year = 1890
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1888
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1889
+		}
+	}
+
+	title = "EVTNAME36925"
+	desc = "EVTDESC36925"
+	picture = "jacktheripper"
+
+	option = {
+		name = "EVTOPTA36925" 
+		prestige = -5
+		any_pop = {
+			consciousness = 1
+		}
+		set_country_flag = JackTheRipper
+	}
+
+	option = {
+		name = "EVTOPTB36925" 
+		prestige = -5
+		any_pop = {
+			militancy = 1
+		}
+		set_country_flag = JackTheRipper
+	}
+}
+
+
+country_event = {
+
+	id = 36932
+
+	trigger = {
+		tag = ADU
+		year = 1897
+		expressionism = 1
+		NOT = {
+			year = 1905
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1898
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1900
+		}
+	}
+
+	title = "EVTNAME36932"
+	desc = "EVTDESC36932"
+	picture = "WMorris"
+
+	option = {
+		name = "EVTOPTA36932" 
+		prestige = 3
+	}
+}
+
+country_event = {
+
+	id = 37222
+
+	trigger = {
+		tag = ADU
+		year = 1908
+		invention = wright_n_langleys_aeroplanes
+		NOT = {
+			year = 1915
+			}
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1909
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1911
+		}
+	}
+
+	title = "EVTNAME37222"
+	desc = "EVTDESC37222"
+	picture = "typeix"
+
+	option = {
+		name = "EVTOPTA37222" 
+		prestige = 5
+	}
+
+}
+
+country_event = {
+
+	id = 37225
+
+	trigger = {
+		tag = ADU
+		invention = impressionist_art
+		year = 1863
+		NOT = {
+			year = 1880
+		}
+	}
+	
+	fire_only_once = yes
+			
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1865
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1870
+		}
+	}
+
+	title = "EVTNAME37225"
+	desc = "EVTDESC37225"
+	picture = "Manet"
+
+	option = {
+		name = "EVTOPTA37225" 
+		prestige = 2
+		aristocrats = {
+			consciousness = 1 
+			}
+		clergymen = {
+			consciousness = 1 
+			}
+		officers = {
+			consciousness = 1 
+			}
+		bureaucrats = {
+			consciousness = 1 
+			}
+		}
+
+}
+
+country_event = {
+
+	id = 36933
+
+	trigger = {
+		tag = ADU
+		year = 1867
+		NOT = {
+			year = 1870
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1868
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1869
+		}
+	}
+
+	title = "EVTNAME36933"
+	desc = "EVTDESC36933"
+	picture = "AthleticChamp"
+
+	option = {
+		name = "EVTOPTA36933" 
+		any_pop = {
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+	id = 36965
+	title = "EVTNAME36965" #The Lagos Slave Trade
+	desc = "EVTDESC36965"
+	picture = "slaves"
+	
+	trigger = {
+		tag = ADU
+		war = no
+		slavery = no_slavery
+		is_greater_power = yes
+		nationalism_n_imperialism = 1
+		year = 1860
+		NOT = { has_country_flag = lagos_slave_trade }
+		1923 = {
+			owner = {
+				war = no
+				civilized = no
+				slavery = yes_slavery
+				OR = {
+					part_of_sphere = no
+					in_sphere = ADU
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "Send in our ships!"
+		set_country_flag = lagos_slave_trade
+		1923 = {
+			owner = { country_event = 36966 }
+		}
+		1923 = { secede_province = THIS }
+	}
+	
+	option = {
+		name = "This is too costly a venture."
+		set_country_flag = lagos_slave_trade
+		prestige = -10
+		badboy = -2
+	}
+}
+
+country_event = {
+	id = 36966
+	title = "EVTNAME36966" #Al Andalus Seizes Lagos!
+	desc = "EVTDESC36966"
+	news = yes
+	news_desc_long = "EVTDESC36966_NEWS_LONG"
+	news_desc_medium = "EVTDESC36966_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36966_NEWS_SHORT"
+	picture = "Slaves"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "What can we do? We must submit."
+		prestige = -10
+		relation = { who = FROM value = -50 }
+		any_pop = { militancy = 3 }
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.1
+				part_of_sphere = yes
+				NOT = { in_sphere = FROM }
+			}
+		}
+	}
+	
+	option = {
+		name = "If they want a war, we'll give them one!"
+		prestige = 10
+		any_pop = { militancy = -6 }
+		relation = { who = FROM value = -100 }
+		leave_alliance = FROM
+		FROM = {
+			diplomatic_influence = { who = THIS value = -200 }
+		}
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = acquire_core_state
+				state_province_id = 1923
+			}
+			call_ally = yes
+		}		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				FROM = { brigades_compare = 5 }
+			}
+			modifier = {
+				factor = 0
+				in_sphere = FROM
+			}
+		}
+	}
+}
+
+#The Suez Canal Company
+country_event = {
+	id = 36970
+	title = "EVTNAME36970"
+	desc = "EVTDESC36970"
+	picture = "Suez3"
+	
+	trigger = {
+                OR = {
+		     tag = ADU
+		     tag = FRA
+                }
+		is_greater_power = yes
+		invention = machine_tools
+		invention = nitroglycerin		
+		iron_steamers = 1
+		money = 20000
+		year = 1860
+		AD2 = {
+			war = no
+			owns = 1755
+			part_of_sphere = no
+			is_greater_power = no
+		}
+		NOT = {
+			has_country_flag = refused_canal_investment
+			has_country_modifier = in_bankrupcy
+			truce_with = AD2
+			has_global_flag = suez_canal_global
+			is_canal_enabled = 2
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+		modifier = {
+			factor = 0.5
+			year = 1865
+		}
+		modifier = {
+			factor = 0.5
+			year = 1870
+		}
+	}
+	
+	option = {
+		name = "We will invest in the company."
+		treasury = -20000
+		diplomatic_influence = { who = AD2 value = 200 }
+		relation = { who = AD2 value = 50 }
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "This is not worth it."
+		set_country_flag = refused_canal_investment
+		prestige = -5
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+
+#Intervention in Egypt
+country_event = {
+	id = 36975
+	title = "EVTNAME36975"
+	desc = "EVTDESC36975"
+	picture = "deliberation"
+	
+	trigger = {
+		is_greater_power = yes
+		nationalism_n_imperialism = 1
+		is_canal_enabled = 2
+		owns = 1755
+		NOT = {
+			war_policy = pacifism
+			has_country_modifier = neutrality
+			has_country_flag = suez_egypt_intervention
+		}
+		AD2 = {
+			war = no
+			exists = yes
+			is_greater_power = no
+			OR = {
+				is_vassal = no
+				vassal_of = THIS
+			}
+			OR = {
+				revolt_percentage = 0.25
+				any_owned_province = {
+					is_capital = yes
+					controlled_by_rebels = yes
+				}
+				average_militancy = 7
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.1
+			AD2 = { capital_scope = { controlled_by_rebels = yes } }
+		}
+		modifier = {
+			factor = 0.5
+			AD2 = { revolt_percentage = 0.5 }
+		}
+		modifier = {
+			factor = 1.5
+			AD2 = {
+				NOT = { revolt_percentage = 0.25 }
+				NOT = { capital_scope = { controlled_by_rebels = yes } }
+			}
+		}	
+	}
+	
+	option = {
+		name = "We must protect our investment."
+		set_country_flag = suez_egypt_intervention
+		badboy = 3
+		leave_alliance = AD2
+		diplomatic_influence = { who = AD2 value = -200 }
+		relation = { who = AD2 value = -200 }
+		random_country = {
+			limit = {
+				tag = AD2
+				civilized = no
+				has_global_flag = berlin_conference
+			}
+			add_casus_belli = {
+				target = THIS
+				type = establish_protectorate_BC_casus_belli
+				months = 60
+			}
+		}
+		random_country = {
+			limit = {
+				tag = AD2
+				OR = {
+					civilized = yes
+					NOT = { has_global_flag = berlin_conference }
+				}
+			}
+			add_casus_belli = {
+				target = THIS
+				type = make_puppet
+				months = 60
+			}
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.5
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 0
+				badboy = 0.88
+			}
+		}
+	}
+	
+	option = {
+		name = "There is no need for us to act."
+		set_country_flag = suez_egypt_intervention
+		badboy = -1
+		prestige = -10
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 5
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 0.1
+				war_policy = jingoism
+			}
+		}
+	}
+}
+
+
+#########################################
+# Special Sports Events just for flavor.
+#########################################
+
+
+# COPA DEL REY
+country_event = {
+	title = "EVTNAME5000"
+	desc = "EVTDESC5000"
+	id = 5000
+	picture = "football"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		year = 1890
+		tag = ADU
+	}
+	mean_time_to_happen = {
+		months = 42
+	}
+	option = {
+		name = "EVTOPTA5000"
+		poor_strata = {
+			consciousness = -1
+			militancy = 1
+		}
+		prestige = 2
+	}
+}
+
+# WORLD CUP
+country_event = {
+	title = "EVTNAME5001"
+	desc = "EVTDESC5001"
+	news = yes
+	news_desc_long = "EVTDESC5001_NEWS_LONG"
+	news_desc_medium = "EVTDESC5001_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC5001_NEWS_SHORT"
+	id = 5001
+	picture = "football"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ADU
+		year = 1920
+		month = 6
+		NOT = { has_country_flag = world_cup_over_starts }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "EVTOPTA5001"
+		prestige = 5
+		poor_strata = {
+			consciousness = -1
+			militancy = -1
+		}
+		set_country_flag = world_cup_over_starts
+	}
+	option = {
+		name = "EVTOPTB5001"
+		prestige = -5
+		poor_strata = {
+			militancy = 1
+		}
+	}
+}
+# WORLD CUP 2
+country_event = {
+	title = "EVTNAME50015"
+	desc = "EVTDESC50015"
+	news = yes
+	id = 50015
+	picture = "football"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ADU
+		year = 1920
+		has_country_flag = world_cup_over_starts
+		NOT = { has_country_flag = world_cup_over_adu }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "EVTOPTA50015"
+		prestige = -5
+		set_country_flag = world_cup_over_adu
+	}
+}
+# WORLD CUP 3
+country_event = {
+	title = "EVTNAME500155"
+	desc = "EVTDESC500155"
+	news = yes
+	id = 500155
+	picture = "football"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ADU
+		year = 1920
+		NOT = { has_country_flag = world_cup_over_adu }
+		has_country_flag = world_cup_over_starts
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	option = {
+		name = "EVTOPTA500155"
+		prestige = 5
+		set_country_flag = world_cup_over_adu
+	}
+}

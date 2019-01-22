@@ -1,0 +1,9 @@
+owner = AG7
+controller = AG7
+add_core = AG7
+add_core = LUX
+add_core = GER
+trade_goods = coal
+life_rating = 40
+fort = 1
+1861.1.1 = { railroad = 3 }

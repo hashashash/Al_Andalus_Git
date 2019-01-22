@@ -1,0 +1,360 @@
+#French Guiana (20000)
+#Ruled by France 1836
+#Cayenne (17000/4250 POPS)
+2241 = {
+    aristocrats = {
+        culture = french
+        religion = catholic
+        size = 2
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = catholic
+        size = 0
+    }
+
+    clergymen = {
+        culture = french
+        religion = catholic
+        size = 0
+    }
+
+    artisans = {
+        culture = french
+        religion = catholic
+        size = 1
+    }
+
+    soldiers = {
+        culture = french
+        religion = catholic
+        size = 1
+    }
+
+    farmers = {
+        culture = french
+        religion = catholic
+        size = 1
+    }
+
+    artisans = {
+        culture = afro_antillean
+        religion = catholic
+        size = 2
+    }
+
+    clergymen = {
+        culture = afro_antillean
+        religion = catholic
+        size = 0
+    }
+
+    soldiers = {
+        culture = afro_antillean
+        religion = catholic
+        size = 1
+    }
+
+    farmers = {
+        culture = afro_antillean
+        religion = catholic
+        size = 6
+    }
+
+    slaves = {
+        culture = afro_antillean
+        religion = catholic
+        size = 44
+    }
+
+    aristocrats = {
+        culture = amazonian
+        religion = animist
+        size = 1
+    }
+
+    clergymen = {
+        culture = amazonian
+        religion = animist
+        size = 1
+    }
+
+    artisans = {
+        culture = amazonian
+        religion = animist
+        size = 3
+    }
+
+    soldiers = {
+        culture = amazonian
+        religion = animist
+        size = 1
+    }
+
+    farmers = {
+        culture = amazonian
+        religion = animist
+        size = 69
+    }
+
+    aristocrats = {
+        culture = french
+        religion = protestant
+        size = 43
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = protestant
+        size = 3
+    }
+
+    clergymen = {
+        culture = french
+        religion = protestant
+        size = 3
+    }
+
+    artisans = {
+        culture = french
+        religion = protestant
+        size = 28
+    }
+
+    soldiers = {
+        culture = french
+        religion = protestant
+        size = 14
+    }
+
+    farmers = {
+        culture = french
+        religion = protestant
+        size = 23
+    }
+
+    artisans = {
+        culture = afro_antillean
+        religion = protestant
+        size = 43
+    }
+
+    clergymen = {
+        culture = afro_antillean
+        religion = protestant
+        size = 7
+    }
+
+    soldiers = {
+        culture = afro_antillean
+        religion = protestant
+        size = 14
+    }
+
+    farmers = {
+        culture = afro_antillean
+        religion = protestant
+        size = 121
+    }
+
+    slaves = {
+        culture = afro_antillean
+        religion = protestant
+        size = 841
+    }
+
+    aristocrats = {
+        culture = occitan
+        religion = catholic
+        size = 5
+    }
+
+    bureaucrats = {
+        culture = occitan
+        religion = catholic
+        size = 0
+    }
+
+    clergymen = {
+        culture = occitan
+        religion = catholic
+        size = 0
+    }
+
+    artisans = {
+        culture = occitan
+        religion = catholic
+        size = 4
+    }
+
+    soldiers = {
+        culture = occitan
+        religion = catholic
+        size = 1
+    }
+
+    farmers = {
+        culture = occitan
+        religion = catholic
+        size = 3
+    }
+
+    artisans = {
+        culture = occitan
+        religion = catholic
+        size = 5
+    }
+
+    clergymen = {
+        culture = occitan
+        religion = catholic
+        size = 1
+    }
+
+    soldiers = {
+        culture = occitan
+        religion = catholic
+        size = 1
+    }
+
+    farmers = {
+        culture = occitan
+        religion = catholic
+        size = 15
+    }
+
+    slaves = {
+        culture = occitan
+        religion = catholic
+        size = 103
+    }
+
+    aristocrats = {
+        culture = occitan
+        religion = animist
+        size = 1
+    }
+
+    clergymen = {
+        culture = occitan
+        religion = animist
+        size = 2
+    }
+
+    artisans = {
+        culture = occitan
+        religion = animist
+        size = 7
+    }
+
+    soldiers = {
+        culture = occitan
+        religion = animist
+        size = 4
+    }
+
+    farmers = {
+        culture = occitan
+        religion = animist
+        size = 161
+    }
+
+    aristocrats = {
+        culture = occitan
+        religion = protestant
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = occitan
+        religion = protestant
+        size = 7
+    }
+
+    clergymen = {
+        culture = occitan
+        religion = protestant
+        size = 7
+    }
+
+    artisans = {
+        culture = occitan
+        religion = protestant
+        size = 67
+    }
+
+    soldiers = {
+        culture = occitan
+        religion = protestant
+        size = 34
+    }
+
+    farmers = {
+        culture = occitan
+        religion = protestant
+        size = 53
+    }
+
+    artisans = {
+        culture = occitan
+        religion = protestant
+        size = 100
+    }
+
+    clergymen = {
+        culture = occitan
+        religion = protestant
+        size = 17
+    }
+
+    soldiers = {
+        culture = occitan
+        religion = protestant
+        size = 34
+    }
+
+    farmers = {
+        culture = occitan
+        religion = protestant
+        size = 283
+    }
+
+    slaves = {
+        culture = occitan
+        religion = protestant
+        size = 1962
+    }
+}
+#Maripasoula (3000/750 POPS)
+2246 = {
+    aristocrats = {
+        culture = amazonian
+        religion = animist
+        size = 10
+    }
+
+    clergymen = {
+        culture = amazonian
+        religion = animist
+        size = 15
+    }
+
+    artisans = {
+        culture = amazonian
+        religion = animist
+        size = 35
+    }
+
+    soldiers = {
+        culture = amazonian
+        religion = animist
+        size = 10
+    }
+
+    farmers = {
+        culture = amazonian
+        religion = animist
+        size = 680
+    }
+}

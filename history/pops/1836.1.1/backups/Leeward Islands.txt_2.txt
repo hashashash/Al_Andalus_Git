@@ -1,0 +1,430 @@
+#Leeward Islands Region - 61600
+#Ruled by Britain 1836
+#Antigua (25000/6250 POPS) #now independent
+2224 = {
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 4
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = protestant
+        size = 2
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 16
+    }
+
+    soldiers = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 16
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 6
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 12
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 438
+    }
+
+    aristocrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 50
+    }
+
+    bureaucrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 30
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 9
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 202
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 9
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 202
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 75
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 151
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 5535
+    }
+}
+#Montserrat (5300/1325 POPS) #still British Colony
+2225 = {
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 0
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 2
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 2
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 110
+    }
+
+    aristocrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 9
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 5
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 30
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 30
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 15
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 45
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 9
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 1397
+    }
+}
+#Tortola (4800/1200 POPS) #still British Colony
+2226 = {
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 3
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 3
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 3
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 83
+    }
+
+    aristocrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 9
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 9
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 40
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 40
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 15
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 35
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 9
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 1052
+    }
+}
+#Saint Kitts (26500/6625 POPS) #now independent
+2227 = {
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 6
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 18
+    }
+
+    soldiers = {
+        culture = british
+        religion = protestant
+        size = 4
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 21
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 6
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 12
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 6
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 472
+    }
+
+    aristocrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 75
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 15
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 227
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 262
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 75
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 151
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 75
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 5970
+    }
+}

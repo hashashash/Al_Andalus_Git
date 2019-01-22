@@ -1,0 +1,13 @@
+owner = AF9
+controller = AF9
+add_core = CHI
+add_core = TPG
+trade_goods = silk
+life_rating = 32
+1861.1.1 = {
+	controller = TPG
+	owner = TPG
+	
+}
+
+add_core = AF9

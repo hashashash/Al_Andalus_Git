@@ -1,0 +1,7 @@
+owner = SVY
+controller = SVY
+add_core = SVY
+add_core = MOD
+add_core = ITA
+trade_goods = timber
+life_rating = 35

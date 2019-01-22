@@ -1,0 +1,41 @@
+name = "Great Gharbian Revolt"
+
+1832.5.2 = {
+	add_attacker = MOR
+	add_defender = BRZ
+	add_defender = PRG
+	add_defender = CHL
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = civil_war
+		actor = MOR
+		receiver = BRZ
+	}
+	war_goal = {
+		casus_belli = civil_war
+		actor = MOR
+		receiver = PRG
+	}
+	war_goal = {
+		casus_belli = civil_war
+		actor = MOR
+		receiver = CHL
+	}
+	
+    war_goal = {
+		casus_belli = status_quo
+		actor = BRZ
+		receiver = MOR
+	}
+
+}
+
+1837.10.3 = {
+	rem_attacker = MOR
+	rem_defender = BRZ
+}

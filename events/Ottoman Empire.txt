@@ -1,0 +1,40 @@
+#########################################################
+#														#
+#        		Ottoman Empire Reform Events			#
+#														#
+#########################################################
+
+
+#Christian Oppression IN IN IN SYRIA SYRIA SYRIA
+country_event = {
+	id = 98620
+	title = "EVTNAME98620"
+	desc = "EVTDESC98620"
+	picture = "Ottoman"
+	
+	trigger = {
+		OR = {
+                     tag = SYR
+                     tag = AH5
+                }
+		year = 1836
+		NOT = { has_country_flag = christian_oppression }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		set_country_flag = christian_oppression
+		name = "This is how it must be."
+		add_country_modifier = {
+			name = ottoman_oppression
+			duration = -1
+		}
+	}
+}
+
+
+
+

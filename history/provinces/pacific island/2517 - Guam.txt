@@ -1,0 +1,6 @@
+owner = AD3
+controller = AD3
+add_core = AD3
+trade_goods = fish
+life_rating = 30
+colonial = 2

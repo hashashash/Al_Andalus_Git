@@ -1,0 +1,7 @@
+owner = AD2
+controller = AD2
+add_core = EGY
+trade_goods = cotton
+life_rating = 35
+
+add_core = AD2

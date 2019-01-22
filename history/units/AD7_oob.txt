@@ -1,0 +1,12 @@
+
+
+army = {
+	name = "Army of Pueblo"
+	location = 101
+	regiment = {
+		name= "1.Nemuru"
+		type = irregular
+		home = 101
+	}
+}
+

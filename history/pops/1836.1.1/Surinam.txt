@@ -1,0 +1,144 @@
+#Surinam : 56640
+#Ruled by The Netherlands 1836
+#Paramaribo (48640/12160 POPS)
+2240 = {
+    aristocrats = {
+        culture = dutch
+        religion = protestant
+        size = 7
+    }
+
+    bureaucrats = {
+        culture = dutch
+        religion = protestant
+        size = 3
+    }
+
+    artisans = {
+        culture = dutch
+        religion = protestant
+        size = 15
+    }
+
+    soldiers = {
+        culture = dutch
+        religion = protestant
+        size = 22
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 7
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 525
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 360
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 7
+    }
+
+    slaves = {
+        culture = afro_caribbean
+        religion = animist
+        size = 2700
+    }
+
+    aristocrats = {
+        culture = occitan
+        religion = protestant
+        size = 18
+    }
+
+    bureaucrats = {
+        culture = occitan
+        religion = protestant
+        size = 7
+    }
+
+    artisans = {
+        culture = occitan
+        religion = protestant
+        size = 35
+    }
+
+    soldiers = {
+        culture = occitan
+        religion = protestant
+        size = 53
+    }
+
+    clergymen = {
+        culture = occitan
+        religion = protestant
+        size = 18
+    }
+
+    artisans = {
+        culture = occitan
+        religion = protestant
+        size = 1225
+    }
+
+    farmers = {
+        culture = occitan
+        religion = protestant
+        size = 840
+    }
+
+    soldiers = {
+        culture = occitan
+        religion = protestant
+        size = 18
+    }
+
+    slaves = {
+        culture = occitan
+        religion = animist
+        size = 6300
+    }
+}
+#Aperina (8000/2000 POPS)
+2245 = {
+    aristocrats = {
+        culture = amazonian
+        religion = animist
+        size = 25
+    }
+
+    clergymen = {
+        culture = amazonian
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = amazonian
+        religion = animist
+        size = 100
+    }
+
+    soldiers = {
+        culture = amazonian
+        religion = animist
+        size = 25
+    }
+
+    farmers = {
+        culture = amazonian
+        religion = animist
+        size = 1750
+    }
+}

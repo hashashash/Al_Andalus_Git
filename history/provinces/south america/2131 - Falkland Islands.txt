@@ -1,0 +1,5 @@
+owner = AE1
+controller = AE1
+trade_goods = wool
+life_rating = 30
+colonial = 2

@@ -1,0 +1,8 @@
+owner = AD2
+controller = AD2
+
+trade_goods = cotton
+life_rating = 35
+naval_base = 2
+
+add_core = AD2

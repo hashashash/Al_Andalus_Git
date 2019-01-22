@@ -1,0 +1,74 @@
+
+
+army = {
+	name = "Army of the Beninese Empire"
+	location = 1929
+	
+    regiment = {
+		name= "Royal Cavalry"
+		type = cavalry
+	    home = 1928
+	}
+	    regiment = {
+		name= "Royal Cavalry 2"
+		type = cavalry
+	    home = 1916
+	}
+    regiment = {
+		name= "Infantry 1"
+		type = infantry
+	    home = 1928
+	}
+	    regiment = {
+		name= "Infantry 2"
+		type = infantry
+	    home = 1925
+	}
+	    regiment = {
+		name= "Infantry 3"
+		type = infantry
+	    home = 1927
+	}
+	    regiment = {
+		name= "Infantry 4"
+		type = infantry
+	    home = 1920
+	}
+	    regiment = {
+		name= "Irregular 1"
+		type = irregular
+	    home = 1936
+	}
+	    regiment = {
+		name= "Irregular 2"
+		type = irregular
+	    home = 1931
+	}
+	    regiment = {
+		name= "Irregular 3"
+		type = irregular
+	    home = 1935
+	}
+	    regiment = {
+		name= "Irregular 4"
+		type = irregular
+	    home = 1940
+	}
+	    regiment = {
+		name= "Irregular 7"
+		type = infantry
+	    home = 1921
+	}
+	    regiment = {
+		name= "Infantry 5"
+		type = infantry
+	    home = 1910
+	}
+	    regiment = {
+		name= "Infantry 6"
+		type = infantry
+	    home = 1911
+	}
+}
+
+

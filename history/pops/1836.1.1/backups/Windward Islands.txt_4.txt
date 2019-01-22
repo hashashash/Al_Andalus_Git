@@ -1,0 +1,527 @@
+#Windward Islands Region - 188000
+#Barbados (100000/25000 POPS) #now independent
+2229 = {
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 4
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = protestant
+        size = 8
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 4
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 140
+    }
+
+    soldiers = {
+        culture = british
+        religion = protestant
+        size = 4
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 88
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 6
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 220
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 20
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 1514
+    }
+
+    aristocrats = {
+        culture = andalusi
+        religion = sunni
+        size = 62
+    }
+
+    bureaucrats = {
+        culture = andalusi
+        religion = sunni
+        size = 126
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = sunni
+        size = 62
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 2213
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = sunni
+        size = 62
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 1391
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = sunni
+        size = 93
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 3478
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = sunni
+        size = 316
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 23940
+    }
+}
+#Saint Lucia (18000/4500 POPS) #now independent
+2231 = {
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 10
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 8
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 8
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 324
+    }
+
+    aristocrats = {
+        culture = andalusi
+        religion = sunni
+        size = 11
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = sunni
+        size = 11
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 165
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 126
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = sunni
+        size = 62
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 126
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = sunni
+        size = 62
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 5122
+    }
+}
+#Dominica (19000/4750 POPS) #now independent
+2232 = {
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 10
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 8
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 12
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 340
+    }
+
+    aristocrats = {
+        culture = andalusi
+        religion = sunni
+        size = 11
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = sunni
+        size = 11
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 165
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 126
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = sunni
+        size = 62
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 188
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = sunni
+        size = 62
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 5376
+    }
+}
+#Grenada (30000/7500 POPS) #now independent
+2233 = {
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 2
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 2
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 20
+    }
+
+    soldiers = {
+        culture = british
+        religion = protestant
+        size = 0
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 16
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 12
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 6
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 538
+    }
+
+    aristocrats = {
+        culture = andalusi
+        religion = sunni
+        size = 31
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = sunni
+        size = 23
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 316
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = sunni
+        size = 6
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 252
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = sunni
+        size = 62
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 188
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = sunni
+        size = 93
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 8506
+    }
+}
+#Saint Vincent (21000/5250 POPS) #now independent
+2409 = {
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 10
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 8
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 16
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 376
+    }
+
+    aristocrats = {
+        culture = andalusi
+        religion = sunni
+        size = 11
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = sunni
+        size = 11
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 165
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 126
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = sunni
+        size = 62
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = sunni
+        size = 252
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = sunni
+        size = 62
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = sunni
+        size = 5945
+    }
+}

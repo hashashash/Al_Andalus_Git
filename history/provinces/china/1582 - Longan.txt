@@ -1,0 +1,6 @@
+owner = AF8
+controller = AF8
+add_core = AF8
+add_core = XBI
+trade_goods = coal
+life_rating = 32

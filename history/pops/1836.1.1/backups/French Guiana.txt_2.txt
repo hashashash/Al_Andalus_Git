@@ -1,0 +1,198 @@
+#French Guiana (20000)
+#Ruled by France 1836
+#Cayenne (17000/4250 POPS)
+2241 = {
+    aristocrats = {
+        culture = french
+        religion = catholic
+        size = 7
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = catholic
+        size = 0
+    }
+
+    clergymen = {
+        culture = french
+        religion = catholic
+        size = 0
+    }
+
+    artisans = {
+        culture = french
+        religion = catholic
+        size = 5
+    }
+
+    soldiers = {
+        culture = french
+        religion = catholic
+        size = 2
+    }
+
+    farmers = {
+        culture = french
+        religion = catholic
+        size = 4
+    }
+
+    artisans = {
+        culture = afro_antillean
+        religion = catholic
+        size = 7
+    }
+
+    clergymen = {
+        culture = afro_antillean
+        religion = catholic
+        size = 1
+    }
+
+    soldiers = {
+        culture = afro_antillean
+        religion = catholic
+        size = 2
+    }
+
+    farmers = {
+        culture = afro_antillean
+        religion = catholic
+        size = 21
+    }
+
+    slaves = {
+        culture = afro_antillean
+        religion = catholic
+        size = 147
+    }
+
+    aristocrats = {
+        culture = amazonian
+        religion = animist
+        size = 2
+    }
+
+    clergymen = {
+        culture = amazonian
+        religion = animist
+        size = 3
+    }
+
+    artisans = {
+        culture = amazonian
+        religion = animist
+        size = 10
+    }
+
+    soldiers = {
+        culture = amazonian
+        religion = animist
+        size = 5
+    }
+
+    farmers = {
+        culture = amazonian
+        religion = animist
+        size = 230
+    }
+
+    aristocrats = {
+        culture = french
+        religion = protestant
+        size = 143
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = protestant
+        size = 10
+    }
+
+    clergymen = {
+        culture = french
+        religion = protestant
+        size = 10
+    }
+
+    artisans = {
+        culture = french
+        religion = protestant
+        size = 95
+    }
+
+    soldiers = {
+        culture = french
+        religion = protestant
+        size = 48
+    }
+
+    farmers = {
+        culture = french
+        religion = protestant
+        size = 76
+    }
+
+    artisans = {
+        culture = afro_antillean
+        religion = protestant
+        size = 143
+    }
+
+    clergymen = {
+        culture = afro_antillean
+        religion = protestant
+        size = 24
+    }
+
+    soldiers = {
+        culture = afro_antillean
+        religion = protestant
+        size = 48
+    }
+
+    farmers = {
+        culture = afro_antillean
+        religion = protestant
+        size = 404
+    }
+
+    slaves = {
+        culture = afro_antillean
+        religion = protestant
+        size = 2803
+    }
+}
+#Maripasoula (3000/750 POPS)
+2246 = {
+    aristocrats = {
+        culture = amazonian
+        religion = animist
+        size = 10
+    }
+
+    clergymen = {
+        culture = amazonian
+        religion = animist
+        size = 15
+    }
+
+    artisans = {
+        culture = amazonian
+        religion = animist
+        size = 35
+    }
+
+    soldiers = {
+        culture = amazonian
+        religion = animist
+        size = 10
+    }
+
+    farmers = {
+        culture = amazonian
+        religion = animist
+        size = 680
+    }
+}

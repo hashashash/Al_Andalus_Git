@@ -1,0 +1,128 @@
+
+
+army = {
+	name = "Army of the Malian Empire"
+	location = 1880
+	
+    regiment = {
+		name= "Almami's Cavalry"
+		type = cavalry
+	    home = 1880
+	}
+    regiment = {
+		name= "Infantry 1"
+		type = infantry
+	    home = 1881
+	}
+	    regiment = {
+		name= "Infantry 2"
+		type = infantry
+	    home = 1882
+	}
+	    regiment = {
+		name= "Infantry 3"
+		type = infantry
+	    home = 1798
+	}
+	    regiment = {
+		name= "Infantry 4"
+		type = infantry
+	    home = 1900
+	}
+	    regiment = {
+		name= "Irregular 1"
+		type = irregular
+	    home = 1796
+	}
+	    regiment = {
+		name= "Irregular 2"
+		type = irregular
+	    home = 1795
+	}
+	    regiment = {
+		name= "Irregular 3"
+		type = irregular
+	    home = 1797
+	}
+	    regiment = {
+		name= "Irregular 4"
+		type = irregular
+	    home = 1881
+	}
+	    regiment = {
+		name= "Irregular 5"
+		type = irregular
+	    home = 1878
+	}
+	    regiment = {
+		name= "Infantry 5"
+		type = infantry
+	    home = 1879
+	}
+	    regiment = {
+		name= "Infantry 6"
+		type = infantry
+	    home = 1798
+	}
+}
+
+army = {
+	name = "Jihadi Army"
+	location = 1798
+	
+    regiment = {
+		name= "Cavalry 1"
+		type = cavalry
+	    home = 1795
+	}
+	regiment = {
+		name= "Cavalry 2"
+		type = cavalry
+	    home = 1799
+	}
+	regiment = {
+		name= "Cavalry 3"
+		type = cavalry
+	    home = 1797
+	}
+    regiment = {
+		name= "Infantry 7"
+		type = infantry
+	    home = 1801
+	}
+	    regiment = {
+		name= "Infantry 8"
+		type = infantry
+	    home = 1801
+	}
+	    regiment = {
+		name= "Infantry 9"
+		type = infantry
+	    home = 1798
+	}
+	    regiment = {
+		name= "Infantry 10"
+		type = infantry
+	    home = 1898
+	}
+	    regiment = {
+		name= "Irregular 6"
+		type = irregular
+	    home = 	1800
+	}
+	    regiment = {
+		name= "Irregular 7"
+		type = irregular
+	    home = 1794
+	}
+	    regiment = {
+		name= "Irregular 8"
+		type = irregular
+	    home = 1797
+	}
+	    regiment = {
+		name= "Irregular 9"
+		type = irregular
+	    home = 1795
+	}
+}

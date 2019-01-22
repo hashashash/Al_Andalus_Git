@@ -1,0 +1,5 @@
+owner = AF4
+controller = AF4
+add_core = AF4
+trade_goods = coal
+life_rating = 35

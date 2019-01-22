@@ -1,0 +1,310 @@
+#####################################################################
+#																	#
+#         					Korean Events							#
+#																	#
+#####################################################################
+
+#The Ganghwa Incident
+country_event = {
+	id = 85010
+	title = "EVTNAME85010" #The Ganghwa Incident
+	desc = "EVTDESC85010"
+	news = yes
+	news_desc_long = "EVTDESC85010_NEWS_LONG"
+	news_desc_medium = "EVTDESC85010_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC85010_NEWS_SHORT"
+	picture = "ship_attacked"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = TKG
+		}
+		war = no
+		civilized = yes
+		KOR = {
+			exists = yes
+			civilized = no
+			OR = {
+				has_country_modifier = uncivilized_isolationism
+				vassal_of = CHI
+			}
+		}
+		NOT = {
+			num_of_revolts = 1
+			war_policy = pacifism
+			is_our_vassal = KOR
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.5
+			muzzle_loaded_rifles = 1
+		}
+		modifier = {
+			factor = 0.5
+			breech_loaded_rifles = 1
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { year = 1865 }
+		}
+		modifier = {
+			factor = 1.2
+			year = 1865
+			NOT = { year = 1870 }
+		}
+		modifier = {
+			factor = 0.5
+			year = 1875
+		}
+		modifier = {
+			factor = 0.1
+			year = 1880
+		}
+	}
+	
+	option = {
+		name = "Demand an apology as well as the treaty."
+		KOR = { country_event = 85011 }
+	}
+	
+	option = {
+		name = "This is not in our interest."
+		prestige = -20
+		leave_alliance = KOR
+		relation = { who = KOR value = -100 }
+		random_country = {
+			limit = { is_our_vassal = KOR }
+			leave_alliance = THIS
+			relation = { who = THIS value = -50 }
+			add_casus_belli = {
+				target = THIS
+				type = release_puppet
+				months = 60
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 85011
+	title = "EVTNAME85010" #The Ganghwa Incident - to Korea
+	desc = "EVTDESC85011"
+	picture = "ship_attacked"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "There is nothing we can do. Sign the treaty."
+		prestige = -10
+		remove_country_modifier = uncivilized_isolationism
+		add_country_modifier = {
+			name = "western_influences"
+			duration = -1
+		}
+		random_country = {
+			limit = { is_our_vassal = THIS }
+			release_vassal = THIS
+			country_event = 85012
+		}
+		FROM = { country_event = 85013 }
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0.5
+				part_of_sphere = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "Never! Let them do their worst!"
+		FROM = { country_event = 85014 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 5
+				part_of_sphere = yes
+			}
+			modifier = {
+				factor = 0
+				in_sphere = FROM
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 85012
+	title = "EVTNAME85010" #The Ganghwa Incident - to Vassal Owner
+	desc = "EVTDESC85012"
+	picture = "ship_attacked"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Outrageous!"
+		random_country = {
+			limit = {
+				OR = {
+					tag = JAP
+					tag = TKG
+				}
+				exists = yes
+			}
+			relation = { who = THIS value = -100 }
+			leave_alliance = THIS
+			add_casus_belli = {
+				target = THIS
+				type = humiliate
+				months = 12
+			}
+		}
+		relation = { who = FROM value = -50 }
+		leave_alliance = FROM
+		casus_belli = {
+			target = FROM
+			type = make_puppet
+			months = 12
+		}
+	}
+}
+
+country_event = {
+	id = 85013
+	title = "$FROMCOUNTRY$ Has Agreed" #Korea Has Agreed - to Japan
+	desc = "The Korean government has caved to our delegation and signed the Treaty of Ganghwa."
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Excellent."
+		prestige = 10
+		relation = { who = FROM value = 100 }
+		random_owned = {
+			limit = {
+				owner = { is_greater_power = yes }
+			}
+			owner = {
+				diplomatic_influence = { who = FROM value = 100 }
+			}
+		}
+		create_alliance = FROM
+	}
+}
+
+country_event = {
+	id = 85014
+	title = "$FROMCOUNTRY$ Has Refused!" #Korea Has Refused - to Japan
+	desc = "The Korean government has thumbed its nose at our delegation. The $COUNTRY_ADJ$ people cry out for war."
+	picture = "asian_administration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "So be it."
+		set_country_flag = rejected_ganghwa_treaty
+		casus_belli = {
+			target = FROM
+			type = cut_down_to_size
+			months = 12
+		}
+		random_owned = {
+			limit = {
+				owner = { is_greater_power = yes }
+			}
+			owner = {
+				casus_belli = {
+					target = FROM
+					type = add_to_sphere
+					months = 60
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = FROM
+				is_vassal = no
+			}
+			THIS = {
+				war = {
+					target = FROM
+					attacker_goal = {
+						casus_belli = cut_down_to_size
+					}
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				is_our_vassal = FROM
+			}
+			relation = { who = THIS value = -50 }
+			leave_alliance = THIS
+			add_casus_belli = {
+				target = THIS
+				type = release_puppet
+				months = 60
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 85015
+	title = "EVTNAME85015" #Korean Surrender
+	desc = "EVTDESC85015"
+	picture = "asian_administration"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "It seems we have little choice."
+		prestige = -20
+		remove_country_modifier = uncivilized_isolationism
+		add_country_modifier = {
+			name = "western_influences"
+			duration = -1
+		}
+		random_country = {
+			limit = { is_our_vassal = THIS }
+			release_vassal = THIS
+			relation = { who = FROM value = -100 }
+			relation = { who = THIS value = -50 }
+			leave_alliance = THIS
+			leave_alliance = FROM
+			casus_belli = {
+				target = FROM
+				type = humiliate
+				months = 12
+			}
+			casus_belli = {
+				target = THIS
+				type = make_puppet
+				months = 12
+			}
+		}
+		FROM = {
+			clr_country_flag = rejected_ganghwa_treaty
+			end_war = THIS
+			relation = { who = THIS value = 200 }
+			random_owned = {
+				limit = {
+					owner = { is_greater_power = yes }
+				}
+				owner = {
+					diplomatic_influence = { who = THIS value = 100 }
+				}
+			}
+			create_alliance = THIS
+		}
+	}
+}
+
+	

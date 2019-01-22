@@ -1,0 +1,6 @@
+trade_goods = fish
+life_rating = 15
+terrain = plains
+owner = AD3
+controller = AD3
+colonial = 2

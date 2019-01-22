@@ -1,0 +1,81 @@
+
+#Armies
+army = {
+	name="1st Army"
+	location=730
+	regiment = {
+		name="1st Padua Infantry"
+		type=infantry
+		home=731
+	}
+        regiment = {
+		name="2 Infantry"
+		type=infantry
+		home=728
+	}
+        regiment = {
+		name="3 Infantry"
+		type=infantry
+		home=743
+	}
+        regiment = {
+		name="4 Infantry"
+		type=infantry
+		home=731
+	}
+        regiment = {
+		name="5 Infantry"
+		type=infantry
+		home=741
+	}
+}
+
+army = {
+	name="2nd Army"
+	location=742
+	regiment = {
+		name="1st Florence Cavalry"
+		type=cavalry
+		home=744
+	}
+        regiment = {
+		name="2 Cavalry"
+		type=cavalry
+		home=726
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=731
+	ship = {
+		name="1st Padua Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Padua Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Padua Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Padua Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Padua Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=731
+	ship = {
+		name="1st Padua Frigate"
+		type=frigate
+	}
+}
+

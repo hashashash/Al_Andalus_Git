@@ -1,0 +1,47 @@
+army = {
+	name = "Army of Bijapur"
+	location = 1300
+	regiment = {
+		name= "1.Irregular Horse"
+		type = cavalry
+		home = 1300
+	}
+
+	regiment = {
+		name= "2.Irregular Horse"
+		type = cavalry
+		home = 1286
+	}
+
+	regiment = {
+		name= "3.Irregular Horse"
+		type = cavalry
+		home = 1283
+	}
+
+	regiment = {
+		name= "1.Bijapur Contingent"
+		type = infantry
+		home = 1283
+	}
+
+	regiment = {
+		name= "2.Bijapur  Contingent"
+		type = infantry
+		home = 1286
+	}
+
+	regiment = {
+		name= "3.Bijapur  Contingent"
+		type = infantry
+		home = 1300
+	}
+
+	regiment = {
+		name= "4.Bijapur  Contingent"
+		type = artillery
+		home = 1283
+	}
+
+}
+

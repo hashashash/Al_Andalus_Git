@@ -1,0 +1,6 @@
+owner = SVY
+controller = SVY
+add_core = SVY
+add_core = CRS
+trade_goods = fish
+life_rating = 35

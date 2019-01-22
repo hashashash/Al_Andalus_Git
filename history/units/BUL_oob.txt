@@ -1,0 +1,38 @@
+leader = {
+	name = "Tsar Antonov"
+	type = land
+	date="1836.1.1"
+	personality = openminded
+	background = gifted_administrator
+}
+
+army = {
+	name = "Army of the Kingdom of Bulgaria"
+	location = 809
+
+	regiment = {
+		name= "1st Bulgarian Infantry"
+		type = infantry
+		home = 809
+	}
+
+	regiment = {
+		name= "2nd Bulgarian Infantry"
+		type = infantry
+		home = 816
+	}
+
+	regiment = {
+		name= "3rd Bulgarian Infantry"
+		type = infantry
+		home = 815
+	}
+
+	regiment = {
+		name= "1st Bulgarian Cav"
+		type = cavalry
+		home = 817
+	}
+
+}
+

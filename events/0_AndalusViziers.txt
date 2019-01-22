@@ -1,0 +1,1544 @@
+############## MONARCHIES############################
+
+country_event = {
+	id = 80000
+	title = "A New Grand Vizier"
+	desc = "EVT80000DESC"
+	picture = "danishgovernment"
+	trigger = {
+	    tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "A worthy appointment."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = expert_diplomat
+			duration = 3650
+		}
+	}
+}
+
+country_event = {
+	id = 80001
+	title = "A New Grand Vizier"
+	desc = "EVT80001DESC"
+	picture = "danishgovernment"
+	trigger = {
+	    tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		civilized = yes
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "I'm sure he'll be perfect for the job."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = successful_industrialist
+			duration = 3650
+		}
+	}	
+}
+
+country_event = {
+	id = 80002
+	title = "A New Grand Vizier"
+	desc = "EVT80002DESC"
+	picture = "danishgovernment"
+	trigger = {
+	    tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		civilized = yes
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "An inexperienced youngster, let's hope he's worth more than he looks."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = ivory_tower_intellectual
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80003
+	title = "A New Grand Vizier"
+	desc = "EVT80003DESC"
+	picture = "danishgovernment"
+	trigger = {
+	    tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		civilized = yes
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "The perfect choice."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = man_of_the_people
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80004
+	title = "A New Grand Vizier"
+	desc = "EVT80004DESC"
+	picture = "danishgovernment"
+	trigger = {
+	    tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "He's a family friend, he'll do just fine."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = landed_gentleman
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80005
+	title = "A New Grand Vizier"
+	desc = "EVT80005DESC"
+	picture = "danishgovernment"
+	trigger = {
+	    tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "Hmm... odd choice."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = military_man
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80006
+	title = "A New Grand Vizier"
+	desc = "EVT80006DESC"
+	picture = "danishgovernment"
+	trigger = {
+	    tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+			num_of_ports = 1
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "A suitable enough decision, I authorise it."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = lord_admiral
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80007
+	title = "A New Grand Vizier"
+	desc = "EVT80007DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "I am the Sultan, it is my decision!"
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = raving_loon
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80008
+	title = "A New Grand Vizier"
+	desc = "EVT80008DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "A perfect choice."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = luddite
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80009
+	title = "A New Grand Vizier"
+	desc = "EVT80009DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "He's just the man for th job."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = great_statesman
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80010
+	title = "A New Grand Vizier"
+	desc = "EVT80010DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "A good choice."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = backroom_boy
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80011
+	title = "A New Grand Vizier"
+	desc = "EVT80011DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		civilized = yes
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "A reformist, eh? Very well, then."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = great_reformer
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80012
+	title = "A New Grand Vizier"
+	desc = "EVT80012DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "He's a good man, he'll do well."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = gauche_buffoon
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80013
+	title = "A New Grand Vizier"
+	desc = "EVT80013DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "He's a quick learner, I'm sure he'll do very well."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = administrative_genius
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80014
+	title = "A New Grand Vizier"
+	desc = "EVT80014DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "We need a change of pace around here, and he's certainly that."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = visionary_thinker
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80015
+	title = "A New Grand Vizier"
+	desc = "EVT80015DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "He's nothing special, apparently, but I'll authorise the choice."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = competent_placeholder
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80016
+	title = "A New Grand Vizier"
+	desc = "EVT80016DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "He's a nobleman, of course he's a worthy candidate."
+
+		add_country_modifier = {
+			name = imperious_autocrat
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80017
+	title = "A New Grand Vizier"
+	desc = "EVT80017DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "We need a firm disciplinarian around here anyways."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = prince_of_terror
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80018
+	title = "A New Grand Vizier"
+	desc = "EVT80018DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "The perfect choice, if I do say so myself."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = efficient_sociopath
+			duration = 3650
+		}
+	}	
+}
+country_event = {
+	id = 80019
+	title = "A New Grand Vizier"
+	desc = "EVT80019DESC"
+	picture = "danishgovernment"
+	trigger = {
+	tag = ADU
+		NOT = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "I'm sure he'll do great."
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = pig_headed_isolationist
+			duration = 3650
+		}
+	}	
+}
+
+country_event = {
+	id = 80020
+	title = "Grand Vizier Assassinated!"
+	desc = "EVT80020DESC"
+	picture = "danishgovernment"
+	trigger = {
+		OR = {
+			has_country_modifier = expert_diplomat
+			has_country_modifier = successful_industrialist
+			has_country_modifier = ivory_tower_intellectual
+			has_country_modifier = man_of_the_people
+			has_country_modifier = landed_gentleman
+			has_country_modifier = military_man
+			has_country_modifier = lord_admiral
+			has_country_modifier = raving_loon
+			has_country_modifier = luddite
+			has_country_modifier = great_statesman
+			has_country_modifier = backroom_boy
+			has_country_modifier = great_reformer
+			has_country_modifier = gauche_buffoon
+			has_country_modifier = administrative_genius
+			has_country_modifier = visionary_thinker
+			has_country_modifier = competent_placeholder
+			has_country_modifier = imperious_autocrat
+			has_country_modifier = prince_of_terror
+			has_country_modifier = efficient_sociopath
+			has_country_modifier = pig_headed_isolationist
+			has_country_modifier = ambitious_union_boss
+			has_country_modifier = dour_economist
+			has_country_modifier = otto_von_bismarck
+			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = power_vacuum
+		}
+		average_militancy = 5
+		OR = { 
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+	}
+	
+	option = {
+		name = "A tragedy!"
+		remove_country_modifier = expert_diplomat
+		remove_country_modifier = successful_industrialist
+		remove_country_modifier = ivory_tower_intellectual
+		remove_country_modifier = man_of_the_people
+		remove_country_modifier = landed_gentleman
+		remove_country_modifier = military_man
+		remove_country_modifier = lord_admiral
+		remove_country_modifier = raving_loon
+		remove_country_modifier = luddite
+		remove_country_modifier = great_statesman
+		remove_country_modifier = backroom_boy
+		remove_country_modifier = great_reformer
+		remove_country_modifier = gauche_buffoon
+		remove_country_modifier = administrative_genius
+		remove_country_modifier = visionary_thinker
+		remove_country_modifier = competent_placeholder
+		remove_country_modifier = imperious_autocrat
+		remove_country_modifier = prince_of_terror
+		remove_country_modifier = efficient_sociopath
+		remove_country_modifier = pig_headed_isolationist
+		remove_country_modifier = ambitious_union_boss
+		remove_country_modifier = dour_economist
+		add_country_modifier = {
+			name = national_confusion
+			duration = 365
+		}
+
+	}
+}

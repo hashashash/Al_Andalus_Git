@@ -1,0 +1,80 @@
+
+MOR = {
+	truce_until = 1840.1.1
+}
+
+ADU = {
+	truce_until = 1840.1.1
+}
+
+LEO = {
+	truce_until = 1840.1.1
+}
+
+CAT = {
+	truce_until = 1840.1.1
+}
+
+RUS = {
+	truce_until = 1840.1.1
+}
+
+HAN = {
+	value = 45		#relation
+	truce_until = 1840.1.1
+}
+
+FRA = {
+	value = -90		#relation
+	truce_until = 1840.1.1
+}
+
+BAV = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+HUN = {
+	truce_until = 1840.1.1
+}
+
+SER = {
+	truce_until = 1840.1.1
+}
+leader = {
+	name = "Louis de Orole"
+	type = land
+	date = 1834.1.1
+	personality = inspiring
+	background = gifted_administrator
+}
+
+army = {
+	name = "Army of Provence"
+	location = 470
+	regiment = {
+		name= "1.Cavalry"
+		type = cavalry
+		home = 467
+	}
+	regiment = {
+		name= "2.Cavalry"
+		type = cavalry
+		home = 468
+	}
+	regiment = {
+		name= "1.Infantry"
+		type = infantry
+		home = 454
+	}
+	regiment = {
+		name= "2.Infantry"
+		type = infantry
+		home = 470
+	}
+	regiment = {
+		name= "3.Infantry"
+		type = infantry
+		home = 451
+	}
+}

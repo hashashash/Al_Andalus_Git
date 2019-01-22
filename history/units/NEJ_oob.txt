@@ -1,0 +1,8 @@
+leader = {
+	name = "Mohammed ibn Saud"
+	type = land
+	date = 1836.1.1
+	personality = intuitive 
+	background = aristocrat
+}
+

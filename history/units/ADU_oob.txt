@@ -1,0 +1,406 @@
+
+#Starting Relations
+
+MOR = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+LEO = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+CAT = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+RUS = {
+	value = 200		#relation
+	truce_until = 1840.1.1
+}
+
+HAN = {
+	value = -60		#relation
+	truce_until = 1840.1.1
+}
+
+FRA = {
+	value = 140		#relation
+	truce_until = 1840.1.1
+}
+
+BAV = {
+	value = 140		#relation
+	truce_until = 1840.1.1
+}
+
+HUN = {
+	value = 140		#relation
+	truce_until = 1840.1.1
+}
+
+AD5 = {
+	value = -60		#relation
+}
+
+AD2 = {
+	value = 140		#relation
+}
+
+AD1 = {
+	value = -25		#relation
+}
+
+SVY = {
+	value = 90		#relation
+	truce_until = 1840.1.1
+}
+
+PAP = {
+	value = 90		#relation
+}
+
+SER = {
+	value = -100		#relation
+	truce_until = 1840.1.1
+}
+
+BUL = {
+	value = 90		#relation
+}
+
+GRE = {
+	value = 90		#relation
+}
+
+
+#Commanders and Admirals
+
+leader = {
+	name = "Khuzaymah Zulfiqar"
+	date = 1850.4.1
+	type = land
+	personality = doughty
+	background = aristocrat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Raed Zulfiqar"
+	date = 1800.1.1
+	type = land
+	personality = merciless
+	background = aristocrat
+	prestige = 0.2
+}
+
+leader = {
+	name = "Cyrah ibn Cyrah ibn Cyrah"
+	date = 1821.1.1
+	type = land
+	personality = deeply_religious
+	background = old_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "Muradismat ibn Rajul"
+	date = 1833.1.1
+	type = land
+	personality = romantic
+	background = madman
+	prestige = 0.0
+}
+
+leader = {
+	name = "Rahina al-Dakn"
+	date = 1831.1.1
+	type = land
+	personality = expert
+	background = war_college
+	prestige = 0.0
+}
+
+leader = {
+	name = "Wilyam al-Dirsun"
+	date = 1833.1.1
+	type = land
+	personality = cautious
+	background = butcher
+	prestige = 0.0
+}
+
+leader = {
+	name = "Balanabus al-Bita"
+	date = 1821.1.1
+	type = land
+	personality = pusillanimous
+	background = megalomania
+	prestige = 0.0
+}
+
+leader = {
+	name = "Tanin al-Iblis"
+	date = 1830.1.1
+	type = land
+	personality = craven
+	background = generals_aide
+	prestige = 0.0
+}
+
+leader = {
+	name = "Ka'baald al-Shujae"
+	date = 1828.1.1
+	type = land
+	personality = mediocre
+	background = aristocrat
+	prestige = 0.0
+}
+
+leader = {
+	name = "Yaqub ibn Najab"
+	date = 1835.1.1
+	type = land
+	personality = clever
+	background = cavalry_school
+	prestige = 0.0
+}
+
+leader = {
+	name = "al-Astifadat al-Qutili"
+	date = 1818.1.1
+	type = land
+	personality = doughty
+	background = elderly
+	prestige = 0.0
+}
+
+leader = {
+	name = "Uthman al-Houd"
+	date = 1821.1.1
+	type = land
+	personality = impulsive
+	background = old_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "Ibn Bibil"
+	date = 1821.1.1
+	type = land
+	personality = harsh
+	background = old_school
+	prestige = 0.1
+}
+
+
+leader = {
+	name = "Sayf al-Talasi"
+	date = 1821.1.1
+	type = sea
+	personality = brilliant
+	background = natural_born_leader
+	prestige = 0.1
+}
+
+leader = {
+	name = "Abu Affi"
+	date = 1821.1.1
+	type = sea
+	personality = lackluster 
+	background = disgraced
+	prestige = 0.0
+}
+
+army = {
+	name = "First Andalusi Army"
+	location = 485
+
+	regiment = {
+		name= "1. Tulaytullah"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "2. Tulaytullah"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "1. Gharnatah"
+		type = infantry
+		home = 513
+	}
+
+	regiment = {
+		name= "1. Lishbuna"
+		type = infantry
+		home = 521
+	}
+
+	regiment = {
+		name= "1. Yabura"
+		type = infantry
+		home = 525
+	}
+
+	regiment = {
+		name= "2. Lishbuna"
+		type = artillery
+		home = 521
+	}
+
+	regiment = {
+		name= "1. Qunturah"
+		type = artillery
+		home = 520
+	}
+
+	regiment = {
+		name= "3. Qadis"
+		type = cavalry
+		home = 512
+	}
+}
+
+army = {
+	name = "Second Andalusi Army"
+	location = 491
+
+	regiment = {
+		name= "1. Mansha"
+		type = infantry
+		home = 509
+	}
+
+	regiment = {
+		name= "1. Qurtubah"
+		type = infantry
+		home = 510
+	}
+
+	regiment = {
+		name= "2. Qurtubah"
+		type = infantry
+		home = 510
+	}
+
+	regiment = {
+		name= "1. Batalyaws"
+		type = infantry
+		home = 484
+	}
+
+	regiment = {
+		name= "1. Qadis"
+		type = infantry
+		home = 512
+	}
+
+	regiment = {
+		name= "1. Majrit"
+		type = artillery
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Qadis"
+		type = cavalry
+		home = 512
+	}
+
+}
+
+
+navy = {
+	name = "Andalusi War Fleet"
+	location = 521
+	
+	ship = {
+		name = "Fakhr Qadis"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Al-Hakam"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Al-Utman"
+		type = manowar
+	}
+
+	ship = {
+		name= "Al-Ali"
+		type = manowar
+	}
+
+	ship = {
+		name= "Al-Galind"
+		type = manowar
+	}
+
+	
+	ship = {
+		name = "Al-Azar"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Al-Tariq"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Al-Ayyub"
+		type = frigate
+	}
+
+	ship = {
+		name= "Al-Mahdi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Al-Hafid"
+		type = frigate
+	}
+
+}
+
+
+navy = {
+	name = "Andalusi Transport Fleet"
+	location = 527
+
+	ship = {
+		name= "1. Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4. Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5. Transport"
+		type = clipper_transport
+	}
+
+}

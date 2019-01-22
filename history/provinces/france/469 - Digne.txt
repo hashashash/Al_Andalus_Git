@@ -1,0 +1,8 @@
+owner = SVY
+controller = SVY
+
+trade_goods = silk
+life_rating = 32
+
+
+add_core = SVY

@@ -1,0 +1,5 @@
+owner = AF2
+controller = AF2
+add_core = AF2
+trade_goods = iron
+life_rating = 35

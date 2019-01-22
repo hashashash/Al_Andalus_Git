@@ -1,0 +1,18 @@
+owner = AD1
+controller = AD1
+
+
+trade_goods = fish
+life_rating = 35
+naval_base = 1
+add_core = AD1
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = lumber_mill
+	upgrade = yes
+}

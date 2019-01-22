@@ -1,0 +1,7 @@
+owner = CYR
+controller = CYR
+
+trade_goods = grain
+life_rating = 35
+add_core = AD2
+add_core = CYR

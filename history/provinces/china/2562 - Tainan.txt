@@ -1,0 +1,6 @@
+owner = BEN
+controller = BEN
+add_core = TAI
+trade_goods = tea
+life_rating = 32
+colonial = 2

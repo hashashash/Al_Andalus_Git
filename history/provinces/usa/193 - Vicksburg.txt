@@ -1,0 +1,13 @@
+owner = AD8
+controller = AD8
+
+trade_goods = grain
+life_rating = 35
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}
+1861.1.1 = { railroad = 3 }
+
+add_core = AD8

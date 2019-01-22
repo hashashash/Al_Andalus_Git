@@ -1,0 +1,7 @@
+add_core = MOR
+trade_goods = fish
+life_rating = 10
+owner = MOR
+controller = MOR
+add_core = MOR
+naval_base = 2

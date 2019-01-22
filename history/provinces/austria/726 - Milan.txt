@@ -1,0 +1,8 @@
+owner = BAV
+controller = BAV
+add_core = LOM
+add_core = ITA
+trade_goods = iron
+life_rating = 35
+fort = 1
+add_core = BAV

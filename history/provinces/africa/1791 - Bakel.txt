@@ -1,0 +1,8 @@
+owner = MLI
+controller = MLI
+add_core = SEG
+trade_goods = cattle
+life_rating = 15
+
+add_core = WOL
+add_core = MLI

@@ -1,0 +1,6 @@
+owner = AG4
+controller = AG4
+add_core = AG4
+add_core = CHI
+trade_goods = tea
+life_rating = 32

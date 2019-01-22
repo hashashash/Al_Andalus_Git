@@ -1,0 +1,227 @@
+political_decisions = {
+
+	
+	french_military_mission_to_japan = {
+		potential = {
+			tag = FRA
+			AND = {
+				exists = BEN
+				BEN= { civilized = no }
+			}
+			NOT = {
+				has_country_flag = military_mission_in_japan
+			}
+		}
+		
+		allow = {
+			iron_steamers = 1
+			NOT = { war_with = BEN }
+			NOT = { truce_with = BEN }
+		}
+		
+		effect = {
+			random_country = {
+				limit = {
+					tag = BEN
+					exists = yes
+				}
+				relation = { who = FRA value = 50 }
+				years_of_research = 0.2
+			}
+			prestige = 20
+			set_country_flag = military_mission_in_japan
+		}
+	}
+	
+	palais_garnier = {
+		potential = {
+			NOT = {
+				has_country_flag = palais_garnier_built
+			}
+			tag = FRA
+			owns = 425
+		}
+		
+		allow = {
+			expressionism = 1
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = palais_garnier_built
+		}
+	}
+	
+	the_rhine_crisis = {
+		potential = {
+			tag = FRA
+			exists = HAN
+			HAN = {
+				owns = 572
+				owns = 575
+			}
+			NOT = {
+				has_country_flag = crisis_on_the_rhine
+			}
+		}
+		
+		allow = {
+			state_n_government = 1
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = north_german
+						primary_culture = south_german
+					}
+				}
+				relation = {
+					who = THIS
+					value = -100
+				}
+			}
+			casus_belli = {
+				target = HAN
+				type = acquire_state
+				months = 12
+			}
+			casus_belli = {
+				target = HAN
+				type = free_peoples
+				months = 12
+			}
+			prestige = 10
+			badboy = 4
+			set_country_flag = crisis_on_the_rhine
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.5
+			}
+		}
+	}
+	
+	build_the_eiffel_tower = {
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = the_eiffel_tower_was_built
+			}
+			has_country_flag = world_fair_planner
+		}
+		
+		allow = {
+			cheap_steel = 1
+		}
+		
+		effect = {
+			425 = {
+				add_province_modifier = {
+					name = the_eiffel_tower
+					duration = -1
+				}
+			}
+			prestige = 20
+			set_country_flag = the_eiffel_tower_was_built
+		}
+	}
+	
+	haussmanns_renovations = {
+		potential = {
+			tag = FRA
+			owns = 425
+			NOT = {
+				has_country_flag = extreme_home_makeover
+			}
+			OR = {
+				realism = 1
+				early_railroad = 1
+			}
+		}
+		
+		allow = {
+			impressionism = 1
+			iron_railroad = 1
+			business_banks = 1
+		}
+		
+		effect = {
+			425 = {
+				life_rating = 5
+			}
+			prestige = 10
+			set_country_flag = extreme_home_makeover
+		}
+	}
+	
+	annex_mayotte = {
+		picture = dreams_of_empire
+		potential = {
+			tag = FRA
+			is_greater_power = yes
+			2124 = { empty = yes }
+		}
+		
+		allow = {
+			war = no
+			medicine = 1
+		}
+		
+		effect = {
+			prestige = 3
+			2124 = {
+				secede_province = FRA
+				change_province_name = "Mayotte"
+			}
+		}
+	}
+	
+	french_language_schooling = {
+		picture = embrace_minority
+		potential = {
+			tag = FRA
+			any_owned_province = { is_core = OCC }
+			OCC = { exists = no }
+			NOT = {
+				has_country_flag = enacted_french_schooling
+				school_reforms = no_schools
+			}
+		}
+		
+		allow = {
+			war = no
+			invention = biased_multiculturalism
+			invention = social_darwinism
+		}
+		
+		effect = {
+			set_country_flag = enacted_french_schooling
+			remove_accepted_culture = occitan
+			remove_accepted_culture = picard
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = OCC
+						is_core = BRT
+						culture = picard
+					}
+				}
+				add_province_modifier = {
+					name = french_cultural_unity
+					duration = -1
+				}
+			}
+			OCC = { all_core = { remove_core = OCC } }
+			random_owned = {
+				limit = {
+					BRT = { exists = no }
+				}
+				BRT = { all_core = { remove_core = BRT } }
+			}
+		}
+	}
+}

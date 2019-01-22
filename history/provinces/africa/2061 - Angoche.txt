@@ -1,0 +1,5 @@
+owner = GAZ
+add_core = AGC
+controller = GAZ
+trade_goods = tobacco
+life_rating = 35

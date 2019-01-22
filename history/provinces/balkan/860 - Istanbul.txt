@@ -1,0 +1,9 @@
+owner = RUS
+controller = RUS
+add_core = AD5
+add_core = BUL
+add_core = GRE
+trade_goods = fruit
+life_rating = 35
+naval_base = 1
+fort = 1

@@ -1,0 +1,200 @@
+
+SYR = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+	truce_until = 1840.1.1
+}
+
+AH5 = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+MOR = {
+	value = 90		#relation
+	truce_until = 1840.1.1
+}
+
+RUS = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+FRA = {
+	truce_until = 1840.1.1
+}
+
+HUN = {
+	value = -100		#relation
+	truce_until = 1840.1.1
+}
+
+leader = {
+	name = "Namik"
+	date = 1836.1.1
+	type = land
+	personality = expert
+	background = diplomat
+	prestige = 0.0
+}
+
+leader = {
+	name = "Abdülkerim"
+	date = 1836.1.1
+	type = land
+	personality = active_p
+	background = war_college
+	prestige = 0.0
+}
+
+leader = {
+	name = "Yaver"
+	date = 1836.1.1
+	type = sea
+	personality = diplomatic
+	background = gifted_administrator
+	prestige = 0.1
+}
+
+
+army = {
+	name = "Army of Anatolia"
+	location = 868
+	regiment = {
+		name= "5. Infantry"
+		type = infantry
+		home = 868
+	}
+
+	regiment = {
+		name= "6. Infantry"
+		type = infantry
+		home = 867
+	}
+
+	regiment = {
+		name= "7. Infantry"
+		type = infantry
+		home = 869
+	}
+
+	regiment = {
+		name= "8. Infantry"
+		type = artillery
+		home = 870
+	}
+
+	regiment = {
+		name= "1. Infantry"
+		type = irregular
+		home = 879
+	}
+
+	regiment = {
+		name= "2. Infantry"
+		type = irregular
+		home = 883
+	}
+
+}
+
+army = {
+	name = "Army of the Levant"
+	location = 895
+	regiment = {
+		name= "4. Cavalry"
+		type = cuirassier
+		home = 879
+	}
+
+	regiment = {
+		name= "5. Cavalry"
+		type = cuirassier
+		home = 873
+	}
+
+	regiment = {
+		name= "6. Cavalry"
+		type = cuirassier
+		home = 875
+	}
+
+	regiment = {
+		name= "9. Infantry"
+		type = infantry
+		home = 895
+	}
+
+	regiment = {
+		name= "10. Infantry"
+		type = infantry
+		home = 872
+	}
+
+	regiment = {
+		name= "2. Irregular"
+		type = irregular
+		home = 869
+	}
+
+	regiment = {
+		name= "3. Irregular"
+		type = irregular
+		home = 871
+	}
+
+}
+
+
+navy = {
+	name = "Vakhtani Navy"
+	location = 863
+
+	ship = {
+		name= "Heybetendaz"
+		type = manowar
+	}
+
+	ship = {
+		name= "Melek i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sayyad i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Malbaik Nesuret"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bedr i Zafar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Meskeni Ghazi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fakim i Zafar"
+		type = frigate
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+
+}

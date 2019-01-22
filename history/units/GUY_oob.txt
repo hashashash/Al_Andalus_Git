@@ -1,0 +1,35 @@
+leader = {
+	name = "Phillipe-Louise"
+	type = land
+	date = 1836.1.1
+	background = generals_aide
+	personality = bold
+}
+
+army = {
+	name = "Army of the Great Republic"
+	location = 2240
+	regiment = {
+		name= "1. Brigad"
+		type = infantry
+		home = 2240
+	}
+
+	regiment = {
+		name= "2. Brigad"
+		type = infantry
+		home = 2239
+	}
+
+	regiment = {
+		name= "3. Brigad"
+		type = infantry
+		home = 2410
+	}
+	regiment = {
+		name= "4. Brigad Cav"
+		type = cavalry
+		home = 2410
+	}
+}
+

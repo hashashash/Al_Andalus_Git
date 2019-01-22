@@ -1,0 +1,5 @@
+owner = AH3
+controller = AH3
+add_core = AH3
+trade_goods = fish
+life_rating = 35

@@ -1,0 +1,107 @@
+army = {
+	name = "Army of the Empire of Orissa"
+	location = 1262
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = infantry
+		home = 1262
+	}
+	regiment = {
+		name= "2.Balangir Contingent"
+		type = infantry
+		home = 1305
+	}
+	regiment = {
+		name= "3.Balangir Contingent"
+		type = infantry
+		home = 1263
+	}
+	regiment = {
+		name= "4.Balangir Contingent"
+		type = infantry
+		home = 1251
+	}
+	regiment = {
+		name= "5.Balangir Contingent"
+		type = infantry
+		home = 1261
+	}
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = cavalry
+		home = 1262
+	}
+	regiment = {
+		name= "1.Balangir Contingent"
+		type = cavalry
+		home = 1250
+	}
+	regiment = {
+		name= "33.Balangir Contingent"
+		type = artillery
+		home = 1253
+	}
+
+	regiment = {
+		name= "32.Balangir Contingent"
+		type = artillery
+		home = 1256
+	}
+
+	regiment = {
+		name= "31.Balangir Contingent"
+		type = artillery
+		home = 1248
+	}
+
+}
+
+army = {
+	name = "Army of the Governor of Bengal"
+	location = 1256
+	regiment = {
+		name= "1.Irregular Horse"
+		type = cavalry
+		home = 2566
+	}
+
+	regiment = {
+		name= "2.Irregular Horse"
+		type = cavalry
+		home = 1257
+	}
+
+	regiment = {
+		name= "3.Irregular Horse"
+		type = cavalry
+		home = 1254
+	}
+
+	regiment = {
+		name= "1.Bengal Contingent"
+		type = infantry
+		home = 1245
+	}
+
+	regiment = {
+		name= "2.Bengal Contingent"
+		type = infantry
+		home = 1257
+	}
+
+	regiment = {
+		name= "3.Bengal Contingent"
+		type = infantry
+		home = 1247
+	}
+
+	regiment = {
+		name= "4.Bengal Contingent"
+		type = artillery
+		home = 1255
+	}
+
+}
+
+
+

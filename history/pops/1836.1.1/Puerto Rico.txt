@@ -1,0 +1,118 @@
+#Puerto Rico (356000)
+#Ruled by Spain 1836
+#Puerto Rico (356000/89000 POPS)
+2222 = {
+    aristocrats = {
+        culture = maghrebi
+        religion = sunni
+        size = 781
+    }
+
+    bureaucrats = {
+        culture = maghrebi
+        religion = sunni
+        size = 233
+    }
+
+    clergymen = {
+        culture = maghrebi
+        religion = sunni
+        size = 937
+    }
+
+    artisans = {
+        culture = maghrebi
+        religion = sunni
+        size = 2500
+    }
+
+    soldiers = {
+        culture = maghrebi
+        religion = sunni
+        size = 156
+    }
+
+    aristocrats = {
+        culture = caribeno
+        religion = sunni
+        size = 1375
+    }
+
+    bureaucrats = {
+        culture = caribeno
+        religion = sunni
+        size = 31
+    }
+
+    clergymen = {
+        culture = caribeno
+        religion = sunni
+        size = 250
+    }
+
+    artisans = {
+        culture = caribeno
+        religion = sunni
+        size = 3750
+    }
+
+    soldiers = {
+        culture = caribeno
+        religion = sunni
+        size = 562
+    }
+
+    farmers = {
+        culture = caribeno
+        religion = sunni
+        size = 51062
+    }
+
+    artisans = {
+        culture = afro_caribeno
+        religion = sunni
+        size = 481
+    }
+
+    soldiers = {
+        culture = afro_caribeno
+        religion = sunni
+        size = 175
+    }
+
+    farmers = {
+        culture = afro_caribeno
+        religion = sunni
+        size = 13387
+    }
+
+    slaves = {
+        culture = afro_caribeno
+        religion = sunni
+        size = 4375
+    }
+
+    artisans = {
+        culture = maghrebi
+        religion = sunni
+        size = 1116
+    }
+
+    soldiers = {
+        culture = maghrebi
+        religion = sunni
+        size = 406
+    }
+
+    farmers = {
+        culture = maghrebi
+        religion = sunni
+        size = 31077
+    }
+
+    slaves = {
+        culture = maghrebi
+        religion = sunni
+        size = 10156
+    }
+}

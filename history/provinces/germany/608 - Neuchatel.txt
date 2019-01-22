@@ -1,0 +1,10 @@
+owner = LOR
+controller = LOR
+add_core = SWI
+add_core = LOR
+trade_goods = coal
+life_rating = 40
+
+1857.1.1 = {
+	remove_core = PRU
+}

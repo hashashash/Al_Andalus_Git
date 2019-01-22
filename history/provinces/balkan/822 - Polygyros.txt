@@ -1,0 +1,6 @@
+owner = SER
+controller = SER
+add_core = SER
+add_core = GRE
+trade_goods = tobacco
+life_rating = 35

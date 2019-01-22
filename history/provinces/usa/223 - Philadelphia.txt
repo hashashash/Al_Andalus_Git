@@ -1,0 +1,13 @@
+owner = AE1
+controller = AE1
+
+trade_goods = iron
+life_rating = 40
+
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+
+add_core = AE1

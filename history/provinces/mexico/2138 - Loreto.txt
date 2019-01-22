@@ -1,0 +1,7 @@
+owner = SON
+controller = SON
+
+trade_goods = fish
+life_rating = 35
+
+add_core = SON

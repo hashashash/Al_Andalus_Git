@@ -1,0 +1,6 @@
+trade_goods = opium
+life_rating = 35
+	owner = AD6
+	controller = AD6
+	colonial = 2
+add_core = AD6

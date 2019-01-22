@@ -1,0 +1,220 @@
+#Gibraltar : 16000
+#Ruled by Britain 1836
+#Gibraltar (16000/4000 POPS)
+517 = {
+    officers = {
+        culture = andalusi
+        religion = Sunni
+        size = 6
+    }
+
+    bureaucrats = {
+        culture = andalusi
+        religion = Sunni
+        size = 6
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = Sunni
+        size = 6
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = Sunni
+        size = 135
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = Sunni
+        size = 181
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = Sunni
+        size = 540
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = Sunni
+        size = 0
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = Sunni
+        size = 90
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = Sunni
+        size = 0
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = Sunni
+        size = 4
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = Sunni
+        size = 129
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = Sunni
+        size = 7744
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = Sunni
+        size = 129
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = Sunni
+        size = 514
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = Sunni
+        size = 16
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = Sunni
+        size = 1161
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = Sunni
+        size = 16
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = Sunni
+        size = 78
+    }
+
+    officers = {
+        culture = andalusi
+        religion = shiite
+        size = 14
+    }
+
+    bureaucrats = {
+        culture = andalusi
+        religion = shiite
+        size = 14
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = shiite
+        size = 14
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = shiite
+        size = 315
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = shiite
+        size = 424
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = shiite
+        size = 1260
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = shiite
+        size = 0
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = shiite
+        size = 210
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = shiite
+        size = 0
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = shiite
+        size = 11
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = shiite
+        size = 301
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = shiite
+        size = 18071
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = shiite
+        size = 301
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = shiite
+        size = 1201
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = shiite
+        size = 39
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = shiite
+        size = 2709
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = shiite
+        size = 39
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = shiite
+        size = 182
+    }
+}

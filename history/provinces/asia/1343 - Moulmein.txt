@@ -1,0 +1,6 @@
+owner = JOH
+controller = JOH
+add_core = JOH
+add_core = BUR
+trade_goods = grain
+life_rating = 30

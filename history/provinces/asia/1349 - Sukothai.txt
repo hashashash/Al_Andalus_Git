@@ -1,0 +1,7 @@
+owner = JOH
+controller = JOH
+add_core = SIA
+trade_goods = opium
+life_rating = 30
+
+add_core = JOH

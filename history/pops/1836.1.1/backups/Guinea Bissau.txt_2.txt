@@ -1,0 +1,151 @@
+#Casamance Region (108000) #see Senegal.txt and Guinea.txt for balance of region
+#Uncolonized in 1836/Portuguese trade post
+#Bissau (32000/8000 POPS)
+1877 = {
+    aristocrats = {
+        culture = portuguese
+        religion = catholic
+        size = 10
+    }
+
+    clergymen = {
+        culture = portuguese
+        religion = catholic
+        size = 15
+    }
+
+    bureaucrats = {
+        culture = portuguese
+        religion = catholic
+        size = 5
+    }
+
+    artisans = {
+        culture = portuguese
+        religion = catholic
+        size = 25
+    }
+
+    soldiers = {
+        culture = portuguese
+        religion = catholic
+        size = 20
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = catholic
+        size = 375
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = catholic
+        size = 75
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = catholic
+        size = 5500
+    }
+
+    slaves = {
+        culture = african_minor
+        religion = catholic
+        size = 2000
+    }
+}
+#under the rule of Gabu in 1836
+#Gabu (152000/38000 POPS)
+1878 = {
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 140
+    }
+
+    bureaucrats = {
+        culture = mande
+        religion = animist
+        size = 52
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 140
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 700
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 420
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 9800
+    }
+
+    slaves = {
+        culture = african_minor
+        religion = animist
+        size = 2100
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = sunni
+        size = 260
+    }
+
+    bureaucrats = {
+        culture = mande
+        religion = sunni
+        size = 98
+    }
+
+    clergymen = {
+        culture = mande
+        religion = sunni
+        size = 260
+    }
+
+    artisans = {
+        culture = mande
+        religion = sunni
+        size = 1300
+    }
+
+    soldiers = {
+        culture = mande
+        religion = sunni
+        size = 780
+    }
+
+    farmers = {
+        culture = mande
+        religion = sunni
+        size = 18200
+    }
+
+    slaves = {
+        culture = african_minor
+        religion = sunni
+        size = 3900
+    }
+}

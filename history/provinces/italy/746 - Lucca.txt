@@ -1,0 +1,8 @@
+owner = SVY
+controller = SVY
+add_core = SVY
+add_core = LUC
+add_core = ITA
+trade_goods = grain
+life_rating = 35
+

@@ -1,0 +1,8 @@
+owner = MLI
+controller = MLI
+add_core = SEG
+add_core = MAS
+trade_goods = cotton
+life_rating = 35
+
+add_core = MLI

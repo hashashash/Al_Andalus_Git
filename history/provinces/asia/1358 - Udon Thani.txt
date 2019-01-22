@@ -1,0 +1,7 @@
+owner = AG3
+controller = AG3
+add_core = SIA
+trade_goods = fruit
+life_rating = 30
+
+add_core = AG3

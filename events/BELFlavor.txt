@@ -1,0 +1,372 @@
+
+country_event = {
+
+	id = 36701
+	news = yes
+	news_desc_long = "EVTDESC36701_NEWS_LONG"
+	news_desc_medium = "EVTDESC36701_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36701_NEWS_SHORT"
+
+	trigger = {
+		tag = BEL 
+		year = 1846
+		NOT = {
+			year = 1850
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME36701"
+	desc = "EVTDESC36701"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA36701" 
+		any_pop = {
+			limit = {
+				has_pop_culture = flemish
+			}
+			consciousness = 3
+			militancy = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 36704
+	news = yes
+	news_desc_long = "EVTDESC36704_NEWS_LONG"
+	news_desc_medium = "EVTDESC36704_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36704_NEWS_SHORT"
+
+	trigger = {
+		tag = BEL 
+		year = 1845
+		NOT = {
+			year = 1848
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1846
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1847
+		}
+	}
+
+	title = "EVTNAME36704"
+	desc = "EVTDESC36704"
+	picture = "sax"
+
+	
+	option = {
+		name = "EVTOPTA36704" 
+		prestige = 2
+	}
+}
+
+country_event = {
+
+	id = 36705
+	news = yes
+	news_desc_long = "EVTDESC36705_NEWS_LONG"
+	news_desc_medium = "EVTDESC36705_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36705_NEWS_SHORT"
+
+	trigger = {
+		tag = BEL 
+		year = 1861
+		NOT = {
+			year = 1864
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1862
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1863
+		}
+	}
+
+	title = "EVTNAME36705"
+	desc = "EVTDESC36705"
+	picture = "Solvay"
+
+	option = {
+		name = "EVTOPTA36705" 
+		prestige = 5
+		years_of_research = 0.4
+	}
+}
+
+country_event = {
+
+	id = 36706
+	news = yes
+	news_desc_long = "EVTDESC36706_NEWS_LONG"
+	news_desc_medium = "EVTDESC36706_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36706_NEWS_SHORT"
+
+	trigger = {
+		tag = BEL 
+		year = 1861
+		NOT = {
+			year = 1864
+			has_global_flag = FatherDamien #global flag to set event for Hawaii
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1862
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1863
+		}
+	}
+
+	title = "EVTNAME36706"
+	desc = "EVTDESC36706"
+	picture = "leper"
+
+	option = {
+		name = "EVTOPTA36706" 
+		set_global_flag = FatherDamien
+		prestige = 2
+	}
+}
+
+#########################################################
+#														#
+#      			Treaty of London Events					#
+#														#
+#########################################################
+
+country_event = {
+	
+	id = 36716
+	title = "EVTNAME36716" #The Dutch Surrender
+	desc = "EVTDESC36716"
+	news = yes
+	news_title = "EVTNAME36715"
+	news_desc_long = "EVTDESC36716_NEWS_LONG"
+	news_desc_medium = "EVTDESC36716_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36716_NEWS_SHORT"
+	picture = "carlists"
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept their surrender."
+		prestige = 20
+		war_exhaustion = -20
+		end_war = NET
+		any_country = {
+			limit = {
+				war_with = THIS
+				alliance_with = NET
+			}
+			end_war = THIS
+		}
+		any_country = {
+			limit = {
+				war_with = NET
+				alliance_with = THIS
+			}
+			end_war = NET
+		}
+		relation = { who = NET value = 150 }
+		381 = { remove_core = NET }
+		BEL_394 = { remove_core = NET }
+		BEL_387 = { remove_core = NET }
+		NET = {
+			set_country_flag = signed_treay_of_london
+			prestige = -20
+			any_owned = {
+				limit = { is_core = BEL }
+				secede_province = BEL
+			}
+		}
+		any_greater_power = {
+			limit = { 
+				NOT = { 
+					OR = {
+						tag = FRA
+						tag = ENG
+					}
+				}
+			}	
+			relation = { who = BEL value = 20 }
+		}
+		relation = { who = ENG value = 150 }
+		relation = { who = FRA value = 150 }
+		add_country_modifier = {
+			name = no_more_war
+			duration = 730
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+
+	option = {
+		name = "Let us demand concessions."
+		prestige = 30
+		badboy = 10
+		end_war = NET
+		any_country = {
+			limit = {
+				war_with = THIS
+				alliance_with = NET
+			}
+			end_war = THIS
+		}
+		any_country = {
+			limit = {
+				war_with = NET
+				alliance_with = THIS
+			}
+			end_war = NET
+		}
+		relation = { who = NET value = -100 }
+		381 = { remove_core = NET }
+		BEL_394 = { remove_core = NET }
+		BEL_387 = { remove_core = NET }
+		NET = {
+			set_country_flag = signed_treay_of_london
+			prestige = -30
+			any_owned = {
+				limit = { is_core = BEL }
+				secede_province = BEL
+			}
+		}
+		NET = {
+			random_owned = {
+				limit = {
+					OR = {
+						is_overseas = yes
+						is_colonial = yes
+					}
+					NOT = { is_core = NET }
+					port = yes
+				}
+				state_scope = {
+					any_owned = { secede_province = BEL }
+				}
+			}
+		}
+		NET = {
+			random_owned = {
+				limit = {
+					OR = {
+						is_overseas = yes
+						is_colonial = yes
+					}
+					NOT = { is_core = NET }
+					port = yes
+				}
+				state_scope = {
+					any_owned = { secede_province = BEL }
+				}
+			}
+		}
+		relation = { who = ENG value = -50 }
+		relation = { who = FRA value = -50 }
+		add_country_modifier = {
+			name = no_more_war
+			duration = 730
+		}
+		ai_chance = {
+			factor = 20		
+			modifier = {
+				factor = 0
+				is_greater_power = no
+				is_secondary_power = no
+			}
+		}
+	}
+	
+	option = {
+		name = "We must continue the war!"
+		relation = { who = NET value = -400 }
+		badboy = 8
+		war_exhaustion = 10
+		any_greater_power = {
+			limit = { 
+				NOT = { 
+					OR = {
+						tag = FRA
+						tag = ENG
+					}
+				}
+			}	
+			relation = { who = BEL value = -25 }
+		}
+		add_casus_belli = {
+			target = ENG
+			type = free_allied_cores
+			months = 24
+		}
+		add_casus_belli = {
+			target = FRA
+			type = free_allied_cores
+			months = 24
+		}
+		ENG = {
+			diplomatic_influence = { who = BEL value = -100 }
+			relation = { who = BEL value = -100 }
+			leave_alliance = BEL
+			end_war = NET
+		}
+		FRA = {
+			diplomatic_influence = { who = BEL value = -100 }
+			relation = { who = BEL value = -100 }
+			leave_alliance = BEL
+			end_war = NET
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

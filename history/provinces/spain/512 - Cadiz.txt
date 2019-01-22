@@ -1,0 +1,24 @@
+owner = ADU
+controller = ADU
+
+trade_goods = fish
+life_rating = 45
+naval_base = 2
+fort = 1
+state_building = {
+	level = 2
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
+
+add_core = ADU

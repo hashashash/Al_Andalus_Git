@@ -1,0 +1,50 @@
+political_decisions = {
+	
+	form_the_rcmp = {
+		potential = {
+			tag = CAN
+			NOT = { has_country_modifier = rcmp }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns = 22
+			owns = 30
+			owns = 36
+		}
+		effect = {
+			add_country_modifier = {
+				name = rcmp
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	build_the_cnr = {
+		picture = whistlestop_tour
+		potential = {
+			tag = CAN
+			early_railroad = 1
+			NOT = { has_country_flag = build_the_cnr }
+		}
+		allow = {
+			money = 50000
+			iron_railroad = 1
+			owns = 52
+			owns = 36
+			owns = 30
+			owns = 26
+			owns = 13
+		}
+		effect = {
+			set_country_flag = build_the_cnr
+			treasury = -50000
+			52 = { infrastructure = 1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

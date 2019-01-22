@@ -1,0 +1,8 @@
+owner = ORI
+controller = ORI
+add_core = ORI
+add_core = HND
+trade_goods = opium
+add_core = BUR
+life_rating = 32
+1861.1.1 = { railroad = 3 }

@@ -1,0 +1,1213 @@
+political_decisions = {
+	
+	crown_empress_of_india = {
+		news = yes
+		news_desc_long = "empress_of_india_NEWS_LONG"
+		news_desc_medium = "empress_of_india_NEWS_MEDIUM"
+		news_desc_short = "empress_of_india_NEWS_SHORT"
+		potential = {
+			tag = MOR
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			NOT = {
+				has_country_flag = empress_of_india
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			prestige = 40
+			owns = 1310
+			owns = 1311
+			owns = 1303
+			owns = 1305
+			owns = 1276
+			owns = 1249
+			owns = 1291
+			owns = 1236
+			owns = 1243
+			owns = 1251
+		}
+		effect = {
+			prestige = 20
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = empress_of_india
+		}
+	}
+
+	create_kashmir = {
+		potential = {
+			tag = MOR
+			owns = 1225
+			NOT = {
+				has_country_flag = created_kashmir
+				exists = KAS
+				owns = 1227
+			}
+		}
+		
+		allow = {
+			war = no
+			owns = 1225
+		}
+		
+		effect = {
+			set_country_flag = created_kashmir
+			prestige = 5
+			release_vassal = KAS
+			diplomatic_influence = {
+				who = KAS
+				value = 200
+			}
+			relation = {
+				who = KAS
+				value = 100
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	trucial_protectorate = {
+		picture = map_arabia
+		potential = {
+			OR = {
+				tag = MOR
+                                tag = ADU
+			}
+			ABU = {
+				ai = yes
+				in_sphere = THIS
+				civilized = no
+				government = absolute_monarchy
+			}
+			year = 1870
+			NOT = { has_country_flag = created_trucial_protectorate }
+		}
+		
+		allow = {
+			war = no
+			ABU = {
+				war = no
+				in_sphere = THIS
+			}
+			year = 1875
+		}
+		
+		effect = {
+			set_country_flag = created_trucial_protectorate
+			prestige = 5
+			create_vassal = ABU
+		}
+	}
+	
+	aden_protectorate = {
+		picture = map_arabia
+		potential = {
+			OR = {
+				tag = MOR
+                                tag = ADU
+			}
+			YEM = {
+				ai = yes
+				in_sphere = THIS
+				civilized = no
+				government = absolute_monarchy
+			}
+			year = 1870
+			NOT = { has_country_flag = created_aden_protectorate }
+		}
+		
+		allow = {
+			war = no
+			owns = 1412
+			YEM = {
+				war = no
+				in_sphere = THIS
+			}
+			year = 1875
+		}
+		
+		effect = {
+			set_country_flag = created_aden_protectorate
+			prestige = 5
+			1412 = { secede_province = YEM }
+			create_vassal = YEM
+		}
+	}
+	
+	end_the_merina_monarchy = {
+		potential = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			NOT = { has_global_flag = merina_monarchy_is_over }
+			MAD = {
+				exists = yes
+				civilized = no
+			}
+		}
+		
+		allow = {
+			MAD = {
+				in_sphere = THIS
+				war = no
+			}
+			has_global_flag = berlin_conference
+			invention = mission_to_civilize
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = merina_monarchy_is_over
+			MAD = { country_event = 95505 }
+		}
+	}
+	
+	iwakura_mission = {
+		potential = {
+			tag = BEN
+			NOT = { has_country_flag = sent_iwakura_mission }
+		}
+		
+		allow = {
+			war = no
+			civilized = yes
+			idealism = 1
+		}
+		
+		effect = {
+			set_country_flag = sent_iwakura_mission
+			years_of_research = 1
+			prestige = 25
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	benin_modernisation_efforts = {
+		potential = {
+			tag = BEN
+			NOT = { has_country_flag = benin_modernisation_efforts }
+		}
+		
+		allow = {
+			war = no
+			civilized = no
+			year = 1845        
+            prestige = 15			
+		}
+		
+		effect = {
+			set_country_flag = benin_modernisation_efforts
+			years_of_research = 2
+			prestige = 25
+			ADU = { country_event = 550017 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	enact_muhammad_alis_reforms = {
+		potential = {
+			tag = BEN
+			NOT = { 
+				has_country_flag = muhammad_alis_reforms_enacted
+			}
+                        year = 1840
+		}
+		allow = {
+			civilized = no
+		}
+		effect = {
+			set_country_flag = muhammad_alis_reforms_enacted
+			prestige = 20
+			small_arms = 50
+			regular_clothes = 50
+			military_reform = yes_foreign_training
+			military_reform = yes_army_schools
+			economic_reform = yes_admin_reform
+			activate_technology = army_command_principle
+			any_pop = {
+				limit = { is_primary_culture = yes }
+				consciousness = 4
+				ideology = {
+					value = reactionary
+					factor = 0.2
+				}
+			}
+		}
+	}
+	
+	ADU_levant_conflict_outremer = {
+		potential = {
+			tag = AH5
+		}
+		allow = {
+			civilized = yes
+			NOT = {
+				has_country_flag = ADU_levant_conflict_jerusalem_1
+			}
+			year = 1852
+		}
+		effect = {
+			912 = { add_core = AH5 }
+			913 = { add_core = AH5 }
+			914 = { add_core = AH5 }
+			prestige = 10
+			set_country_flag = ADU_levant_conflict_jerusalem_1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_levant_conflict_syria = {
+		potential = {
+			tag = SYR
+		}
+		allow = {
+			civilized = yes
+			NOT = {
+				has_country_flag = ADU_levant_conflict_syria_1
+			}
+			year = 1852
+		}
+		effect = {
+			902 = { add_core = SYR }
+			906 = { add_core = SYR }
+			prestige = 10
+			set_country_flag = ADU_levant_conflict_syria_1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_new_england_manifest_destiny = {
+		potential = {
+			tag = AE1
+			NOT = { has_country_flag = ADU_AE1_manifest_destiny }
+		}
+		allow = {
+		    year = 1838
+			is_secondary_power = yes
+			all_core = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+		    prestige = 15
+			set_country_flag = ADU_AE1_manifest_destiny
+			USA_201 = {
+				add_core = AE1
+			}
+			USA_200 = {
+				add_core = AE1
+			}
+			USA_196 = {
+				add_core = AE1
+			}
+			188 = { add_core = AE1 }
+			190 = { add_core = AE1 }
+			191 = { add_core = AE1 }
+			184 = { add_core = AE1 }
+			185 = { add_core = AE1 }
+			186 = { add_core = AE1 }
+			218 = { add_core = AE1 }
+			217 = { add_core = AE1 }
+			221 = { add_core = AE1 }
+			236 = { add_core = AE1 }
+			USA_211 = {
+				add_core = AE1
+			}
+			USA_223 = {
+				add_core = AE1
+			}
+			USA_178 = {
+				add_core = AE1
+			}
+			169 = { add_core = AE1 }
+			170 = { add_core = AE1 }
+			172 = { add_core = AE1 }
+			2556 = { add_core = AE1 }
+			AE1 = { 
+	    	diplomatic_influence = { who = AD8 value = -200 }
+	    	relation = { who = AD8 value = -75 }
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_egypt_annexes_sudan = {
+		potential = {
+			tag = AD2
+			exists = SUD
+		    SUD = { is_vassal = yes }
+		}
+		allow = {
+			civilized = yes
+			year = 1860
+			war = no
+			NOT = {
+				has_country_flag = ADU_egypt_sudan
+			}
+		}
+		effect = {
+			AD2 = { inherit = SUD }
+			prestige = 10
+			set_country_flag = ADU_egypt_sudan
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_ibriz_manifest_destiny = {
+		potential = {
+			tag = MEX
+			NOT = { has_country_flag = ADU_ibriz_manifest_destiny }
+		}
+		allow = {
+			is_greater_power = yes
+			year = 1849
+		}
+		effect = {
+		    prestige = 10
+			badboy = 10
+			set_country_flag = ADU_ibriz_manifest_destiny
+			USA_196 = {
+				add_core = MEX
+			}
+			193 = { add_core = MEX }
+			187 = { add_core = MEX }
+			189 = { add_core = MEX }
+			MEX_100 = {
+				add_core = MEX
+			}
+			MEX = { 
+	    	diplomatic_influence = { who = AD8 value = -200 }
+	    	relation = { who = AD8 value = -75 }
+		    }
+			MEX = { 
+	    	diplomatic_influence = { who = AD7 value = -200 }
+	    	relation = { who = AD7 value = -75 }
+		    }
+			MEX = { 
+	    	diplomatic_influence = { who = CAN value = -200 }
+	    	relation = { who = CAN value = -75 }
+		    }
+		}
+	}
+	
+	claim_arabia_HDJ = {
+		picture = map_arabia
+		potential = {
+			tag = ARA
+			exists = yes
+			NOT = { has_country_flag = ADU_claim_arab_lands }
+		}
+
+		allow = {
+                        civilized = yes
+			is_vassal = no
+			AND = {
+				926 = {
+					owner = {
+						NOT = { primary_culture = bedouin }
+					}
+				}
+				916 = {
+					owner = {
+						NOT = { primary_culture = bedouin }
+					}
+				}
+			}
+		}
+
+		effect = {
+			prestige = 10
+			set_country_flag = ADU_claim_arab_lands
+            TUR_931 = { add_core = ARA }
+			EGY_910 = { add_core = ARA }
+			TUR_935 = { add_core = ARA }
+			EGY_903 = { add_core = ARA }
+			EGY_921 = { add_core = ARA }
+			EGY_915 = { add_core = ARA }
+			
+			random_country = {
+				limit = {
+					owns = 926
+				}
+				leave_alliance = THIS
+				relation = {
+					who = THIS
+					value = -100
+
+				}
+			}
+			random_country = {
+				limit = {
+					owns = 916
+				}
+				leave_alliance = THIS
+				relation = {
+					who = THIS
+					value = -100
+
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_berber_union_proposal_1 = {
+		potential = {
+			tag = BRZ
+			NOT = { has_country_flag = ADU_berber_union_proposal }
+		}
+	
+		allow = {
+			war = no
+			NOT = {
+			    MOR = {
+			        owns = 2431
+			     	owns = 2447
+					owns = 2305
+					owns = 2324
+			    }
+			}
+		}
+	
+		effect = {
+			prestige = 10
+			set_country_flag = ADU_berber_union_proposal
+			PRG = {
+			    country_event = 550004
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_berber_union_proposal_2 = {
+		potential = {
+			tag = BRZ
+			OR = { 
+			     has_country_flag = ADU_berber_union_proposal_victory
+				 has_country_flag = ADU_berber_union_conquest_victory
+			}
+			NOT = { has_country_flag = dawn_of_the_berber_union }
+		}
+	
+		allow = {
+			war = no
+			NOT = { has_country_flag = dawn_of_the_berber_union }
+			owns = 2431
+			owns = 2305
+			owns = 2324
+		}
+	
+		effect = {
+			prestige = 25
+			set_country_flag = dawn_of_the_berber_union
+			change_tag = AH7
+			capital = 2457
+			add_accepted_culture = south_andean
+			any_owned = { 
+			    limit = {
+					is_core = BRZ
+				}
+				add_core = AH7
+			}
+			any_owned = { 
+			    limit = {
+					is_core = PRG
+				}
+				add_core = AH7
+			}
+			any_owned = { 
+			    limit = {
+					is_core = CHL
+				}
+				add_core = AH7
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_berber_union_manifest_destiny = {
+		potential = {
+			tag = AH7
+			NOT = { has_country_flag = ADU_berber_union_manifest_destiny }
+		}
+		allow = {
+			is_greater_power = yes
+			year = 1846
+		}
+		effect = {
+		    prestige = 10
+			set_country_flag = ADU_berber_union_manifest_destiny
+			
+            URU_2344 = {
+				add_core = AH7
+			}
+			2361 = { add_core = AH7 }
+			2362 = { add_core = AH7 }
+			2411 = { add_core = AH7 }
+			2410 = { add_core = AH7 }
+			2317 = { add_core = AH7 }
+			2550 = { add_core = AH7 }
+			2320 = { add_core = AH7 }
+			2321 = { add_core = AH7 }
+			ARG_2360 = {
+				add_core = AH7
+			}
+			AH7 = { 
+	    	diplomatic_influence = { who = ARG value = -200 }
+	    	relation = { who = ARG value = -75 }
+		    }
+			AH7 = { 
+	    	diplomatic_influence = { who = GUY value = -200 }
+	    	relation = { who = GUY value = -75 }
+		    }
+			AH7 = { 
+	    	diplomatic_influence = { who = BOL value = -200 }
+	    	relation = { who = BOL value = -75 }
+		    }
+		}
+	}
+	
+	ADU_russia_manifest_destiny = {
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = ADU_russia_manifest_destiny }
+		}
+		allow = {
+			is_greater_power = yes
+			all_core = {
+				owned_by = THIS
+			}
+			year = 1860
+		}
+		effect = {
+			set_country_flag = ADU_russia_manifest_destiny
+			RUS_1060 = {
+				add_core = RUS
+			}
+			RUS_1026 = {
+				add_core = RUS
+			}
+			RUS_2589 = {
+				add_core = RUS
+			}
+			1032 = {
+				add_core = RUS
+			}
+			RUS = { 
+	    	diplomatic_influence = { who = SIB value = -200 }
+	    	relation = { who = SIB value = -75 }
+		    }
+		}
+	}
+	
+	ADU_russia_manifest_destiny_2 = {
+		potential = {
+			tag = RUS
+			has_country_flag = ADU_russia_manifest_destiny
+			NOT = { has_country_flag = ADU_russia_manifest_destiny_2 }
+		}
+		allow = {
+			is_greater_power = yes
+			all_core = {
+				owned_by = THIS
+			}
+			year = 1870
+		}
+		effect = {
+			set_country_flag = ADU_russia_manifest_destiny_2
+			RUS_1003 = {
+				add_core = RUS
+			}
+			RUS_994 = {
+				add_core = RUS
+			}
+			RUS_349 = {
+				add_core = RUS
+			}
+			RUS_354 = {
+				add_core = RUS
+			}
+			RUS = { 
+	    	diplomatic_influence = { who = SCA value = -200 }
+	    	relation = { who = SCA value = -75 }
+		    }
+		}
+	}
+	
+	andalus_dual_monarchy = {
+		potential = {
+			NOT = { has_country_flag = FRA_dual_monarchy }
+			tag = FRA
+		}	
+		allow = {
+	    	is_greater_power = yes
+            year = 1850
+			NOT = { part_of_sphere = yes }
+			war = no
+			302 = {
+				owned_by = THIS	
+			}
+			298 = {
+				owned_by = THIS	
+			}
+			291 = {
+				owned_by = THIS	
+			}
+			284 = {
+				owned_by = THIS	
+			}
+			278 = {
+				owned_by = THIS	
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = FRA_dual_monarchy
+			change_tag = AH8
+			add_accepted_culture = english
+			any_owned = { 
+			    limit = {
+					is_core = FRA
+				}
+				add_core = AH8
+			}
+			any_owned = { 
+			    limit = {
+					is_core = ENG
+				}
+				add_core = AH8
+			}
+			MOR = {
+			    country_event = 550009
+			}
+			ADU = {
+			    country_event = 550009
+			}
+			HAN = {
+			    country_event = 550009
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	andalus_dual_monarchy_destroyed = {
+		potential = {
+			NOT = { has_country_flag = dual_monarchy_dissolved }
+			tag = AH8
+		}	
+		allow = {
+			war = no
+			NOT = { owns = 302 }
+			NOT = { owns = 298 }
+			NOT = { owns = 291 }
+			NOT = { owns = 284 }
+			NOT = { owns = 278 }
+		}
+		
+		effect = {
+			prestige = -15
+			set_country_flag = dual_monarchy_dissolved
+			change_tag = FRA
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_celtic_manifest_destiny = {
+		potential = {
+			tag = AD3
+			NOT = { has_country_flag = ADU_celtic_manifest_destiny }
+		}
+		allow = {
+		    OR = {
+			    is_greater_power = yes
+		    	is_secondary_power = yes
+			}
+			all_core = {
+				owned_by = THIS
+			}
+			year = 1842
+		}
+		effect = {
+			set_country_flag = ADU_celtic_manifest_destiny
+			ENG_273 = {
+				add_core = AD3
+			}
+			FRA_420 = {
+				add_core = AD3
+			}
+			ENG_277 = {
+				add_core = AD3
+			}
+			AD3 = {
+	    	relation = { who = FRA value = -75 }
+		    }
+		}
+	}
+	
+	ADU_mongols_manifest_destiny = {
+		potential = {
+			tag = AF4
+			NOT = { has_country_flag = ADU_mongols_manifest_destiny }
+		}
+		
+		allow = {
+			war = no
+			year = 1837
+		}
+		
+		effect = {
+			set_country_flag = ADU_mongols_manifest_destiny
+
+			2678 = {
+				add_core = AF4
+			}
+			1465 = {
+				add_core = AF4
+			}
+			RUS_1079 = {
+				add_core = AF4
+			}
+			RUS_1075 = {
+				add_core = AF4
+			}
+			1469 = {
+				add_core = AF4
+			}
+			1068 = {
+				add_core = AF4
+			}
+			1077 = {
+				add_core = AF4
+			}
+			1063 = {
+				add_core = AF4
+			}
+			1067 = {
+				add_core = AF4
+			}
+			1002 = {
+				add_core = AF4
+			}
+			AF4 = { 
+	    	diplomatic_influence = { who = MGL value = -200 }
+	    	relation = { who = MGL value = -75 }
+		    }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.8
+			}
+		}
+	}
+	
+	ADU_abandon_west_indies = {
+		potential = {
+			owns = 2234
+			owns = 2235
+			tag = AD3
+			NOT = {
+				has_country_flag = ADU_abandon_west_indies
+			}			
+		}
+		
+		allow = {
+			war = no
+			year = 1840
+		}
+		
+		effect = {
+			set_country_flag = ADU_abandon_west_indies
+			ADU = {
+			   country_event = 550012
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_russia_annex_siberia = {
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = ADU_russia_annex_siberia }
+		}
+		allow = {
+		    year = 1868
+			is_greater_power = yes
+			SIB = {
+				in_sphere = THIS
+				NOT = { truce_with = THIS }
+			}
+		}
+		effect = {
+		    prestige = 10
+			set_country_flag = ADU_russia_annex_siberia
+			SIB = { country_event = 550015 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_japan_annex_buryatia = {
+		potential = {
+			tag = JAP
+			NOT = { has_country_flag = ADU_japan_annex_buryatia }
+		}
+		allow = {
+		    year = 1838
+			is_greater_power = yes
+			AH3 = {
+				in_sphere = THIS
+				NOT = { truce_with = THIS }
+			}
+		}
+		effect = {
+		    prestige = 10
+			set_country_flag = ADU_japan_annex_buryatia
+			AH3 = { country_event = 550016 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_release_greece = {
+		picture = map_arabia
+		potential = {
+			tag = MOR
+			NOT = { has_country_flag = ADU_created_greek_protectorate }
+			NOT = { exists = AH4 }
+		}
+		
+		allow = {
+			war = no
+			owns = 839
+			owns = 842
+			owns = 840
+			owns = 841
+			year = 1855
+		}
+		
+		effect = {
+			set_country_flag = ADU_created_greek_protectorate
+			prestige = 5
+			badboy = -2
+			839 = { secede_province = AH4 }
+			842 = { secede_province = AH4 }
+			840 = { secede_province = AH4 }
+			841 = { secede_province = AH4 }
+			MOR = { 
+	         	diplomatic_influence = { who = AH4 value = 200 }
+	        	relation = { who = AH4 value = 50 }
+    		}
+		}
+	}
+	
+	ADU_serbia_manifest_destiny = {
+		potential = {
+			tag = SER
+			NOT = { has_country_flag = ADU_serbia_manifest_destiny }
+		}
+		allow = {
+		    year = 1848
+			is_secondary_power = yes
+			all_core = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+		    prestige = 15
+			set_country_flag = ADU_serbia_manifest_destiny
+			AUS_777 = {
+				add_core = SER
+			}
+			AUS_771 = {
+				add_core = SER
+			}
+			AUS_768 = {
+				add_core = SER
+			}
+			SER = { 
+	    	diplomatic_influence = { who = HUN value = -200 }
+	    	relation = { who = HUN value = -75 }
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_hungary_manifest_destiny = {
+		potential = {
+			tag = HUN
+			NOT = { has_country_flag = ADU_hungary_manifest_destiny }
+		}
+		allow = {
+		    year = 1842
+		}
+		effect = {
+		    prestige = 15
+			set_country_flag = ADU_hungary_manifest_destiny
+			AUS_771 = {
+				add_core = HUN
+			}
+			784 = {
+				add_core = HUN
+			}
+			785 = {
+				add_core = HUN
+			}
+			786 = {
+				add_core = HUN
+			}
+			HUN = { 
+	    	diplomatic_influence = { who = SER value = -200 }
+	    	relation = { who = SER value = -75 }
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_bulgaria_manifest_destiny = {
+		potential = {
+			tag = BUL
+			NOT = { has_country_flag = ADU_bulgaria_manifest_destiny }
+		}
+		allow = {
+		    year = 1842
+		}
+		effect = {
+		    prestige = 15
+			set_country_flag = ADU_bulgaria_manifest_destiny
+			TUR_805 = {
+				add_core = BUL
+			}
+			TUR_806 = {
+				add_core = BUL
+			}
+			TUR_803 = {
+				add_core = BUL
+			}
+			
+			2614 = {
+				add_core = BUL
+			}
+			810 = {
+				add_core = BUL
+			}
+			BUL = { 
+	    	diplomatic_influence = { who = SER value = -200 }
+	    	relation = { who = SER value = -75 }
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_greece_manifest_destiny = {
+		potential = {
+			tag = GRE
+			NOT = { has_country_flag = ADU_greece_manifest_destiny }
+		}
+		allow = {
+		    year = 1842
+		}
+		effect = {
+		    prestige = 15
+			set_country_flag = ADU_greece_manifest_destiny
+			TUR_853 = {
+				add_core = GRE
+			}
+			TUR_806 = {
+				add_core = GRE
+			}
+			TUR_809 = {
+				add_core = GRE
+			}
+			2614 = {
+				add_core = GRE
+			}
+			GRE = { 
+	    	diplomatic_influence = { who = SER value = -200 }
+	    	relation = { who = SER value = -75 }
+		    }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ADU_king_of_west_africa = {
+		potential = {
+			tag = BEN
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			NOT = {
+				has_country_flag = ADU_king_of_west_africa
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			civilized = yes
+			OR = {
+		    	is_secondary_power = yes
+				is_greater_power = yes
+			}
+		}
+		effect = {
+			prestige = 20
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = ADU_king_of_west_africa
+		}
+	}
+	
+	ADU_military_vizier_law = {
+		potential = {
+			tag = ADU
+			NOT = {
+				has_country_flag = military_grand_vizier_flag
+			}
+		}
+		allow = {
+		    year = 1856
+			prestige = 80
+			ruling_party_ideology = reactionary
+		}
+
+		effect = {
+			any_pop = {
+				consciousness = 1
+			}
+			add_country_modifier = {
+				name = military_vizier_law
+				duration = 3650
+			}
+			prestige = 10
+			set_country_flag = military_grand_vizier_flag
+		}
+	}
+	
+	ADU_portuguese_integration = {
+	    picture = embrace_minority
+		
+		potential = {
+			tag = ADU
+			NOT = {
+				has_country_flag = ADU_portuguese_integration_flag
+				accepted_culture = portuguese
+			}
+		}
+		allow = {
+		    year = 1860
+			ruling_party_ideology = liberal
+			money = 50000
+		}
+
+		effect = {
+			treasury = -50000
+			any_pop = {
+				limit = {
+					has_pop_culture = portuguese
+				}
+				militancy = -2
+			}
+			set_country_flag = ADU_portuguese_integration_flag
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						government = democracy
+						citizenship_policy = full_citizenship
+					}
+				}
+			}
+		}
+	}
+	
+	ADU_king_of_iberia = {
+	    picture = establish_the_dar_al_funun
+		potential = {
+			tag = ADU
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			NOT = {
+				has_country_flag = ADU_king_of_iberia
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			civilized = yes
+			OR = {
+		    	is_secondary_power = yes
+				is_greater_power = yes
+			}
+			owns = 512
+			owns = 521
+			owns = 477
+			owns = 498
+			owns = 506
+		}
+		effect = {
+			prestige = 20
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = ADU_king_of_iberia
+		}
+	}
+
+}

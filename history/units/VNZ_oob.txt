@@ -1,0 +1,41 @@
+army = {
+	name = "Army of the Great Republic"
+	location = 2264
+	regiment = {
+		name= "1. Division"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "2. Division"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "3. Division"
+		type = infantry
+		home = 2267
+	}
+
+	regiment = {
+		name= "1. Divisioni"
+		type = cavalry
+		home = 2268
+	}
+
+	regiment = {
+		name= "2. Divisioni"
+		type = cavalry
+		home = 2269
+	}
+
+	regiment = {
+		name= "3. Divisioni"
+		type = cavalry
+		home = 2271
+	}
+
+}
+

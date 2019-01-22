@@ -1,0 +1,9 @@
+owner = AE1
+controller = AE1
+
+add_core = NEN
+trade_goods = timber
+life_rating = 35
+
+
+add_core = AE1

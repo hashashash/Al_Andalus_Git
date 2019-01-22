@@ -1,0 +1,86 @@
+political_decisions = {
+
+	organize_angola = {
+		picture = map_africa
+		potential = {
+			civilized = yes
+			NOT = {
+				has_global_flag = angola_created
+				capital_scope = { continent = africa }
+			}
+			owns = 1999
+			NOT = { has_global_flag = angola_created }
+		}
+
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+
+		effect = {
+			set_global_flag = angola_created
+			prestige = 5
+			ANG = { primary_culture = THIS }
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 2000
+						region = POR_2003
+						region = POR_2006
+						region = POR_1999
+					}
+				}
+				add_core = ANG
+				add_province_modifier = {
+					name = colonial_exploitation
+					duration = 365
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	organize_mozambique = {
+		picture = map_africa
+		potential = {
+			owns = 2049
+			civilized = yes
+			NOT = {
+				has_global_flag = mozambique_created
+				capital_scope = { continent = africa }
+			}
+		}
+
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+
+		effect = {
+			set_global_flag = mozambique_created
+			prestige = 5
+			MOZ = { primary_culture = THIS }
+			any_owned = {
+				limit = {
+					OR = {
+						region = POR_2049
+						region = POR_2053
+						region = POR_2060
+					}
+				}
+				add_core = MOZ
+				add_province_modifier = {
+					name = colonial_exploitation
+					duration = 1049
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+}

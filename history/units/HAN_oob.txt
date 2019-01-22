@@ -1,0 +1,414 @@
+
+FRA = {
+	value = -100		#relation
+	truce_until = 1840.1.1
+}
+
+RUS = {
+	value = -100		#relation
+	truce_until = 1840.1.1
+}
+
+MOR = {
+	value = 50		#relation
+	truce_until = 1840.1.1
+}
+
+ADU = {
+    truce_until = 1840.1.1
+	value = -90
+}
+
+SVY = {
+    truce_until = 1840.1.1
+	value = 90
+}
+
+HUN = {
+    truce_until = 1840.1.1
+	value = -50
+}
+
+SER = {
+	value = 140		#relation
+	truce_until = 1840.1.1
+}
+
+BAV = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+AG7 = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+BAD = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+AUS = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+HEK = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+        military_access = yes
+}
+
+HES = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+        military_access = yes
+}
+
+AG8 = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+        military_access = yes
+}
+
+HAM = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+        military_access = yes
+}
+
+LUB = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+        military_access = yes
+}
+
+BRE = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+        military_access = yes
+}
+
+OLD = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+        military_access = yes
+}
+
+AG6 = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+        military_access = yes
+}
+
+leader = {
+	name = "Prince August-Wilhelm"
+	date = 1828.1.1
+	type = land
+	personality = stout
+	background = gifted_administrator
+	prestige = 0.3
+}
+
+leader = {
+	name = "Victor von Prott"
+	date = 1815.1.1
+	type = land
+	personality = intelligent
+	background = engineer
+	prestige = 0.3
+}
+
+leader = {
+	name = "Julius von Hartmann"
+	date = 1825.1.1
+	type = land
+	personality = spirited
+	background = artillerist
+	prestige = 0.2
+}
+
+leader = {
+	name = "Hugh Halkett"
+	date = 1834.1.1
+	type = land
+	personality = heroic
+	background = school_of_offense
+	prestige = 0.1
+}
+
+
+#Army
+
+army = {
+	name = "I. Korps"
+	location = 534
+	regiment = {
+		name= "I. Linieninfanteriebrigade"
+		type = infantry
+		home = 534
+	}
+
+	regiment = {
+		name= "II. Linieninfanteriebrigade"
+		type = infantry
+		home = 534
+	}
+
+	regiment = {
+		name= "III. Linieninfanteriebrigade"
+		type = infantry
+		home = 538
+	}
+
+	regiment = {
+		name= "I. Pionierbrigade"
+		type = engineer
+		home = 542
+	}
+
+	regiment = {
+		name= "IV. Linieninfanteriebrigade"
+		type = infantry
+		home = 542
+	}
+
+	regiment = {
+		name= "V. Linieninfanteriebrigade"
+		type = infantry
+		home = 582
+	}
+
+	regiment = {
+		name= "VI. Linieninfanteriebrigade"
+		type = infantry
+		home = 582
+	}
+
+	regiment = {
+		name= "I. Artilleriebrigade"
+		type = artillery
+		home = 584
+	}
+
+}
+
+army = {
+	name = "II. Korps"
+	location = 554
+	regiment = {
+		name= "VII. Linieninfanteriebrigade"
+		type = infantry
+		home = 561
+	}
+
+	regiment = {
+		name= "VIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 585
+	}
+
+	regiment = {
+		name= "IX. Linieninfanteriebrigade"
+		type = infantry
+		home = 589
+	}
+
+	regiment = {
+		name= "II. Pionierbrigade"
+		type = engineer
+		home = 560
+	}
+
+	regiment = {
+		name= "X. Linieninfanteriebrigade"
+		type = infantry
+		home = 553
+	}
+
+	regiment = {
+		name= "XI. Linieninfanteriebrigade"
+		type = infantry
+		home = 531
+	}
+
+	regiment = {
+		name= "XII. Linieninfanteriebrigade"
+		type = infantry
+		home = 532
+	}
+
+	regiment = {
+		name= "II. Artilleriebrigade"
+		type = artillery
+		home = 532
+	}
+
+}
+
+army = {
+	name = "III. Korps"
+	location = 585
+	regiment = {
+		name= "XIX. Linieninfanteriebrigade"
+		type = infantry
+		home = 547
+	}
+
+	regiment = {
+		name= "XX. Linieninfanteriebrigade"
+		type = infantry
+		home = 532
+	}
+
+	regiment = {
+		name= "XXI. Linieninfanteriebrigade"
+		type = infantry
+		home = 534
+	}
+
+	regiment = {
+		name= "IV. Pionierbrigade"
+		type = engineer
+		home = 536
+	}
+
+	regiment = {
+		name= "XXII. Linieninfanteriebrigade"
+		type = infantry
+		home = 553
+	}
+
+	regiment = {
+		name= "XXIII. Linieninfanteriebrigade"
+		type = infantry
+		home = 555
+	}
+
+	regiment = {
+		name= "IV. Artilleriebrigade"
+		type = artillery
+		home = 554
+	}
+
+}
+
+army = {
+	name = "VII. Korps"
+	location = 535
+	regiment = {
+		name= "I. Kavalleriebrigade"
+		type = cuirassier
+		home = 535
+	}
+
+	regiment = {
+		name= "II. Kavalleriebrigade"
+		type = cuirassier
+		home = 535
+	}
+
+	regiment = {
+		name= "III. Kavalleriebrigade"
+		type = cuirassier
+		home = 559
+	}
+
+	regiment = {
+		name= "IV. Kavalleriebrigade"
+		type = cuirassier
+		home = 558
+	}
+
+	regiment = {
+		name= "V. Kavalleriebrigade"
+		type = cuirassier
+		home = 559
+	}
+
+	regiment = {
+		name= "VI. Kavalleriebrigade"
+		type = dragoon
+		home = 560
+	}
+
+	regiment = {
+		name= "VII. Kavalleriebrigade"
+		type = dragoon
+		home = 585
+	}
+
+	regiment = {
+		name= "VIII. Kavalleriebrigade"
+		type = dragoon
+		home = 585
+	}
+
+	regiment = {
+		name= "IX. Kavalleriebrigade"
+		type = dragoon
+		home = 700
+	}
+
+	regiment = {
+		name= "X. Kavalleriebrigade"
+		type = dragoon
+		home = 692
+	}
+}
+
+army = {
+	name = "VIII. Korps"
+	location = 534
+	
+	regiment = {
+		name = "XXX. Linieninfanteriebrigade"
+		type = infantry
+		home = 534
+	}
+	
+	regiment = {
+		name= "XI. Kavalleriebrigade"
+		type = dragoon
+		home = 533
+	}
+
+	regiment = {
+		name = "V. Artilleriebrigade"
+		type = artillery
+		home = 536
+	}
+}
+
+navy = {
+	name = "Königlich Preußische Marine"
+	location = 531
+	ship = {
+		name= "1. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Klipperflottille"
+		type = clipper_transport
+	}
+
+}
+

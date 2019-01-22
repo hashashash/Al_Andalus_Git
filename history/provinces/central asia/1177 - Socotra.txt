@@ -1,0 +1,6 @@
+owner = AE6
+controller = AE6
+add_core = AE6
+trade_goods = fish
+life_rating = 35
+party_loyalty = {	ideology = liberal	loyalty_value = 25}

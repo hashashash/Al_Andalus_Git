@@ -1,0 +1,6 @@
+owner = JAV
+controller = JAV
+colonial = 2
+add_core = JAV
+trade_goods = fruit
+life_rating = 30

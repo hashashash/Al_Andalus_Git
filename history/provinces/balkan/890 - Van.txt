@@ -1,0 +1,8 @@
+owner = AD5
+controller = AD5
+
+add_core = ARM
+trade_goods = iron
+life_rating = 35
+
+add_core = AD5

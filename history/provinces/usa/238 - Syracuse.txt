@@ -1,0 +1,8 @@
+owner = AE1
+controller = AE1
+
+trade_goods = grain
+life_rating = 35
+1861.1.1 = { railroad = 3 }
+
+add_core = AE1

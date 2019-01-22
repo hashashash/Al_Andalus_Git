@@ -1,0 +1,9 @@
+owner = MOR
+controller = MOR
+add_core = ORI
+add_core = HND
+trade_goods = grain
+life_rating = 32
+fort = 1
+naval_base = 1
+colonial = 2

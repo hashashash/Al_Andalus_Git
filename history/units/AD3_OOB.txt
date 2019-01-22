@@ -1,0 +1,130 @@
+
+FRA = {
+	value = -200		#relation
+}
+
+#Armies
+army = {
+	name="1st Army"
+	location=263
+	regiment = {
+		name="1st Belfast Infantry"
+		type=infantry
+		home=254
+	}
+	regiment = {
+		name="1st Glasgow Cavalry"
+		type=cavalry
+		home=271
+	}
+       regiment = {
+		name="1st Glasgow"
+		type=cavalry
+		home=263
+	}
+       regiment = {
+		name="1st Cavalry"
+		type=infantry
+		home=268
+	}
+       regiment = {
+		name="Glasgow Cavalry"
+		type=infantry
+		home=269
+	}
+}
+
+
+army = {
+	name = "Second Army"
+	location = 279
+	regiment = {
+		name= "1.9th Division"
+		type = infantry
+		home = 279
+	}
+
+	regiment = {
+		name= "2.9th Division"
+		type = infantry
+		home = 272
+	}
+
+	regiment = {
+		name= "3.9th Division"
+		type = infantry
+		home = 289
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 271
+	}
+
+	regiment = {
+		name= "2.1st Division"
+		type = infantry
+		home = 266
+	}
+
+	regiment = {
+		name= "3.1st Division"
+		type = infantry
+		home = 267
+	}
+
+	regiment = {
+		name= "1.2nd Division"
+		type = infantry
+		home = 270
+	}
+
+	regiment = {
+		name= "2.2nd Division"
+		type = infantry
+		home = 254
+	}
+
+	regiment = {
+		name= "3.2nd Division"
+		type = infantry
+		home = 257
+	}
+
+}
+
+navy = {
+	name="1st Fleet"
+	location=263
+	ship = {
+		name="1st Armagh Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Dublin Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Dublin Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Dublin Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Dublin Man'o'war"
+		type=manowar
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=263
+	ship = {
+		name="1st Dublin Frigate"
+		type=frigate
+	}
+}
+

@@ -1,0 +1,19 @@
+owner = SVY
+controller = SVY
+
+trade_goods = silk
+life_rating = 33
+naval_base = 2
+
+state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+}
+state_building = {
+		level = 2
+		building = canned_food_factory
+		upgrade = yes
+}
+
+add_core = SVY

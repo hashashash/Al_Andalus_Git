@@ -1,0 +1,50 @@
+
+country_event = {
+	id = 8000014
+	title = "EVTNAME8000012"
+	desc = "EVTDESC8000012"
+	picture = "treaty"
+
+	trigger = {
+	    tag = ADU
+		year = 1836
+	}
+
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Iberia is our inheritance!"
+		badboy = 22
+		SPA_474 = { add_core = ADU }
+		SPA_477 = { add_core = ADU }
+		SPA_492 = { add_core = ADU }
+		SPA_503 = { add_core = ADU }
+		SPA_498 = { add_core = ADU }
+		ai_chance = {
+			factor = 60
+		}
+	}
+
+	option = {
+		name = "We demand northern Iberia!"
+		badboy = 10
+		SPA_474 = { add_core = ADU }
+		SPA_477 = { add_core = ADU }
+		ai_chance = {
+			factor = 30
+		}
+	}
+
+	option = {
+		name = "We must forget these foolish claims altogether."
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+}

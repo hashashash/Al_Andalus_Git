@@ -1,0 +1,124 @@
+#Luxembourg (172000)
+#In personal union with Netherlands in 1836
+#Luxembourg (172000/43000 POPS)
+397 = {
+    aristocrats = {
+        culture = north_german
+        religion = catholic
+        size = 175
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = catholic
+        size = 25
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 150
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 750
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 2000
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 14900
+    }
+
+    aristocrats = {
+        culture = french
+        religion = catholic
+        size = 50
+    }
+
+    officers = {
+        culture = french
+        religion = catholic
+        size = 10
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = catholic
+        size = 10
+    }
+
+    clergymen = {
+        culture = french
+        religion = catholic
+        size = 55
+    }
+
+    artisans = {
+        culture = french
+        religion = catholic
+        size = 350
+    }
+
+    soldiers = {
+        culture = french
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = french
+        religion = catholic
+        size = 4675
+    }
+
+    aristocrats = {
+        culture = french
+        religion = catholic
+        size = 200
+    }
+
+    officers = {
+        culture = french
+        religion = catholic
+        size = 40
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = catholic
+        size = 40
+    }
+
+    clergymen = {
+        culture = french
+        religion = catholic
+        size = 220
+    }
+
+    artisans = {
+        culture = french
+        religion = catholic
+        size = 1400
+    }
+
+    soldiers = {
+        culture = french
+        religion = catholic
+        size = 200
+    }
+
+    farmers = {
+        culture = french
+        religion = catholic
+        size = 18700
+    }
+}

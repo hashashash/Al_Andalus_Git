@@ -1,0 +1,102 @@
+
+
+RUS = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+BAV = {
+	value = -100		#relation
+	truce_until = 1840.1.1
+}
+
+HUN = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+GRE = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+MOR = {
+	value = 200		#relation
+	truce_until = 1840.1.1
+}
+
+HAN = {
+	value = 200		#relation
+	truce_until = 1840.1.1
+}
+
+FRA = {
+	truce_until = 1840.1.1
+}
+
+leader = {
+	name = "Prince Aleksandar"
+	type = land
+	date="1836.1.1"
+	personality = openminded
+	background = gifted_administrator
+}
+
+army = {
+	name = "Army of the Kingdom of Serbia"
+	location = 794
+	regiment = {
+		name= "1st Serbian Infantry"
+		type = infantry
+		home = 804
+	}
+
+	regiment = {
+		name= "2nd Serbian Infantry"
+		type = infantry
+		home = 2587
+	}
+	regiment = {
+		name= "3rd Serbian Infantry"
+		type = infantry
+		home = 787
+	}
+
+	regiment = {
+		name= "4th Serbian Infantry"
+		type = infantry
+		home = 795
+	}
+
+	regiment = {
+		name= "5th Serbian Infantry"
+		type = infantry
+		home = 795
+	}
+
+	regiment = {
+		name= "6th Serbian Infantry"
+		type = infantry
+		home = 797
+	}
+
+	regiment = {
+		name= "7th Serbian Infantry"
+		type = infantry
+		home = 787
+	}
+
+	regiment = {
+		name= "1st Serbian Cav"
+		type = cavalry
+		home = 797
+	}
+
+	regiment = {
+		name= "2nd Serbian Cav"
+		type = cavalry
+		home = 796
+	}
+
+}
+

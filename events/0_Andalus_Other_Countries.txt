@@ -1,0 +1,1391 @@
+
+#Albionoria and Anbaila - PART 1
+country_event = {
+	id = 550001
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    year = 1842
+		tag = CAN
+		exists = AD9
+		is_vassal = no
+		war = no
+		CAN = { is_vassal = no war = no }
+		NOT = { has_country_flag = the_albionoria_anbaila_union }
+	}
+
+	title = "ADUANB.T"
+	desc = "ADUANB.D"
+	
+	mean_time_to_happen =  {
+		months = 24
+	}	
+	
+	immediate = {
+		set_country_flag = the_albionoria_anbaila_union
+	}
+
+	option = {
+		name = "Let's do it!"
+		prestige = 15
+		ai_chance = { 
+			factor = 80 
+			modifier = {
+				factor = 2
+				CAN = { is_secondary_power = yes }
+			}
+			modifier = {
+				factor = 10
+				CAN = { is_greater_power = yes }
+			}			
+		}
+		AD9 = { country_event = 550002 }
+	}
+	option = {
+		name = "No, they're our rivals, we will conquer them instead."
+		ai_chance = { factor = 20 }
+	}	
+}
+
+#Albionoria and Anbaila - PART 2
+country_event = {
+	id = 550002
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "ADUANB2.T"
+	desc = "ADUANB2.D"
+
+	option = {
+		name = "United we are stronger!"
+		ai_chance = { 
+			factor = 70 
+			modifier = {
+				factor = 0
+				AD9 = { is_greater_power = yes }
+			}			
+		}
+		any_owned = {
+			add_core = CAN
+		}
+		CAN = { inherit = THIS }
+		CAN = { add_accepted_culture = yankee_irish }
+	}
+	option = {
+		name = "Divided we remain."
+		ai_chance = { factor = 30 }
+	}	
+}
+
+country_event = { #HEJAZ AND ARABIA
+
+	id = 550003 
+	title = "ANDHEJ.T"
+	desc = "ANDHEJ.D"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    year = 1842
+		tag = HDJ
+		war = no
+		NOT = { has_country_flag = ADU_arabia_is_ours }
+	}
+	
+	mean_time_to_happen =  {
+		months = 24
+	}	
+	
+	option = { 
+	name = "Arabia is ours!"
+	set_country_flag = ADU_arabia_is_ours
+	badboy = 5 
+	casus_belli = {
+			target = YEM
+			type = conquest
+			months = 120
+		}
+		
+	casus_belli = {
+			target = OMA
+			type = conquest
+			months = 120
+		}
+	war = {
+			target = YEM
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+	war = {
+			target = OMA
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}	
+    relation = {
+					who = YEM
+					value = -200
+
+	}
+    relation = {
+					who = OMA
+					value = -200
+
+	}
+    YEM = {
+	        relation = {
+					who = THIS
+					value = -200
+
+	}
+	}
+    OMA = {
+	        relation = {
+					who = THIS
+					value = -200
+
+	}
+	}	
+	}
+}
+
+#BERBER UNION - PART 1
+country_event = {
+	id = 550004
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "ADUBER1.T"
+	desc = "ADUBER1.D"
+
+	option = {
+		name = "United we are stronger!"
+		ai_chance = { 
+			factor = 70
+		}
+		CHL = { country_event = 550005 }
+	}
+	option = {
+		name = "We will not be ruled from a capital half a continent away."
+		ai_chance = { factor = 30 }
+		BRZ = { country_event = 550008 }
+	}	
+}
+
+#BERBER UNION - PART 2
+country_event = {
+	id = 550005
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "ADUBER2.T"
+	desc = "ADUBER2.D"
+
+	option = {
+		name = "United we are stronger!"
+		ai_chance = { 
+			factor = 60
+		}
+		BRZ = { country_event = 550006 }
+	}
+	option = {
+		name = "We will not be ruled from a capital half a continent away."
+		BRZ = { country_event = 550007 }
+		ai_chance = { factor = 40 }
+	}	
+}
+
+#BERBER UNION - PART 3
+country_event = {
+	id = 550006
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "ADUBER3.T"
+	desc = "ADUBER3.D"
+
+	option = {
+		name = "Let the world fear the strength of the Berber Union!"
+		set_country_flag = ADU_berber_union_proposal_victory
+		BRZ = { inherit = PRG }
+		BRZ = { inherit = CHL }
+	}	
+}
+
+#BERBER UNION - PART 4
+country_event = {
+	id = 550007
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "ADUBER4.T"
+	desc = "ADUBER4.D"
+
+	option = {
+		name = "We must accept their decision."
+		ai_chance = { factor = 20 }
+	}
+
+	option = {
+		name = "We will take them by force!"
+		set_country_flag = ADU_berber_union_conquest_victory
+		BRZ = { inherit = PRG }
+		casus_belli = {
+			target = CHL
+			type = conquest
+			months = 120
+		}
+		war = {
+			target = CHL
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+		ai_chance = { factor = 80 }
+	}	
+}
+
+#BERBER UNION - PART 5
+country_event = {
+	id = 550008
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "ADUBER5.T"
+	desc = "ADUBER5.D"
+
+	option = {
+		name = "We must accept their decision."
+	}
+
+	option = {
+		name = "We must accept their decision."
+	}	
+}
+
+#THE DUAL MONARCHY
+country_event = {
+	id = 550009
+	
+	is_triggered_only = yes
+
+	title = "ADUDUA.T"
+	desc = "ADUDUA.D"
+
+	option = {
+		name = "This cannot be allowed to stand!"
+		prestige = 10
+		relation = {
+			who = AH8
+			value = -150
+
+	    }
+		casus_belli = {
+		        target = AH8
+	        	type = liberate_country
+	        	months = 120
+	    }
+		war = {
+			target = AH8
+			attacker_goal = {
+				casus_belli = liberate_country
+				country = ENG
+			}
+		}
+		ai_chance = { 
+		    factor = 10 
+		    modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 1.5
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 1.25
+				war_policy = pro_military
+			}
+			modifier = {
+				factor = 0.75
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = pacifism
+			}
+			modifier = {
+				factor = 0.25
+				has_recently_lost_war = yes
+			}
+		}
+	}
+
+	option = {
+		name = "Condem this illegal union!"
+		prestige = 5
+		relation = {
+			who = AH8
+			value = -75
+	    }
+		ai_chance = { 
+		    factor = 40 
+		}
+	}
+	
+	option = {
+		name = "Good for them."
+		relation = {
+			who = AH8
+			value = 50
+	    }
+		ai_chance = { 
+		    factor = 50
+			modifier = {
+				factor = 0
+				tag = HAN
+			}
+            modifier = {
+				factor = 0
+				tag = MOR
+			}			
+		}
+	}	
+}
+
+#THE CELTIC UNION
+country_event = {
+	id = 550010
+	major = yes
+	
+	fire_only_once = yes
+	trigger = {
+		tag = AD3
+	}
+	mean_time_to_happen =  {
+		months = 3
+	}
+
+	title = "ADUCEL.T"
+	desc = "ADUCEL.D"
+
+	option = {
+		name = "Constitutionalism is the way forward."
+		prestige = 5
+		government = hms_government
+		ai_chance = { 
+		    factor = 95			
+		}
+	}
+
+	option = {
+		name = "No, the High King retains absolute power."
+		prestige = 10
+		ai_chance = { 
+		    factor = 5			
+		}
+	}	
+}
+
+#Indonesian Imperialism
+country_event = {
+	id = 550011
+	title = "ADUIND.T"
+	desc = "ADUIND.D"
+	picture = "deliberation"
+
+	trigger = {
+		war = no
+		is_disarmed = no
+		is_greater_power = yes
+		year = 1850
+		any_neighbor_country = {
+			civilized = no
+			OR = {
+				primary_culture = malay
+				primary_culture = javan
+				primary_culture = moluccan
+				primary_culture = thai
+			}
+			NOT = {
+				in_sphere = THIS
+				truce_with = THIS
+			}
+		}
+		NOT = {
+			has_country_flag = indonesian_imperialism_denied
+			has_country_modifier = punitive_effects
+			war_policy = pacifism
+			casus_belli = JOH
+			casus_belli = JAV
+			casus_belli = ATJ
+			casus_belli = BRU
+			casus_belli = AG5
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 30
+		modifier = {
+			factor = 2
+			ai = no
+		}
+		modifier = {
+			factor = 0.75
+			mass_politics = 1
+		}
+	}
+
+	option = {
+		name = "It remains a possibility."
+		badboy = 4
+		random_country = {
+			limit = {
+				OR = {
+					primary_culture = malay
+			    	primary_culture = javan
+			    	primary_culture = moluccan
+			    	primary_culture = thai
+				}
+				exists = yes
+				civilized = no
+				neighbour = THIS
+				NOT = {
+					number_of_states = 2
+					truce_with = THIS
+					in_sphere = THIS
+				}
+			}
+			leave_alliance = THIS
+			relation = {
+				who = THIS
+				value = -100
+			}
+			add_casus_belli = {
+				target = THIS
+				type = establish_protectorate_BC_casus_belli
+				months = 60
+			}
+		}
+		random_country = {
+			limit = {
+				OR = {
+					primary_culture = malay
+			    	primary_culture = javan
+			    	primary_culture = moluccan
+			    	primary_culture = thai
+				}
+				exists = yes
+				civilized = no
+				neighbour = THIS
+				number_of_states = 2
+				NOT = {
+					truce_with = THIS
+					in_sphere = THIS
+				}
+			}
+			leave_alliance = THIS
+			relation = {
+				who = THIS
+				value = -100
+			}
+			add_casus_belli = {
+				target = THIS
+				type = demand_concession_BC_casus_belli
+				months = 60
+			}
+		}
+		random_country = {
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				badboy = 0.92
+			}
+		}
+	    }
+	}
+	option = {
+		name = "This is not in our interests."
+		prestige = -5
+		any_neighbor_country = {
+			limit = {
+				OR = {
+					primary_culture = malay
+			    	primary_culture = javan
+			    	primary_culture = moluccan
+			    	primary_culture = thai
+				}
+				exists = yes
+				civilized = no
+				NOT = {
+					truce_with = THIS
+					in_sphere = THIS
+				}
+			}
+			relation = {
+				who = THIS
+				value = 25
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = {
+		name = "Never bring this up again."
+		prestige = -10
+		set_country_flag = indonesian_imperialism_denied
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Offer to buy islands
+country_event = {
+	id = 550012
+	title = "ADUEAS1.T"
+	desc = "ADUEAS1.D"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Of course, this is an excellent opportunity!"
+		money = -1000
+		AD3 = { money = 1000 }
+		2234 = {
+			secede_province = ADU
+		}
+		2235 = {
+			secede_province = ADU
+		}
+		ai_chance = { factor = 60 }
+	}
+	
+	option = {
+		name = "No, it's a useless spit of land."
+		ai_chance = { factor = 40 }
+		any_greater_power = {
+		    country_event = 550013
+		}
+	}
+}
+
+#We pass on the offer
+country_event = {
+	id = 550013
+	title = "ADUEAS2.T"
+	desc = "ADUEAS2.D"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Of course, this is an excellent opportunity!"
+		money = -1000
+		AD3 = { money = 1000 }
+		2234 = {
+			secede_province = THIS
+		}
+		2235 = {
+			secede_province = THIS
+		}
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+		name = "No, it's a useless spit of land."
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = { #War with lorraine
+
+	id = 550014 
+	title = "ANDLOR.T"
+	desc = "ANDLOR.D"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AH8
+		exists = GER
+		exists = LOR
+		war = no
+		year = 1880
+		NOT = { has_country_flag = ADU_annex_lorraine }
+	}
+	
+	mean_time_to_happen =  {
+		months = 28
+	}	
+	
+	option = { 
+     	name = "This is the only way to secure our borders..."
+    	set_country_flag = ADU_annex_lorraine
+     	badboy = 5
+		AH8 = { 
+     		leave_alliance = LOR
+    		diplomatic_influence = { who = LOR value = -200 }
+		}
+    	casus_belli = {
+			target = LOR
+			type = conquest
+			months = 120
+		}
+    	war = {
+			target = LOR
+			attacker_goal = {
+				casus_belli = conquest
+			}
+			call_ally = yes
+		}
+        ai_chance = { 
+        	factor = 80 
+		}		
+	}
+	option = { 
+     	name = "We don't have the resources for another war."
+    	set_country_flag = ADU_annex_lorraine
+     	ai_chance = { 
+        	factor = 20 
+		}
+	}
+}
+
+#Annexation of Siberia
+country_event = {
+	id = 550015
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "ADUSIBB.T"
+	desc = "ADUSIBB.D"
+
+	option = {
+		name = "We have no choice..."
+		ai_chance = { 
+			factor = 80 
+			modifier = {
+				factor = 0
+				SIB = { is_greater_power = yes }
+			}			
+		}
+		any_owned = {
+			add_core = RUS
+		}
+		RUS = { inherit = THIS }
+	}
+	option = {
+		name = "Never!"
+		ai_chance = { factor = 20 }
+	}	
+}
+
+#Annexation of Buryatia
+country_event = {
+	id = 550016
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "ADUBUR.T"
+	desc = "ADUBUR.D"
+
+	option = {
+		name = "We have no choice..."
+		ai_chance = { 
+			factor = 95 
+			modifier = {
+				factor = 0
+				AH3 = { is_greater_power = yes }
+			}			
+		}
+		any_owned = {
+			add_core = JAP
+		}
+		JAP = { inherit = THIS }
+	}
+	option = {
+		name = "Never!"
+		ai_chance = { factor = 5 }
+	}	
+}
+
+#Send diplomats to Benin
+country_event = {
+	id = 550017
+	title = "ADUBENDIP.T"
+	desc = "ADUBENDIP.D"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Of course, they would make a great ally!"
+		money = -1000
+		BEN = { country_event = 550018 }
+        relation = {
+			who = BEN
+			value = 100
+    	}
+    	diplomatic_influence = { who = BEN value = 100 }		
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "No, let's not aggravate the Moroccans."
+		relation = {
+			who = BEN
+			value = -100
+    	}
+		relation = {
+			who = MOR
+			value = 25
+    	}
+		ai_chance = { factor = 70 }
+	}
+}
+
+#Andalusia agrees to help
+country_event = {
+	id = 550018
+	title = "ADUBENDIP2.T"
+	desc = "ADUBENDIP2.D"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Excellent, we won't forget this!"
+		money = 1000
+        relation = {
+			who = ADU
+			value = 100
+    	}
+	}
+}
+
+
+#Slavery in Morocco
+country_event = {
+	id = 550019
+	title = "ADUSLAV.T"
+	desc = "ADUSLAV.D"
+	fire_only_once = yes
+	picture = "Slaves"
+	major = yes
+	trigger = {
+		tag = MOR
+		slavery = yes_slavery
+		NOT = {
+			has_country_flag = the_slavery_debate
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	immediate = {
+		set_country_flag = the_slavery_debate
+	}
+	option = {
+		name = "EVTOPTA16001"
+		add_country_modifier = {
+			name = the_slavery_debate
+			duration = 10950
+		}
+	}
+}
+
+
+#APANOUB DYNASTY
+country_event = {
+	id = 550020
+	major = yes
+	
+	fire_only_once = yes
+	trigger = {
+		tag = AD2
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+		}
+	}
+	mean_time_to_happen =  {
+		months = 8
+	}
+
+	title = "ADUEGY.T"
+	desc = "ADUEGY.D"
+
+	option = {
+		name = "This is... unfortunate"
+		prestige = 5
+	}	
+}
+
+
+country_event = { ###Italian revolution 
+
+	id = 550021
+	title = "ADUITA1.T"
+	desc = "ADUITA1.D"
+	
+	major = yes
+	fire_only_once = yes
+	trigger = {
+        tag = ITA
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	
+	option = { 
+	name = "Rise, Italians!"
+	prestige = 10
+	HAN = { country_event = 550022 }
+	AH8 = { country_event = 550022 }
+	RUS = { country_event = 550022 }
+	}
+}
+
+country_event = { #Italy needs allies
+
+	id = 550022
+	title = "ADUITA2.T"
+	desc = "ADUITA2.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "Best not get involved..."
+	prestige = -10 
+	relation = { who = ITA value = -100 }
+	diplomatic_influence = { who = ITA value = -200 }
+	relation = { who = BAV value = 100 }
+	ai_chance = { 
+		factor =  30
+		modifier = {
+			factor = 0.5
+			NOT = {
+				tag = HAN
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				war = yes
+			}
+		}
+     }
+	}
+	
+	option = { 
+	name = "We will support the Italians!"
+	ITA = { country_event = 550023 }
+	relation = { who = BAV value = -150 }
+	create_alliance = ITA
+	diplomatic_influence = { who = ITA value = 25 }
+	relation = { who = ITA value = 75 }
+	ai_chance = { 
+		factor =  70
+		modifier = {
+			factor = 1.25
+			NOT = {
+				tag = RUS
+			}
+		}
+		}
+	}
+}
+
+country_event = { #Italy gets allies
+
+	id = 550023
+	title = "ADUITA3.T"
+	desc = "ADUITA3.D"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	name = "Excellent"
+	prestige = 5 
+	call_ally = yes
+	}
+}
+
+country_event = { #King of Castile-Leon 
+	
+	id = 550024
+	title = "ANDLEON.T"
+	desc = "ANDLEON.D" 
+	major = yes 
+	fire_only_once = yes
+	trigger = { 
+		tag = LEO
+		war = no
+		in_sphere = MOR
+		NOT = { year = 1842 }
+		NOT = { has_country_flag = von_wettin_king }
+		year = 1840
+	}
+
+	mean_time_to_happen = { 
+		months = 32
+	}
+	
+	option = { 
+	    name = "Long live the king!" 
+	    set_country_flag = von_wettin_king
+		relation = { who = HAN value = 75 }
+       	prestige = 5
+		HAN = {
+	    	relation = { who = LEO value = 75 }
+		}
+		MOR = {
+	    	relation = { who = HAN value = 100 }
+		}
+		HAN = {
+	    	relation = { who = MOR value = 100 }
+		}
+	}		
+}
+
+#DEATH OF YAHYA
+country_event = {
+	id = 550025
+	major = yes
+	
+	fire_only_once = yes
+	trigger = {
+		tag = MOR
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+	}
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "ADUYAH.T"
+	desc = "ADUYAH.D"
+
+	option = {
+		name = "A sad day."
+		prestige = 5
+	}	
+}
+
+#Concede Italian lands
+country_event = {
+	id = 550027
+	title = "ADUSGF.T"
+	desc = "ADUSGF.D"
+	
+	major = yes
+	fire_only_once = yes
+	trigger = {
+	    tag = SGF
+		war = no
+	}
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "Concede our Italian territories."
+		726 = {
+			secede_province = ITA
+		}
+		727 = {
+			secede_province = ITA
+		}
+		728 = {
+			secede_province = ITA
+		}
+		ITA = {
+				all_core = {
+					remove_core = SGF
+				}
+		}
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+		name = "No, they're a rightful part of our territory."
+		ai_chance = { factor = 20 }
+	}
+}
+
+# Adapted Newspaper Publishes Slander
+country_event = {
+	id = 550028
+	title = "EVTNAME550028"
+	desc = "EVTDESC550028"
+	picture = "News"
+	
+	trigger = {
+		civilized = yes
+		press_rights = state_press
+		average_consciousness = 3
+		tag = ADU
+	}
+	
+	mean_time_to_happen = {
+		months = 400 #COMMON
+		
+		modifier = {
+			factor = 0.9
+			NOT = {
+				prestige = 50
+			}
+		}
+		modifier = {
+			factor = 1.1
+			prestige = 100
+		}
+		modifier = {
+			factor = 1.3
+			prestige = 150
+		}
+	}
+	
+	option = {
+		name = "Stop publishing this nonsense!"
+		random_state = {
+			limit = {
+				NOT = {
+					is_colonial = yes
+				}
+			}
+			rich_strata = {
+				consciousness = -4
+			}
+			poor_strata = {
+				militancy = 4
+				ideology = {
+					value = liberal
+					factor = 0.1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "...it's just the truth?"
+		random_state = {
+			limit = {
+				NOT = {
+					is_colonial = yes
+				}
+			}
+			middle_strata = {
+				consciousness = 2
+			}
+			rich_strata = {
+				consciousness = 4
+			}
+			any_pop = {
+				dominant_issue = {
+					value = free_press
+					factor = 0.1
+				}
+			}
+		}
+	}
+}
+
+#Lover Exposed
+country_event = {
+	id = 550029
+	title = "EVTNAME550029"
+	desc = "EVTDESC550029"
+	picture = "Lover"
+	
+	trigger = {
+		civilized = yes
+		NOT = {
+			press_rights = free_press
+		}
+		tag = ADU
+	}
+	
+	mean_time_to_happen = {
+		months = 500 #COMMON
+		modifier = {
+			factor = 1.1
+			ruling_party_ideology = conservative
+		}
+		modifier = {
+			factor = 1.3
+			ruling_party_ideology = reactionary
+		}
+		modifier = {
+			factor = 0.8
+			ruling_party_ideology = liberal
+		}
+	}
+	
+	option = {
+		name = "This scandalous slander ends here - shut them down!"
+		random_state = {
+			limit = {
+				NOT = {
+					is_colonial = yes
+				}
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 2
+				}
+				scaled_consciousness = {
+					ideology = liberal
+					factor = 2
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "I guess we caught him with his pants down."
+		random_state = {
+			limit = {
+				NOT = {
+					is_colonial = yes
+				}
+			}
+			any_pop = {
+				dominant_issue = {
+					value = free_press
+					factor = 0.1
+				}
+				ideology = {
+					value = liberal
+					factor = 0.1
+				}
+			}
+		}
+	}
+}
+
+#DEATH OF TSARINA
+country_event = {
+	id = 550030
+	major = yes
+	
+	fire_only_once = yes
+	trigger = {
+		tag = RUS
+		year = 1860
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+	}
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "ADURUSDEATH.T"
+	desc = "ADURUSDEATH.D"
+
+	option = {
+		name = "A sad day."
+		prestige = 5
+	}	
+}
+
+#CORONATION IN MUNCHEN
+country_event = {
+	id = 550031
+	major = yes
+	
+	fire_only_once = yes
+	trigger = {
+		OR = {
+		    tag = BAV
+			tag = SGF
+		}
+		year = 1875
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+	}
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "ADUBAVCOR.T"
+	desc = "ADUBAVCOR.D"
+
+	option = {
+		name = "With this, a new era begins for Germany."
+		prestige = 5
+	}	
+}
+
+#The Kongo Land Swap
+country_event = {
+	id = 550032
+	
+	fire_only_once = yes
+	trigger = {
+		tag = ADU
+		year = 1890
+		owns = 1893
+		owns = 1895
+		owns = 1896
+		BEN = {
+		    owns = 2002
+    		owns = 2003
+    		owns = 2009
+		}
+	}
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "ADUSWAP.T"
+	desc = "ADUSWAP.D"
+
+	option = {
+		name = "War will decide this question."
+		prestige = 5
+	}
+	option = {
+		name = "A peaceful solution would be preferable..."
+		2002 = {
+		    secede_province = ADU
+		}
+		2003 = {
+		    secede_province = ADU
+		}
+		2009 = {
+		    secede_province = ADU
+		}
+		1893 = {
+		    secede_province = BEN
+		}
+		1895 = {
+		    secede_province = BEN
+		}
+		1896 = {
+		    secede_province = BEN
+		}
+	}
+}
+
+#Addicted to Opium?
+country_event = {
+	id = 550033
+	title = "EVTNAME550033"
+	desc = "EVTDESC550033"
+	picture = "Opium"
+	
+	trigger = {
+		civilized = yes
+		tag = ADU
+		press_rights = free_press
+		is_greater_power = yes
+		has_country_flag = coronation_of_khuzaymah
+		NOT = { has_country_flag = khuzaymah_the_addict }
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 500
+	}
+	
+	option = {
+		name = "This is slander!"
+		set_country_flag = khuzaymah_the_addict
+		prestige = -5
+		add_country_modifier = {
+					name = an_addicted_sultan
+					duration = 730
+		}
+	}
+	
+	option = {
+		name = "Could it be true?"
+		has_country_flag = khuzaymah_the_addict
+		prestige = -5
+		add_country_modifier = {
+					name = an_addicted_sultan
+					duration = 730
+		}
+	}
+}
+
+#Opiate of the people
+country_event = {
+	id = 550034
+	title = "EVTNAME550034"
+	desc = "EVTDESC550034"
+	picture = "Prosper"
+	
+	trigger = {
+		civilized = yes
+		tag = ADU
+		has_country_flag = khuzaymah_the_addict
+		NOT = { has_country_flag = opiate_of_the_people }
+		year = 1910
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 500
+	}
+	
+	option = {
+		name = "This will not end well..."
+		set_country_flag = opiate_of_the_people
+		prestige = -25
+		add_country_modifier = {
+					name = ignited_tensions
+					duration = 730
+		}
+	}
+}

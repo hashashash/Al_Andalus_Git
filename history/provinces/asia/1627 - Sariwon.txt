@@ -1,0 +1,7 @@
+owner = AF6
+controller = AF6
+
+trade_goods = iron
+life_rating = 35
+
+add_core = AF6

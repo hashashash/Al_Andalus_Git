@@ -1,0 +1,8 @@
+owner = AD5
+controller = AD5
+
+add_core = GEO
+trade_goods = tea
+life_rating = 35
+add_core = CRI
+add_core = AD5

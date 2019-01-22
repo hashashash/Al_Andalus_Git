@@ -1,0 +1,8 @@
+owner = HDJ
+controller = HDJ
+
+
+trade_goods = sulphur
+life_rating = 35
+add_core = HDJ
+add_core = AE7

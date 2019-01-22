@@ -1,0 +1,6 @@
+owner = AD5
+controller = AD5
+
+trade_goods = fruit
+life_rating = 35
+add_core = AD5

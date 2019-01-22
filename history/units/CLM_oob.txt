@@ -1,0 +1,57 @@
+
+MEX = {
+	value = -200		#relation
+}
+
+army = {
+	name = "Army of New France"
+	location = 2253
+	regiment = {
+		name= "1. Brigade"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "2. Brigade"
+		type = infantry
+		home = 2252
+	}
+
+	regiment = {
+		name= "3. Brigade"
+		type = infantry
+		home = 2254
+	}
+	
+	regiment = {
+		name= "5. Brigade"
+		type = infantry
+		home = 2279
+	}
+	
+	regiment = {
+		name= "6. Brigade"
+		type = infantry
+		home = 2282
+	}
+	
+	regiment = {
+		name= "7. Brigade"
+		type = infantry
+		home = 2283
+	}
+	
+	regiment = {
+		name= "8. Brigade"
+		type = infantry
+		home = 2264
+	}
+
+	regiment = {
+		name= "1. Brigade"
+		type = cuirassier
+		home = 2250
+	}
+
+}

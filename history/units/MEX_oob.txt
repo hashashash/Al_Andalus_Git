@@ -1,0 +1,344 @@
+
+GCO = {
+	value = -200		#relation
+}
+
+AE1 = {
+	value = -200		#relation
+}
+
+CAN = {
+	value = -200		#relation
+}
+
+AD9 = {
+	value = -200		#relation
+}
+
+leader = {
+	name = "Muhammad ibn Muhammad"
+	type = land
+	date="1836.1.1"
+	personality = impulsive
+	background = aristocrat
+}
+
+leader = {
+	name = "Faisal Mahmud"
+	date = 1836.1.1
+	type = land
+	personality = steadfast
+	background = school_of_firepower
+	prestige = 0.3
+}
+
+leader = {
+	name = "Zachar al-Andalusi"
+	date = 1836.1.1
+	type = land
+	personality = intuitive
+	background = school_of_offense
+	prestige = 0.1
+}
+
+leader = {
+	name = "Galind al-Farih"
+	date = 1836.1.1
+	type = land
+	personality = meticulous
+	background = toady
+	prestige = 0.1
+}
+
+leader = {
+	name = "Cyrah ibn Cyrah ibn Cyrah"
+	date = 1828.1.1
+	type = land
+	personality = soldierly
+	background = drillmaster
+	prestige = 0.1
+}
+
+leader = {
+	name = "Layth al-Qattaluni"
+	date = 1812.1.1
+	type = land
+	personality = heroic
+	background = engineer
+	prestige = 0.3
+}
+
+leader = {
+	name = "Mashaq min-Uropa"
+	date = 1810.1.1
+	type = sea
+	personality = skilled
+	background = elderly
+	prestige = 0.2
+}
+
+army = {
+	name = "Revolutionary Army"
+	location = 2172
+	regiment = {
+		name= "1.Division "
+		type = infantry
+		home = 2162
+	}
+
+	regiment = {
+		name= "2.Division "
+		type = infantry
+		home = 2179
+	}
+
+	regiment = {
+		name= "3.Division "
+		type = infantry
+		home = 2176
+	}
+	
+		regiment = {
+		name= "1.inf"
+		type = infantry
+		home = 2177
+	}
+
+	regiment = {
+		name= "2.inf"
+		type = infantry
+		home = 2180
+	}
+
+	regiment = {
+		name= "3.inf"
+		type = infantry
+		home = 2169
+	}
+
+}
+
+
+army = {
+	name = "Army of the South"
+	location = 2195
+	regiment = {
+		name= "1st Regiment of Infantry"
+		type = infantry
+		home = 2195
+	}
+
+	regiment = {
+		name= "2nd Regiment of Infantry"
+		type = infantry
+		home = 2181
+	}
+
+	regiment = {
+		name= "3rd Regiment of Infantry"
+		type = infantry
+		home = 2182
+	}
+
+	regiment = {
+		name= "1st Regiment of Artillery"
+		type = artillery
+		home = 2186
+	}
+	
+	regiment = {
+		name= "5th Regiment of Artillery"
+		type = artillery
+		home = 2193
+	}
+	
+	regiment = {
+		name= "4th Regiment of Artillery"
+		type = artillery
+		home = 2192
+	}
+
+}
+
+army = {
+	name = "Mayan Army"
+	location = 2183
+	regiment = {
+		name= "4th Regiment of Infantry"
+		type = infantry
+		home = 2183
+	}
+
+	regiment = {
+		name= "5th Regiment of Infantry"
+		type = infantry
+		home = 2184
+	}
+
+	regiment = {
+		name= "6th Regiment of Infantry"
+		type = infantry
+		home = 2165
+	}
+
+	regiment = {
+		name= "2nd Regiment of Artillery"
+		type = artillery
+		home = 2181
+	}
+
+}
+
+army = {
+	name = "Army of the North"
+	location = 2152
+	regiment = {
+		name= "7th Regiment of Infantry"
+		type = infantry
+		home = 2152
+	}
+
+	regiment = {
+		name= "8th Regiment of Infantry"
+		type = infantry
+		home = 138
+	}
+
+	regiment = {
+		name= "9th Regiment of Infantry"
+		type = infantry
+		home = 2148
+	}
+	
+		regiment = {
+		name= "10th Regiment of Infantry"
+		type = infantry
+		home = 2172
+	}
+
+	regiment = {
+		name= "3rd Regiment of Artillery"
+		type = artillery
+		home = 2174
+	}
+
+}
+
+navy = {
+	name = "Revolutionary Navy"
+	location = 2162
+	
+	ship = {
+		name= "Harun"
+		type = manowar
+	}
+
+	ship = {
+		name= "Al-Rashid"
+		type = manowar
+	}
+
+	ship = {
+		name= "Wassata"
+		type = manowar
+	}
+
+	ship = {
+		name= "Al-Andalusi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Muhseen"
+		type = frigate
+	}
+	ship = {
+		name= "Al-Akbar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Al-Shams"
+		type = clipper_transport
+	}
+
+}
+
+
+navy = {
+	name = "Ibrizi Fleet"
+	location = 2183
+	ship = {
+		name= "Jamid"
+		type = manowar
+	}
+
+	ship = {
+		name= "Mekhsikh"
+		type = frigate
+	}
+	
+		ship = {
+		name= "Al-Amawaya"
+		type = frigate
+	}
+
+	ship = {
+		name= "Southern Expeditionary Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Mazula"
+		type = manowar
+	}
+
+	ship = {
+		name= "Galind"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hadiz"
+		type = manowar
+	}
+
+	ship = {
+		name= "1st Reserve Transport"
+		type = clipper_transport
+	}
+
+
+}
+
+
+navy = {
+	name = "2nd Reserve Squadron"
+	location = 137
+	ship = {
+		name= "Mu'min"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dhisistan"
+		type = manowar
+	}
+
+	ship = {
+		name= "Northern Expeditionary Threedecker"
+		type = manowar
+	}
+
+	ship = {
+		name= "Tirruni"
+		type = manowar
+	}
+
+	ship = {
+		name= "2nd Reserve Transport"
+		type = clipper_transport
+	}
+
+}
+

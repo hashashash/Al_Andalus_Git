@@ -1,0 +1,7 @@
+owner = AG2
+controller = AG2
+add_core = DAI
+trade_goods = grain
+life_rating = 30
+
+add_core = AG2

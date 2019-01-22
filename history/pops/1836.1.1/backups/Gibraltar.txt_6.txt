@@ -1,0 +1,112 @@
+#Gibraltar : 16000
+#Ruled by Britain 1836
+#Gibraltar (16000/4000 POPS)
+517 = {
+    officers = {
+        culture = andalusi
+        religion = Sunni
+        size = 5
+    }
+
+    bureaucrats = {
+        culture = andalusi
+        religion = Sunni
+        size = 5
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = Sunni
+        size = 5
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = Sunni
+        size = 100
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = Sunni
+        size = 135
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = Sunni
+        size = 400
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = Sunni
+        size = 1
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = Sunni
+        size = 67
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = Sunni
+        size = 1
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = Sunni
+        size = 4
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = Sunni
+        size = 96
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = Sunni
+        size = 5737
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = Sunni
+        size = 96
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = Sunni
+        size = 382
+    }
+
+    clergymen = {
+        culture = andalusi
+        religion = Sunni
+        size = 13
+    }
+
+    artisans = {
+        culture = andalusi
+        religion = Sunni
+        size = 861
+    }
+
+    soldiers = {
+        culture = andalusi
+        religion = Sunni
+        size = 13
+    }
+
+    farmers = {
+        culture = andalusi
+        religion = Sunni
+        size = 58
+    }
+}

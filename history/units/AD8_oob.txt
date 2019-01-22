@@ -1,0 +1,55 @@
+leader = {
+	name = "Thomas Firebrand"
+	date = 1836.1.1
+	type = sea
+	personality = openminded
+	background = war_college
+	prestige = 0.1
+}
+
+army = {
+	name = "Revolutionary Army"
+	location = 198
+	regiment = {
+		name= "1st Regiment of Artillery"
+		type = artillery
+		home = 198
+	}
+
+	regiment = {
+		name= "5th Regiment of Infantry"
+		type = infantry
+		home = 197
+	}
+
+	regiment = {
+		name= "6th Regiment of Infantry"
+		type = infantry
+		home = 202
+	}
+
+	regiment = {
+		name= "2nd Regiment of Artillery"
+		type = artillery
+		home = 204
+	}
+
+	regiment = {
+		name= "7th Regiment of Infantry"
+		type = infantry
+		home = 204
+	}
+
+	regiment = {
+		name= "8th Regiment of Infantry"
+		type = infantry
+		home = 201
+	}
+
+	regiment = {
+		name= "9th Regiment of Infantry"
+		type = infantry
+		home = 196
+	}
+
+}

@@ -1,0 +1,9 @@
+owner = AH5
+controller = AH5
+
+
+trade_goods = fruit
+life_rating = 35
+
+add_core = LBN
+add_core = AH5

@@ -1,0 +1,85 @@
+
+#Starting Relations
+
+MOR = {
+    value = 200		#relation 
+	truce_until = 1840.1.1
+}
+
+ADU = {
+    value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+LEO = {
+	truce_until = 1840.1.1
+}
+
+RUS = {
+	truce_until = 1840.1.1
+}
+
+HAN = {
+	truce_until = 1840.1.1
+}
+
+FRA = {
+	truce_until = 1840.1.1
+}
+
+#Commanders and Admirals
+
+leader = {
+	name = "Amar ibn Saqq"
+	date = 1835.1.1
+	type = land
+	personality = merciless
+	background = aristocrat
+	prestige = 0.0
+}
+
+leader = {
+	name = "Muhammad ibn Saqq"
+	date = 1829.1.1
+	type = land
+	personality = deeply_religious
+	background = aristocrat
+	prestige = 0.0
+}
+
+
+army = {
+	name = "Army of Qattalun"
+	location = 498
+	
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 498
+	}
+
+	regiment = {
+		name= "2. Infantry"
+		type = infantry
+		home = 499
+	}
+	
+	regiment = {
+		name= "3. Infantry"
+		type = infantry
+		home = 501
+	}
+	
+	regiment = {
+		name= "4. Infantry"
+		type = infantry
+		home = 503
+	}
+
+	regiment = {
+		name= "1. Cavalry"
+		type = cavalry
+		home = 505
+	}
+}
+

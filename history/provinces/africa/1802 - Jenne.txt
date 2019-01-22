@@ -1,0 +1,7 @@
+owner = AE3
+controller = AE3
+add_core = AE3
+add_core = SEG
+add_core = MAS
+trade_goods = grain
+life_rating = 30

@@ -1,0 +1,27 @@
+
+MEX = {
+	value = -200		#relation
+}
+
+army = {
+	name = "Anbaila Army"
+	location = 163
+	regiment = {
+		name= "1st Regiment of Infantry"
+		type = infantry
+		home = 163
+	}
+
+	regiment = {
+		name= "2nd Regiment of Infantry"
+		type = infantry
+		home = 168
+	}
+
+	regiment = {
+		name= "3rd Regiment of Infantry"
+		type = infantry
+		home = 171
+	}
+
+}

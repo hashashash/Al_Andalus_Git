@@ -1,0 +1,18 @@
+
+
+army = {
+	name = "Army of the Abyssinian Kingdom"
+	location = 1873	
+	regiment = {
+		name= "Shaykh's Guards"	
+		type = irregular
+		home = 1874
+	}
+	regiment = {
+		name= "Berbera Warriors"	
+		type = irregular
+		home = 1873
+	}
+}
+
+

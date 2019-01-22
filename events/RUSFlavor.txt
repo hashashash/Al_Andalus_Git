@@ -1,0 +1,730 @@
+country_event = {
+
+	id = 32500
+	news = yes
+	news_desc_long = "EVTDESC32500_NEWS_LONG"
+	news_desc_medium = "EVTDESC32500_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC32500_NEWS_SHORT"
+
+	trigger = {
+		tag = RUS
+		year = 1837
+		war = no
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME32500"
+	desc = "EVTDESC32500"
+	picture = "Pushkin"
+
+	option = {
+		name = "EVTOPTA32500" 
+		prestige = 3
+	}
+}
+
+country_event = {
+
+	id = 32502
+
+	trigger = {
+		tag = RUS
+		year = 1849
+		war = no
+		NOT = {
+			year = 1852
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1850
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1851
+		}
+	}
+
+	title = "EVTNAME32502"
+	desc = "EVTDESC32502"
+	picture = "Execution"
+
+	option = {
+		name = "EVTOPTA32502"
+		plurality = -2 
+		capitalists = {
+			consciousness = -1
+		}	
+		aristocrats = {
+			consciousness = -1
+		}	
+		bureaucrats = {
+			consciousness = -1
+		}	
+	}
+}
+
+country_event = {
+
+	id = 32503
+
+	trigger = {
+		tag = RUS
+		year = 1852
+		NOT = {
+			year = 1855
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1853
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1854
+		}
+	}
+
+	title = "EVTNAME32503"
+	desc = "EVTDESC32503"
+	picture = "hermitage"
+
+	option = {
+		name = "EVTOPTA32503" 
+		prestige = 5
+	}
+}
+
+country_event = {
+
+	id = 32504
+
+	trigger = {
+		tag = RUS
+		year = 1874
+		NOT = {
+			year = 1877
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1875
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1876
+		}
+	}
+
+	title = "EVTNAME32504"
+	desc = "EVTDESC32504"
+	picture = "Godunov"
+
+	option = {
+		name = "EVTOPTA32504" 
+		prestige = 5
+		any_pop = {
+			limit = { has_pop_culture = russian }
+			consciousness = 1
+		}	
+	}
+}
+
+country_event = {
+
+	id = 32505
+	news = yes
+	news_desc_long = "EVTDESC32505_NEWS_LONG"
+	news_desc_medium = "EVTDESC32505_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC32505_NEWS_SHORT"
+
+	trigger = {
+		tag = RUS
+		year = 1880
+		NOT = {
+			year = 1883
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1881
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1882
+		}
+	}
+
+	title = "EVTNAME32505"
+	desc = "EVTDESC32505"
+	picture = "Dostoevsky"
+
+	option = {
+		name = "EVTOPTA32505" 
+		prestige = 5
+		any_pop = {
+			limit = { has_pop_culture = russian }
+			consciousness = 1
+		}	
+	}
+}
+
+country_event = {
+
+	id = 32506
+	trigger = {
+		tag = RUS
+		year = 1837
+		experimental_railroad = 1
+		994 = {
+			has_building = railroad
+		}
+		NOT = {
+			year = 1850
+		}
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1839
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1842
+		}
+	}
+
+	title = "EVTNAME32506"
+	desc = "EVTDESC32506"
+	picture = "train"
+
+	option = {
+		name = "EVTOPTA32506" 
+		prestige = 2
+	}
+}
+
+country_event = {
+
+	id = 32508
+
+	trigger = {
+		tag = RUS
+		year = 1899
+		NOT = {
+			year = 1902
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1900
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1901
+		}
+	}
+
+	title = "EVTNAME32508"
+	desc = "EVTDESC32508"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA32508" 
+		prestige = 5
+	}
+}
+
+
+#January Uprising
+country_event = {
+
+	id = 95076
+	
+	title = "EVTNAME95076"
+	desc = "EVTDESC95076"
+	news = yes
+	news_desc_long = "EVTDESC95076_NEWS_LONG"
+	news_desc_medium = "EVTDESC95076_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC95076_NEWS_SHORT"
+	picture = "Revolution"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = RUS
+		year = 1860
+		NOT = {
+			citizenship_policy = full_citizenship
+		}
+		OR = {
+			political_parties = underground_parties
+			political_parties = harassment
+		}
+		OR = {
+			owns = 360 #Vilnius
+			owns = 702 #Lvov
+			owns = 703 #Krakow
+			owns = 706 #Warsaw
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 40
+		modifier = {
+			factor = 0.8
+			war = yes
+		}
+		modifier = {
+			factor = 0.9
+			government = absolute_monarchy
+		}
+		modifier = {
+			factor = 1.2
+			NOT = {
+				any_state = {
+					any_owned_province = { is_core = POL }
+					average_militancy = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_state = {
+				any_owned_province = { is_core = POL }
+				average_militancy = 2
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_state = {
+				any_owned_province = { is_core = POL }
+				average_militancy = 4
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				any_state = {
+					any_owned_province = { is_core = POL }
+					average_consciousness = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_state = {
+				any_owned_province = { is_core = POL }
+				average_consciousness = 5
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_state = {
+				any_owned_province = { is_core = POL }
+				average_consciousness = 7
+			}
+		}
+	}
+
+	option = {
+		name = "Show the insurgents no mercy"
+		prestige = -20
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = polish
+					has_pop_culture = lithuanian
+				}
+				location = {
+					OR = {
+						is_core = POL
+						is_core = LIT
+					}
+				}
+			}
+			reduce_pop = 0.9
+			militancy = 8
+			consciousness = 3
+		}
+		any_owned = {
+			limit = {
+				culture = polish
+				is_core = POL
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 430
+			}
+		}
+		any_owned = {
+			limit = {
+				culture = lithuanian
+				is_core = LIT
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 430
+			}
+		}
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				capital_scope = { continent = europe }
+				NOT = { tag = TUR }
+			}
+			relation = {
+				who = THIS
+				value = -25
+			}
+		}
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0.75
+				war = yes
+			}
+			modifier = {
+				factor = 0.5
+				num_of_revolts = 10
+			}
+		}
+	}
+
+	option = {
+		name = "Be lenient"
+		prestige = 10
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = polish
+					has_pop_culture = lithuanian
+					has_pop_culture = byelorussian
+					has_pop_culture = ukrainian
+				}
+				location = {
+					OR = {
+						is_core = POL
+						is_core = LIT
+						is_core = BYE
+						is_core = UKR
+					}
+				}
+			}
+			militancy = 4
+			consciousness = 3
+		}
+		any_owned = {
+			limit = {
+				culture = polish
+				is_core = POL
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 720
+			}
+		}
+		any_owned = {
+			limit = {
+				culture = lithuanian
+				is_core = LIT
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 720
+			}
+		}
+		any_owned = {
+			limit = {
+				culture = byelorussian
+				is_core = BYE
+			}
+			random = {
+				chance = 50
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 430
+				}
+			}
+		}
+		any_owned = {
+			limit = {
+				culture = ukrainian
+				is_core = UKR
+			}
+			random = {
+				chance = 50
+				add_province_modifier = {
+					name = nationalist_agitation
+					duration = 430
+				}
+			}
+		}		
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 1.5
+				war = yes
+			}
+			modifier = {
+				factor = 2
+				num_of_revolts = 10
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 32512
+	title = "EVTNAME32512" #Intervention in ITALY ITALY ITALY ITALY ITALY ???
+	desc = "EVTDESC32512"
+	picture = "deliberation"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = RUS
+		war = no
+		has_global_flag = hungarian_revolution_occurred
+		exists = ITA
+		NOT = { truce_with = ITA }
+		AUS = {
+			NOT = { has_country_flag = austria_let_hungary_go }
+			NOT = { truce_with = RUS }
+			war_with = ITA
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 3
+			num_of_revolts = 1
+		}
+		modifier = {
+			factor = 0.5
+			BAV = {
+				any_owned_province = { controlled_by = ITA }
+			}
+		}
+	}
+
+	option = {
+		name = "The Italians must be crushed!"
+		prestige = 5
+		casus_belli = {
+			target = ITA
+			type = cut_down_to_size
+			months = 12
+		}
+		war = {
+			target = ITA
+			attacker_goal = {
+				casus_belli = cut_down_to_size
+			}
+		}
+		military_access = BAV
+		random_owned = {
+			limit = {
+				owner = { ai = yes }
+				BAV = { ai = yes }
+			}
+			owner = {
+				relation = {
+					who = BAV
+					value = 300
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				OR = {
+					owner = { ai = no }
+					BAV = { ai = no }
+				}
+			}
+			owner = {
+				relation = {
+					who = BAV
+					value = 100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0.5
+				ITA = { national_provinces_occupied = .25 }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					relation = { who = BAV value = 0 }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "Let the Bavarians deal with them."
+		any_owned = {
+			limit = {
+				NOT = { has_province_modifier = nationalist_agitation }
+				any_core = {
+					OR = {
+						primary_culture = polish
+						primary_culture = lithuanian
+						primary_culture = estonian
+						primary_culture = latvian
+					}
+					exists = no
+				}
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1095
+			}
+		}
+		any_pop = {
+			limit = {
+				is_primary_culture = no
+				location = {
+					any_core = {
+						NOT = { primary_culture = russian }
+					}
+				}
+			}
+			militancy = 4
+			consciousness = 2
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 4
+				HUN = { national_provinces_occupied = .25 }
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					relation = { who = BAV value = 50 }
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					relation = { who = BAV value = 0 }
+				}
+			}
+			modifier = {
+				factor = 0.25
+				relation = { who = BAV value = 50 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 32513
+	title = "EVTNAME32513" #The CHERSON CHERSON CHERSON War
+	desc = "EVTDESC32513"
+	picture = "rebellion"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+		OR = {
+			owns = 1049
+			owns = 1051
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	option = {
+		name = "Order shall be restored."
+		any_owned = {
+			limit = {
+				OR = {
+					province_id = 1051
+					province_id = 1049
+					province_id = 966
+					province_id = 1048
+					province_id = 1047
+					province_id = 979
+				}
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 9125
+			}
+			any_pop = {
+				limit = { is_primary_culture = no }
+				militancy = 9
+			}
+		}
+	}
+}
+

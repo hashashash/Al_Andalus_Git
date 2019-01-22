@@ -1,0 +1,10 @@
+owner = AG8
+controller = AG8
+add_core = AG8
+add_core = GER
+trade_goods = fruit
+life_rating = 42
+railroad = 1
+fort = 1
+
+

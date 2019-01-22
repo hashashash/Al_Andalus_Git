@@ -1,0 +1,30 @@
+army = {
+	name = "Khartoum"
+	location = 1827
+	regiment = {
+		name= "1st Khartoum"
+		type = irregular
+		home = 1827
+	}
+
+}
+
+army = {
+	name = "Sudanese"
+	location = 1828
+	regiment = {
+		name= "1.Khartoum"
+		type = irregular
+		home = 1828
+	}
+}
+
+army = {
+	name = "Egypt Expeditionaries"
+	location = 1834
+	regiment = {
+		name= "1.Khartoum"
+		type = irregular
+		home = 1834
+	}
+}

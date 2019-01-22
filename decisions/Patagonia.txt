@@ -1,0 +1,30 @@
+political_decisions = {
+	
+	valparaiso_harbor = {
+		potential = {
+			NOT = { is_canal_enabled = 3 }
+			NOT = {
+				has_country_flag = valpariasoharbor_built
+			}
+			tag = CHL
+			owns = 2325
+		}
+		
+		allow = {
+			battleship_column_doctrine = 1
+		}
+		
+		effect = {
+			2325 = {
+				life_rating = 10
+				add_province_modifier = {
+					name = gateway_to_harbor
+					duration = -1
+				}
+			}
+			prestige = 5
+			set_country_flag = valpariasoharbor_built
+		}
+	}
+	
+}

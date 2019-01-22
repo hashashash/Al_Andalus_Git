@@ -1,0 +1,6 @@
+owner = MOR
+controller = MOR
+add_core = SRD
+trade_goods = sulphur
+naval_base = 2
+life_rating = 35

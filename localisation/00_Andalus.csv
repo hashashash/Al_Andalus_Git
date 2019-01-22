@@ -1,0 +1,765 @@
+andalusi;Andalusi;;;;;;;;;;;;x;
+ANDALUS_SCENARIO_NAME;The Peace of Cadiz;;;;;;;;;;;;x;
+ANDALUS_SCENARIO_DESC;With the Fall of Narbuna and suicide of Sahim Tirruni, at long last, the devastating and destructive years of the Tirruni Wars have come to an end, bringing one of history's great eras to a close. The Great Powers met in a grand conference soon afterwards, the Congress of Cadiz, with the ultimate ambition of restoring the natural order of monarchism throughout the tattered nations of Europe, suppressing radicalism and radicals wherever they could be found, and enforcing their position on the continental and world stage for decades to come. None can say whether they've succeeded in those ambitions, but as the first morning of 1836 dawns, there is no doubt that the next hundred years are rich with possibilities, alive with aspirations, and rife with ambitions. Anything can happen.;;;;;;;;;;;;x;
+manichaeism;Manichaeism;;;;;;;;;;;;x;
+jain;Jain;;;;;;;;;;;;x;
+siculo_arab;Siculo-Arab;;;;;;;;;;;;x;
+sahidic;Sahidic;;;;;;;;;;;;x;
+english;English;;;;;;;;;;;;x;
+scottish;Scottish;;;;;;;;;;;;x;
+welsh;Welsh;;;;;;;;;;;;x;
+EVTNAME8000012;The Iberian Question;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8000012;Throughout the Congress of Cadiz, our diplomats attempted in vain to convince the rest of the assembly to return the northern and eastern territories to Al Andalus, likely worrying about the ambitions and power of a reunited Iberia. We must not let them dictate our destiny however, with the Sultan determined to make a grand declaration to the rest of the world in which he will insist that Andalusi claims will not go forgotten. Some of our vizier agree that we must re-acquire northern Iberia, which was captured from Sahim Tirruni during the last days of the great war. Some also believe that Al Andalus has a rightful claim to Qattalun, but the region has been independent for almost 70 years now, making that another heated point of discussion... What should we do?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+AUS;Vienna;;;;;;;;;;;;x;
+cathar;Cathar;Cathar;Katholisch;;Católica;;;;;;;;;x;;;;
+liberal_rebels_title;Liberal Revolutionary;Fascistes;Faschist;;Fascista;;;;;;;;;x;;;;
+liberal_rebels_name;$COUNTRY$ Liberal Revolutionaries;$COUNTRY$ - Fascistes;$COUNTRY$e Faschisten;;$COUNTRY$ fascista;;;;;;;;;x;;;;
+CRS_absolute_monarchy;Emirate of Corsica;;;;;;;;;;x;;;
+EVTNAME8009999;The Revived State of Francia, and the Pact of Paris;;;;;;;;;;x;;;
+EVTDESC8009999;With every aspect of the country now under their control, the fascist government in France have declared their intention to support similar movements all across the world, movements that are violently opposed to monarchy, capitalism and communism - this is the so-called Pact of Paris, the beginnings of an alliance that hopes to stretch across the globe. Furthermore, in an effort to unite their culturally-diverse territories, the fascists have taken to calling themselves the 'Revived State of Francia', an empire that lays claim to France, Occitania, Britain, Holland, Germany and large parts of Eastern Europe. With this declaration, they send a clear challenge to the other Great Powers, one that can only be answered with blood and tears.;;;;;;;;;;x;;;
+EVTNAME8008888;The International League of Monarchies;;;;;;;;;;;;x;
+EVTDESC8008888;Riding the wave of popularity that followed his victory in the Great War, Sultan Ajeddig Almoravid made a momentous announcement from his marble palace in Marrakesh this past week, declaring the formation of a venture that seeks to stabilise failing monarchies around the world, restore overthrown dynasties to their toppled thrones, and counter the recent gains made by fascists and communists alike - this is the International League of Monarchies, or as critics like to call it, the Absolutist Alliance.;;;;;;;;;;;;x;
+picard;Wallonian;;;;;;;;;;;;x;
+CHI_absolute_monarchy;Guang China;;;;;;;;;;;;;x
+ARM;Little Armenia;;;;;;;;;;x;;;
+YUG;Balkan Federation;;;;;;;;;;x;;;
+YUG_ADJ;Balkan;;;;;;;;;;x;;;
+ABU;Abu Dhabi;;;;;;;;;;x;;;
+ABU_ADJ;Abu Dhabi;;;;;;;;;;x;;;
+BAD_ADJ;Swabian;;;;;;;;;;x;;;
+AH6;Rajputana;;;;;;;;;;x;;;
+AH6_ADJ;Rajputana;;;;;;;;;;x;;;
+AH7;Berber Union;;;;;;;;;;x;;;
+AH7_ADJ;Berber Union;;;;;;;;;;x;;;
+AH8;Dual Monarchy;;;;;;;;;;x;;;
+AH8_ADJ;Frangleterre;;;;;;;;;;x;;;
+AH1;Rhodes;;;;;;;;;;x;;;
+AH1_ADJ;Rhodesian;;;;;;;;;;x;;;
+NGF;German Republic;;;;;;;;;;x;;;
+SCA_absolute_monarchy;Scandinavia-Novgorod;Scandinavie;Skandinawien;;Escandinavia;;;;;;;;;x;;;;
+SAF;Southern Berber Republic;Afrique du sud;S?afrika;;Sud?rica;;;;;;;;;x;;;;
+SAF_absolute_monarchy;Wilayah Izdariyah;Afrique du sud;S?afrika;;Sud?rica;;;;;;;;;x;;;;
+AH1_absolute_monarchy;Emirate of Rhodos;;;;;;;;;;x;;;
+GUA_absolute_monarchy;Tlapanec Empire;;;;;;;;;;x;;;
+ELS_absolute_monarchy;Islamic Republic of Ibriz;;;;;;;;;;x;;;
+AH3;Buryatia;;;;;;;;;;x;;;
+AH3_ADJ;Buryatian;;;;;;;;;;x;;;
+AH4;Peloponnesian Kingdom;;;;;;;;;;x;;;
+AH4_ADJ;Peloponnesian;;;;;;;;;;x;;;
+AH5;Outremer;;;;;;;;;;x;;;
+AH5_ADJ;Outremer;;;;;;;;;;x;;;
+PALERMO_conservative;Revolutionary Pact;;;;;;;;;;x;;;
+ADU_conservative;Moderate Faction;;;;;;;;;;x;;;
+ADU_reactionary;Royalist Faction;;;;;;;;;;x;;;
+ADU_liberal;Imperialist Faction;;;;;;;;;;x;;;
+ADU_anarcho_liberal;Radical Faction;;;;;;;;;;x;;;
+ADU_socialist;Socialist Faction;;;;;;;;;;x;;;
+ADU_communist;Communist Faction;;;;;;;;;;x;;;
+ADU_fascist;Supreme Sultanic Faction;;;;;;;;;;x;;;
+ADU_liberal_2;Republican Faction;;;;;;;;;;x;;;
+ADU_reactionary_2;Absolutist Faction;;;;;;;;;;x;;;
+AJ1;Khedivate of Kongo;;;;;;;;;;;;;x
+AJ1_ADJ;Khedivate;;;;;;;;;;;;;x
+AJ1_democracy;Republic of Kongo;;;;;;;;;;x;;;
+AJ1_proletarian_dictatorship;Kongo;;;;;;;;;;x;;;
+AJ1_presidential_dictatorship;Kongo State;;;;;;;;;;x;;;
+AJ1_fascist_dictatorship;Kongo State;;;;;;;;;;x;;;
+AJ1_bourgeois_dictatorship;Republic of Kongo;;;;;;;;;;x;;;
+AJ1_liberal;Liberal Union of the Kongo;;;;;;;;;;x;;;
+AJ1_conservative;New Guard of the Kongo;;;;;;;;;;x;;;
+AJ1_socialist;Socialist Coalition of West Africa;;;;;;;;;;;;x;
+AJ1_reactionary;House of Min-al-Bita;;;;;;;;;;;;x;
+AJ1_anarcho_liberal;League of Gentlemen and Scholars;;;;;;;;;;;;x;
+AJ1_communist;United Communes of West Africa;;;;;;;;;;;;x;
+AJ1_fascist;Kongo Independance Force;;;;;;;;;;;;x;
+FRA_reactionary;Roman Absolutist Party;Légitimiste;Légitimiste;;Légitimiste;;;;;;;;;x;;;;
+FRA_liberal;Liberal Party;Orléaniste;Orléaniste;;Orléaniste;;;;;;;;;x;;;;
+FRA_conservative;Congressional Party;Républicain modéré;Républicain modéré;;Républicain modéré;;;;;;;;;x;;;;
+FRA_socialist;Socialist Party;Républicain démocratique;Républicain démocratique;;Républicain démocratique;;;;;;;;;x;;;;
+FRA_liberal_2;New Liberal Party;Libéral;Libéral;;Libéral;;;;;;;;;x;;;;
+FRA_conservative_2;Roman Royalist Bloc;Républicain;Républicain;;Républicain;;;;;;;;;x;;;;
+FRA_conservative_3;Reformed Congressional Party;Bonapartiste;Bonapartiste;;Bonapartiste;;;;;;;;;x;;;;
+FRA_conservative_4;Roman Advocates;Orléaniste;Orléaniste;;Orléaniste;;;;;;;;;x;;;;
+FRA_liberal_3;Unionist Party;Opportunistes;Opportunistes;;Opportunistes;;;;;;;;;x;;;;
+FRA_anarcho_liberal;Radical Republican Party;Républicain radical;Républicain radical;;Républicain radical;;;;;;;;;x;;;;
+FRA_socialist_2;Socialist Bloc of France;Possibilistes;Possibilistes;;Possibilistes;;;;;;;;;x;;;;
+FRA_communist;Communist Party of France and England;Parti communiste français;Parti Ouvrier Français;;Parti Ouvrier Français;;;;;;;;;x;;;;
+FRA_conservative_5;Reformed Moderate Party;Royaliste;Royaliste;;Royaliste;;;;;;;;;x;;;;
+FRA_reactionary_2;Traditionalist Party;Droite nationaliste;Droite nationaliste;;Droite nationaliste;;;;;;;;;x;;;;
+FRA_socialist_3;Socialist Alliance of France;SFIO;SFIO;;SFIO;;;;;;;;;x;;;;
+FRA_fascist;National Union of Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+MLT;Jizrunid Isle;;;;;;;;;;x;;;
+MLT_ADJ;Jizrunid;;;;;;;;;;x;;;
+ICL;North Sea Kingdom;;;;;;;;;;x;;;
+ICL_absolute_monarchy;North Sea Kingdom;;;;;;;;;;x;;;
+hms_government;Constitutional Monarchy;Gouvernement de Sa Majesté;Ihrer Majestät Regierung;;Gobierno monárquico;;;;;;;;;x;;;;
+SIB_absolute_monarchy;Siberian Tsardom;;;;;;;;;;x;;;
+SIB_proletarian_dictatorship;Siberian Commune;;;;;;;;;;x;;;
+AH2;Pishinoglu;;;;;;;;;;x;;;
+AH2_ADJ;Pishinoglu;;;;;;;;;;x;;;
+AH2_absolute_monarchy;Pishinoglu;;;;;;;;;;x;;;
+AH2_proletarian_dictatorship;Caspian Commune;;;;;;;;;;x;;;
+AH2_presidential_dictatorship;Caspian Republic;;;;;;;;;;x;;;
+AH2_democracy;Caspian Republic;;;;;;;;;;x;;;
+AH2_fascist_dictatorship;Pishinoglu;;;;;;;;;;x;;;
+AH2_bourgeois_dictatorship;Caspian Republic;;;;;;;;;;x;;;
+ADU_reactionary;Al Atar;;;;;;;;;;x;;;
+ADU;Al Andalus;;;;;;;;;;x;;;
+ELS_reactionary;Vanguard of the Islamic Revolution;;;;;;;;;;x;;;
+ADU_ADJ;Andalusi;;;;;;;;;;x;;;
+ADU_absolute_monarchy;Al Andalus;;;;;;;;;;x;;;
+ADU_proletarian_dictatorship;Iberian Union;;;;;;;;;;x;;;
+ADU_presidential_dictatorship;Al Andalus;;;;;;;;;;x;;;
+ADU_fascist_dictatorship;Al Andalus;;;;;;;;;;x;;;
+ADU_bourgeois_dictatorship;Al Andalus;;;;;;;;;;x;;;
+AH8_absolute_monarchy;Dual Monarchy;;;;;;;;;;x;;;
+AH8_proletarian_dictatorship;Workers Republic of the Channel;;;;;;;;;;x;;;
+AH8_presidential_dictatorship;Republic of the Channel;;;;;;;;;;x;;;
+AH8_fascist_dictatorship;Francia;;;;;;;;;;x;;;
+AH8_fascist_dictatorship_ADJ;Frankish;;;;;;;;;;x;;;
+AH8_bourgeois_dictatorship;Republic of the Channel;;;;;;;;;;x;;;
+SLV;Latin Empire;;;;;;;;;;x;;;
+SLV_absolute_monarchy;Latin Empire;;;;;;;;;;x;;;
+SLV_proletarian_dictatorship;Slovakian Commune;;;;;;;;;;x;;;
+SLV_presidential_dictatorship;Slovakia;;;;;;;;;;x;;;
+SLV_fascist_dictatorship;Slovakia;;;;;;;;;;x;;;
+SLV_bourgeois_dictatorship;Slovakia;;;;;;;;;;x;;;
+ICL_absolute_monarchy;North Sea Kingdom;;;;;;;;;;x;;;
+ICL_proletarian_dictatorship;Iceland;;;;;;;;;;x;;;
+ICL_presidential_dictatorship;Iceland;;;;;;;;;;x;;;
+ADU_absolute_monarchy_ADJ;Andalusi;;;;;;;;;;x;;;
+NET_proletarian_dictatorship;Netherlands;;;;;;;;;;x;;;
+NET_presidential_dictatorship;Netherlands;;;;;;;;;;x;;;
+NET_fascist_dictatorship;Netherlands;;;;;;;;;;x;;;
+NET_bourgeois_dictatorship;Netherlands;;;;;;;;;;x;;;
+NET_ADJ;Dutch;;;;;;;;;;x;;;
+GXI;Guang;;;;;;;;;;x;;;
+GXI_ADJ;Guang;;;;;;;;;;x;;;
+NRM;Normandy;;;;;;;;;;x;;;
+NRM_ADJ;Norman;;;;;;;;;;x;;;
+MEX;Ibriz;;;;;;;;;;x;;;
+MEX_absolute_monarchy;Sultanate of Ibriz;;;;;;;;;;x;;;
+MEX_proletarian_dictatorship;People's Republic of Ibriz;;;;;;;;;;x;;;
+MEX_presidential_dictatorship;Ibriz;;;;;;;;;;x;;;
+MEX_fascist_dictatorship;Ibriz;;;;;;;;;;x;;;
+MEX_bourgeois_dictatorship;Ibriz;;;;;;;;;;x;;;
+AD1;Palermo;Sicile;Sizilien;Sycylia;Sicilia;Sicilia;Szicília;Sicílie;Szicília;Sicilië;Sicília;???????;Sisilia;x;;x;;;;
+AD1_ADJ;Palermo;;;;;;;;;;;;;x
+AD2;Crusader Egypt;;;;;;;;;;;;;x
+AD2_ADJ;Egyptian;;;;;;;;;;;;;x
+AD2_conservative;Faction of Apanoub Dynasty;;;;;;;;;;;;;x
+AD2_liberal;Constitutional Party;;;;;;;;;;;;;x
+AD2_reactionary;Absolutist Advocate Alliance;;;;;;;;;;;;;x
+AD2_socialist;Socialist Alliance of Egypt;;;;;;;;;;;;;x
+AD2_communist;United Communist Alliance of Egypt;;;;;;;;;;;;;x
+AD2_anarcho_liberal;Radical-Progressive Party;;;;;;;;;;;;;x
+AD2_fascist;Fascist Unions of Egypt;;;;;;;;;;;;;x
+AD3;Celtic Union;;;;;;;;;;x;;;
+AD3_ADJ;Celtic;;;;;;;;;;x;;;
+AD3_absolute_monarchy;Celtic Empire;;;;;;;;;;x;;;
+AD3_proletarian_dictatorship;Celtic Union;;;;;;;;;;x;;;
+AD3_presidential_dictatorship;Celtic Republic;;;;;;;;;;x;;;
+AD3_fascist_dictatorship;Hibernia;;;;;;;;;;x;;;
+AD3_bourgeois_dictatorship;Celtic Republic;;;;;;;;;;x;;;
+AD3_democracy;United Republic;;;;;;;;;;x;;;
+NEP_absolute_monarchy;Nepalese Empire;;;;;;;;;;x;;;
+PEU_absolute_monarchy;Incan Empire;;;;;;;;;;x;;;
+PEU_proletarian_dictatorship;Andean Union;;;;;;;;;;x;;;
+PEU_presidential_dictatorship;Andean Republic;;;;;;;;;;x;;;
+ORI_absolute_monarchy;Cedi Empire;;;;;;;;;;x;;;
+BUR_absolute_monarchy;Bengal;;;;;;;;;;x;;;
+KOK_absolute_monarchy;Kokand Khanate;;;;;;;;;;x;;;
+CAM_absolute_monarchy;Khmer;;;;;;;;;;x;;;
+AE7;Iraq;;;;;;;;;;x;;;
+AE7_ADJ;Iraq;;;;;;;;;;x;;;
+AE7_absolute_monarchy;Baghdad Emirate;;;;;;;;;;x;;;
+AE7_proletarian_dictatorship;Arab Republic;;;;;;;;;;x;;;
+AE7_presidential_dictatorship;Arab Republic;;;;;;;;;;x;;;
+AE7_fascist_dictatorship;Arab Republic;;;;;;;;;;x;;;
+AE7_bourgeois_dictatorship;Iraq;;;;;;;;;;x;;;
+AE8;Bijapur;;;;;;;;;;x;;;
+AE8_ADJ;Bijapuri;;;;;;;;;;x;;;
+AE9;Manipur;;;;;;;;;;x;;;
+AE9_ADJ;Manipuri;;;;;;;;;;x;;;
+AD4;Zuwawi Emirate;;;;;;;;;;;;;x
+AD4_ADJ;Zuwawi;;;;;;;;;;;;;x
+AH9;Hazaria;;;;;;;;;;x;;;
+AH9_absolute_monarchy;Ghazi;;;;;;;;;;x;;;
+AH9_proletarian_dictatorship;Hazari Commune;;;;;;;;;;x;;;
+AH9_presidential_dictatorship;Hazaria;;;;;;;;;;x;;;
+AH9_fascist_dictatorship;Hazaria;;;;;;;;;;x;;;
+AE3_absolute_monarchy;Wilayah Timbukt;;;;;;;;;;x;;;
+BOL_absolute_monarchy;Charca Empire;;;;;;;;;;x;;;
+BOL_presidential_dictatorship;South Andean Republic;;;;;;;;;;x;;;
+JAM_absolute_monarchy;Hishami Sultanate;;;;;;;;;;x;;;
+JAM_proletarian_dictatorship;Yanubi Democratic Republic;;;;;;;;;;x;;;
+JAM_presidential_dictatorship;Yanubi Republic;;;;;;;;;;x;;;
+JAM_fascist_dictatorship;Gharbian Empire;;;;;;;;;;x;;;
+ETH_absolute_monarchy;Ethiopian Empire;;;;;;;;;;x;;;
+X11_conservative;Conservative Party;;;;;;;;;;;;;x
+X11_liberal;Liberal Party;;;;;;;;;;;;;x
+X11_reactionary;Nationalist Party;;;;;;;;;;;;;x
+X11_socialist;Socialist Party;;;;;;;;;;;;;x
+X11_communist;Communist Party;;;;;;;;;;;;;x
+X11_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
+X11_fascist;Fascist Party;;;;;;;;;;;;;x
+X11_conservative_2;New Conservative Party;;;;;;;;;;;;;x
+X11_liberal_2;Reformed Liberal Party;;;;;;;;;;;;;x
+X11_reactionary_2;Traditionalist Party;;;;;;;;;;;;;x
+X11_conservative_3;Status Quo Party;;;;;;;;;;;;;x
+X11_liberal_3;Progressive Party;;;;;;;;;;;;;x
+X11_reactionary_3;Party of National Unity;;;;;;;;;;;;;x
+AD5;Armenia;;;;;;;;;;;;;x
+AD5_ADJ;Armenian;;;;;;;;;;;;;x
+AD5_absolute_monarchy;Vakhtani Caliphate;;;;;;;;;;x;;;
+AD5_proletarian_dictatorship;Anatolian Union;;;;;;;;;;x;;;
+AD5_presidential_dictatorship;Anatolian Republic;;;;;;;;;;x;;;
+AD5_fascist_dictatorship;Great Armenia;;;;;;;;;;x;;;
+AD6;Khwarezm;;;;;;;;;;;;;x
+AD6_ADJ;Khwarezmian;;;;;;;;;;;;;x
+AD6_absolute_monarchy;Khwarezm;;;;;;;;;;x;;;
+AD6_proletarian_dictatorship;Iran;;;;;;;;;;x;;;
+AD6_fascist_dictatorship;Iran;;;;;;;;;;x;;;
+AD7;Pueblo;;;;;;;;;;;;;x
+AD7_ADJ;Pueblo;;;;;;;;;;;;;x
+AF1_absolute_monarchy;Hsenwi;;;;;;;;;;x;;;
+AF1_proletarian_dictatorship;Great Burma;;;;;;;;;;x;;;
+AF1_presidential_dictatorship;Great Burma;;;;;;;;;;x;;;
+AF1_fascist_dictatorship;Great Burma;;;;;;;;;;x;;;
+AF1_bourgeois_dictatorship;Great Burma;;;;;;;;;;x;;;
+AF2;Nogai;;;;;;;;;;x;;;
+AF2_ADJ;Nogai;;;;;;;;;;x;;;
+AF2_absolute_monarchy;Nogai Khanate;;;;;;;;;;x;;;
+PUE_conservative;Conservative Party;;;;;;;;;;;;;x
+PUE_liberal;Liberal Party;;;;;;;;;;;;;x
+PUE_reactionary;National Party;;;;;;;;;;;;;x
+PUE_socialist;Socialist Party;;;;;;;;;;;;;x
+PUE_communist;Communist Party;;;;;;;;;;;;;x
+PUE_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
+PUE_fascist;Fascist Party;;;;;;;;;;;;;x
+AD8;Neimni Sund;;;;;;;;;;;;;x
+AD8_ADJ;Neimni Sund;;;;;;;;;;;;;x
+AD9;Anbaila;;;;;;;;;;;;;x
+AD9_ADJ;Anbailan;;;;;;;;;;;;;x
+AE1;New England;;;;;;;;;;;;;x
+AE1_ADJ;New England;;;;;;;;;;;;;x
+AE2;Juzur Qarbiya;;;;;;;;;;x;;;
+AE2_ADJ;Qarbiyan;;;;;;;;;;x;;;
+AE3;Timbuktu;;;;;;;;;;;;;x
+AE3_ADJ;Timbuktu;;;;;;;;;;;;;x
+AE4_absolute_monarchy;Pate Emirate;;;;;;;;;;x;;;
+AE4;Pate;;;;;;;;;;x;;;
+AE4_ADJ;Pate;;;;;;;;;;x;;;
+AE5;Abyssinia;;;;;;;;;;x;;;
+AE5_ADJ;Abyssinian;;;;;;;;;;x;;;
+AE6;Republic of Suqutra;;;;;;;;;;;;;x
+AE6_ADJ;Suqutra;;;;;;;;;;;;;x
+AF1;Hsenwi;;;;;;;;;;x;;;
+AF1_ADJ;Hsenwi;;;;;;;;;;x;;;
+IRQ;Vali;;;;;;;;;;x;;;
+IRQ_ADJ;Vali;;;;;;;;;;x;;;
+IRQ_absolute_monarchy;Vali Emirate;;;;;;;;;;x;;;
+IRQ_democracy;Kurdistan;;;;;;;;;;x;;;
+IRQ_proletarian_dictatorship;Kurdistan;;;;;;;;;;x;;;
+IRQ_presidential_dictatorship;Kurdistan;;;;;;;;;;x;;;
+IRQ_fascist_dictatorship;Kurdish Union;;;;;;;;;;x;;;
+IRQ_bourgeois_dictatorship;Kurdistan;;;;;;;;;;x;;;
+YNN;Chang Sheng;;;;;;;;;;x;;;
+YNN_ADJ;Chang Sheng;;;;;;;;;;x;;;
+AF3;Kazakh;;;;;;;;;;x;;;
+AF3_ADJ;Kazakh;;;;;;;;;;x;;;
+AF3_absolute_monarchy;Kazakh Khanate;;;;;;;;;;x;;;
+AF4;Mongolia;;;;;;;;;;x;;;
+AF4_ADJ;Mongol;;;;;;;;;;x;;;
+AF4_absolute_monarchy;Mongol Empire;;;;;;;;;;x;;;
+AF5;Manchu;;;;;;;;;;x;;;
+AF5_ADJ;Manchu;;;;;;;;;;x;;;
+AF6;Red Turbans;;;;;;;;;;x;;;
+AF6_ADJ;Red Turban;;;;;;;;;;x;;;
+AF7;Qi;;;;;;;;;;x;;;
+AF7_ADJ;Qi;;;;;;;;;;x;;;
+AF8;Kara Del;;;;;;;;;;x;;;
+AF8_ADJ;Kara Del;;;;;;;;;;x;;;
+AF9;Wu;;;;;;;;;;x;;;
+AF9_ADJ;Wu;;;;;;;;;;x;;;
+AG1;Song;;;;;;;;;;x;;;
+AG1_ADJ;Song;;;;;;;;;;x;;;
+AG2;East Orissa;;;;;;;;;;x;;;
+AG2_ADJ;East Orissan;;;;;;;;;;x;;;
+AG2_absolute_monarchy;Cedi Clique;;;;;;;;;;x;;;
+AG3;Lan Xang;;;;;;;;;;x;;;
+AG3_ADJ;Lan Xang;;;;;;;;;;x;;;
+AG4;Sui;;;;;;;;;;x;;;
+AG4_ADJ;Sui;;;;;;;;;;x;;;
+AG5;Makassar;;;;;;;;;;x;;;
+AG5_ADJ;Makassari;;;;;;;;;;x;;;
+AG6;East Frisia;;;;;;;;;;x;;;
+AG6_ADJ;Frisian;;;;;;;;;;x;;;
+AG7;Rhine Confederacy;;;;;;;;;;x;;;
+AG7_ADJ;Rhinelander;;;;;;;;;;x;;;
+AG8;Eastphalia;;;;;;;;;;x;;;
+AG8_ADJ;Eastphalian;;;;;;;;;;x;;;
+AG9;Brandenburg;;;;;;;;;;x;;;
+AG9_ADJ;Brandenburgian;;;;;;;;;;x;;;
+SUL_absolute_monarchy;Sulu Sultanate;;;;;;;;;;x;;;
+EVT80000DESC;The Majlis al-Shura has met and, with the blessing of the Sultan, have decided upon a new Grand Vizier to lead their assembly. After serving as a diplomat through years of both harrowing war and fruitful peace, we are certain that this new prime minister has all the necessary skills to lead the Sultanate into an era of order and prosperity.;;;;;;;;;;;;;x
+EVT80001DESC;With the passing of the previous Grand Vizier, the Majlis al-Shura have met once more to elect his successor, eventually deciding on an aging but brilliant politician famed for his constant drive for industrialisation. The Sultan has since confirmed his appointment, sure that he will help maintain Andalusia's position at the peak of the civilised world.;;;;;;;;;;;;;x
+EVT80002DESC;The numberous aristocrats and hereditary peers of the Majlis have convened to choose a new Grand Vizier from amongst their ranks, and after several hours of heated argument and debate, the new prime minister is a surprisingly young but competent aristocrat. Having been educated in one of the most prestigious universities in the world, he has the tact and diplomatic skills to play off the many factions of the assembly against one another, so he is certainly a good fit for Grand Vizier.;;;;;;;;;;;;;x
+EVT80003DESC;With the resignation of the previous Grand Vizier, the Majlis al-Shura have raised a popular figure to succeed him. A war hero famous for fighting in some of the bloodiest battles in past wars, he is a unifying figure in the Majlis and a renowned patriot amongst the lower classes, a rarity indeed. May he serve his sultan and sultanate well.;;;;;;;;;;;;;x
+EVT80004DESC;With the support of the Sultan himself, one of the elderly and highly-conservative aristocrats of the Majlis has risen to become the Grand Vizier, first minister of the assembly. A stauch reactionist, it should be interesting to observe which route he shall guide the sultanate down during his tenure as Grand Vizier.;;;;;;;;;;;;;x
+EVT80005DESC;Upon the rather untimely death of the Grand Vizier, the Majlis Assembly has again convened to decide on his successor. Divisions between the different factions have led to an unlikely candidate succeeding to the position, however: a former general, and one who didn't even see much action at that. A conservative and idealistic old man, he'll likely end up torn to shreds, nothing more than a pawn to the much better politicians that make up the Majlis.;;;;;;;;;;;;;x
+EVT80006DESC;After meeting to decide on a new first minister, a former admiral comes out of the Majlis Assembly as its leader, confirmed to be the new Grand Vizier by the Sultan a couple days later. His tenure will likely see a strengthening of Andalusia's naval power, if his career on the seas is anything to judge by.;;;;;;;;;;;;;x
+EVT80007DESC;In a sudden veer away from tradition, the Sultan has refused all the candidates for Grand Vizier suggested to him by the Majlis al-Shura, and instead appointed one of his... close companions to the prestigious position. Not only does this unorthodox choice have no experience in political matters, but foul rumours are constantly swirling around him and his family, turning the new prime minister into an infamous figure not just in the Majlis Assembly, but the entire capital!;;;;;;;;;;;;;x
+EVT80008DESC;The new Grand Vizier chosen by the Majlis al-Shura is famous for his firmly-entrenched values, regarding tradition to be of the utmost priority. His tenure may well see a turning back of any recent reforms and developments, and a focus on further empowering the royal family.;;;;;;;;;;;;;x
+EVT80009DESC;The Majlis al-Shura have gathered to elect a new Grand Vizier, and in a remarkably smooth process, a widely-renowned statesman has been risen to the position with little fanfare. The Sultan has already confirmed his appointment, certain that his incumbency will see Andalusia make great leaps in the global diplomatic game.;;;;;;;;;;;;;x
+EVT80010DESC;With the long-awaited death of the previous Grand Vizier, the Majlis have once again flocked to their assembly halls to argue over who should succeed him. After several weeks of heated debate, a rather unexpected man has been appointed to the position: a famously quiet fellow, but also one of towering intellect. The back benches of the assembly hall are where he usually makes his home, so his years in the spotlight should prove to be very interesting indeed.;;;;;;;;;;;;;x
+EVT80011DESC;The new head-of-government elected by the Majlis al-Shura is a renowned reformist, having already gone head to head with a number of notable viziers over their social and economic policies, so he obviously has many enemies in the assembly. A strong advocate for the gradual reformation and amendment of the country, this new Grand Vizier is not short of ambition or determination, but he will still have to navigate the treacherous waters that is the political landscape of Al Andalus is he's to emerge victorious - a task few are up to.;;;;;;;;;;;;;x
+EVT80012DESC;Undoubtedly seeking to gain greater control over his assembly, the Sultan has appointed a close family member as Grand Vizier, placing the heavy responsibility of governing the entire empire on his shoulders. We do not yet know if this Jizrunid is up to the task, but the Sultan's word is final, and we'll have to make do with what we're given.;;;;;;;;;;;;;x
+EVT80013DESC;According to the rumours, the latest Grand Vizier appointed by the Sultan was once his secretary! No doubt he is good with numbers, but administration and politics are not the same game, so he'll have to keep good advisors around him.;;;;;;;;;;;;;x
+EVT80014DESC;After the Sultan abruptly fired his Grand Vizier, the Majlis al-Shura convened to suggest his replacement, and despite considerable opposition, they eventually decided on an ambitious and highly-idealistic visionary. The Sultan seemed pleased by the choice, as he authorised it within mere hours, though there are many in the Majlis still unpleased with their new prime minister.;;;;;;;;;;;;;x
+EVT80015DESC;The Majlis al-Shura is more of a battlefield than an assembly hall, so it comes as no surprise that the ministers could not decide on a single competent candidate to become the new Grand Vizier. As a result, all factions were forced to settle for a rather simple-minded and easily-sculptable youngster, doomed to become one of the many pawns of the Majlis.;;;;;;;;;;;;;x
+EVT80016DESC;After years of toiling his way up the ladder, a member of one of the oldest and richest noble families in Al Andalus has managed to gain the trust of the Sultan and the confidence of the Majlis, having been appointed to lead the assembly as its Grand Vizier.;;;;;;;;;;;;;x
+EVT80017DESC;A self-made man from humble origins has recently been confirmed as Grand Vizier by the Majlis. Widely renowned for being a firm no-nonsense sort of man, the cogs that turn the Sultanate of Al Andalus will likely run much smoother during his tenure as first minister.;;;;;;;;;;;;;x
+EVT80018DESC;Likely disappointed with the initial candidates put forward by the Majlis, the Sultan has appointed his own choice as Grand Vizier, a middle-aged man who's made an obscenely large fortune during his years in the industrial business. Whatever his background, he is a tactful and efficient politician, and should do well enough as Grand Vizier.;;;;;;;;;;;;;x
+EVT80019DESC;The latest Grand Vizier appointed by the Sultan is a famous nationalist, a staunch believer that Al Andalus should strive to constantly reach out towards the sky, glowering down at lesser nations from the very apex of the world. He is regarded as something of a loon amongst the Majlis members, though he is a popular enough figure, and shouldn't do too badly as prime minister.;;;;;;;;;;;;;x
+EVT80020DESC;The Grand Vizier has been assassinated! He was on his way to the Sultan's palaces, so as to bring him up to date on recent affairs in the Majlis, when he was brutally attacked in the streets of the capital itself, shot several times in the chest and gut before the culprit could be pinned to the floor. This sudden turn of events will very likely throw the Majlis into chaos...;;;;;;;;;;;;;x
+become_saudi_arabia_title;Unite Arabia!;;;;;;;;;;;;;x
+become_saudi_arabia_desc;We have brought the vast majority of the Arabian peninsula under the rightful rule of the Sharifian Khilafa, so let us take it one step further and proclaim ourselves the Kings of Arabia as well, bringing us on par with foreign powers and nearby threats.;;;;;;;;;;;;;x
+EVTNAME8111118_NEWS_TITLE;The Congress of Cádiz;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8111118_NEWS_LONG;The victors of the Tirruni Wars have agreed to meet at Qadis, where powers great and small will all have a voice in the negotiations, in an attempt to build a more stable and prosperous Europe. Diplomats and ambassadors from Morocco, Russia and Hannover have already begun talks at Qadis, quickly joined by the representatives of Al Andalus, France-England, Bavaria, Hungary, and even the eastern empires of Egypt and Armenia. This congress is sure to be long and contentious, but whatever its outcome, we can only hope it will lead to an enduring balance of power.;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8111118_NEWS_MEDIUM;The victors of the Tirruni Wars have agreed to meet at Qadis, where powers great and small will all have a voice in the negotiations, in an attempt to build a more stable and prosperous Europe.;;;;;;;;;;;;;x,,,,,,,
+EVTDESC8111118_NEWS_SHORT;The victors of the Tirruni Wars have agreed to meet at Qadis, where powers great and small will all have a voice in the negotiations, in an attempt to build a more stable and prosperous Europe..;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME8111118;The Congress of Cádiz;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8111118;The first diplomats have arrived in Qadis, and meeting have already taken place between the representatives of several great powers, as each attempts to press their claims in these talks. As one of the powers to emerge intact from the Tirruni Wars, we will have a seat and a voice in the negotiations, though it will by no means be a loud or dominant voice. If we want to see our own claims realised, then we may have to make concessions and forge alliances, or else end this congress with nothing but more bad blood. Let us proceed with caution and tact, and with the favour of Allah, we will surely emerge victorious.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME8111119;The Great Gharbian Revolt;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8111119;Revolutionary wars break out in Gharbia!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME8111119_NEWS_TITLE;The Great Gharbian Revolt;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8111119_NEWS_LONG;The young Berber kingdoms of the new world continue their struggle for independence from Morocco, with the revolutionaries emerging victorious in a number of pitched battles. As the Tirruni Wars come to an end, however, there are fears that Morocco will be able to devote greater resources to the rebellion, and quash it once and for all.;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8111119_NEWS_MEDIUM;The young Berber kingdoms of the new world continue their struggle for independence from Morocco, with the revolutionaries emerging victorious in a number of pitched battles. As the Tirruni Wars come to an end, however, there are fears that Morocco will be able to devote greater resources to the rebellion, and quash it once and for all.;;;;;;;;;;;;;x,,,,,,,
+EVTDESC8111119_NEWS_SHORT;The young Berber kingdoms of the new world continue their struggle for independence from Morocco, with the revolutionaries emerging victorious in a number of pitched battles. As the Tirruni Wars come to an end, however, there are fears that Morocco will be able to devote greater resources to the rebellion, and quash it once and for all.;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME8111120_NEWS_TITLE;Tirruni's Farewell;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8111120_NEWS_LONG;Tirruni was today laid to rest. His funeral was attended by tens of thousands as his coffin was paraded through Narbuna, the city he built into a metropolis, but his final resting place would be below the hard, rocky earth at the foot of the Pyrenees.;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8111120_NEWS_MEDIUM;Tirruni was today laid to rest. His funeral was attended by tens of thousands as his coffin was paraded through Narbuna, the city he built into a metropolis, but his final resting place would be below the hard, rocky earth at the foot of the Pyrenees.;;;;;;;;;;;;;x,,,,,,,
+EVTDESC8111120_NEWS_SHORT;Tirruni was today laid to rest. His funeral was attended by tens of thousands as his coffin was paraded through Narbuna, the city he built into a metropolis, but his final resting place would be below the hard, rocky earth at the foot of the Pyrenees.;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME8111120;Tirruni's Farewell;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8111120;Tirruni was today laid to rest. His funeral was attended by tens of thousands as his coffin was paraded through Narbuna, the city he built into a metropolis, but his final resting place would be below the hard, rocky earth at the foot of the Pyrenees.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME8111121_NEWS_TITLE;The Safi Executions;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8111121_NEWS_LONG;Dozens of prominent revolutionaries and radicals were executed by Almoravid authorities in Safi today, amongst them one Qays Tirruni, the widely-detested second son of Sahim Tirruni. The whereabouts of Hafid Tirruni, the firstborn and heir of Sahim, are as yet unknown.;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8111121_NEWS_MEDIUM;Dozens of prominent revolutionaries and radicals were executed by Almoravid authorities in Safi today, amongst them one Qays Tirruni, the widely-detested second son of Sahim Tirruni. The whereabouts of Hafid Tirruni, the firstborn and heir of Sahim, are as yet unknown.;;;;;;;;;;;;;x,,,,,,,
+EVTDESC8111121_NEWS_SHORT;Dozens of prominent revolutionaries and radicals were executed by Almoravid authorities in Safi today, and amongst them was one Qays Tirruni, the widely-detested second son of Sahim Tirruni and former King of Iberia. The whereabouts of Hafid Tirruni, the firstborn and heir of Sahim, are as yet unknown.;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME8111121;The Safi Executions;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8111121;Dozens of prominent revolutionaries and radicals were executed by Almoravid authorities in Safi today, amongst them one Qays Tirruni, the widely-detested second son of Sahim Tirruni. The whereabouts of Hafid Tirruni, the firstborn and heir of Sahim, are as yet unknown.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800000;The Congress of Cádiz;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800000;Diplomats and ambassadors have begun pouring into Qadis, and face-to-face meetings have already taken place between the representatives of several great powers, with each hoping to see their vision of a post-war world come to fruition. As one of the powers to emerge from the Tirruni Wars intact, we will have a seat and a voice in the negotiations, though it will by no means be a loud or dominant voice. If we want to see our own claims realised, then we may have to make concessions and forge alliances, or else end this congress with nothing but more bad blood. Let us proceed with caution and tact, and with the favour of Allah, we will surely emerge victorious.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800001;Restoration of the Monarchy;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800001;If we are going to see our claims realised by the congress, then we will have to start these negotiations as best as possible. One of the major obstacles to this, however, is the fact that Al Andalus is the only congress power that does NOT have a king. This may well prove to be a significant hurdle in furthering friendly relations with the great powers, so the question must be asked: is it time to crown a new Sultan of Al Andalus?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800002;The Status of the Peloponnesus;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800002;At the height of the Tirruni Wars, Berber forces stormed the Peloponnesus and managed to occupy the strategic peninsula, demanding it from the Kingdom of Greece in the consequent peace treaty. Now, however, the Tirruni Wars are over and Morocco is facing pressure from other great powers to relinquish the Peloponnese, or else face damaged relations on the world stage... so what will our decision be?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800003;The Status of the Rhineland;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800003;The Rhineland - largely under the control of the Rhine Confederacy - has long been heavily disputed between France and Hannover. This will undoubtedly be the source of tensions during the oncoming Congress of Cadiz, so it is best to settle the status of the Rhine Confederacy now: should we assert direct rule, or grant it autonomy?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800004;The Status of Constantinople;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800004;By seizing Constantinople, we have drawn the jealousy and ire of the other great powers, which is obviously not great going into the Congress of Cadiz. So let us reconsider the status of Constantinople - should we assert direct rule, or create a puppet state?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800005;The Sultan of Al Andalus;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800005;After weeks of hotly-contested debates and controversy, the Majlis has finally spoken: Al Andalus will have a king! The crown was offered to the widely-beloved Raed Zulfiqar, who many saw as the ideal man to lead the nation into a new era, far more befitting a crown than some autocratic Jizrunid. Zulfiqar, after some hesitation and ambivalence, accepted the crown, with his coronation scheduled a few days after the end of the Congress.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800006;The Partition of the Tirruni Empire;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800006;The Congress turns to the first major point of discourse: what is to be done with Tirruni's conquests? After several weeks of discussion, negotiation and settlements in the parlours and palaces of Qadis, the congress powers meet to finally decide the fate of Occitania, Provence and North Italy...;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800007;The Vote Ends;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800007;The vote has ended in favour of restoring the conquered territories of the Tirruni Empire to their former owners of France-England, Provence, Bavaria and the Papal States.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800008;The Balkan Crisis;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800008;The next topic on the agenda is the fate of the Balkan peninsula, which has descended into total chaos and carnage in recent years. Some believe that a large, dominant Serbia is critical to establishing an enduring peace in the peninsula, whilst others insist that granting the various minorities a right to sovereignty and statehood is the only way forward. What do we believe?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800009;The Vote Ends;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800009;The vote has ended in favour of maintaining an enlarged Serbia, with an absolute monarch installed, in the interest of establishing a stable balance of power in the Balkans. This decision has left the Kingdom of Hungary furious, however, especially since they had sacrificed hundreds of thousands of Hungarians to the war against Tirruni - on the condition that they be rewarded dominance over the Balkans, only to be double-crossed and given a few paltry provinces as compensation.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800010;The Fate of the Levant;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800010;Next, we come to what has been the source of countless conflicts, devastating wars and brutal massacres: the Levant. A hotly-contested battleground between Armenia and Egypt for almost 400 years, tensions run high whenever this topic is brought up, with a myriad of fabricated claims and confusing promises coming together to form an impossible knot - but the Congress has taken it upon themselves to establish an enduring peace, and now it is time to finally end this heated matter once and for all;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME800011;The Vote Ends;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC800011;The vote has ended in favour of setting up new, neutral states as buffers between the ancient Armenian and Egyptian empires, to the chagrin of both. The Emirate of Syria will rule in the north, with their population largely dominated by Arabs, but ruled by a smaller Armenian caste. The Kingdom of Outremer will be set up in the south, also dominated by Arab Muslims, but here ruled by a small hereditary Christian minority. Will this truly establish peace in the Near East?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000013;The Vote Ends;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8000013;The final vote has ended, with the congress powers refusing to concede northern Iberia and Qattalun to Al Andalus. The Andalusi have loudly condemned this decision, insisting that their claims to northern Iberia and Qattalun will not go forgotten, and vowing to see the entire peninsula reunited under Andalusi leadership before long. And on that sour note, the last international vote comes to an end, with the borders of Europe and the Near East redrawn, and a new balance of power established.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000015;The End of the Congress;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8000015;This has been a peace fifteen years in the making, but at long last, the Congress of Cádiz comes to a close. The borders of Europe and the Near East have been redrawn, monarchy has been restored and liberalism suppressed, cultural minorities have been granted and refused their independence, tensions have been soothed in one place and inflamed elsewhere - but finally, it is at an end. The Congress of Cádiz began with a simple mission - to establish an enduring peace in Europe - but only time will tell whether this congress has truly championed peace and prosperity, or whether it's simply been yet another arena for the great powers to partition the world.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000016;The Closing of the Congress;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8000016;At long last, the Congress of Cádiz has come to an end, with the borders of Europe and the Near East drastically redrawn in the interest of restoring monarchy and establishing long-term peace. The Congress was undercut by expansionist policies of several great powers, however, that has also resulted in cultural minorities been repressed and nationalist forces inflamed, which has already put a strain on the peace. Only time will tell whether the Congress of Cádiz managed to fulfill its aims, or whether it has sown the seeds for another century of war and conflict.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000016_NEWS_TITLE;The Closing of the Congress;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8000016_NEWS_LONG;At long last, the Congress of Cádiz has come to an end, with the borders of Europe and the Near East drastically redrawn in the interest of restoring monarchy and establishing long-term peace. The Congress was undercut by expansionist policies of several great powers, however, which has resulted in cultural minorities being repressed and nationalist tensions inflamed, already threatening the peace. Only time will tell whether the Congress of Cádiz managed to fulfill its aims, or just become another item in a long list of mistakes made thus far.;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8000016_NEWS_MEDIUM;At long last, the Congress of Cádiz has come to an end, with the borders of Europe and the Near East drastically redrawn in the interest of restoring monarchy and establishing long-term peace. The Congress was undercut by expansionist policies of several great powers, however, that has also resulted in cultural minorities been repressed and nationalist forces inflamed, already threatening the peace. Only time will tell whether the Congress of Cádiz managed to fulfill its aims, or just become another item in a long list of mistakes made thus far.;;;;;;;;;;;;;x,,,,,,,
+EVTDES8000016_NEWS_SHORT;At long last, the Congress of Cádiz has come to an end, with the borders of Europe and the Near East drastically redrawn in the interest of restoring monarchy and establishing long-term peace. The Congress was undercut by expansionist policies of several great powers, however, that has also resulted in cultural minorities been repressed and nationalist forces inflamed, already threatening the peace. Only time will tell whether the Congress of Cádiz managed to fulfill its aims, or just become another item in a long list of mistakes made thus far.;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME8000017;Third Sultanate of Al Andalus;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000017_NEWS_TITLE;Third Sultanate of Al Andalus;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8000017_NEWS_LONG;The news has already sent monarchists and royalists in Iberia wild with celebration, as it is announced that Raed Zulfiqar is to become the Sultan of Al Andalus, revived by the Majlis al-Shura. A coronation is planned in a few weeks time, and it's already rumoured to be an expensive affair, with thousands of dignitaries and leaders invited to attend the ceremony.;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8000017_NEWS_MEDIUM;The news has already sent monarchists and royalists in Iberia wild with celebration, as it is announced that Raed Zulfiqar is to become the Sultan of Al Andalus. A coronation is planned in a few weeks time, and it's already rumoured to be an expensive affair, with thousands of dignitaries and leaders invited to attend the ceremony.;;;;;;;;;;;;;x,,,,,,,
+EVTDES8000017_NEWS_SHORT;The news has already sent monarchists and royalists in Iberia wild with celebration, as it is announced that Raed Zulfiqar is to become the Sultan of Al Andalus. A coronation is planned in a few weeks time, and it's already rumoured to be an expensive affair, with thousands of dignitaries and leaders invited to attend the ceremony.;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME8000018;Tirruni Sighted!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000018_NEWS_TITLE;Tirruni Sighted!;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8000018_NEWS_LONG;Hafid Tirruni, eldest son of Emperor Sahim, has been sighted along the Provencal-Qattaluni border! He seemingly vanished into thin air before authorities arrived, but the farmer who reported this had served under Tirruni in the wars, and swore on his life that it was the fugitive.;;;;;;;;;;;;;x,,,,,,,,
+EVTDESC8000018_NEWS_MEDIUM;Hafid Tirruni, eldest son of Emperor Sahim, has been sighted along the Provencal-Qattaluni border! He seemingly vanished into thin air before authorities arrived, but the farmer who reported this had served under Tirruni in the wars, and swore on his life that it was the fugitive.;;;;;;;;;;;;;x,,,,,,,
+EVTDES8000018_NEWS_SHORT;Hafid Tirruni, eldest son of Emperor Sahim, has been sighted along the Provencal-Qattaluni border! He seemingly vanished into thin air before authorities arrived, but the farmer who reported this had served under Tirruni in the wars, and swore on his life that it was the fugitive.;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME36898;The Coronation of Zulfiqar;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC36898;Today our new monarch was officially crowned the Sultan of Al Andalus. Once the intricate crown was placed on Raed's head, the new Sultan gave his word that he would always put the interests of Al Andalus and the Majlis al-Shura before his own, and wear this gem-laden crown only as long as it benefited his nation. Hundreds of prime ministers, leaders, commanders, diplomats, emissaries, pioneers and celebrities had attended the extravagant and prestigious ceremony, all desperate for a glimpse of the self-made king, with tens of thousands of people cheering wildly just outside the royal palaces. There is no denying that a new era is beginning, and Al Andalus enters it with a strong, capable monarch at its head.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME97620;The Death of Zulfiqar;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97620;Raed Zulfiqar, an incredibly-accomplished monarch widely-beloved by the people, has peacefully died in the quiet hours of the morning. Having led a very long life, Raed had fathered several children with many women over the years, each of whom now has wives and children of their own. The Majlis al-Shura has already drawn the order of succession into law, however, and it is announced within days that Sultan Raed is to be succeeded by his eldest son and chosen heir. Only one question remains: who exactly is the new Sultan of Al Andalus?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,
+EVTNAME97621;A Liberal Sultan;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97621;Our new sultan has plenty of experience in the military, having served under his esteemed father as a commander during the Tirruni Wars. That said, his experiences on the battlefield have turned him into something of a pacifist, with the soon-to-be king having published countless editorials that vilified warfare, and promoted humane conduct in times of peace and war alike. He is also an outspoken liberal, and has delivered several speeches to the Majlis al-Shura urging the nobles to open the parliament to the lower classes of society, giving them a voice and hand in the ruling of Al Andalus. Our nation is surely in for interesting times, with this new monarch at our helm.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTNAME97622;A Conservative Sultan;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97622;Our new sultan has plenty of experience in the military, having served under his esteemed father as a commander during the Tirruni Wars. His time as a soldier has also instilled strong conservative values in him, and as a result our new Sultan is firmly in favour of avoiding destructive warfare, and maintaining a careful balance of power in Europe and North Africa. As an outspoken conservative, he is firmly against empowering the lower classes of society, but is content with the current ruling powers of the Majlis al-Shura, and has little interest in further empowering himself. Our nation is surely in for interesting times, with this new monarch at our helm.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
+EVTNAME97623;A Reactionary Sultan;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97623;Our new sultan has plenty of experience in the military, having served under his esteemed father as a commander during the Tirruni Wars. He has since devoted much of his life to helping his father climb the ranks, and was critical in convincing the Majlis al-Shura to grant him a crown, inaugurating the Third Sultanate of Al Andalus. As a result, he has become firm reactionary in Majlisi politics, and ardently believes that an absolutist sultan is the only way forward for Al Andalus. He has already delivered many speeches urging the Majlis to further empower the office of the Sultan, and is wildly opposed to any democratic sympathies within the assembly. Our nation is surely in for interesting times, with this new monarch at our helm.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTNAME5000;The King's Cup;;;;;;;;;;x;;;
+EVTDESC5000;Initially imported by foreign workers and expats, football has quickly risen to become one of the most popular sports in Iberia, though largely amongst the working classes. As the Sultan's birthday approaches, it has been suggested that a football tournament be organised in celebration, with several teams from Iberia's major cities invited to participate. Three teams would dominate the competition, however: Qadis, Majrit and Barshaluna, but the ultimate victor proved to be the capital. Although it was very short, this tournament has captured the imagination of the public, and the governement has since authorised the sporting department to turn the King' Cup into a biannual national championship.;;;;;;;;;;x;;;
+EVTOPTA5000;How exciting!;;;;;;;;;;x;;;
+ADUSERINT.T;The Communist Crisis;;;;;;;;;;x;;;
+ADUSERINT.D;It's on the news everywhere, but the ugly head of communism has reared once more, this time seizing power through vicious and violent revolution. There are already plans in motion to oppose and topple this illegal government, and as one of the Great Powers, it is surely our place to lead the fight against this menace. We can send money to the resistance and put guns in the hands of fighters, but that may not be enough, so maybe we should directly intervene in this conflict instead...;;;;;;;;;;x;;;
+EVTNAME5001;The World Cup;;;;;;;;;;x;;;
+EVTDESC5001;Planning for a football tournament between competing nations is being planned, with Ibriz already selected as the host nation, and we have received an offer to send a national team to represent Al Andalus. Several other countries will be in attendance, and this could be a good opportunity to garner some international prestige, but many more European countries have already declined the offer - citing travel and time expenses as their reasoning. What do we say?;;;;;;;;;;x;;;
+EVTOPTA5001;Of course we will send a team!;;;;;;;;;;x;;;
+EVTOPTB5001;Ibriz? Way too far.;;;;;;;;;;x;;;
+EVTNAME50015;Heartbreak at the World Cup;;;;;;;;;;x;;;
+EVTDESC50015;Despite the best efforts of our national team, we were met with a string of humiliating losses at the world cup, delivering a series of mediocre performances that culminated in a 7-1 thrashing at the hands of Berber Union, who went on to win the competition comfortably.;;;;;;;;;;x;;;
+EVTOPTA50015;How embarrassing...;;;;;;;;;;x;;;
+EVTNAME500155;Victory at the World Cup;;;;;;;;;;x;;;
+EVTDESC500155;Excellent news! Our national team delivered a series of stunning performances at the world cup in Ibriz, handily defeating the host nation, Ibriz, along with Germany, Russia, the Berber Union and New England before crushing Morocco in the finals. They return to the country as heroes!;;;;;;;;;;x;;;
+EVTOPTA500155;Excellence indeed!;;;;;;;;;;x;;;
+empress_of_india_NEWS_LONG;A grand announcement was made today at Fes, where it was declared that the Sultan of Morocco would also be crowning himself the Emperor of All Hindustan, now that the vast majority of the Indian subcontinent has been brought under his control. The Berber Raj is truly a force to be reckoned with, and now that the Sultan has established a veneer of legitimacy, it will only grow more powerful.;;;;;;;;;;;;;x,,,,,,,,
+empress_of_india_NEWS_MEDIUM;A grand announcement was made today at Fes, where it was declared that the Sultan of Morocco would also be crowning himself the Emperor of All Hindustan, now that the vast majority of the Indian subcontinent has been brought under his control. The Berber Raj is truly a force to be reckoned with, and now that the Sultan has established a veneer of legitimacy, it will only grow more powerful.;;;;;;;;;;;;;x,,,,,,,
+empress_of_india_NEWS_SHORT;A grand announcement was made today at Fes, where it was declared that the Sultan of Morocco would also be crowning himself the Emperor of All Hindustan, now that the vast majority of the Indian subcontinent has been brought under his control. The Berber Raj is truly a force to be reckoned with, and now that the Sultan has established a veneer of legitimacy, it will only grow more powerful.;;;;;;;;;;;;;x,,,,,,,,
+crown_empress_of_india_title;Emperor of All Hindustan;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+crown_empress_of_india_desc;Now that we have brought the vast majority of India under our control, let us declare ourselves the Emperor of All Hindustan, ensuring that our Place in the Sun will never again be challenged.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+iwakura_mission_title;Missions to the West;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+benin_modernisation_efforts_title;Modernisation Efforts;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+benin_modernisation_efforts_desc;The gulf between the northern powers and ourselves is quickly widening, and unless we act quickly and decisively, we will soon find our empire on the backfoot. We should send out modernisation missions to the great powers of Europe and North Africa, where they can foster friendly relations with them, and also report back any information that would assist us in our modernisation efforts.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+enact_muhammad_alis_reforms_title;The Reforms of Oba Eweka;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+enact_muhammad_alis_reforms_desc;A new Oba has ascended to rule the vast and glorious lands of Benin, but as a young idealist, Eweka brings disturbing notions of reform and westernisation with him. Oba Eweka has already begun reshuffling the ruling council and implementing new policies, with the young monarch announcing that it is his intention to see Benin counted amongst the modern nations of the West before his death. He is sure to meet with opposition and resistance, but if the Reforms of Eweka succeed, then Benin will undoubtedly become a power to be reckoned with.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+taifas_killed;The Garrotting of the Taifas;;;;;;;;;;x;;;
+TIR1.T;The Tirruni Restoration;;;;;;;;;;x;;;
+TIR1.D;With help from subsversive elements within our government, the known insurgent and revolutionary Hafid Tirruni has launched a coup all across Qattalun, with regional governors and army commanders stirring the populace into riots and revolts. Several major cities have already fallen to this usurper, including Narbuna and Saraqusta, and unless we act quickly, Barshaluna will be next...;;;;;;;;;;x;;;
+TIR2.T;Tirruni's Plea;;;;;;;;;;x;;;
+TIR2.D;Emissaries have just arrived in Qadis, wearing the colours of the Tirruni dynasty for the first time since 1835. They bring news from Barshaluna, where Hafid Tirruni has forced the Emir to flee and seized power for himself, backed entirely by the army and population. The Berbers are sure to respond with force, however, and so Tirruni reaches out to us with urgent pleas for monetary and military assistance. The wrath of Morocco is sure to descend on Qattalun before long, and Hafid Tirruni will need allies if he's going to retain his rightful inheritance.;;;;;;;;;;x;;;
+TIR3.T;Hafid's Proclamation;;;;;;;;;;x;;;
+TIR3.D;With the Andalusi backing him up, Hafid Tirruni has proclaimed that he is ready to meet any armies that the Berbers dispatch against him, vowing to see them all vanquished and annihilated in the fashion of his father, the great Emperor Sahim Tirruni. Regardless of whether Hafid actually has any of his father's tactical abilities, he has already roused fiery support from the Qattaluni populace, who yearn to return to the days where they stood at the apex of the world.;;;;;;;;;;x;;;
+TIR4.T;Crisis in Iberia;;;;;;;;;;x;;;
+ELS_reactionary;Islamic Revolutionary Party;Partido nationaliste;Partido Nationalist;;Partido Nacionalista;;;;;;;;;x;;;;
+TIR4.D;Our influence in Iberia is being threatened, so we must decide what to do, quickly and decisively. Should we take the cautious approach and make peace with Tirruni, or assert our rights to Qattalun and declare war on the usurper?;;;;;;;;;;x;;;
+TIR5.T;The Andalusi Refuse;;;;;;;;;;x;;;
+TIR5.D;The Andalusi have refused to pledge their support to us, so we must decide on our next move.;;;;;;;;;;x;;;
+TIR6.T;The French Reply;;;;;;;;;;x;;;
+TIR6.D;We have received diplomats from Barshaluna, begging for assistance in their oncoming conflict against Morocco. Should we support this?;;;;;;;;;;x;;;
+TIR7.T;Hafid's Proclamation;;;;;;;;;;x;;;
+TIR7.D;With the French backing him up, Hafid Tirruni has proclaimed that he is ready to meet any armies that the Berbers dispatch against him, vowing to see them all vanquished and annihilated in the fashion of his father, the great Emperor Sahim Tirruni. Regardless of whether Hafid actually has any of his father's tactical abilities, he has already roused fiery support from the Qattaluni populace, who yearn to return to the days where they stood at the apex of the world.;;;;;;;;;;x;;;
+TIR8.T;Crisis in Iberia;;;;;;;;;;x;;;
+TIR8.D;Our influence in Iberia is being threatened, so we must decide what to do, quickly and decisively. Should we take the cautious approach and make peace with Tirruni, or assert our rights to Qattalun and declare war on the usurper?;;;;;;;;;;x;;;
+RHN1.T;Death in Frankfurt;;;;;;;;;;x;;;
+RHN1.D;Karl-Ludwig, Prince of Frankfurt and ruler of the Rhine Confederacy, has passed away at the venerable age of 67. The Prince had married into the French royal family in 1826, binding France and the Rhine closer together in matrimony and alliance, and since that day the Confederacy has been firmly within the French sphere of influence. Hannover - the dominant German state - has long been seeking a way to weaken French influence in Germany, however, and the death of Prince Karl-Luwig may well herald a time of chaos and confusion in the Rhine.;;;;;;;;;;x;;;
+RHN2.T;The Rhine Crisis;;;;;;;;;;x;;;
+RHN2.D;News of the death of Prince Karl-Ludwig has quickly spread across Europe, and with it, the matrimonial coalition between France and the Rhine Confederacy comes to an end. It will not be long before Hannover takes advantage of this situation, so we must reach a decision and act decisively - what is our next course of action going to be?;;;;;;;;;;x;;;
+RHN3.T;Uproar in Munchen;;;;;;;;;;x;;;
+RHN3.D;News of Julianna's Declaration has just reached Hanover, sending the city into chaos and uproar. King August-Wilhelm will have to decide how to react quickly, lest his prestige and dominance amongst the Germans be forever tarnished.;;;;;;;;;;x;;;
+andalus_dual_monarchy_title;Dual Monarchy of France-England;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+andalus_dual_monarchy_desc;For some time now, we have called ourselves the Kings of France and England, but the time has come to truly integrate the English into our realm. By formally proclaiming the dawn of the Dual Monarchy, and affording the English equal rights within our empire, we will transform our realm into the dominating power of Western Europe. Long live the Dual Monarchy!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_levant_conflict_outremer_title;Conquest of the Levant;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_levant_conflict_outremer_desc;Our border with Syria was carefully drawn by the powers of the Congress of Cadiz, but the other decisions and settlements reached by the Congress have all fallen into chaos, so we are under no compulsion to abide by it. We should begin making preparations to make war with the Emirate of Syria, for they surely are doing the same, and we will not surrender our hard-won territories without a fight!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_levant_conflict_syria_title;Conquest of the Levant;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_levant_conflict_syria_desc;Our border with Outremer was carefully drawn by the powers of the Congress of Cadiz, but the other decisions and settlements reached by the Congress have all fallen into chaos, so we are under no compulsion to abide by it. We should begin making preparations to make war with the Kingdom of Outremer, for they surely are doing the same, and we will not surrender our hard-won territories without a fight!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_new_england_manifest_destiny_title;Christendom in Gharbia;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_new_england_manifest_destiny_desc;The expansionistic revolutionary infidels in Ibriz are on a warpath to dominate all of North Gharbia, and with the weak, feuding Irish successor states putting up feeble resistance, it has come down to us to become the Defender of Christendom in Gharbia. We will have to begin expansion efforts very soon, and incorporate our Irish neighbours into our realm before the Muslims can - for their own good, of course.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADUANB.T;Propose a Union;;;;;;;;;;x;;;
+ADUANB.D;The revolutionary armies of Ibriz are marching across the continent unopposed, and the independent Irish colonies of the new world are too divided and too weak to face them alone. Perhaps we should send delegates to Anbaila and Neimni Sund, suggesting a union of our nations, in the hope that together we can stand strong and repel any potential Ibrizi invasions.;;;;;;;;;;x;;;
+ADUANB2.T;Delegates from Albionoria;;;;;;;;;;x;;;
+ADUANB2.D;Delegates have arrived from the great white north, with a very interesting proposition: that we unite our two nations into a greater whole, capable of staving off independence and carving our own place in the world, but at the risk of surrendering our autonomy to a far-off capital. What is our answer?;;;;;;;;;;x;;;
+ADU_egypt_annexes_sudan_title;Annexation of the Sudan;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_egypt_annexes_sudan_desc;We have controlled the vast lands of the Sudan for decades now, and with peace imposed on the various warring tribes of the region, the time has come to impose direct military rule and formally integrate the Sudan into our empire.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_ibriz_manifest_destiny_title;The Natural Borders of Ibriz;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_ibriz_manifest_destiny_desc;Ibriz is the dominant power of Gharbia, but as our fortunes rise, so do our enemies multiply. We must ensure that our nation can maintain its status as the sole great power of the Western continents, and the first step to doing that is to secure our natural borders. In the north, we must eliminate the primitive Pueblo Kingdom and claim the vast swathes of uncolonised land. In the East, we must secure and fortify the Mississipi River, a natural barrier against our Christian neighbours. And in the south, we must conquer Panama from the weak government of New France, and begin exploring the possibility of a canal there. Ibriz is great, and so its future!.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ANDHEJ.T;Unity in Arabia;;;;;;;;;;x;;;
+ANDHEJ.D;It has been over a thousand years since the entirety of Arabia was last united, but now, we are closer than ever. As the Guardians of the Two Holy Cities, the bastion of Shia Islam, and the last true successors to the Prophet, the time has come for us to step forth and seize our destiny. Arabia will be united under us, and when it is, all Arab peoples will rise up to join our great union.;;;;;;;;;;x;;;
+claim_arabia_HDJ_title;Claim the Arab Lands;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+claim_arabia_HDJ_desc;With the Arabian peninsula now firmly under our control, we must begin looking outward to the subjugated Arab peoples. In Jerusalem the Christians oppress our brothers and in Iraq the Kurds persecute our brethren - so let us take this opportunity to declare to the world that one day, very soon, all of the Arab lands will be back under our control!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+ADU_berber_union_proposal_1_title;The Congress of Imariz;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_berber_union_proposal_1_desc;Finally free from Moroccan rule, the victorious powers of Imjir, Walidrar and Nuquril have met at the metropolis of Imariz to discuss the future of their nations, and south Gharbia as a whole. Strong monarchial institutions are already established in all three nations, but the main subject of this congress is whether they should unite to form a Union of Berber Sultanates, a great power that can surely challenge Ibriz for dominance in the new world. There is no doubt that Imjir will be the dominating voice in such a union, however, which may convince the other two powers that this proposal is not in their interest...;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+EVTNAME8000021;fff;;;;;;;;;;x;;;
+EVTDESC8000021;The Great War is raging across the width of the world, devouring the resources and populations of entire empires, and it has finally reached the shores of Berber Union. Our government has recently received word that our enemies have sent diplomats to Berber Union, knowing that their location and industrial capacity will make them a strategic bulwark against our own ambitions, and are thus hoping to draw them into their alliance. We must sabotage these attempts, and if possible, convince Berber Union to join the war on our side instead...;;;;;;;;;;x;;;
+EVTNAME8000022;f?;;;;;;;;;;x;;;
+EVTNAME8000022;fff?;;;;;;;;;;x;;;
+EVTNAME8000023;fff;;;;;;;;;;x;;;
+EVTDESC8000023;After the failure of their Communist Belt initiative and the beginning of the Great Levelling in Iberia, politicans in Serbia have announced the Second International - with all Andalusi communists strictly excluded for their 'corrupted theory'. In this grand conference of the communists and socialists of the world, the typical debates and arguments quickly gave way to the central event, with the Serbians unveiling their initiative for the formation of a "Balkan Federation", whereby the current socialist and communist states on the peninsula would 'voluntarily' unite into a federation in the interest of proletariat strength and permanent revolution, from which they hoped to rapidly export socialism and communism to the very ends of the earth, gradually absorbing nations and peoples into this union...;;;;;;;;;;x;;;
+EVTNAME8000024;fff;;;;;;;;;;x;;;
+EVTDESC8000024;fff;;;;;;;;;;x;;;
+ADUBER1.T;The Unionist Proposal - Walidrar;;;;;;;;;;x;;;
+ADUBER1.D;Diplomats from Imjir have proposed a grand scheme whereby the three victorious nations of Imjir, Walidrar and Nuquril would unite to form a powerful Union of Berber Sultanates. The main problem with this is that the Imjiri would surely become the dominating voice in such a union, making it an unattractive option for us. What is our answer?;;;;;;;;;;x;;;
+ADUBER2.T;The Unionist Proposal - Nuquril;;;;;;;;;;x;;;
+ADUBER2.D;Diplomats from Imjir have proposed a grand scheme whereby the three victorious nations of Imjir, Walidrar and Nuquril would unite to form a powerful Union of Berber Sultanates. The main problem with this is that the Imjiri would surely become the dominating voice in such a union, making it an unattractive option for us. Walidrar has already accepted this proposal, but what is our answer?;;;;;;;;;;x;;;
+ADUBER3.T;The Unionist Proposal - Victory;;;;;;;;;;x;;;
+ADUBER3.D;Great news! Both Walidrar and Nuquril have accepted our proposal, agreeing to join our nation in a grand Union of Berber Sultanates - or more simply, the Berber Union. This is a glorious day for all of south Gharbia, and no one can doubt that the newly-formed Berber Union will surely rise to become not just a great power - but a global hegemon whose reach will wrap around the globe!;;;;;;;;;;x;;;
+ADU_berber_union_proposal_2_title;Dawn of the Berber Union;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_berber_union_proposal_2_desc;The Sultans of Imjir, Walidrar and Nuquril gathered today at the new capital of Imariz, where they joined hands and proclaimed the dawn of the Union of Berber Sultanates - or, as it's better known, the Berber Union. This declaration heralds the dawn of a new era in South Gharbia, an era where they have a superpower of their own, one that can undoubtedly rise to expel the unwanted influences of Ibriz, Morocco, Al Andalus and the other great powers of the world. Long live the Berber Union!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADUBER4.T;Nuquril Refuses Our Proposal;;;;;;;;;;x;;;
+ADUBER4.D;The Nuquril diplomats have apparently refused to join our union, despite the fact that Walidrar has agreed. There are already secret negotiations going on to incorporate Nuquril into the fledgeling Berber Union by force, but we can call them off if necessary, and instead strive for peaceful relations with the other Berber nations of Gharbia.;;;;;;;;;;x;;;
+ADUBER5.T;Walidrar Refuses Our Proposal;;;;;;;;;;x;;;
+ADUBER5.D;The Walidrari diplomats have apparently refused to join our union, despite the great promise that such a large country would hold. Some unions are necessarily borne out of violence, however, and there are already secret negotiations going on to incorporate Walidrar into the fledgeling Berber Union by force - but we can call these schemes off if necessary, and instead strive for peaceful relations with the other Berber nations of Gharbia.;;;;;;;;;;x;;;
+ADU_berber_union_manifest_destiny_title;Masters of South Gharbia;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_berber_union_manifest_destiny_desc;Several years have passed since the Union of Berber Sultanates was proclaimed, years that have been spent suppressing internal dissent, squashing separatist revolts and crushing revolutionary movements. Now that we are more stable and prosperous, however, the time has come to secure our rightful position as the Masters of South Gharbia, primarily by forcing our weaker neighbours to submit to our influence. This day will surely be remembered forevermore as the day in which the Berber Union began its manifest destiny!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+form_south_german_confederation_title;The South German Confederation;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+form_south_german_confederation_desc;Complete German unification is still a hotly-contested and divisive issue, but with nationalism on the rise and the south German states largely under our control, we can take a very big step towards that eventual goal by proclaiming the South German Confederation.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+form_north_german_confederation_title;The North German Confederation;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+form_north_german_confederation_desc;Complete German unification is still a hotly-contested and divisive issue, but with nationalism on the rise and the north German states largely under our control, we can take a very big step towards that eventual goal by proclaiming the North German Confederation.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+form_germany_title;Three Hurrahs for Germany!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+form_germany_desc;By controlling, directly or indirectly, the manifold principalities, duchies and free cities that make up the German Nation, we can unite our people into one singular nation state. This new nation will number amongst the most populous and strongest in the world, and when we finally roar, all will recoil in fear. Three Hurrahs for the German Empire!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_russia_manifest_destiny_title;War with Siberia;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_russia_manifest_destiny_desc;The so-called Siberan Tsardom are successors of Novgorod-Russia, and still maintain friendly relations with them, so it is unavoidable that conflict will break out between us and them. They are an ever-present threat on our eastern border, especially if another conflict brews with Novgorod-Scandinavia, so we should take the fight to them now and neutralise the threat once and for all!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+SGF_fascist_dictatorship;German Union;;;;;;;;;;x;;;
+ADUDUA.T;Proclamation of the Dual Monarchy;;;;;;;;;;x;;;
+ADUDUA.D;The Dual Monarchy of France-England has just been proclaimed today in Paris, seeking to tie the two countries into one, much stronger whole. This blatant attempt at integration has been met with scorn and criticism across much of Europe, however, as many believe that the English ought to have a nation of their own.;;;;;;;;;;x;;;
+ADUCEL.T;Time for Change;;;;;;;;;;x;;;
+ADUCEL.D;For far too long now, the Celtic Empire has been on the backfoot, constantly losing wars and constantly retreating. Perhaps the time has come for change in Dublin, with greater powers granted to a united parliament of Ireland and Scotland, who will surely be able to better chart the Celts' path through the oncoming century...;;;;;;;;;;x;;;
+ADU_celtic_manifest_destiny_title;A Union of All Celts;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_celtic_manifest_destiny_desc;There was once a time when all Celtic peoples were united under one flag. Since those glory days, our high kings have fallen to decadence, our armies have lagged in discipline, and our empire has declined. We will not resign ourselves to such a fate, however, not with the winds of change washing upon Europe, not with the future so bright for so many. Let us declare our intention to reunite the Irish, Scots, Welsh and Bretons under our leadership, sending a clear challenge to all those who have insulted and thwarted us over recent years.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+andalus_dual_monarchy_destroyed_title;The Dual Monarchy Dissolved;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+andalus_dual_monarchy_destroyed_desc;To our great shame, we must finally acknowledge that the Dual Monarchy of France-England is no more. Our enemies are victorious and England has been lost, so it is best to discard the shackles of the past, and begin rebuilding towards a greater future - one where we will be avenged, and our losses regained a hundred-fold.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_russia_manifest_destiny_2_title;Reignite the Russian Wars;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_russia_manifest_destiny_2_desc;With the Siberian Tsardom bloodied and on the retreat, we can turn our attention back to the west, where Novgorod-Scandinavia looms large. Emperor Vasiliy still clings to the city of Novgorod, which allows him to continue claiming the title of Novgorodian Tsar, to our great annoyance. In addition to this, he controls the valuable and highly-strategic lands of the Baltic, a potential launching point for any invasions into Russia. Perhaps the time has come to relieve our ancient enemy of these possessions, and bring the entirety of Russia under our control, as God surely wills...;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADUIND.T;Indonesian Imperialism;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADUIND.D;The imperialistic warhawks in our cabinet have recently upped the ante regarding potential expansion opportunities, pinpointing Indonesia as an extremely valuable and easily-conquerable region. Expanding into Indonesia will undoubtedly present difficulties, but it is admittedly full of bitterly-rivalled enemies, so this would be the prime chance for us to begin demanding concessions - and who knows, perhaps someday our name will stretch all across the East Indies...;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_abandon_west_indies_title;Abandon the West Indies;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_abandon_west_indies_desc;With our attempt to recapture Guyana failing horribly, the treasury is empty and we're teetering at the edge of bankruptcy. Perhaps it is time to finally abandon the West Indies, and sell the few remaining possessions that we still have there, perhaps getting enough money to pull us out of this mess.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADUEAS1.T;Sale of the Leeward Antilles;;;;;;;;;;x;;;
+ADUEAS1.D;The Celtic government has dispatched diplomats to the governments of the various great powers, offering to sell their possessions in the Leeward Antilles for a reasonable price. If we still have any ambitions in the area, this would be the perfect opportunity to gain some ground on that front, with the Leeward Antilles making the perfect staging ground for potential invasions in the Caribbean. What is our answer?;;;;;;;;;;x;;;
+ADUEAS2.T;Sale of the Leeward Antilles;;;;;;;;;;x;;;
+ADUEAS2.D;The Celtic government has dispatched diplomats to the governments of the various great powers, offering to sell their possessions in the Leeward Antilles for a reasonable price. If we still have ambitions in the area, this would be the perfect opportunity to gain some ground on that front, with the Leeward Antilles making the perfect staging ground for potential invasions in the Caribbean. What is our answer?;;;;;;;;;;x;;;
+ADU_mongols_manifest_destiny_title;The Mongol Homeland;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_mongols_manifest_destiny_desc;How can we claim to be the Mongol Empire, when we don't even control Mongolia itself? Let us reclaim our homeland, completing our great conquest-migration across Asia and beginning a new era in our peoples history.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ANDLOR.T;War with Lorraine;;;;;;;;;;x;;;
+ANDLOR.D;With the German Empire posturing for more war, we must consider our strategic position in Europe, and more specifically that of Lorraine. The Duchy would serve as the perfect invasion route in the event of another war between us and Germany, so it may be wise to pre-emptively invade them ourselves, and eliminate it as an invasion route altogether...;;;;;;;;;;x;;;
+ADUSIBB.T;Envoys from Smolensk;;;;;;;;;;x;;;
+ADUSIBB.D;Envoys have arrived from Smolensk with a simple message: that we submit to the Russian Empire, once and for all, and surrender our sovereignty in return for an end to the constant conflict between us. What is our answer?;;;;;;;;;;x;;;
+ADUBUR.T;Envoys from Japan;;;;;;;;;;x;;;
+ADUBUR.D;Envoys have arrived from Tokyo with a simple message: that we submit to the Japanese Republic, once and for all, and surrender our sovereignty in return for an end to the constant conflict between us. What is our answer?;;;;;;;;;;x;;;
+ADU_russia_annex_siberia_title;The Annexation of Siberia;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_russia_annex_siberia_desc;The Siberian Tsardom is a spent force, and after all the conflict between us and them, they are finally well within our sphere of influence. Perhaps the time has come to formally annex them into the Russian Empire, and finally solidify our place as the one and only Russian nation-state.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_japan_annex_buryatia_title;The Buryatian Campaigns;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_japan_annex_buryatia_desc;We are always looking for ways to expand and ascend on the world stage, and one way of doing that is by establishing colonies in the vast tracts of Siberian land, much of which is still unclaimed by any great power. Only one thing stops us from doing that: Buryatia, a technologically-backwards kingdom that would put up little resistance to our armies, should we decide to launch an invasion...;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_release_greece_title;Release the Peloponnesian Kingdom;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+ADU_release_greece_desc;At the height of the Tirruni Wars, Berber forces stormed the Peloponnesus and occupied the strategic peninsula, demanding it from the Kingdom of Greece in the consequent peace treaty. Now, however, the Tirruni Wars are long over and the Peloponnese is little more than a hotbed of nationalism and revolt, so it may be a good decision to end direct rule of the region and create a vassal instead.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+ADU_serbia_manifest_destiny_title;Our Rightful Claims;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_serbia_manifest_destiny_desc;There was a time when Serbia stretched from Slovenia to Greece, uniting all South Slavic peoples under one flag, but that was before its borders were torn asunder by the Congress of Cadiz. It is time to publicly announce our intention to reclaim these lost territories, and reunite the Balkan peninsula once more!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_hungary_manifest_destiny_title;Refute the Congress!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_hungary_manifest_destiny_desc;We were abandoned by those we called ally during the sham that was the Congress of Cadiz, and our rightful claims went ignored and unrecognised, but no longer! Let us formally refute the Congress of Cadiz, lay claim to territories which are rightfully ours, and finally move forwards to our glorious future!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_bulgaria_manifest_destiny_title;Refute the Congress!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_bulgaria_manifest_destiny_desc;We were abandoned by those we called ally during the sham that was the Congress of Cadiz, and our rightful claims went ignored and unrecognised, but no longer! Let us formally refute the Congress of Cadiz, lay claim to territories which are rightfully ours, and finally move forwards to our glorious future!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_greece_manifest_destiny_title;Refute the Congress!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_greece_manifest_destiny_desc;We were abandoned by those we called ally during the sham that was the Congress of Cadiz, and our rightful claims went ignored and unrecognised, but no longer! Let us formally refute the Congress of Cadiz, lay claim to territories which are rightfully ours, and finally move forwards to our glorious future!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_king_of_west_africa_title;Kings of West Africa;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_king_of_west_africa_desc;With our recent victories, we can finally join the great powers of the world in modernity, but that's not enough. We should cement our place as the first of the west African powers by doing what has never been done before: let us declare ourselves the Kings of West Africa, and bring our neighbours under our wing - for their own good, of course.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADUBENDIP.T;Opportunity in Africa;;;;;;;;;;x;;;
+ADUBENDIP.D;We have recently received news that the Kingdom of Benin is on the track towards modernisation, with their King already installing a new ruling council and raising a new standing army. This may be a good opportunity for us to step in and offer them help, in the form of officers and advisors, with the long-term aim of winning a new ally in the region. And a modernised Benin could be a very powerful ally indeed, although the Berbers might not be too happy with our interference in their sphere of influence...;;;;;;;;;;x;;;
+ADUBENDIP2.T;Andalusia Aids our Modernisation;;;;;;;;;;x;;;
+ADUBENDIP2.D;Al Andalus have agreed to assist our regime in modernising the army and navy, important in our ultimate goal of becoming the hegemon of West Africa. This is also a good opportunity to sow the seeds of future alliance, and who better than al-Andalus, who already have a well-established historial rivalry with our own potential enemies in Morocco?;;;;;;;;;;x;;;
+ADUSLAV.T;Slavery in Morocco;;;;;;;;;;x;;;
+ADUSLAV.D;The slave trade is a big part of what made Morocco the world's greatest power, with the triangle trade established between Morocco, Benin and New England massively enriching Berber tradesmen and merchants, and encouraging investment into a powerful navy. Now, however, tensions regarding slavery are on the rise all across the world, with countries including France and Al Andalus loudly denouncing us and hurting our international reputation. The abolishment of slavery is not an easy path for us to take, however, and we will likely face armed revolt if we try and force it on our upper classes. We will have to proceed very carefully if we're going to weather through this oncoming storm without descending into civil war...;;;;;;;;;;x;;;
+the_slavery_debate;Slavery Tensions;;;;;;;;;;x;;;
+ADUEGY.T;Birth of Anapnoub XV;;;;;;;;;;x;;;
+ADUEGY.D;Alexandria exploded into celebration upon the birth of Apanoub, the long-awaited heir to the Crusader Kingdom of Egypt. Joy quickly became horror when the poor child was first unveiled to the public, however, revealing him to be deformed in the face and body - doubtless a product of 400 years of inbreeding amongst the ruling castes of Egypt. Despite his gruesome physical ailments, Apanoub would grow to become a surprisingly astute young man, before being crowned King Apanoub XV upon his father's death. And with his coronation, an entire nation waits with bated birth, split as to whether their new king was a blessing in disguise or an obvious curse from God.;;;;;;;;;;x;;;
+sultan_raed;Sultan Raed Zulfiqar;;;;;;;;;;x;;;
+sultan_utbah;Sultan Utbah Zulfiqar;;;;;;;;;;x;;;
+ANDBAL.T;Intervention in the Balkans;;;;;;;;;;;;x;
+ANDBAL.D;The Balkan powers have violated the terms of neutrality set down by the Congress of Cadiz, and declared war on Serbia! As a Great Power, it is surely our responsibility to intervene in defence of Serbia, and ensure that the decisions set down by the Congress are preserved.;;;;;;;;;;x;;;
+ADUITA1.T;The Rising of Italy;;;;;;;;;;x;;;
+ADUITA1.D;'Rise, Italians, rise against your oppressors!' The words of a revolutionary firebrand have incited the outbreak of the so-called Italian Revolution, with thousands of Italians flocking to the mountains of Central Italy, where partisans have already seized vast stretches of territory and now prepare to take the fight to Bavaria. The Italians have no hope of winning this war alone, however, so they've also sent emissaries to the great powers of Europe, begging for any assistance they can spare.;;;;;;;;;;x;;;
+ADUITA2.T;Intervention in Italy;;;;;;;;;;x;;;
+ADUITA2.D;Emissaries have arrived in Italy, begging for assistance in their independence struggle against Bavaria. What is our answer?;;;;;;;;;;x;;;
+ADUITA3.T;Intervention in Italy - Success;;;;;;;;;;x;;;
+ADUITA3.D;We've won some allies! Now surely we'll overcome the odds and triumph against the Bavarians, and at long last, the Italian peoples will be free!;;;;;;;;;;x;;;
+EVTNAME10001;An Age of Liberalism;;;;;;;;;;x;;;
+EVTDESC10001;Several years after his suicide, the body of Sahim Tirruni has finally been allowed to return to Qattalun, with the Moroccans now satisfied that his revolutionary ideals have been well and truly squashed. Unsurprisingly, however, the sight of Tirruni's coffin being paraded through the streets of Barshaluna incited the outbreak of several riots across the city. More unexpected was the sudden spread of these riots through the rest of Qattalun, and from there to the rest of Europe, as commoners fight to revive the ideas of liberalism, political reform, freedom of speech and the rights of peoples. The people, having suffered under the yoke of crowns and scepters for far too long, are finally awakening to the realisation that fate is theirs to make. As Sahim Tirruni's body is lowered to his final resting place at the foot of the Pyrenees, Europe stands again at the beginning of a new era: An Age of Liberalism.;;;;;;;;;;x;;;
+ADUTIRFUN.T;Tirruni's Funeral;;;;;;;;;;x;;;
+ADUTIRFUN.D;The Moroccans have allowed the body of Sahim Tirruni to be returned to Qattalun, his beloved homeland, for a proper burial. Unfortunately, with this there comes a sudden wave of rioting and revolts, as previously-dampened liberal tendencies have been inflamed.;;;;;;;;;;x;;;
+ANDLEON.T;The Secret Clauses of the Congress;;;;;;;;;;;;x;
+ANDLEON.D;Earlier this day, Frederick of the von Wettin dynasty was formally crowned the King of Leon-Castille. Frederick is the brother of August-Wilhelm, the King of Hannover, and his brother's ascendence to the throne was the first of the rumoured 'secret agreements' organised between the Great Powers during the Congress of Cadiz. As the Moroccans and Hanoverians grow closer, there is massive outcry from other European powers, as the public ponders just how many secretive negotiations took place...;;;;;;;;;;x;;;
+EVTNAME8000019;Jaharra;;;;;;;;;;x;;;
+EVTDESC8000019;In an effort to solidify public support for the newly-installed monarchy and promote unity between Andalusians, the Sultan has authorised the construction of a great hall of fame, housing the various historical artifacts collected by monarchs and viziers over the course of Andalusia's long history. Modeled on Morocco's famous Hall of Trophies and costing tens of thousands of dinars, the Jaharra would eventually become the home of hundreds of statues, busts, memorials, paintings, artifacts, monuments and plaques - quickly becoming a point of pride for many Andalusi.;;;;;;;;;;x;;;
+undecided_modifier;Undecided Modifier;;;;;;;;;;;;x;
+qadis_tulaytullah_railroad;Two Capitals Railroad;;;;;;;;;;;;x;
+the_zulfiqar_palaces;Jaharra;;;;;;;;;;;;x;
+EVTNAME8000080;Coronation of Utbah;;;;;;;;;;x;;;
+EVTDESC8000080;Our national talisman in Raed Zulfiqar is dead, but his dynasty will live on in his son and successor: Utbah Zulfiqar, a 55 year-old man with a long history of achievements in the military. The new sultan was formally crowned in a rather small, inexpensive affair a few weeks after the passing of his father, with the government still recovering from the lavish costs incurred by the Congress of Cadiz and Coronation of Raed. All the same, Utbah accepts the crown and sceptre with pride, delivering an impassioned speech in which he vows to see Al Andalus prosper and thrive under his rule.;;;;;;;;;;x;;;
+EVTNAME8000081;Academy of Al Andalus;;;;;;;;;;x;;;
+EVTDESC8000081;Attempting to further instill loyalty to the crown, the Sultan has formally opened another grand construction to the public: the Royal Academy of Al Andalus, an institute of higher learning built to challenge the University of Qadis and further drive Andalusi intellect and advancement to ever-greater lengths.;;;;;;;;;;x;;;
+EVTNAME8000082;Restoration of Tulaytullah;;;;;;;;;;x;;;
+EVTDESC8000082;Tulaytullah, a city that boasts a long history of being a strong base of Jizrunid support, was ransacked and plundered by the forces of the Mahdi in the 1810s. Now that the city is back under our control, however, it may be a good idea to begin restoration projects in the city - it would make for good publicity, and we'll end up with several new palaces and mansions in the city, so why not?;;;;;;;;;;x;;;
+tulaytullah_restoration;City of Sultans;;;;;;;;;;;;x;
+TIR9.T;Execution of Hafid Tirruni;;;;;;;;;;x;;;
+TIR9.D;Like son, like father. Hafid Tirruni has been a menace to us for years now, but his usurpation was brought to a decisive end by our troops, who quickly cornered and chained the revolutionary. And this time, no mistakes were made, with the young revolutionary quickly and secretly executed via hanging in his Barshaluna palaces. And as the last vestiges of life leaves his body, we can finally rejoice, as the dynasty of Tirruni is brought to an end.;;;;;;;;;;x;;;
+ADUYAH.T;Death of Yahya Almoravid;;;;;;;;;;;;x;
+ADUYAH.D;Sultan Yahya V has ruled our nation since 1810, but last night he finally left this world, passing peacefully to the afterlife in his sleep. Yahya will undoubtedly go down in history as one of our greatest monarchs - he had personally led campaigns and raids in his youth, he was responsible for the consolidation of our Indian colonies into the Berber Raj, he was the main driving force behind the expansion and modernisation of our navy, and he was the one constant enemy to Sahim Tirruni throughout the fifteen-year-long the Tirruni Wars. All things must come to an end, however, and we can look forward to what will surely be a glorious era under his grandson and successor: Ajeddig Almoravid.;;;;;;;;;;;;x;
+ADUSGF.T;Our Italian Territories;;;;;;;;;;x;;;
+ADUSGF.D;We are the South German Federation now, but if we want to continue down the road towards complete German unification, then we must consider the fate of our non-German territories. More specifically, our Italian territories, a particulary rebellious hotbed of nationalism and discontent. What is our decision?;;;;;;;;;;x;;;
+EVTNAME8000083;Qadis-Tulaytullah Railway;;;;;;;;;;x;;;
+EVTDESC8000083;It is with great pride today that the Sultan formally opens the Qadis-Tulaytullah Railway, a 400-mile track that will be able to transport thousands of new passengers between the two cities, in addition to goods and merchandise - all to be hauled by the latest state-of-the-art locomotives, which will be powered entirely by steam engines. This is truly a glorious day for al-Andalus!;;;;;;;;;;x;;;
+EVTNAME8000084;Crisis in Palermo;;;;;;;;;;x;;;
+EVTDESC8000084;The news is already hitting the presses, and before long it will have spread to the rest of Europe, but we have it here first: the Jizrunids of Palermo have been ousted! A bloody revolution left the Emir and his son dead, and once the rest of their immediate family had escaped to Morocco, a democracy was proclaimed in their place. The Zulfiqars are no friends of the Jizrunids, but surely we cannot allow such an aberration to stand, not when Al Andalus has long-standing claims to the island? Perhaps we ought to intervene and re-install the Jizrunids in Palermo, but force a few concessions from them at the same time, and maybe gain a foothold in Italy...;;;;;;;;;;x;;;
+EVTNAME8000085;Tirruni's Heir;;;;;;;;;;;;x;
+EVTDESC8000085;With the restoration of Almoravid supremacy in Qattalun and consequent execution of Hafid Tirruni, the last remaining family of the fallen revolutionary have fled Qattalun. Amongst these fugitives is the sixteen-year-old Idris Tirruni, the grandson and last surviving male heir of Sahim Tirruni, a young boy with the weight of the world already on his shoulders. We can help him bear that weight by inviting him to Qadis, where he and his immediate family will have safe refuge from the Almoravids, and perhaps he may come in useful in the future...;;;;;;;;;;;;x;
+ADU_military_vizier_law_title;The Military Vizier Act;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+ADU_military_vizier_law_desc;War has always been part of the fabric of Al Andalus, as demonstrated by the rise of Raed Zulfiqar to the Sultanate of Al Andalus, but the recent popularity of toothless moderates and traitorous liberals in the Majlis has begun to dull our military edge. With reactionaries finally in power, we can take this opportunity to pass a law making it a requirement for any future Grand Viziers to hav served at least five years in the army or navy, ensuring that our nation is never without strong military leadership.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;
+military_vizier_law;Military Vizier Act;;;;;;;;;;x;;;
+EVTNAME8000086;Securing Palermo;;;;;;;;;;;;x;
+EVTDESC8000086;Now that we have overthrown the revolutionary regime in Palermo, we can formally restore monarchy in the country, but the question of who should take the title of Emir is a controversial one. We can invite a friendly Jizrunid to retake the throne, offering him a seat in the Majlis al-Shura to ensure his loyalty - this option would certainly give Palermo some much-needed stability. An alternative would be to grant the throne to one of our own nobles, which would likely give us a much stronger grip on Palermo, but at the sacrifice of stability in the region. Which should we choose?;;;;;;;;;;;;x;
+EVTNAME8000087;Securing Qattalun;;;;;;;;;;;;x;
+EVTDESC8000087;Qattalun has always been a volatile and rebellious region, and now that it is under our control once more, we must take steps to pacify it. One course of action, as suggested by a Majlisi politician, is to grant Idris Tirruni the Emirate of Qattalun to administrate and rule in the name of the Sultan. He will have to be admitted into the Majlis al-Shura, of course, but the populace of Qattalun will be much more receptive to being ruled by a Tirruni, and Idris has earned the trust of the royal family after the years spent as an honoured guest in Qadis. In fact, hoping to tie his dynasty into the lifeblood and history of Qattalun, Sultan Utbah has even professed a desire to see young Idris married to one of his daughters. Such a solution will do much to alleviate the tensions in Qattalun, but the final decision is down to the Majlis...;;;;;;;;;;;;x;
+EVTNAME8000088;Socialism in Al Andalus;;;;;;;;;;;;x;
+EVTDESC8000088;Socialist ideas have begun to gain traction in Al Andalus, with the inception of several socialist newspapers, the recent establishment of a socialist political party, and now there's even talk of organising an 'International Conference of Socialism' right here in Tulaytullah. These ideas are clearly in conflict with the traditional values of Al Andalus, and radical to even the most fringe groups in the Majlis, so we must take a stand against it here and now - by thwarting these attempts to organise an international forum of socialists.;;;;;;;;;;x;;;
+EVTNAME8000089;Greater Powers for the Sultan;;;;;;;;;;x;;;
+EVTDESC8000089;With the reactionary grip on the Majlis al-Shura strengthening, the Royalists have begun attempts to grant the Sultan greater powers, though they were immediately faced with staunch opposition from other parties in the assembly. After several years of careful manoeuvering and coy scheming, however, the Royalists score an important victory with the Sultanic Act. According to this new legislation, Sultan Utbah will have the power to appoint new members of the Majlis, direct the grand military strategy, and - most importantly - ratify any new legislation. This is a big step backward in Al Andalus, as for the first time in a century, a sultan holds real power once again.;;;;;;;;;;x;;;
+greater_powers_sultan;Sultanic Act;;;;;;;;;;;;x;
+EVTNAME8000090;Treaty of Rome;;;;;;;;;;;;x;
+EVTDESC8000090;In an effort to further secure our influence in Palermo, several viziers in the Majlis have organised a conference with the South German Union, aiming to resolve the existing tensions that simmer over Italy. The early days of this conference were very beneficial for both sides, as the South Germans have demanded a free hand in northern Italy, and we looked to expel them from Palermo altogether, with the Papal States as a buffer between our respective spheres of influence. The conference may well prove to be very productive indeed, but these talks have also arisen the anger and annoyance of the other great powers, weakening the resolve of our diplomats. Should we proceed with them?;;;;;;;;;;;;x;
+EVTNAME8000091;Sultanic Guard of Andalusia;;;;;;;;;;x;;;
+EVTDESC8000091;The Sultan has today established a new organisation in the Department of Defense, termed the Sultanic Guard of Andalusia, or simply the SGA. Working outside the law and answerable only to the Sultan and Grand Vizier, the SGA was initially responsible for countering revolutionary movements and opposing state enemies, but their size, authority and duties would quickly multiply over the next two decades. And during that time, the SGA would become a highly-influential and widely-feared organisation in Iberia, employing cruel and brutish methods of obtaining information, all in the name of preserving the Sultanate of Al Andalus.;;;;;;;;;;x;;;
+sultanic_guard_andalusia;Sultanic Guard;;;;;;;;;;x;;;
+ADU_portuguese_integration_title;Begin Portuguese Integration;;;;;;;;;;x;;;
+ADU_portuguese_integration_desc;With liberals dominating the Majlis, we can begin efforts to integrate the Portuguese into our realm, transforming them into true citizens of Al Andalus. By granting the Portuguese language official status, appointing local politicians to government posts and abolishing a few discriminatory laws against the Portuguese, we can ease the growing tensions in the region and begin incorporation efforts, whilst still retaining direct rule in Portugal.;;;;;;;;;;x;;;
+organize_angola_title;Organise our Angolan Colonies;;;;;;;;;;;;x;
+organize_angola_desc;Angola is gradually transforming into a model Andalusi colony, and several viziers have suggested dispatching experienced bureaucrats to establish proper colonial structures in the region, bringing it up to par with our home territories.;;;;;;;;;;;;x;
+EVTNAME550029;Lover Exposed!;;;;;;;;;;;;x;
+EVTDESC550029;Scandal in the papers! The Andalusi Times, which sees wide circulation all across the country, has just published a vivid and picturesque article on the details of the Grand Vizier's love life, which apparently goes far beyond the confines of home and wife! This will irrevocably damage the prime minister's reputation, with his very name quickly becoming a running gag in Qadis, infuriating the man himself. In fact, the Grand Vizier has petitioned the Majlis to outright ban the newspaper for this 'slanderous and unfounded attack on his character', claiming that the article was a breach of morality and public trust. Shutting down the paper will rouse the liberals in the state, but not doing it will increase the support for press reforms, so what should we do?;;;;;;;;;;;;x;
+EVTNAME550028;Newspaper Attacks Government;Un journal calomnie;Zeitung ver?fentlicht ?le Nachrede;;Un peri?ico publica una calumnia;;;;;;;;;x;;;;
+EVTDESC550028;The Andalusi Times has published an article denouncing the recent action of the government, claiming that their unpreparedness has damaged Andalusi image on the national stage, and harshly condeming them as unpatriotic elitists interested only in their own wealth. And the barrage didn't end there, with a string of editorials and articles even claiming that certain viziers must've secretly received support from foreign powers to work against the $COUNTRY_ADJ$ ruling party. This news has quickly taken hold with the lower classes of the capital, who are becoming increasingly militant and projecting their anger at local power holders. Suppressing the newspaper will anger the lower classes, who will see it as a cover-up on our part, but not doing it will engender a feeling of exposure among the upper classes.;La quotidien national 'Le courrier du matin' a publi?un article condamnant durement les m?rs d?adentes de l?lite locale dans une de nos r?ions. Ces ?ites sont brocard?s d?ntipatriotisme par le journal qui les accuse d?voir secr?ement re? du soutien de puissances ?rang?es pour d?tabiliser le parti au pouvoir $COUNTRY_ADJ$. Les classes d?avoris?s de cette r?ion ont manifest?leur r?robation ce qui a augment?leur militantisme et leur rejet des autorit? en place. Interdire le journal renforcerait la col?e du peuple qui verrait en cela une dissimulation politique mais le laisser publier renforcerait un certain malaise aupr? des classes dirigeantes.;Der staatseigene Morgenkurier hat einen Artikel ver?fentlicht, der in harschen Worten das von ihm als dekadent angeprangerte Benehmen der ?tlichen Eliten in einem unserer Staaten anprangert. Der Artikel nennt sie unpatriotisch und behauptet, dass gewisse Kreise unter ihnen Unterst?zung ausl?discher M?hte erhalten, um gegen die $COUNTRY_ADJ$ Regierungspartei zu arbeiten. Diese Nachrichten haben starke Reaktionen in der Unterschicht der Provinz ausgel?t, die immer militanter wird und ihren ?ger auf die lokalen Machthaber richtet. Ein Maulkorb f? die Zeitung wird die unteren Klassen ver?gern, die es als Vertuschung von unserer Seite ansehen w?den, aber Nichtstun wird dazu f?ren, dass die Oberschicht sich wie auf dem Pr?entierteller f?lt.;;El Correo de la ma?na, un peri?ico estatal, ha publicado un art?ulo que condena con severidad lo que parece ser un comportamiento decadente por parte de la ?ite local de uno de nuestros estados, tach?dolos de poco patri?ica y denunciando que ciertos c?culos de la misma reciben apoyo secreto de potencias extranjeras contrarias al partido gobernante de $COUNTRY$. Estas noticias han dejado huella entre las clases m? bajas de la provincia, cuya militancia est?aumentando, lo que provoca que proyecten su frustraci? sobre las autoridades locales. La supresi? del peri?ico enfurecer? a las clases bajas, que entender?n que estamos intentando tapar el asunto. Por otra parte, si no lo cerramos, se crear? una sensaci? de indefensi? entre las clases altas.;;;;;;;;;x;;;;
+EVTNAME9011111;The Taghziri Uprising;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME90115;The Taghziri Uprising;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC90115;A riot by Taghziri nationalists recently broke out in the port-city of Aghazir, with the rebels attacking the capital citadel, damaging colonial offices and lynching Berber nationals! The crisis only escalated from there, with the uprising spreading from Azghazir across the entirety of Taghzir, before crossing the straits into neighbouring islands and archipelagos. Before the end of the year, the entirety of the Caribbean was afire with rebellion, with the Almoravid Sultan immediately dispatching troops to quell the uprising.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
+EVTNAME8000092;The Sack of Qadis;;;;;;;;;;;;x;
+EVTDESC8000092;Against all odds and expectations, our capital of Qadis succumbed to besiegers last night, with the hated enemy pouring through breaches and swarming into the city. This disaster marks the first time our capital has ever fallen, and the next few days were no less ugly, with the invading soldiers barbarically plundering the many palaces, mansions and villas dotting the city, burning and pillaging with impunity - though the civilians were spared, thankfully. Several priceless artefacts were even stolen from the Jaharra and Qadisi Museum, to be hauled across land and shipped across water to their own capital, where they will doubtessly be paraded and exhibited as proof of their empire's superiority on the world stage. We can only take this blow standing, however, and begin preparing to retaliate - because this grievous insult will not go unasnwered.;;;;;;;;;;;;x;
+adu_sack_of_qadis;The Sack of Qadis;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000093;Reconstruction of Qadis;;;;;;;;;;;;x;
+EVTDESC8000093;With the sack of Qadis still fresh in the minds of its inhabitants, the Sultan has launched a grand reconstruction of the capital, an ambitious endeavour that would stretch across decades. Several aging neighbourhoods were quickly demolished, replaced with wide avenues and tree-lined boulevards, followed by the paving of new roads throughout the city. The next phase would begin with the annexation of several outlying districts to the capital, a necessary solution to overcrowding crises threatening to overwhelm Qadis, along with the establishment of countless public parks and botanical gardens. Finally, the Sultan commissioned dozens of new buildings, including the historic Majlis Assembly hall, several royal palaces, three massive mosque complexes, another national museum, seven extravagent theaters, a modernised hospital, a thriving produce market and an expanded railway station - all constructed in an innovative blend of traditionalist and modernist architecture.;;;;;;;;;;;;x;
+adu_reconstruction_of_qadis;Qadis Reborn;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000094;Presenting the Heir;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8000094;The aristocrats of Al Andalus gathered at the Zulfiqar Palace today to formally greet the heir to the Sultanate - the young but promising Khuzaymah ibn Utbah. The gala was a huge success for the brash amir, who spent hours greeting and conversing with the established leaders of Al Andalus, including several prominent politicians and even the Grand Vizier himself, all whilst massive thronging crowds cheered and celebrated outside the palace. An eager (if rash) youngster, Khuzaymah has already been granted important responsibilities within the government, including a commission in the Qadisi Artilley Corps, a prominent seat in the Majlis Assembly, and even the unique privilege of representing Al Andalus on diplomatic missions to the Great Powers of the world. We can only hope he matures into the strong, decisive leader his nation needs.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000095;Expansion of the SGA;;;;;;;;;;;;x;
+EVTDESC8000095;Threatened by the growing strength of radical movements, the Sultan has called an urgent meeting of his principal viziers, in which he demanded that the SGA - the Sultanic Guard of Andalusia - be expanded in scope and strengthened in numbers. There are very likely underlying schemes at play, however, as the Sultan seeks to expand his influence on the domestic and foreign fronts - he has already deployed agents to the coffeehouses of the largest Iberian cities, several moles have infiltrated the Liberal and Socialist factions of the Majlis, and there's even been talk of dispatching operatives to foreign courts and administrations. The intelligence yielded by these campaigns may prove very useful, but an expansion of the SGA is undoubtedly an expansion of the Sultan's powers, so we will have to tread very carefully indeed...;;;;;;;;;;;;x;
+EVTNAME8000096;Khedive of Kongo?;;;;;;;;;;;;x;
+EVTDESC8000096;Disturbing news has just arrived from the colonies... apparently an influential commander has taken the step of declaring himself 'Khedive of the Kongo' - and has requested recognition from the Majlis! He has already been very active in our colonial domains - establishing new cities, constructing railways, imposing unequal treaties and negotiating protectorate agreements with native powers - but he has refrained from seizing autonomy and acting against our wishes thus far. This general is highly popular with our colonial troops, however, so it may be best not to make an enemy of him just yet.;;;;;;;;;;x;;;
+ADURUSDEATH.T;Death of the Tsarina;;;;;;;;;;;;x;
+ADURUSDEATH.D;This is a sorrowful day, as the great Tsarina Dobroslava finally passes away. The empress' health had been declining for years, with her problems only exacerbated by her heavy smoking and rich diet, but the announcement of her death is met with misery and mourning across Russia all the same. Having never married, the Tsarina is succeeded by her nephew, Grand Duke Alexandrovich - an accomplished statesman and military leader - with the prince formally declared Emperor of All Russia a few weeks later.;;;;;;;;;;x;;;
+ADUBAVCOR.T;Coronation in München;;;;;;;;;;;;x;
+ADUBAVCOR.D;A new prince has risen to rule in München, with Karl-William ascending to the Archduchy of Bavaria in an extravagant, lavish coronation ceremony attended by some of the highest-ranking dignitaries in Europe. Karl is not a young man, nor an unexperienced one - born in the midst of the German Revolution, he lived through the chaos and humiliation of exile, he fought through the devastation and destruction of the Tirruni Wars, and he helped forge a new path for Bavaria. He is already a well-established figure in Europe, and many in Bavaria rejoice at his coronation, certain that his reign will bring a renewed era of prosperity and glory with it.;;;;;;;;;;;;x;
+ADUBAVCOR2.T;The Treaty of Narbuna;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+ADUBAVCOR2.D;With the devastating war that followed the Dispute of Granada finally coming to an end, representatives of Al Andalus, Morocco, Russia, the Dual Monarchy, the South German Union and the Celtic Union congregated at the neutral city of Narbuna, where a peace treaty was drawn out between them. The resulting Treaty of Narbuna would be heavily one-sided, however, with Andalusi diplomats demanding several humiliating concessions from Almoravid Morocco - including the return of Qartayannat and Marriya, the cessation of Malta and the surrender of Kilwa. Most embarrassing of all, however, was article 12 of the treaty, containing a provision that forced the Berbers to finally abolish the slave trade, within a set period of time, throughout the entirety of their empire. The Moroccans protested violently, but these were Andalusia's demands, and there would be no peace without them.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+ADU_king_of_iberia_title;Kings of Iberia;;;;;;;;;;;;;x
+ADU_king_of_iberia_desc;At long last, the entirety of the Iberian peninsula has been united under our rule, transforming the Sultanate of Al Andalus into the world's foremost power. Our population remains diverse and divided, however, so perhaps we ought to take a new title to better reflect our enlightened rule over the many peoples of our peninsula - let us declare ourselves the Kings of Iberia, and watch as the world trembles!;;;;;;;;;;;;;x
+form_china_title;Revive the Empire of China;;;;;;;;;;;;;x
+form_china_desc;Not since the days of the Great Feng have we been united, with the lands of China fracturing between a thousand emperors, all bikering and squabbling for scraps. But with imperialist powers looking greedily upon our rich lands, we have managed to seize the capitals of the other Chinese dynasties, humiliating them and discrediting their claims to the Mandate of Heaven. - And with that, at long last, we can rid ourselves of our past demons and proclaim the revival of the Empire of China!;;;;;;;;;;;;;x
+EVTNAME8000097;Death of the Khedive;;;;;;;;;;;;x;
+EVTDESC8000097;In the opulent palaces of his capital, the Khedive of the Kongo has finally passed away, albeit under... suspicious circumstances. The Majlis immediately dispatched a party to return his body to Qadis, where he would be affored the highly-coveted aristocratic burial ceremony, only to be spurned by officers upon arriving at the Kongo, who insisted that the Khedive had wanted to be buried there instead. The Grand Vizier scarcely had time to react before being faced with another problem, however, as several lavishly-dressed emissaries arrived from the son and heir of the Khedive, requesting that his formal succession to the Khedivate be recognised. We will have to tread very carefully, the Khedive had amassed a great deal of power before his death, but it may be wise to grant our colonial possessions autonomy rather than incite a full-blown revolt...;;;;;;;;;;;;x;
+EVTNAME8000099;War with the Khedive;;;;;;;;;;x;;;
+EVTDESC8000099;The declaration was made several days ago, but it only reached Qadis just now - from his slavebuilt capital along the Kongo River, the Khedive of the Kongo has declared his independence from Al Andalus, and the commencement of immediate hostile action against any forces or person who attempted to change that. Coastal fortresses manned by Andalusi soldiers have already been attacked and captured, any remaining Andalusi governors or viziers have been detained and imprisoned, and a state of war was formally declared. This was a long time coming, but now it's official - the Khedive has declared independence.;;;;;;;;;;x;;;
+EVTNAME8000079;Death of Utbah;;;;;;;;;;x;;;
+EVTDESC8000079;Though blessed with long age, no man can live forever, and the great Sultan Utbah finally passed away in the early hours of this morning. Thousands took to the streets within hours, honouring the memory of the Sultan of al-Andalus and King of Iberia, whilst a telegram was concurrently sent to Palermo, where his only son and heir was on a diplomatic mission. Khuzaymah Zulfiqar wasted no time in abandoning his station, boarding a ship and rushing back to Qadis, where he led his father's funeral procession through the streets and highways before reaching a halt at the Old Mausoleum, wherein the many sheikhs, emirs and sultans of Iberia had been entombed over the past millennium - and now, one more joins their ranks. A period of general mourning is instituted in Al Andalus, but it isn't much longer before Khuzaymah prepares for his coronation ceremony, whilst the nations of Europe wait and watch with bated breath.;;;;;;;;;;x;;;
+EVTNAME8000078;A Liberal Sultan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8000078;Khuzaymah is widely-regarded as a man of the people, and having already endorsed further political reform and liberalisation in Al Andalus, he has already made enemies of the staunch aristoratic dynasties in the Majlis. Under his reign, the new sultan promises to transform Al Andalus into a fully-constitutional monarchy, putting the reins of statehood in the hands of the people. This, he is certain, will only further entrench Al Andalus as the greatest nation on earth.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000077;A Conservative Sultan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8000077;Like father, like son. Utbah has carefully moulded young Khuzaymah in his image, because much like him, the new sultan has grown to become a moderate in Andalusi politics. A staunch advocate of the status quo, Khuzaymah insists that the monarch should maintain his voice and influence in the state, but bend to the will of the Majlis al-Shura where necessary - as for the people, giving them a voice will only bog the nation's decisiveness and pragmatism into the mud, leaving it trailing behind its rivals and opponents on the world stage. No, much better to keep the reins of power in the hands of the nobility, and the Sultan...;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000076;A Reactionary Sultan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8000076;Khuzaymah ibn Utbah ibn Raed is already a well-established figure in international politics, despite his youth and immaturity. The crown prince was carefully groomed over the past few years, entrusted with a series of missions from the age of sixteen, missions that included an official command in the Andalusi Army, a hereditary seat in the Majlis-al-Shura, a temporary governorship in Tulaytullah, and even serving as a diplomat to the other great powers. Apart from a few scandalous romances, he has grown to become a well-respected in European politics, making his accession to the Sultanate of Al Andalus very smooth indeed - unfortunately, however, the youngster has also become very... attached to his newfound power, and with some encouragement from the entrenched aristocrats of Al Andalus, he has become a firm advocate for greater sultanic authority. A new era has begun, but many fear it will be one of violence, infighting and autocracy.,.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME8000075;A Progressive Sultan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8000075;Khuzaymah is not like other monarchs, it would seem. Along with many of his close friends in the Majlis al-Shura, he has taken to the wild idealistic imaginations of the socialist movement, and has branded himself a 'monarch of the people', inaugurating his reign with the promise of avoiding costly conflicts, developing the internal machinations of Iberia, and utterly transform the welfare system of Al Andalus. With these grand dreams, however, there comes the inevitable enmities and opposition - the new Sultan will have to be well-guarded, else he might just find himself uncrowned, dethroned and castrated far too soon...;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+sultan_khuzaymah;Sultan Khuzaymah Zulfiqar;;;;;;;;;;x;;;
+EVTNAME8000074;Coronation of Khuzaymah;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC8000074;A few short weeks after the funeral of his father, Khuzaymah is formally coronated as the Sultan of Al Andalus and King of Iberia, the third of his line to sit on the throne. And eager to make his mark, the ceremony is a massively expensive affair, with its sheer lavishness and exhuberance unmatched in recent history - costing hundreds of thousands of dinars, attended by thousands of dignitaries, and spread out across three days, the coronation of Khuzaymah Zulfiqar is the complete opposite from the coronation of Utbah, some sixty years earler. Indeed, the coronation would quickly become a bookmark in history, heralding the dawn of a new century and a new era - as Khuzaymah himself insisted in the traditional coronation speech, with the young sultan vowing to see his country flower and prosper, reigning on high from the pinnacle of the world.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+ADUSWAP.T;The Kongo Land Swap;;;;;;;;;;;;x;
+ADUSWAP.D;A prominent vizier in the Majlis al-Shura has recently brought up the possibility of acquiring Beninese Kongo - a ugly exclave controlled by the Pagan kingdom of Benin, surrounded in every direction by our own colonies - through peaceful means. As our generals have insisted several times already, this exclave is a strategic threat to Andalusi Africa, so it has been suggested that the possibility of a land swap with Benin be brought up. We have several lucrative territories in Ivory Coast and Cameroon, so Benin will almost certainly be interested in an exchange, the only question is whether we ought to see this through diplomatically - or simply seize their exclave through force of arms.;;;;;;;;;;;;;x
+EVTNAME8000098;The SGA Proposal;;;;;;;;;;;;x;
+EVTDESC8000098;With the domestic situation becoming increasingly volatile, the Grand Amir of the Sultanic Guard of Andalusi has approached the Sultan with an offer to begin preparations to safeguard his position and power in Al Andalus. Combatting domestic terrorists, uprooting underground movements, opposing political rivals and framing dangerous persons - the SGA has always acted in the interest of the royal family, but the Sultan's authority over the country has been in gradual decline over the past few years, and is now being openly challenged by the firebrand radicals who now sit in the Majlis al-Shura. Eager to retaliate, the Grand Amir of the secret police organisation has offereed to draw up plans to eventually... depose these radicals, whether they be socialists or liberals, and thereby re-assert the supreme authority of the Sultan in Al Andalus.;;;;;;;;;;;;x;
+EVTNAME550033;Addicted to Opium;;;;;;;;;;x;;;
+EVTDESC550033;This cannot be good... Apparently, after a lengthy illness and gruelling treatment course, our leader has become heavily dependent on laudanum - an alcoholic extract of opium, commonly used to ease pains and suppress coughs. It's been a long time since he's had a coughing fit, however, and our leader continues to take as much as two quarts of laudanum a week, often mixed with copious amounts of hard liquor! We can only hope this doesn't develop into a full-blown addiction, and more importantly, that the press never get ahold of this information...;;;;;;;;;;x;;;
+an_addicted_sultan;Khuzaymah the Addict?;;;;;;;;;;x;;;
+EVTNAME8000020;Civil War;;;;;;;;;;x;;;
+EVTDESC8000020;Three quarters of a century has passed under the rule of the Zulfiqar dynasty, an era of glory and prosperity that is unparalleled in Iberian history, but that era is quickly coming to a close. Five Grand Viziers assassinated in the space of a decade, riots aflame throughout the peninsula, and tensions between the priviliged Andalusi south and disenfranchised north have finally reached boiling point - the Civil War is about to begin. In the rugged mountains of Qantabriyya, a famous Andalusi general and radical has proclaimed the end of monarchy and the dawn of Communist - Anarchist - Democratic rule in Iberia, calling upon the autonomous governorates of Portugal, Leon and Castille to support him. This declaration is met with immediate opposition from Qadis, where a coup d'etat has been launched to topple the socialist leadership and install a loyalist regime, one adamantly opposed to these northern radicals. It has been gradually approaching for years now, always on the distant horizon, but there can be no doubt about it any longer - the Civil War has begun.;;;;;;;;;;x;;;
+EVTOPTA8000020;We are with the north!;;;;;;;;;;x;;;
+EVTOPTB8000020;We are with the south!;;;;;;;;;;x;;;
+EVTNAME550034;Opiate of the People;;;;;;;;;;x;;;
+EVTDESC550034;Acting against the frenzied advice of his viziers and ministers, Sultan Khuzaymah delivered an impromptu speech to the gathered crowds of Qadis this past day, looking to address the rising tensions between the south and the north. Spectators and journalists present at the speech reported that the Sultan didn't look very well, with his eyes darkened and bloodshot, his hands fidgeting uncontrollably and his face shining with sweat. He looked like he was in mourning, and his words were little better. Khuzaymah insisted that there was no such thing as a north-south divide, that the revolts and rebellions reported by newspapers were nothing more than lies, and that the people of Iberia were instead savouring the luxury and plentifulness at their disposal - from Qadis to Qantabriyya, prosperity reigned. These words were met with jeers in the starving crowd, but that response is a mere shadow to the reaction of the north, where the broadcast has ignited lingering tensions and triggered long-awaited hatreds.;;;;;;;;;;x;;;
+ignited_tensions;Ignited Tensions;;;;;;;;;;x;;;
+EVTNAME8000100;The SGA Coup;;;;;;;;;;x;;;
+EVTDESC8000100;As the communist rebellions spread across the width of Al Andalus, there have been talks within the capital of negotiating peace settlements with the radicals, settlements that will allow the noble viziers and aristocrats of the Majlis al-Shura to... live on, at the very least. As these rumours became increasingly persistent, the Sultan and his immediate family mysteriously disappeared from court, taken into hiding by loyalists - and not just any loyalists, but agents of the SGA. It was these same agents who launched a coup d'etat a few weeks later, with black-clad ghosts executing a series of high-profile assassinations that utterly demolished the current government leadership, before declaring the dawn of a new era in Al Andalus, one where the Sultan ruled through his most proficient and capable servant - the Autocrat.;;;;;;;;;;x;;;
+;;;;;;;;;;;x;;;
+;;;;;;;;;;;x;;;
+;;;;;;;;;;;x;;;
+;;;;;;;;;;;x;;;
+;;;;;;;;;;;x;;;
+;;;;;;;;;;;x;;;
+;;;;;;;;;;;x;;;
+;;;;;;;;;;;x;;;
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;
+;;;;;;;;;;;;;x;

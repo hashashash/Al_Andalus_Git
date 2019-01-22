@@ -1,0 +1,14 @@
+
+#Leaders
+
+#Armies
+army = {
+	name="Army of Siberia"
+	location=1066
+	regiment = {
+		name="1st Infantry"
+		type=irregular
+		home=1066
+	}
+
+}

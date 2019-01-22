@@ -1,0 +1,27 @@
+leader = {
+	name = "Emir Mahmud ibn Aftas"
+	type = land
+	date="1835.1.1"
+	personality = romantic
+	background = poet
+	prestige = 0.1
+}
+
+
+army = {
+	name = "Almoravid Army of Greece"
+	location = 839
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 839
+	}
+
+	regiment = {
+		name= "2. Infantry"
+		type = infantry
+		home = 841
+	}
+
+}
+

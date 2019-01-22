@@ -1,0 +1,8 @@
+owner = BAV
+controller = BAV
+add_core = BAV
+add_core = LOM
+
+add_core = ITA
+trade_goods = wool
+life_rating = 40

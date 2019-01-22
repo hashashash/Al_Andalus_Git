@@ -1,0 +1,10 @@
+owner = AD1
+
+controller = AD1
+
+add_core = AD1
+
+add_core = SIC
+
+trade_goods = wool
+life_rating = 35

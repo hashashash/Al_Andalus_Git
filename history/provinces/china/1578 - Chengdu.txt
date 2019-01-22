@@ -1,0 +1,6 @@
+owner = AF8
+controller = AF8
+add_core = YNN
+add_core = AF8
+trade_goods = tea
+life_rating = 32

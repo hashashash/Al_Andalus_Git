@@ -1,0 +1,8 @@
+owner = AD3
+controller = AD3
+
+add_core = IRE
+trade_goods = fish
+life_rating = 35
+
+add_core = AD3

@@ -1,0 +1,8 @@
+owner = ADU
+controller = ADU
+
+trade_goods = fish
+life_rating = 35
+1861.1.1 = { railroad = 3 }
+
+add_core = ADU

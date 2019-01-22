@@ -1,0 +1,1153 @@
+
+SER = {
+	value = 200		#relation
+	truce_until = 1840.1.1
+}
+
+RUS = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+ADU = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+BAV = {
+	value = 45		#relation
+	truce_until = 1840.1.1
+}
+
+SVY = {
+	value = 45		#relation
+	truce_until = 1840.1.1
+}
+
+HUN = {
+	value = -90		#relation
+	truce_until = 1840.1.1
+}
+
+GRE = {
+	value = -200		#relation
+}
+
+AD5 = {
+	value = 150		#relation
+	truce_until = 1840.1.1
+}
+
+AD2 = {
+	value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+HAN = {
+	value = 50		#relation
+	truce_until = 1840.1.1
+}
+
+FRA = {
+	value = -100		#relation
+	truce_until = 1840.1.1
+}
+
+GRE = {
+	value = -200		#relation
+}
+
+BRZ = {
+	value = -200		#relation
+}
+
+PRG = {
+	value = -200		#relation
+}
+
+CHL = {
+	value = -200		#relation
+}
+
+CYR = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+SUL = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+AE3 = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+CAT = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+	truce_until = 1840.1.1
+}
+
+LEO = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+	truce_until = 1840.1.1
+}
+
+leader = {
+	name = "Issam Almoravid"
+	date = 1834.1.1
+	type = land
+	personality = indifferent
+	background = aristocrat
+	prestige = 0.0
+}
+
+leader = {
+	name = "al-Rusim Khataan-bin-Impy"
+	date = 1818.1.1
+	type = land
+	personality = deeply_religious
+	background = priest
+	prestige = 0.1
+}
+
+leader = {
+	name = "Galind ibn Galind"
+	date = 1818.1.1
+	type = land
+	personality = mediocre
+	background = bureaucrat_speed
+	prestige = 0.0
+}
+
+leader = {
+	name = "Mahmud Almoravid"
+	date = 1835.1.1
+	type = land
+	personality = au_fait 
+	background = aristocrat
+	prestige = 0.0
+}
+
+leader = {
+	name = "Caïd El-Hakmaouï"
+	date = 1823.1.1
+	type = land
+	personality = able
+	background = old_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "Dahmane-es-Soueïdi"
+	date = 1834.1.1
+	type = land
+	personality = shrinking_violet
+	background = disgraced
+	prestige = 0.0
+}
+
+leader = {
+	name = "Caïd El-Hakmaouï"
+	date = 1818.1.1
+	type = land
+	personality = skilled
+	background = old_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "Ibrahim-Boukabous Bey"
+	date = 1826.1.1
+	type = land
+	personality = sharp
+	background = rising_star
+	prestige = 0.0
+}
+
+leader = {
+	name = "Mohammed-el-Mekallech Bey"
+	date = 1826.1.1
+	type = land
+	personality = keen
+	background = poet
+	prestige = 0.0
+}
+
+leader = {
+	name = "El-Hadj-Moustafa-el-Mamzali Bey"
+	date = 1821.1.1
+	type = land
+	personality = brilliant
+	background = aristocrat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Omar Agha"
+	date = 1828.1.1
+	type = land
+	personality = perverse
+	background = politician
+	prestige = 0.0
+}
+
+leader = {
+	name = "Umunallah"
+	date = 1832.1.1
+	type = sea
+	personality = efficient
+	background = eccentric_genius
+	prestige = 0.0
+}
+
+leader = {
+	name = "Sheikh Alsami"
+	date = 1829.1.1
+	type = sea
+	personality = unsound
+	background = debutante
+	prestige = 0.0
+}
+
+leader = {
+	name = "Yasim Jizrunid"
+	date = 1835.1.1
+	type = sea
+	personality = hellbent 
+	background = rising_star
+	prestige = 0.0
+}
+
+army = {
+	name = "Army of the Sultan of Morocco"
+	location = 1681
+	regiment = {
+		name= "1. Infantry Brigade 'Askäria'"
+		type = infantry
+		home = 1680
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 1681
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 1682
+	}
+regiment = {
+		name= "33. Infantry Brigade"
+		type = infantry
+		home = 1681
+	}
+regiment = {
+		name= "34. Infantry Brigade"
+		type = infantry
+		home = 1680
+	}
+regiment = {
+		name= "35. Infantry Brigade"
+		type = infantry
+		home = 1681
+	}
+regiment = {
+		name= "36. Infantry Brigade"
+		type = infantry
+		home = 1682
+	}
+
+}
+
+army = {
+	name = "Army of the Atlas"
+	location = 1684
+	regiment = {
+		name= "4. Infantry Brigade 'Ait 'Atta'"
+		type = cavalry
+		home = 1683
+	}
+
+	regiment = {
+		name= "5. Infantry Brigade"
+		type = cavalry
+		home = 1688
+	}
+
+	regiment = {
+		name= "6. Infantry Brigade 'Ait Mnad'"
+		type = cavalry
+		home = 1694
+	}
+regiment = {
+		name= "60. Infantry Brigade 'Ait Mnad'"
+		type = cavalry
+		home = 1694
+	}
+regiment = {
+		name= "61. Infantry Brigade 'Ait Mnad'"
+		type = cavalry
+		home = 1683
+	}
+regiment = {
+		name= "62. Infantry Brigade 'Ait Mnad'"
+		type = cavalry
+		home = 1688
+	}
+}
+
+army = {
+	name = "Army of Sahara"
+	location = 1698
+	regiment = {
+		name= "7. Infantry Brigade 'Dawi Mani'"
+		type = artillery
+		home = 1690
+	}
+
+	regiment = {
+		name= "8. Infantry Brigade 'Sahrawi'"
+		type = artillery
+		home = 2563
+	}
+
+	regiment = {
+		name= "9. Infantry Brigade"
+		type = artillery
+		home = 1691
+	}
+regiment = {
+		name= "90. Infantry Brigade"
+		type = artillery
+		home = 1691
+	}
+regiment = {
+		name= "91. Infantry Brigade"
+		type = artillery
+		home = 2563
+	}
+
+}
+
+army = {
+	name = "Army of the Rif"
+	location = 1686
+	regiment = {
+		name= "10. Infantry Brigade"
+		type = infantry
+		home = 1686
+	}
+
+	regiment = {
+		name= "11. Infantry Brigade"
+		type = infantry
+		home = 1687
+	}
+
+	regiment = {
+		name= "12. Infantry Brigade"
+		type = infantry
+		home = 1685
+	}
+regiment = {
+		name= "121. Infantry Brigade"
+		type = infantry
+		home = 1687
+	}
+regiment = {
+		name= "122. Infantry Brigade"
+		type = infantry
+		home = 1685
+	}
+regiment = {
+		name= "123. Infantry Brigade"
+		type = infantry
+		home = 1686
+	}
+regiment = {
+		name= "124. Infantry Brigade"
+		type = artillery
+		home = 1687
+	}
+regiment = {
+		name= "125. Infantry Brigade"
+		type = artillery
+		home = 1685
+	}
+regiment = {
+		name= "126. Infantry Brigade"
+		type = artillery
+		home = 1686
+	}
+}
+
+army = {
+	name = "Army of India"
+	location = 1311
+	regiment = {
+		name= "127. Infantry Brigade 'Askäria'"
+		type = infantry
+		home = 1311
+	}
+
+	regiment = {
+		name= "128. Infantry Brigade"
+		type = infantry
+		home = 1310
+	}
+
+	regiment = {
+		name= "129. Infantry Brigade"
+		type = infantry
+		home = 1309
+	}
+regiment = {
+		name= "130. Infantry Brigade"
+		type = infantry
+		home = 1315
+	}
+regiment = {
+		name= "131. Infantry Brigade"
+		type = infantry
+		home = 1316
+	}
+regiment = {
+		name= "132. Infantry Brigade"
+		type = infantry
+		home = 1317
+	}
+regiment = {
+		name= "133. Infantry Brigade"
+		type = infantry
+		home = 1304
+	}
+
+}
+
+navy = {
+	name = "Almoravid Navy"
+	location = 2563
+	ship = {
+		name= "Sultan Ahmad"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sultan Ahmad II"
+		type = manowar
+	}
+
+	ship = {
+		name= "Mahmud"
+		type = manowar
+	}
+
+	ship = {
+		name= "Muhammad"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ali"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sultan of Sultans"
+		type = manowar
+	}
+
+	ship = {
+		name= "Yahya"
+		type = manowar
+	}
+
+	ship = {
+		name= "Great Sultan Yahya V"
+		type = manowar
+	}
+
+	ship = {
+		name= "Qamdur"
+		type = manowar
+	}
+
+	ship = {
+		name= "Yasdur"
+		type = manowar
+	}
+
+	ship = {
+		name= "Uruba"
+		type = manowar
+	}
+
+	ship = {
+		name= "Yanuba"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ahsan"
+		type = manowar
+	}
+
+	ship = {
+		name= "Darfunuri"
+		type = manowar
+	}
+
+	ship = {
+		name= "Uthman"
+		type = manowar
+	}
+
+	ship = {
+		name= "Umar I"
+		type = manowar
+	}
+
+	ship = {
+		name= "Umar II"
+		type = frigate
+	}
+
+	ship = {
+		name= "Samy"
+		type = frigate
+	}
+
+	ship = {
+		name= "Habib"
+		type = frigate
+	}
+
+	ship = {
+		name= "Uthman II"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bayezid"
+		type = frigate
+	}
+
+	ship = {
+		name= "Murad"
+		type = frigate
+	}
+
+	ship = {
+		name= "Uthman III"
+		type = frigate
+	}
+
+	ship = {
+		name= "Qartayannat"
+		type = frigate
+	}
+
+	ship = {
+		name= "Safi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Tangier"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nazareth"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fes"
+		type = frigate
+	}
+
+	ship = {
+		name= "Sawira"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ceuta"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "Tunis"
+		type = frigate
+	}
+
+	ship = {
+		name= "Algier"
+		type = frigate
+	}
+
+	ship = {
+		name= "1. Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Transport"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "1st Reserve Squadron"
+	location = 1686
+	ship = {
+		name= "Abas"
+		type = manowar
+	}
+
+	ship = {
+		name= "Salih"
+		type = manowar
+	}
+
+	ship = {
+		name= "Salim"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sadawah"
+		type = manowar
+	}
+
+	ship = {
+		name= "Tamman"
+		type = manowar
+	}
+
+	ship = {
+		name= "Tawar"
+		type = manowar
+	}
+
+	ship = {
+		name= "Shuqayr"
+		type = manowar
+	}
+
+	ship = {
+		name= "Thabit"
+		type = manowar
+	}
+
+	ship = {
+		name= "Rawhbah"
+		type = manowar
+	}
+
+	ship = {
+		name= "Mishal"
+		type = manowar
+	}
+
+	ship = {
+		name= "Mushal"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fishal"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ubayd"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bakr"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ishaq"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bundar"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Nereus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Dabbah"
+		type = frigate
+	}
+
+	ship = {
+		name= "Dabkah"
+		type = frigate
+	}
+
+	ship = {
+		name= "Aqra"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "2nd Reserve Squadron"
+	location = 1687
+	ship = {
+		name= "Kahlad"
+		type = manowar
+	}
+
+	ship = {
+		name= "Khalid"
+		type = manowar
+	}
+
+	ship = {
+		name= "Khalil"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hashim"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hassan"
+		type = manowar
+	}
+
+	ship = {
+		name= "Husayn"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sadq"
+		type = manowar
+	}
+
+	ship = {
+		name= "Shabih"
+		type = manowar
+	}
+
+	ship = {
+		name= "Saqr"
+		type = manowar
+	}
+
+	ship = {
+		name= "Qays"
+		type = manowar
+	}
+
+	ship = {
+		name= "Qumra"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ramadan"
+		type = frigate
+	}
+
+	ship = {
+		name= "Rashid"
+		type = frigate
+	}
+
+	ship = {
+		name= "Zulfiqar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Harun"
+		type = frigate
+	}
+
+	ship = {
+		name= "Hathmashadah"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ghassaniyun"
+		type = frigate
+	}
+
+	ship = {
+		name= "Dhahak"
+		type = frigate
+	}
+
+	ship = {
+		name= "Noor"
+		type = frigate
+	}
+
+	ship = {
+		name= "Sabri"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "3rd Reserve Squadron"
+	location = 1700
+	ship = {
+		name= "Nasr"
+		type = manowar
+	}
+
+	ship = {
+		name= "Nuh"
+		type = manowar
+	}
+
+	ship = {
+		name= "Najdah"
+		type = manowar
+	}
+
+	ship = {
+		name= "Qattalun"
+		type = manowar
+	}
+
+	ship = {
+		name= "Esteraliya"
+		type = manowar
+	}
+
+	ship = {
+		name= "Impregnable"
+		type = manowar
+	}
+
+	ship = {
+		name= "Invincible"
+		type = manowar
+	}
+
+	ship = {
+		name= "Uqbah"
+		type = manowar
+	}
+
+	ship = {
+		name= "Unayah"
+		type = manowar
+	}
+
+	ship = {
+		name= "Warspite"
+		type = manowar
+	}
+
+	ship = {
+		name= "Maraqun"
+		type = frigate
+	}
+
+	ship = {
+		name= "Yazid"
+		type = frigate
+	}
+
+	ship = {
+		name= "Yuhanna"
+		type = frigate
+	}
+
+	ship = {
+		name= "Qarbiya"
+		type = frigate
+	}
+
+	ship = {
+		name= "Yunus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Yusuf"
+		type = frigate
+	}
+
+	ship = {
+		name= "Zaqariya"
+		type = frigate
+	}
+
+	ship = {
+		name= "Zaayd"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nymphe"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ziyad"
+		type = frigate
+	}
+
+}
+
+navy = {
+	name = "Juzur Qarbiya Station"
+	location = 2222
+	ship = {
+		name= "Muslim"
+		type = manowar
+	}
+
+	ship = {
+		name= "Mishah"
+		type = manowar
+	}
+
+	ship = {
+		name= "Muad"
+		type = frigate
+	}
+
+	ship = {
+		name= "Maymun"
+		type = frigate
+	}
+
+	ship = {
+		name= "Labid"
+		type = frigate
+	}
+
+	ship = {
+		name= "Sufyan"
+		type = frigate
+	}
+
+	ship = {
+		name= "Sulaym"
+		type = frigate
+	}
+
+	ship = {
+		name= "Hebe"
+		type = frigate
+	}
+
+	ship = {
+		name= "Merqurya"
+		type = frigate
+	}
+
+	ship = {
+		name= "Thabit"
+		type = frigate
+	}
+
+	ship = {
+		name= "Umayyah"
+		type = commerce_raider
+	}
+
+}
+
+navy = {
+	name = "1st Transport Squadron"
+	location = 1695
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "23th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "24th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "25th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "26th Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "2nd Transport Squadron"
+	location = 1689
+	ship = {
+		name= "7th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "8th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "9th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "10th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "19th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "20th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "21th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "22th Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "3rd Transport Squadron"
+	location = 1693
+	ship = {
+		name= "11th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "12th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "13th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "14th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "15th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "16th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "17th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "18th Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Indian Station"
+	location = 1321
+	ship = {
+		name= "Mikhail"
+		type = frigate
+	}
+
+	ship = {
+		name= "Mansur"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ma'n"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Dina"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Bilal"
+		type = frigate
+	}
+
+}

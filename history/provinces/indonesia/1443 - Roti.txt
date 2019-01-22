@@ -1,0 +1,4 @@
+owner = MOR
+controller = MOR
+trade_goods = timber
+life_rating = 30

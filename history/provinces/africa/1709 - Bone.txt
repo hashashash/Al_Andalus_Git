@@ -1,0 +1,7 @@
+owner = MOR
+controller = MOR
+add_core = AD4
+trade_goods = grain
+life_rating = 35
+naval_base = 2
+add_core = MOR

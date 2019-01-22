@@ -1,0 +1,174 @@
+#The Bahamas Region - 23000
+#Ruled by Britain 1836
+#The Bahamas (20000/5000 POPS)
+2219 = {
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 8
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 324
+    }
+
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = protestant
+        size = 0
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 1
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 12
+    }
+
+    soldiers = {
+        culture = british
+        religion = protestant
+        size = 2
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 43
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 101
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 4098
+    }
+
+    aristocrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 15
+    }
+
+    bureaucrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 5
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 15
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 151
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 25
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 546
+    }
+}
+#Turks & Caicos Islands (3000/750 POPS) #still a British colony
+2220 = {
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 8
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 4
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 44
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 101
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 556
+    }
+}

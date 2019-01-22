@@ -1,0 +1,204 @@
+#Nicaragua Region (292000)
+#Ruled by Central America 1836
+#Managua (192000/48000 POPS)
+2197 = {
+    aristocrats = {
+        culture = central_american
+        religion = sunni
+        size = 1365
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    bureaucrats = {
+        culture = central_american
+        religion = sunni
+        size = 130
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    officers = {
+        culture = central_american
+        religion = sunni
+        size = 97
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 617
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 3120
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 1917
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 56452
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+}
+#Rivas (40000/10000 POPS)
+2198 = {
+    aristocrats = {
+        culture = central_american
+        religion = sunni
+        size = 357
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 130
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 650
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 130
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 11732
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+}
+#Esteli (48000/12000 POPS)
+2199 = {
+    aristocrats = {
+        culture = central_american
+        religion = sunni
+        size = 422
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 162
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 780
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 162
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 15372
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+}
+#Bluefields (12000/3000 POPS)
+2200 = {
+    aristocrats = {
+        culture = central_american
+        religion = sunni
+        size = 19
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    clergymen = {
+        culture = central_american
+        religion = sunni
+        size = 32
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    artisans = {
+        culture = central_american
+        religion = sunni
+        size = 65
+    }
+
+    soldiers = {
+        culture = central_american
+        religion = sunni
+        size = 13
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    farmers = {
+        culture = central_american
+        religion = sunni
+        size = 1170
+        militancy = 9
+        rebel_type = nationalist_rebels
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = catholic
+        size = 100
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = catholic
+        size = 1800
+    }
+}

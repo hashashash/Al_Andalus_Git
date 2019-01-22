@@ -1,0 +1,47 @@
+
+
+#Armies
+army = {
+	name="1st Army"
+	location=1700
+	regiment = {
+		name="1st Tozeur Infantry"
+		type=infantry
+		home=1700
+	}
+        regiment = {
+		name="2nd Tozeur Infantry"
+		type=infantry
+		home=1706
+	}
+        regiment = {
+		name="3rd Infantry"
+		type=infantry
+		home=1709
+	}
+	regiment = {
+		name="1st Bougie Cavalry"
+		type=cavalry
+		home=1701
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=1700
+	ship = {
+		name="1st Bougie Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Bougie Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Bougie Frigate"
+		type=frigate
+	}
+}
+
+
+

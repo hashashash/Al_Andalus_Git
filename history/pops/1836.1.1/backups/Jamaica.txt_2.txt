@@ -1,0 +1,144 @@
+#Jamaica Region - 384000
+#Ruled by Britain 1836
+#Jamaica (372000/93000 POPS)
+2217 = {
+    aristocrats = {
+        culture = british
+        religion = protestant
+        size = 8
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = protestant
+        size = 7
+    }
+
+    clergymen = {
+        culture = british
+        religion = protestant
+        size = 6
+    }
+
+    artisans = {
+        culture = british
+        religion = protestant
+        size = 200
+    }
+
+    soldiers = {
+        culture = british
+        religion = protestant
+        size = 4
+    }
+
+    farmers = {
+        culture = british
+        religion = protestant
+        size = 175
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 160
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 88
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 6750
+    }
+
+    aristocrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 101
+    }
+
+    bureaucrats = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 85
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 75
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 2530
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 2216
+    }
+
+    clergymen = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 632
+    }
+
+    artisans = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 2024
+    }
+
+    soldiers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 1113
+    }
+
+    farmers = {
+        culture = anglo_canadian
+        religion = catholic
+        size = 85387
+    }
+}
+#Cayman Islands : (1200/300 POPS) #still a British Colony
+2218 = {
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 5
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 15
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 280
+    }
+}

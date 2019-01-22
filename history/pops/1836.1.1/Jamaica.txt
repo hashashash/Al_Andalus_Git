@@ -1,0 +1,144 @@
+#Jamaica Region - 384000
+#Ruled by Britain 1836
+#Jamaica (372000/93000 POPS)
+2217 = {
+    aristocrats = {
+        culture = british
+        religion = sunni
+        size = 5
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = sunni
+        size = 4
+    }
+
+    clergymen = {
+        culture = british
+        religion = sunni
+        size = 4
+    }
+
+    artisans = {
+        culture = british
+        religion = sunni
+        size = 140
+    }
+
+    soldiers = {
+        culture = british
+        religion = sunni
+        size = 2
+    }
+
+    farmers = {
+        culture = british
+        religion = sunni
+        size = 122
+    }
+
+    clergymen = {
+        culture = afro_caribbean
+        religion = sunni
+        size = 35
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = sunni
+        size = 112
+    }
+
+    soldiers = {
+        culture = afro_caribbean
+        religion = sunni
+        size = 61
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = sunni
+        size = 4725
+    }
+
+    aristocrats = {
+        culture = mexican
+        religion = sunni
+        size = 130
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = sunni
+        size = 109
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = sunni
+        size = 96
+    }
+
+    artisans = {
+        culture = mexican
+        religion = sunni
+        size = 3276
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = sunni
+        size = 64
+    }
+
+    farmers = {
+        culture = mexican
+        religion = sunni
+        size = 2869
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = sunni
+        size = 818
+    }
+
+    artisans = {
+        culture = mexican
+        religion = sunni
+        size = 2620
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = sunni
+        size = 1441
+    }
+
+    farmers = {
+        culture = mexican
+        religion = sunni
+        size = 110575
+    }
+}
+#Cayman Islands : (1200/300 POPS) #still a British Colony
+2218 = {
+    clergymen = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 5
+    }
+
+    artisans = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 15
+    }
+
+    farmers = {
+        culture = afro_caribbean
+        religion = protestant
+        size = 280
+    }
+}

@@ -1,0 +1,33 @@
+
+#Starting Relations
+
+MOR = {
+    value = 200		#relation 
+	truce_until = 1840.1.1
+}
+
+ADU = {
+    value = -200		#relation
+	truce_until = 1840.1.1
+}
+
+CAT = {
+	truce_until = 1840.1.1
+}
+
+RUS = {
+	truce_until = 1840.1.1
+}
+
+HAN = {
+    value = 200		#relation 
+	truce_until = 1840.1.1
+}
+
+FRA = {
+	truce_until = 1840.1.1
+}
+
+#Commanders and Admirals
+
+

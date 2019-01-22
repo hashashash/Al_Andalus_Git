@@ -1,0 +1,53 @@
+
+leader = {
+	name = "Marquis William"
+	type = land
+	date = 1828.1.1
+	personality = inspiring
+	background = gifted_administrator
+}
+
+army = {
+	name = "Army of Occitania"
+	location = 450
+	regiment = {
+		name= "1.Cavalry"
+		type = cavalry
+		home = 450
+	}
+	regiment = {
+		name= "2.Cavalry"
+		type = cavalry
+		home = 447
+	}
+	regiment = {
+		name= "1.Infantry"
+		type = infantry
+		home = 448
+	}
+	regiment = {
+		name= "2.Infantry"
+		type = infantry
+		home = 449
+	}
+	regiment = {
+		name= "3.Infantry"
+		type = infantry
+		home = 462
+	}
+	regiment = {
+		name= "4.Infantry"
+		type = infantry
+		home = 442
+	}
+	regiment = {
+		name= "5.Infantry"
+		type = infantry
+		home = 444
+	}
+	regiment = {
+		name= "6.Infantry"
+		type = infantry
+		home = 458
+	}
+}

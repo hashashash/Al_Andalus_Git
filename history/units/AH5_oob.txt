@@ -1,0 +1,30 @@
+
+SYR = {
+	value = -200		#relation
+}
+
+#Leaders
+
+#Armies
+army = {
+	name="Army of Outremer"
+	location=916
+	regiment = {
+		name="1st Infantry"
+		type=infantry
+		home=916
+	}
+regiment = {
+		name="2nd Infantry"
+		type=infantry
+		home=902
+	}
+regiment = {
+		name="1st Cavalry"
+		type=cavalry
+		home=908
+	}
+
+}
+
+

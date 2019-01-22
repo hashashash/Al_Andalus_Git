@@ -1,0 +1,124 @@
+#Sao Tome e Principe (16000)
+#Under Portuguese Rule 1836
+#Sao Tome (16000/4000 POPS)
+1954 = {
+    aristocrats = {
+        culture = portuguese
+        religion = catholic
+        size = 1
+    }
+
+    clergymen = {
+        culture = portuguese
+        religion = catholic
+        size = 0
+    }
+
+    bureaucrats = {
+        culture = portuguese
+        religion = catholic
+        size = 0
+    }
+
+    artisans = {
+        culture = portuguese
+        religion = catholic
+        size = 0
+    }
+
+    soldiers = {
+        culture = portuguese
+        religion = catholic
+        size = 0
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = catholic
+        size = 2
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = catholic
+        size = 8
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = catholic
+        size = 4
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = catholic
+        size = 22
+    }
+
+    slaves = {
+        culture = african_minor
+        religion = catholic
+        size = 138
+    }
+
+    aristocrats = {
+        culture = portuguese
+        religion = sunni
+        size = 19
+    }
+
+    clergymen = {
+        culture = portuguese
+        religion = sunni
+        size = 5
+    }
+
+    bureaucrats = {
+        culture = portuguese
+        religion = sunni
+        size = 5
+    }
+
+    artisans = {
+        culture = portuguese
+        religion = sunni
+        size = 5
+    }
+
+    soldiers = {
+        culture = portuguese
+        religion = sunni
+        size = 5
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = sunni
+        size = 48
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = sunni
+        size = 192
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = sunni
+        size = 96
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = sunni
+        size = 528
+    }
+
+    slaves = {
+        culture = african_minor
+        religion = sunni
+        size = 3312
+    }
+}

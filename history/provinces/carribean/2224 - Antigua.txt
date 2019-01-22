@@ -1,0 +1,5 @@
+owner = AE2
+controller = AE2
+trade_goods = fruit
+life_rating = 35
+add_core = AE2

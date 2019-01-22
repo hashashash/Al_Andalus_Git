@@ -1,0 +1,50 @@
+
+BOL = {
+	value = -200		#relation
+}
+
+leader = {
+	name = "Andres"
+	type = land
+	date = 1836.1.1
+	personality = arrogant
+	background = old_school
+}
+
+navy = {
+	name = "Andean Navy"
+	location = 2295
+	ship = {
+		name= "Ullura"
+		type = frigate
+	}
+
+	ship = {
+		name= "Saandar"
+		type = frigate
+	}
+
+}
+
+army = {
+	name = "Andean Army"
+	location = 2295
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 2295
+	}
+
+	regiment = {
+		name= "2. Infantry"
+		type = infantry
+		home = 2295
+	}
+
+	regiment = {
+		name= "3. Infantry"
+		type = infantry
+		home = 2302
+	}
+
+}

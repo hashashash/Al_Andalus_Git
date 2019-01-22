@@ -1,0 +1,6 @@
+owner = AG9
+controller = AG9
+add_core = AG9
+add_core = GER
+trade_goods = cattle
+life_rating = 40

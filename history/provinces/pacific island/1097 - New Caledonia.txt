@@ -1,0 +1,5 @@
+trade_goods = coffee
+life_rating = 15
+owner = AD3
+controller = AD3
+colonial = 2

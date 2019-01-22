@@ -1,0 +1,1286 @@
+#Macedonia Region (424000) #see Greece.txt and Bulgaria.txt for balance of region
+#under the rule of Ottoman Empire in 1836
+#Skopje (424000/106000 POPS)
+806 = {
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 6
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 5
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 7
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 63
+    }
+
+    clergymen = {
+        culture = bulgarian
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = orthodox
+        size = 739
+    }
+
+    farmers = {
+        culture = bulgarian
+        religion = orthodox
+        size = 19879
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 70
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 422
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 4083
+    }
+
+    clergymen = {
+        culture = sephardic
+        religion = cathar
+        size = 25
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = cathar
+        size = 700
+    }
+
+    farmers = {
+        culture = sephardic
+        religion = cathar
+        size = 275
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 845
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 112
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 690
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 1035
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 8702
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 37
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 5
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 30
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 45
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 378
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 2
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 0
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 2
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 3
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 22
+    }
+
+    clergymen = {
+        culture = bulgarian
+        religion = cathar
+        size = 51
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = cathar
+        size = 252
+    }
+
+    farmers = {
+        culture = bulgarian
+        religion = cathar
+        size = 6777
+    }
+
+    clergymen = {
+        culture = greek
+        religion = cathar
+        size = 24
+    }
+
+    artisans = {
+        culture = greek
+        religion = cathar
+        size = 144
+    }
+
+    farmers = {
+        culture = greek
+        religion = cathar
+        size = 1392
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 288
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 38
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 235
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 353
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 2967
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 1
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 1
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 1
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 8
+    }
+
+    clergymen = {
+        culture = bulgarian
+        religion = catholic
+        size = 22
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = catholic
+        size = 111
+    }
+
+    farmers = {
+        culture = bulgarian
+        religion = catholic
+        size = 2982
+    }
+
+    clergymen = {
+        culture = greek
+        religion = catholic
+        size = 11
+    }
+
+    artisans = {
+        culture = greek
+        religion = catholic
+        size = 63
+    }
+
+    farmers = {
+        culture = greek
+        religion = catholic
+        size = 612
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = catholic
+        size = 127
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 17
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 103
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 155
+    }
+
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 1305
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 3
+    }
+
+    clergymen = {
+        culture = bulgarian
+        religion = cathar
+        size = 202
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = cathar
+        size = 998
+    }
+
+    farmers = {
+        culture = bulgarian
+        religion = cathar
+        size = 26837
+    }
+
+    clergymen = {
+        culture = greek
+        religion = cathar
+        size = 95
+    }
+
+    artisans = {
+        culture = greek
+        religion = cathar
+        size = 571
+    }
+
+    farmers = {
+        culture = greek
+        religion = cathar
+        size = 5513
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 1141
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 152
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 932
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 1397
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 11747
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 3
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 1
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 2
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 4
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 30
+    }
+}
+#Monastir Region (268000) #see Greece.txt for balance of region
+#under the rule of Ottoman Empire in 1836
+#Bitola (268000/67000 POPS)
+807 = {
+    clergymen = {
+        culture = bulgarian
+        religion = orthodox
+        size = 106
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = bulgarian
+        religion = orthodox
+        size = 12769
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 3
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    officers = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 3
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 2
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 5
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = cathar
+        size = 0
+    }
+
+    artisans = {
+        culture = albanian
+        religion = cathar
+        size = 1
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = cathar
+        size = 2
+    }
+
+    farmers = {
+        culture = albanian
+        religion = cathar
+        size = 30
+    }
+
+    clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 62
+    }
+
+    artisans = {
+        culture = greek
+        religion = orthodox
+        size = 88
+    }
+
+    farmers = {
+        culture = greek
+        religion = orthodox
+        size = 3370
+    }
+
+    clergymen = {
+        culture = sephardic
+        religion = cathar
+        size = 25
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = cathar
+        size = 975
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 518
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = orthodox
+        size = 78
+    }
+
+    officers = {
+        culture = serb
+        religion = orthodox
+        size = 60
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 17
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 448
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 380
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 682
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 43
+    }
+
+    artisans = {
+        culture = albanian
+        religion = orthodox
+        size = 138
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = orthodox
+        size = 380
+    }
+
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 4234
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 23
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = cathar
+        size = 3
+    }
+
+    officers = {
+        culture = serb
+        religion = cathar
+        size = 2
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 1
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 20
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 17
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 29
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = cathar
+        size = 2
+    }
+
+    artisans = {
+        culture = albanian
+        religion = cathar
+        size = 6
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = cathar
+        size = 17
+    }
+
+    farmers = {
+        culture = albanian
+        religion = cathar
+        size = 184
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 2
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = orthodox
+        size = 0
+    }
+
+    officers = {
+        culture = serb
+        religion = orthodox
+        size = 0
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 0
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 1
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 1
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 2
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 0
+    }
+
+    artisans = {
+        culture = albanian
+        religion = orthodox
+        size = 0
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = orthodox
+        size = 1
+    }
+
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 11
+    }
+
+    clergymen = {
+        culture = bulgarian
+        religion = cathar
+        size = 36
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = cathar
+        size = 51
+    }
+
+    farmers = {
+        culture = bulgarian
+        religion = cathar
+        size = 4353
+    }
+
+    clergymen = {
+        culture = greek
+        religion = cathar
+        size = 21
+    }
+
+    artisans = {
+        culture = greek
+        religion = cathar
+        size = 30
+    }
+
+    farmers = {
+        culture = greek
+        religion = cathar
+        size = 1149
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 176
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = cathar
+        size = 27
+    }
+
+    officers = {
+        culture = serb
+        religion = cathar
+        size = 21
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 6
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 153
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 129
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 232
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = cathar
+        size = 15
+    }
+
+    artisans = {
+        culture = albanian
+        religion = cathar
+        size = 47
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = cathar
+        size = 129
+    }
+
+    farmers = {
+        culture = albanian
+        religion = cathar
+        size = 1444
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    officers = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 1
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = cathar
+        size = 0
+    }
+
+    artisans = {
+        culture = albanian
+        religion = cathar
+        size = 0
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = cathar
+        size = 0
+    }
+
+    farmers = {
+        culture = albanian
+        religion = cathar
+        size = 4
+    }
+
+    clergymen = {
+        culture = bulgarian
+        religion = catholic
+        size = 16
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = catholic
+        size = 22
+    }
+
+    farmers = {
+        culture = bulgarian
+        religion = catholic
+        size = 1915
+    }
+
+    clergymen = {
+        culture = greek
+        religion = catholic
+        size = 9
+    }
+
+    artisans = {
+        culture = greek
+        religion = catholic
+        size = 13
+    }
+
+    farmers = {
+        culture = greek
+        religion = catholic
+        size = 506
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = catholic
+        size = 78
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = catholic
+        size = 12
+    }
+
+    officers = {
+        culture = serb
+        religion = catholic
+        size = 9
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 3
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 67
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 57
+    }
+
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 102
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = catholic
+        size = 6
+    }
+
+    artisans = {
+        culture = albanian
+        religion = catholic
+        size = 21
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = catholic
+        size = 57
+    }
+
+    farmers = {
+        culture = albanian
+        religion = catholic
+        size = 635
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    officers = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    clergymen = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    artisans = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    soldiers = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    farmers = {
+        culture = serb
+        religion = catholic
+        size = 0
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = catholic
+        size = 0
+    }
+
+    artisans = {
+        culture = albanian
+        religion = catholic
+        size = 0
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = catholic
+        size = 0
+    }
+
+    farmers = {
+        culture = albanian
+        religion = catholic
+        size = 2
+    }
+
+    clergymen = {
+        culture = bulgarian
+        religion = cathar
+        size = 142
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = cathar
+        size = 202
+    }
+
+    farmers = {
+        culture = bulgarian
+        religion = cathar
+        size = 17238
+    }
+
+    clergymen = {
+        culture = greek
+        religion = cathar
+        size = 83
+    }
+
+    artisans = {
+        culture = greek
+        religion = cathar
+        size = 119
+    }
+
+    farmers = {
+        culture = greek
+        religion = cathar
+        size = 4550
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 698
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = cathar
+        size = 104
+    }
+
+    officers = {
+        culture = serb
+        religion = cathar
+        size = 82
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 23
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 606
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 512
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 920
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = cathar
+        size = 59
+    }
+
+    artisans = {
+        culture = albanian
+        religion = cathar
+        size = 186
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = cathar
+        size = 512
+    }
+
+    farmers = {
+        culture = albanian
+        religion = cathar
+        size = 5717
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = cathar
+        size = 2
+    }
+
+    bureaucrats = {
+        culture = serb
+        religion = cathar
+        size = 1
+    }
+
+    officers = {
+        culture = serb
+        religion = cathar
+        size = 1
+    }
+
+    clergymen = {
+        culture = serb
+        religion = cathar
+        size = 0
+    }
+
+    artisans = {
+        culture = serb
+        religion = cathar
+        size = 2
+    }
+
+    soldiers = {
+        culture = serb
+        religion = cathar
+        size = 2
+    }
+
+    farmers = {
+        culture = serb
+        religion = cathar
+        size = 2
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = cathar
+        size = 0
+    }
+
+    artisans = {
+        culture = albanian
+        religion = cathar
+        size = 1
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = cathar
+        size = 2
+    }
+
+    farmers = {
+        culture = albanian
+        religion = cathar
+        size = 14
+    }
+}
